@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8r7BY69Y8DCn5Mw7lVuUXBryFl2DgHkxHt9RbY9G0IpJ198qbo53aqZlSQd0CHkcFxToMyoYelIobwHGfUbOtA==",
+  "success": true,
+  "projectFilePath": "D:\\mobile\\Xamarin\\TiuShop_XamarinForms\\TiuShop\\TiuShop\\TiuShop.iOS\\TiuShop.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\namth\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
