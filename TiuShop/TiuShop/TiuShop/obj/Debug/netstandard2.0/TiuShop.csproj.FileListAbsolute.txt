@@ -1,0 +1,15 @@
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\bin\Debug\netstandard2.0\TiuShop.deps.json
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\bin\Debug\netstandard2.0\TiuShop.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\bin\Debug\netstandard2.0\ref\TiuShop.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\bin\Debug\netstandard2.0\TiuShop.pdb
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.csproj.AssemblyReference.cache
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\Page\MainPage.xaml.g.cs
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.AssemblyInfoInputs.cache
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.AssemblyInfo.cs
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.csproj.CoreCompileInputs.cache
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\XamlC.stamp
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\ref\TiuShop.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.pdb

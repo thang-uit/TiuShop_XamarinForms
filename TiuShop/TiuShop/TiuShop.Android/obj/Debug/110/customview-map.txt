@@ -1,4 +1,6 @@
 @string/appbar_scrolling_view_behavior;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher_round.xml
 adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
 alpha;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
@@ -10,10 +12,13 @@ androidx.appcompat.widget.Toolbar;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop
 androidx.coordinatorlayout.widget.CoordinatorLayout;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
 androidx.coordinatorlayout.widget.CoordinatorLayout;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
 attr;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+background;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher_round.xml
 background;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
 cache-path;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\110\res\values\colors.xml
+color;obj\Debug\110\res\values\ic_launcher_background.xml
 com.google.android.material.appbar.AppBarLayout;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\layout\flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
 com.google.android.material.appbar.AppBarLayout;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
@@ -24,6 +29,8 @@ com.google.android.material.tabs.TabLayout;D:\mobile\Xamarin\TiuShop_XamarinForm
 declare-styleable;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
 external-cache-path;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher_round.xml
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
@@ -34,6 +41,7 @@ resources;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android
 resources;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\values\strings.xml
 resources;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
 resources;obj\Debug\110\res\values\colors.xml
+resources;obj\Debug\110\res\values\ic_launcher_background.xml
 resources;obj\Debug\110\res\values\styles.xml
 set;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
 set;D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromright.xml
