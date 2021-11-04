@@ -3,6 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TiuShop.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <!-- ________________Color Main________________ -->          
+            <Color x:Key="ColorMain1">#FFD000</Color>
+            <Color x:Key="ColorMain2">#FFFFFF</Color>
+            <Color x:Key="ColorMain3">#000000</Color>
+            <Color x:Key="ColorMain4">#FF0000</Color>
 
+            <!-- ______Color Light Mode______ -->
+
+            <!-- Main Background -->
+            <Color x:Key="ColorLight1">#FFFFFF</Color>
+
+            <!-- Second Background -->
+            <Color x:Key="ColorLight2">#FFFFFF</Color>
+
+            <!-- Text color chính -->
+            <Color x:Key="ColorLight3">#000000</Color>
+
+            <!-- Text color phụ -->
+            <Color x:Key="ColorLight4">#4D4E4E</Color>
+
+            <!-- EditText -->
+            <Color x:Key="ColorLight5">#F4F4F4</Color>
+            
+
+
+
+            <!-- ______Color Dark Mode______ -->
+
+            <!-- Main Background -->
+            <Color x:Key="ColorDark1">#1E1E1E</Color>
+
+            <!-- Second Background -->
+            <Color x:Key="ColorDark2">#353535</Color>
+
+            <!-- Text color chính -->
+            <Color x:Key="ColorDark3">#FFFFFF</Color>
+
+            <!-- Text color phụ -->
+            <Color x:Key="ColorDark4">#CACACA</Color>
+
+            <!-- EditText -->
+            <Color x:Key="ColorDark5">#F4F4F4</Color>
+
+
+
+            <!-- ________________Language________________ -->
+            <x:String x:Key="lblLogin">Login</x:String>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

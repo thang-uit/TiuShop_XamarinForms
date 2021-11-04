@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("MaterialIconsRoundRegular.otf", Alias = "RM")]
 namespace TiuShop
 {
     public partial class App : Application
