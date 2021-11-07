@@ -1,4 +1,5 @@
 ﻿using System;
+using TiuShop.View;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace TiuShop
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new SplashPage());
         }
 
         protected override void OnStart()

@@ -10,15 +10,15 @@ namespace TiuShop.Model
         public string productName;
         public List<ProductImage> productImages;
         public string productDescription;
-        public string productDate;
-        public int productPrice;
+        public string productDate; // Product Create
+        public int productPrice; 
         public int productSale;
         public int productFinalPrice;
         public string productCategory;
         public string productGroupCategory; //New, Hot, Bestseller
         public string[] productColor;
-        public string[] productSize;
+        public string[] productSize; // S, M, L, XL, 
         public List<Comment> comments;
-        public string productStock;
+        public string productStock; //
     }
 }
