@@ -25,6 +25,2639 @@ namespace TiuShop.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Rg.Plugins.Popup.Resource.Animation.abc_fade_in = global::TiuShop.Droid.Resource.Animation.abc_fade_in;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_fade_out = global::TiuShop.Droid.Resource.Animation.abc_fade_out;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_grow_fade_in_from_bottom = global::TiuShop.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_popup_enter = global::TiuShop.Droid.Resource.Animation.abc_popup_enter;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_popup_exit = global::TiuShop.Droid.Resource.Animation.abc_popup_exit;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_shrink_fade_out_from_bottom = global::TiuShop.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_slide_in_bottom = global::TiuShop.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_slide_in_top = global::TiuShop.Droid.Resource.Animation.abc_slide_in_top;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_slide_out_bottom = global::TiuShop.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_slide_out_top = global::TiuShop.Droid.Resource.Animation.abc_slide_out_top;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_tooltip_enter = global::TiuShop.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Rg.Plugins.Popup.Resource.Animation.abc_tooltip_exit = global::TiuShop.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::TiuShop.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::TiuShop.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::TiuShop.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::TiuShop.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::TiuShop.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::TiuShop.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::TiuShop.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::TiuShop.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::TiuShop.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::TiuShop.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::TiuShop.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::TiuShop.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Rg.Plugins.Popup.Resource.Animation.design_bottom_sheet_slide_in = global::TiuShop.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Rg.Plugins.Popup.Resource.Animation.design_bottom_sheet_slide_out = global::TiuShop.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Rg.Plugins.Popup.Resource.Animation.design_snackbar_in = global::TiuShop.Droid.Resource.Animation.design_snackbar_in;
+			global::Rg.Plugins.Popup.Resource.Animation.design_snackbar_out = global::TiuShop.Droid.Resource.Animation.design_snackbar_out;
+			global::Rg.Plugins.Popup.Resource.Animation.EnterFromLeft = global::TiuShop.Droid.Resource.Animation.EnterFromLeft;
+			global::Rg.Plugins.Popup.Resource.Animation.EnterFromRight = global::TiuShop.Droid.Resource.Animation.EnterFromRight;
+			global::Rg.Plugins.Popup.Resource.Animation.ExitToLeft = global::TiuShop.Droid.Resource.Animation.ExitToLeft;
+			global::Rg.Plugins.Popup.Resource.Animation.ExitToRight = global::TiuShop.Droid.Resource.Animation.ExitToRight;
+			global::Rg.Plugins.Popup.Resource.Animator.design_appbar_state_list_animator = global::TiuShop.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Rg.Plugins.Popup.Resource.Animator.design_fab_hide_motion_spec = global::TiuShop.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Rg.Plugins.Popup.Resource.Animator.design_fab_show_motion_spec = global::TiuShop.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_btn_state_list_anim = global::TiuShop.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::TiuShop.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_chip_state_list_anim = global::TiuShop.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_fab_hide_motion_spec = global::TiuShop.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_fab_show_motion_spec = global::TiuShop.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::TiuShop.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::TiuShop.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarDivider = global::TiuShop.Droid.Resource.Attribute.actionBarDivider;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarItemBackground = global::TiuShop.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarPopupTheme = global::TiuShop.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarSize = global::TiuShop.Droid.Resource.Attribute.actionBarSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarSplitStyle = global::TiuShop.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarStyle = global::TiuShop.Droid.Resource.Attribute.actionBarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarTabBarStyle = global::TiuShop.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarTabStyle = global::TiuShop.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarTabTextStyle = global::TiuShop.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarTheme = global::TiuShop.Droid.Resource.Attribute.actionBarTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionBarWidgetTheme = global::TiuShop.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionButtonStyle = global::TiuShop.Droid.Resource.Attribute.actionButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionDropDownStyle = global::TiuShop.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionLayout = global::TiuShop.Droid.Resource.Attribute.actionLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionMenuTextAppearance = global::TiuShop.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionMenuTextColor = global::TiuShop.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeBackground = global::TiuShop.Droid.Resource.Attribute.actionModeBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeCloseButtonStyle = global::TiuShop.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeCloseDrawable = global::TiuShop.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeCopyDrawable = global::TiuShop.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeCutDrawable = global::TiuShop.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeFindDrawable = global::TiuShop.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModePasteDrawable = global::TiuShop.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModePopupWindowStyle = global::TiuShop.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeSelectAllDrawable = global::TiuShop.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeShareDrawable = global::TiuShop.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeSplitBackground = global::TiuShop.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeStyle = global::TiuShop.Droid.Resource.Attribute.actionModeStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionModeWebSearchDrawable = global::TiuShop.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionOverflowButtonStyle = global::TiuShop.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionOverflowMenuStyle = global::TiuShop.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionProviderClass = global::TiuShop.Droid.Resource.Attribute.actionProviderClass;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionViewClass = global::TiuShop.Droid.Resource.Attribute.actionViewClass;
+			global::Rg.Plugins.Popup.Resource.Attribute.activityChooserViewStyle = global::TiuShop.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.alertDialogButtonGroupStyle = global::TiuShop.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.alertDialogCenterButtons = global::TiuShop.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Rg.Plugins.Popup.Resource.Attribute.alertDialogStyle = global::TiuShop.Droid.Resource.Attribute.alertDialogStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.alertDialogTheme = global::TiuShop.Droid.Resource.Attribute.alertDialogTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.allowStacking = global::TiuShop.Droid.Resource.Attribute.allowStacking;
+			global::Rg.Plugins.Popup.Resource.Attribute.alpha = global::TiuShop.Droid.Resource.Attribute.alpha;
+			global::Rg.Plugins.Popup.Resource.Attribute.alphabeticModifiers = global::TiuShop.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Rg.Plugins.Popup.Resource.Attribute.arrowHeadLength = global::TiuShop.Droid.Resource.Attribute.arrowHeadLength;
+			global::Rg.Plugins.Popup.Resource.Attribute.arrowShaftLength = global::TiuShop.Droid.Resource.Attribute.arrowShaftLength;
+			global::Rg.Plugins.Popup.Resource.Attribute.autoCompleteTextViewStyle = global::TiuShop.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.autoSizeMaxTextSize = global::TiuShop.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.autoSizeMinTextSize = global::TiuShop.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.autoSizePresetSizes = global::TiuShop.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Rg.Plugins.Popup.Resource.Attribute.autoSizeStepGranularity = global::TiuShop.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Rg.Plugins.Popup.Resource.Attribute.autoSizeTextType = global::TiuShop.Droid.Resource.Attribute.autoSizeTextType;
+			global::Rg.Plugins.Popup.Resource.Attribute.background = global::TiuShop.Droid.Resource.Attribute.background;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundSplit = global::TiuShop.Droid.Resource.Attribute.backgroundSplit;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundStacked = global::TiuShop.Droid.Resource.Attribute.backgroundStacked;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundTint = global::TiuShop.Droid.Resource.Attribute.backgroundTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundTintMode = global::TiuShop.Droid.Resource.Attribute.backgroundTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.barLength = global::TiuShop.Droid.Resource.Attribute.barLength;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_autoHide = global::TiuShop.Droid.Resource.Attribute.behavior_autoHide;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_fitToContents = global::TiuShop.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_hideable = global::TiuShop.Droid.Resource.Attribute.behavior_hideable;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_overlapTop = global::TiuShop.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_peekHeight = global::TiuShop.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_skipCollapsed = global::TiuShop.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Rg.Plugins.Popup.Resource.Attribute.borderlessButtonStyle = global::TiuShop.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.borderWidth = global::TiuShop.Droid.Resource.Attribute.borderWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.bottomAppBarStyle = global::TiuShop.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.bottomNavigationStyle = global::TiuShop.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.bottomSheetDialogTheme = global::TiuShop.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.bottomSheetStyle = global::TiuShop.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxBackgroundColor = global::TiuShop.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxBackgroundMode = global::TiuShop.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxCollapsedPaddingTop = global::TiuShop.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxCornerRadiusBottomEnd = global::TiuShop.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxCornerRadiusBottomStart = global::TiuShop.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxCornerRadiusTopEnd = global::TiuShop.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxCornerRadiusTopStart = global::TiuShop.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxStrokeColor = global::TiuShop.Droid.Resource.Attribute.boxStrokeColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxStrokeWidth = global::TiuShop.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonBarButtonStyle = global::TiuShop.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonBarNegativeButtonStyle = global::TiuShop.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonBarNeutralButtonStyle = global::TiuShop.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonBarPositiveButtonStyle = global::TiuShop.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonBarStyle = global::TiuShop.Droid.Resource.Attribute.buttonBarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonCompat = global::TiuShop.Droid.Resource.Attribute.buttonCompat;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonGravity = global::TiuShop.Droid.Resource.Attribute.buttonGravity;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonIconDimen = global::TiuShop.Droid.Resource.Attribute.buttonIconDimen;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonPanelSideLayout = global::TiuShop.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonStyle = global::TiuShop.Droid.Resource.Attribute.buttonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonStyleSmall = global::TiuShop.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonTint = global::TiuShop.Droid.Resource.Attribute.buttonTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.buttonTintMode = global::TiuShop.Droid.Resource.Attribute.buttonTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.cardBackgroundColor = global::TiuShop.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.cardCornerRadius = global::TiuShop.Droid.Resource.Attribute.cardCornerRadius;
+			global::Rg.Plugins.Popup.Resource.Attribute.cardElevation = global::TiuShop.Droid.Resource.Attribute.cardElevation;
+			global::Rg.Plugins.Popup.Resource.Attribute.cardMaxElevation = global::TiuShop.Droid.Resource.Attribute.cardMaxElevation;
+			global::Rg.Plugins.Popup.Resource.Attribute.cardPreventCornerOverlap = global::TiuShop.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Rg.Plugins.Popup.Resource.Attribute.cardUseCompatPadding = global::TiuShop.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.cardViewStyle = global::TiuShop.Droid.Resource.Attribute.cardViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.checkboxStyle = global::TiuShop.Droid.Resource.Attribute.checkboxStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.checkedChip = global::TiuShop.Droid.Resource.Attribute.checkedChip;
+			global::Rg.Plugins.Popup.Resource.Attribute.checkedIcon = global::TiuShop.Droid.Resource.Attribute.checkedIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.checkedIconEnabled = global::TiuShop.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.checkedIconVisible = global::TiuShop.Droid.Resource.Attribute.checkedIconVisible;
+			global::Rg.Plugins.Popup.Resource.Attribute.checkedTextViewStyle = global::TiuShop.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipBackgroundColor = global::TiuShop.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipCornerRadius = global::TiuShop.Droid.Resource.Attribute.chipCornerRadius;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipEndPadding = global::TiuShop.Droid.Resource.Attribute.chipEndPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipGroupStyle = global::TiuShop.Droid.Resource.Attribute.chipGroupStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipIcon = global::TiuShop.Droid.Resource.Attribute.chipIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipIconEnabled = global::TiuShop.Droid.Resource.Attribute.chipIconEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipIconSize = global::TiuShop.Droid.Resource.Attribute.chipIconSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipIconTint = global::TiuShop.Droid.Resource.Attribute.chipIconTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipIconVisible = global::TiuShop.Droid.Resource.Attribute.chipIconVisible;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipMinHeight = global::TiuShop.Droid.Resource.Attribute.chipMinHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipSpacing = global::TiuShop.Droid.Resource.Attribute.chipSpacing;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipSpacingHorizontal = global::TiuShop.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipSpacingVertical = global::TiuShop.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipStandaloneStyle = global::TiuShop.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipStartPadding = global::TiuShop.Droid.Resource.Attribute.chipStartPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipStrokeColor = global::TiuShop.Droid.Resource.Attribute.chipStrokeColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipStrokeWidth = global::TiuShop.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipStyle = global::TiuShop.Droid.Resource.Attribute.chipStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.closeIcon = global::TiuShop.Droid.Resource.Attribute.closeIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.closeIconEnabled = global::TiuShop.Droid.Resource.Attribute.closeIconEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.closeIconEndPadding = global::TiuShop.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.closeIconSize = global::TiuShop.Droid.Resource.Attribute.closeIconSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.closeIconStartPadding = global::TiuShop.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.closeIconTint = global::TiuShop.Droid.Resource.Attribute.closeIconTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.closeIconVisible = global::TiuShop.Droid.Resource.Attribute.closeIconVisible;
+			global::Rg.Plugins.Popup.Resource.Attribute.closeItemLayout = global::TiuShop.Droid.Resource.Attribute.closeItemLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.collapseContentDescription = global::TiuShop.Droid.Resource.Attribute.collapseContentDescription;
+			global::Rg.Plugins.Popup.Resource.Attribute.collapsedTitleGravity = global::TiuShop.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Rg.Plugins.Popup.Resource.Attribute.collapsedTitleTextAppearance = global::TiuShop.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.collapseIcon = global::TiuShop.Droid.Resource.Attribute.collapseIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.color = global::TiuShop.Droid.Resource.Attribute.color;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorAccent = global::TiuShop.Droid.Resource.Attribute.colorAccent;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorBackgroundFloating = global::TiuShop.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorButtonNormal = global::TiuShop.Droid.Resource.Attribute.colorButtonNormal;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorControlActivated = global::TiuShop.Droid.Resource.Attribute.colorControlActivated;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorControlHighlight = global::TiuShop.Droid.Resource.Attribute.colorControlHighlight;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorControlNormal = global::TiuShop.Droid.Resource.Attribute.colorControlNormal;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorError = global::TiuShop.Droid.Resource.Attribute.colorError;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorPrimary = global::TiuShop.Droid.Resource.Attribute.colorPrimary;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorPrimaryDark = global::TiuShop.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorSecondary = global::TiuShop.Droid.Resource.Attribute.colorSecondary;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorSwitchThumbNormal = global::TiuShop.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Rg.Plugins.Popup.Resource.Attribute.commitIcon = global::TiuShop.Droid.Resource.Attribute.commitIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentDescription = global::TiuShop.Droid.Resource.Attribute.contentDescription;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentInsetEnd = global::TiuShop.Droid.Resource.Attribute.contentInsetEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentInsetEndWithActions = global::TiuShop.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentInsetLeft = global::TiuShop.Droid.Resource.Attribute.contentInsetLeft;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentInsetRight = global::TiuShop.Droid.Resource.Attribute.contentInsetRight;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentInsetStart = global::TiuShop.Droid.Resource.Attribute.contentInsetStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentInsetStartWithNavigation = global::TiuShop.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentPadding = global::TiuShop.Droid.Resource.Attribute.contentPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentPaddingBottom = global::TiuShop.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentPaddingLeft = global::TiuShop.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentPaddingRight = global::TiuShop.Droid.Resource.Attribute.contentPaddingRight;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentPaddingTop = global::TiuShop.Droid.Resource.Attribute.contentPaddingTop;
+			global::Rg.Plugins.Popup.Resource.Attribute.contentScrim = global::TiuShop.Droid.Resource.Attribute.contentScrim;
+			global::Rg.Plugins.Popup.Resource.Attribute.controlBackground = global::TiuShop.Droid.Resource.Attribute.controlBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.coordinatorLayoutStyle = global::TiuShop.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerRadius = global::TiuShop.Droid.Resource.Attribute.cornerRadius;
+			global::Rg.Plugins.Popup.Resource.Attribute.counterEnabled = global::TiuShop.Droid.Resource.Attribute.counterEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.counterMaxLength = global::TiuShop.Droid.Resource.Attribute.counterMaxLength;
+			global::Rg.Plugins.Popup.Resource.Attribute.counterOverflowTextAppearance = global::TiuShop.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.counterTextAppearance = global::TiuShop.Droid.Resource.Attribute.counterTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.customNavigationLayout = global::TiuShop.Droid.Resource.Attribute.customNavigationLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.defaultQueryHint = global::TiuShop.Droid.Resource.Attribute.defaultQueryHint;
+			global::Rg.Plugins.Popup.Resource.Attribute.dialogCornerRadius = global::TiuShop.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Rg.Plugins.Popup.Resource.Attribute.dialogPreferredPadding = global::TiuShop.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.dialogTheme = global::TiuShop.Droid.Resource.Attribute.dialogTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.displayOptions = global::TiuShop.Droid.Resource.Attribute.displayOptions;
+			global::Rg.Plugins.Popup.Resource.Attribute.divider = global::TiuShop.Droid.Resource.Attribute.divider;
+			global::Rg.Plugins.Popup.Resource.Attribute.dividerHorizontal = global::TiuShop.Droid.Resource.Attribute.dividerHorizontal;
+			global::Rg.Plugins.Popup.Resource.Attribute.dividerPadding = global::TiuShop.Droid.Resource.Attribute.dividerPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.dividerVertical = global::TiuShop.Droid.Resource.Attribute.dividerVertical;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawableBottomCompat = global::TiuShop.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawableEndCompat = global::TiuShop.Droid.Resource.Attribute.drawableEndCompat;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawableLeftCompat = global::TiuShop.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawableRightCompat = global::TiuShop.Droid.Resource.Attribute.drawableRightCompat;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawableSize = global::TiuShop.Droid.Resource.Attribute.drawableSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawableStartCompat = global::TiuShop.Droid.Resource.Attribute.drawableStartCompat;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawableTint = global::TiuShop.Droid.Resource.Attribute.drawableTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawableTintMode = global::TiuShop.Droid.Resource.Attribute.drawableTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawableTopCompat = global::TiuShop.Droid.Resource.Attribute.drawableTopCompat;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawerArrowStyle = global::TiuShop.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.dropdownListPreferredItemHeight = global::TiuShop.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.dropDownListViewStyle = global::TiuShop.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.editTextBackground = global::TiuShop.Droid.Resource.Attribute.editTextBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.editTextColor = global::TiuShop.Droid.Resource.Attribute.editTextColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.editTextStyle = global::TiuShop.Droid.Resource.Attribute.editTextStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.elevation = global::TiuShop.Droid.Resource.Attribute.elevation;
+			global::Rg.Plugins.Popup.Resource.Attribute.enforceMaterialTheme = global::TiuShop.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.enforceTextAppearance = global::TiuShop.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.errorEnabled = global::TiuShop.Droid.Resource.Attribute.errorEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.errorTextAppearance = global::TiuShop.Droid.Resource.Attribute.errorTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.expandActivityOverflowButtonDrawable = global::TiuShop.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.expanded = global::TiuShop.Droid.Resource.Attribute.expanded;
+			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleGravity = global::TiuShop.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleMargin = global::TiuShop.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleMarginBottom = global::TiuShop.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleMarginEnd = global::TiuShop.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleMarginStart = global::TiuShop.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleMarginTop = global::TiuShop.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleTextAppearance = global::TiuShop.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.fabAlignmentMode = global::TiuShop.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.fabCradleMargin = global::TiuShop.Droid.Resource.Attribute.fabCradleMargin;
+			global::Rg.Plugins.Popup.Resource.Attribute.fabCradleRoundedCornerRadius = global::TiuShop.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Rg.Plugins.Popup.Resource.Attribute.fabCradleVerticalOffset = global::TiuShop.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Rg.Plugins.Popup.Resource.Attribute.fabCustomSize = global::TiuShop.Droid.Resource.Attribute.fabCustomSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.fabSize = global::TiuShop.Droid.Resource.Attribute.fabSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.fastScrollEnabled = global::TiuShop.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::TiuShop.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::TiuShop.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.fastScrollVerticalThumbDrawable = global::TiuShop.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.fastScrollVerticalTrackDrawable = global::TiuShop.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.firstBaselineToTopHeight = global::TiuShop.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.floatingActionButtonStyle = global::TiuShop.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.font = global::TiuShop.Droid.Resource.Attribute.font;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontFamily = global::TiuShop.Droid.Resource.Attribute.fontFamily;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontProviderAuthority = global::TiuShop.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontProviderCerts = global::TiuShop.Droid.Resource.Attribute.fontProviderCerts;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontProviderFetchStrategy = global::TiuShop.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontProviderFetchTimeout = global::TiuShop.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontProviderPackage = global::TiuShop.Droid.Resource.Attribute.fontProviderPackage;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontProviderQuery = global::TiuShop.Droid.Resource.Attribute.fontProviderQuery;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontStyle = global::TiuShop.Droid.Resource.Attribute.fontStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontVariationSettings = global::TiuShop.Droid.Resource.Attribute.fontVariationSettings;
+			global::Rg.Plugins.Popup.Resource.Attribute.fontWeight = global::TiuShop.Droid.Resource.Attribute.fontWeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.foregroundInsidePadding = global::TiuShop.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.gapBetweenBars = global::TiuShop.Droid.Resource.Attribute.gapBetweenBars;
+			global::Rg.Plugins.Popup.Resource.Attribute.goIcon = global::TiuShop.Droid.Resource.Attribute.goIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.headerLayout = global::TiuShop.Droid.Resource.Attribute.headerLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.height = global::TiuShop.Droid.Resource.Attribute.height;
+			global::Rg.Plugins.Popup.Resource.Attribute.helperText = global::TiuShop.Droid.Resource.Attribute.helperText;
+			global::Rg.Plugins.Popup.Resource.Attribute.helperTextEnabled = global::TiuShop.Droid.Resource.Attribute.helperTextEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.helperTextTextAppearance = global::TiuShop.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.hideMotionSpec = global::TiuShop.Droid.Resource.Attribute.hideMotionSpec;
+			global::Rg.Plugins.Popup.Resource.Attribute.hideOnContentScroll = global::TiuShop.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Rg.Plugins.Popup.Resource.Attribute.hideOnScroll = global::TiuShop.Droid.Resource.Attribute.hideOnScroll;
+			global::Rg.Plugins.Popup.Resource.Attribute.hintAnimationEnabled = global::TiuShop.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.hintEnabled = global::TiuShop.Droid.Resource.Attribute.hintEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.hintTextAppearance = global::TiuShop.Droid.Resource.Attribute.hintTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.homeAsUpIndicator = global::TiuShop.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Rg.Plugins.Popup.Resource.Attribute.homeLayout = global::TiuShop.Droid.Resource.Attribute.homeLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.hoveredFocusedTranslationZ = global::TiuShop.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Rg.Plugins.Popup.Resource.Attribute.icon = global::TiuShop.Droid.Resource.Attribute.icon;
+			global::Rg.Plugins.Popup.Resource.Attribute.iconEndPadding = global::TiuShop.Droid.Resource.Attribute.iconEndPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.iconGravity = global::TiuShop.Droid.Resource.Attribute.iconGravity;
+			global::Rg.Plugins.Popup.Resource.Attribute.iconifiedByDefault = global::TiuShop.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Rg.Plugins.Popup.Resource.Attribute.iconPadding = global::TiuShop.Droid.Resource.Attribute.iconPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.iconSize = global::TiuShop.Droid.Resource.Attribute.iconSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.iconStartPadding = global::TiuShop.Droid.Resource.Attribute.iconStartPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.iconTint = global::TiuShop.Droid.Resource.Attribute.iconTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.iconTintMode = global::TiuShop.Droid.Resource.Attribute.iconTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.imageButtonStyle = global::TiuShop.Droid.Resource.Attribute.imageButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.indeterminateProgressStyle = global::TiuShop.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.initialActivityCount = global::TiuShop.Droid.Resource.Attribute.initialActivityCount;
+			global::Rg.Plugins.Popup.Resource.Attribute.insetForeground = global::TiuShop.Droid.Resource.Attribute.insetForeground;
+			global::Rg.Plugins.Popup.Resource.Attribute.isLightTheme = global::TiuShop.Droid.Resource.Attribute.isLightTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemBackground = global::TiuShop.Droid.Resource.Attribute.itemBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemHorizontalPadding = global::TiuShop.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemHorizontalTranslationEnabled = global::TiuShop.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemIconPadding = global::TiuShop.Droid.Resource.Attribute.itemIconPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemIconSize = global::TiuShop.Droid.Resource.Attribute.itemIconSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemIconTint = global::TiuShop.Droid.Resource.Attribute.itemIconTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemPadding = global::TiuShop.Droid.Resource.Attribute.itemPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemSpacing = global::TiuShop.Droid.Resource.Attribute.itemSpacing;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemTextAppearance = global::TiuShop.Droid.Resource.Attribute.itemTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemTextAppearanceActive = global::TiuShop.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemTextAppearanceInactive = global::TiuShop.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemTextColor = global::TiuShop.Droid.Resource.Attribute.itemTextColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.keylines = global::TiuShop.Droid.Resource.Attribute.keylines;
+			global::Rg.Plugins.Popup.Resource.Attribute.labelVisibilityMode = global::TiuShop.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.lastBaselineToBottomHeight = global::TiuShop.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout = global::TiuShop.Droid.Resource.Attribute.layout;
+			global::Rg.Plugins.Popup.Resource.Attribute.layoutManager = global::TiuShop.Droid.Resource.Attribute.layoutManager;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_anchor = global::TiuShop.Droid.Resource.Attribute.layout_anchor;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_anchorGravity = global::TiuShop.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_behavior = global::TiuShop.Droid.Resource.Attribute.layout_behavior;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_collapseMode = global::TiuShop.Droid.Resource.Attribute.layout_collapseMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_collapseParallaxMultiplier = global::TiuShop.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_dodgeInsetEdges = global::TiuShop.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_insetEdge = global::TiuShop.Droid.Resource.Attribute.layout_insetEdge;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_keyline = global::TiuShop.Droid.Resource.Attribute.layout_keyline;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_scrollFlags = global::TiuShop.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Rg.Plugins.Popup.Resource.Attribute.layout_scrollInterpolator = global::TiuShop.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Rg.Plugins.Popup.Resource.Attribute.liftOnScroll = global::TiuShop.Droid.Resource.Attribute.liftOnScroll;
+			global::Rg.Plugins.Popup.Resource.Attribute.lineHeight = global::TiuShop.Droid.Resource.Attribute.lineHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.lineSpacing = global::TiuShop.Droid.Resource.Attribute.lineSpacing;
+			global::Rg.Plugins.Popup.Resource.Attribute.listChoiceBackgroundIndicator = global::TiuShop.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Rg.Plugins.Popup.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::TiuShop.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Rg.Plugins.Popup.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::TiuShop.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Rg.Plugins.Popup.Resource.Attribute.listDividerAlertDialog = global::TiuShop.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Rg.Plugins.Popup.Resource.Attribute.listItemLayout = global::TiuShop.Droid.Resource.Attribute.listItemLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.listLayout = global::TiuShop.Droid.Resource.Attribute.listLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.listMenuViewStyle = global::TiuShop.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.listPopupWindowStyle = global::TiuShop.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.listPreferredItemHeight = global::TiuShop.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.listPreferredItemHeightLarge = global::TiuShop.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Rg.Plugins.Popup.Resource.Attribute.listPreferredItemHeightSmall = global::TiuShop.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Rg.Plugins.Popup.Resource.Attribute.listPreferredItemPaddingEnd = global::TiuShop.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.listPreferredItemPaddingLeft = global::TiuShop.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Rg.Plugins.Popup.Resource.Attribute.listPreferredItemPaddingRight = global::TiuShop.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Rg.Plugins.Popup.Resource.Attribute.listPreferredItemPaddingStart = global::TiuShop.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.logo = global::TiuShop.Droid.Resource.Attribute.logo;
+			global::Rg.Plugins.Popup.Resource.Attribute.logoDescription = global::TiuShop.Droid.Resource.Attribute.logoDescription;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialButtonStyle = global::TiuShop.Droid.Resource.Attribute.materialButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCardViewStyle = global::TiuShop.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.maxActionInlineWidth = global::TiuShop.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.maxButtonHeight = global::TiuShop.Droid.Resource.Attribute.maxButtonHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.maxImageSize = global::TiuShop.Droid.Resource.Attribute.maxImageSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.measureWithLargestChild = global::TiuShop.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Rg.Plugins.Popup.Resource.Attribute.menu = global::TiuShop.Droid.Resource.Attribute.menu;
+			global::Rg.Plugins.Popup.Resource.Attribute.multiChoiceItemLayout = global::TiuShop.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.navigationContentDescription = global::TiuShop.Droid.Resource.Attribute.navigationContentDescription;
+			global::Rg.Plugins.Popup.Resource.Attribute.navigationIcon = global::TiuShop.Droid.Resource.Attribute.navigationIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.navigationMode = global::TiuShop.Droid.Resource.Attribute.navigationMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.navigationViewStyle = global::TiuShop.Droid.Resource.Attribute.navigationViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.numericModifiers = global::TiuShop.Droid.Resource.Attribute.numericModifiers;
+			global::Rg.Plugins.Popup.Resource.Attribute.overlapAnchor = global::TiuShop.Droid.Resource.Attribute.overlapAnchor;
+			global::Rg.Plugins.Popup.Resource.Attribute.paddingBottomNoButtons = global::TiuShop.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Rg.Plugins.Popup.Resource.Attribute.paddingEnd = global::TiuShop.Droid.Resource.Attribute.paddingEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.paddingStart = global::TiuShop.Droid.Resource.Attribute.paddingStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.paddingTopNoTitle = global::TiuShop.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Rg.Plugins.Popup.Resource.Attribute.panelBackground = global::TiuShop.Droid.Resource.Attribute.panelBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.panelMenuListTheme = global::TiuShop.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.panelMenuListWidth = global::TiuShop.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.passwordToggleContentDescription = global::TiuShop.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Rg.Plugins.Popup.Resource.Attribute.passwordToggleDrawable = global::TiuShop.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.passwordToggleEnabled = global::TiuShop.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.passwordToggleTint = global::TiuShop.Droid.Resource.Attribute.passwordToggleTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.passwordToggleTintMode = global::TiuShop.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.popupMenuStyle = global::TiuShop.Droid.Resource.Attribute.popupMenuStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.popupTheme = global::TiuShop.Droid.Resource.Attribute.popupTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.popupWindowStyle = global::TiuShop.Droid.Resource.Attribute.popupWindowStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.preserveIconSpacing = global::TiuShop.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Rg.Plugins.Popup.Resource.Attribute.pressedTranslationZ = global::TiuShop.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Rg.Plugins.Popup.Resource.Attribute.progressBarPadding = global::TiuShop.Droid.Resource.Attribute.progressBarPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.progressBarStyle = global::TiuShop.Droid.Resource.Attribute.progressBarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.queryBackground = global::TiuShop.Droid.Resource.Attribute.queryBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.queryHint = global::TiuShop.Droid.Resource.Attribute.queryHint;
+			global::Rg.Plugins.Popup.Resource.Attribute.radioButtonStyle = global::TiuShop.Droid.Resource.Attribute.radioButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.ratingBarStyle = global::TiuShop.Droid.Resource.Attribute.ratingBarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.ratingBarStyleIndicator = global::TiuShop.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Rg.Plugins.Popup.Resource.Attribute.ratingBarStyleSmall = global::TiuShop.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Rg.Plugins.Popup.Resource.Attribute.recyclerViewStyle = global::TiuShop.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.reverseLayout = global::TiuShop.Droid.Resource.Attribute.reverseLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.rippleColor = global::TiuShop.Droid.Resource.Attribute.rippleColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.scrimAnimationDuration = global::TiuShop.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Rg.Plugins.Popup.Resource.Attribute.scrimBackground = global::TiuShop.Droid.Resource.Attribute.scrimBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.scrimVisibleHeightTrigger = global::TiuShop.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Rg.Plugins.Popup.Resource.Attribute.searchHintIcon = global::TiuShop.Droid.Resource.Attribute.searchHintIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.searchIcon = global::TiuShop.Droid.Resource.Attribute.searchIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.searchViewStyle = global::TiuShop.Droid.Resource.Attribute.searchViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.seekBarStyle = global::TiuShop.Droid.Resource.Attribute.seekBarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.selectableItemBackground = global::TiuShop.Droid.Resource.Attribute.selectableItemBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.selectableItemBackgroundBorderless = global::TiuShop.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Rg.Plugins.Popup.Resource.Attribute.showAsAction = global::TiuShop.Droid.Resource.Attribute.showAsAction;
+			global::Rg.Plugins.Popup.Resource.Attribute.showDividers = global::TiuShop.Droid.Resource.Attribute.showDividers;
+			global::Rg.Plugins.Popup.Resource.Attribute.showMotionSpec = global::TiuShop.Droid.Resource.Attribute.showMotionSpec;
+			global::Rg.Plugins.Popup.Resource.Attribute.showText = global::TiuShop.Droid.Resource.Attribute.showText;
+			global::Rg.Plugins.Popup.Resource.Attribute.showTitle = global::TiuShop.Droid.Resource.Attribute.showTitle;
+			global::Rg.Plugins.Popup.Resource.Attribute.singleChoiceItemLayout = global::TiuShop.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.singleLine = global::TiuShop.Droid.Resource.Attribute.singleLine;
+			global::Rg.Plugins.Popup.Resource.Attribute.singleSelection = global::TiuShop.Droid.Resource.Attribute.singleSelection;
+			global::Rg.Plugins.Popup.Resource.Attribute.snackbarButtonStyle = global::TiuShop.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.snackbarStyle = global::TiuShop.Droid.Resource.Attribute.snackbarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.spanCount = global::TiuShop.Droid.Resource.Attribute.spanCount;
+			global::Rg.Plugins.Popup.Resource.Attribute.spinBars = global::TiuShop.Droid.Resource.Attribute.spinBars;
+			global::Rg.Plugins.Popup.Resource.Attribute.spinnerDropDownItemStyle = global::TiuShop.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.spinnerStyle = global::TiuShop.Droid.Resource.Attribute.spinnerStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.splitTrack = global::TiuShop.Droid.Resource.Attribute.splitTrack;
+			global::Rg.Plugins.Popup.Resource.Attribute.srcCompat = global::TiuShop.Droid.Resource.Attribute.srcCompat;
+			global::Rg.Plugins.Popup.Resource.Attribute.stackFromEnd = global::TiuShop.Droid.Resource.Attribute.stackFromEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.state_above_anchor = global::TiuShop.Droid.Resource.Attribute.state_above_anchor;
+			global::Rg.Plugins.Popup.Resource.Attribute.state_collapsed = global::TiuShop.Droid.Resource.Attribute.state_collapsed;
+			global::Rg.Plugins.Popup.Resource.Attribute.state_collapsible = global::TiuShop.Droid.Resource.Attribute.state_collapsible;
+			global::Rg.Plugins.Popup.Resource.Attribute.state_liftable = global::TiuShop.Droid.Resource.Attribute.state_liftable;
+			global::Rg.Plugins.Popup.Resource.Attribute.state_lifted = global::TiuShop.Droid.Resource.Attribute.state_lifted;
+			global::Rg.Plugins.Popup.Resource.Attribute.statusBarBackground = global::TiuShop.Droid.Resource.Attribute.statusBarBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.statusBarScrim = global::TiuShop.Droid.Resource.Attribute.statusBarScrim;
+			global::Rg.Plugins.Popup.Resource.Attribute.strokeColor = global::TiuShop.Droid.Resource.Attribute.strokeColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.strokeWidth = global::TiuShop.Droid.Resource.Attribute.strokeWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.subMenuArrow = global::TiuShop.Droid.Resource.Attribute.subMenuArrow;
+			global::Rg.Plugins.Popup.Resource.Attribute.submitBackground = global::TiuShop.Droid.Resource.Attribute.submitBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.subtitle = global::TiuShop.Droid.Resource.Attribute.subtitle;
+			global::Rg.Plugins.Popup.Resource.Attribute.subtitleTextAppearance = global::TiuShop.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.subtitleTextColor = global::TiuShop.Droid.Resource.Attribute.subtitleTextColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.subtitleTextStyle = global::TiuShop.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.suggestionRowLayout = global::TiuShop.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.switchMinWidth = global::TiuShop.Droid.Resource.Attribute.switchMinWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.switchPadding = global::TiuShop.Droid.Resource.Attribute.switchPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.switchStyle = global::TiuShop.Droid.Resource.Attribute.switchStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.switchTextAppearance = global::TiuShop.Droid.Resource.Attribute.switchTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabBackground = global::TiuShop.Droid.Resource.Attribute.tabBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabContentStart = global::TiuShop.Droid.Resource.Attribute.tabContentStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabGravity = global::TiuShop.Droid.Resource.Attribute.tabGravity;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabIconTint = global::TiuShop.Droid.Resource.Attribute.tabIconTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabIconTintMode = global::TiuShop.Droid.Resource.Attribute.tabIconTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabIndicator = global::TiuShop.Droid.Resource.Attribute.tabIndicator;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabIndicatorAnimationDuration = global::TiuShop.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabIndicatorColor = global::TiuShop.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabIndicatorFullWidth = global::TiuShop.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabIndicatorGravity = global::TiuShop.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabIndicatorHeight = global::TiuShop.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabInlineLabel = global::TiuShop.Droid.Resource.Attribute.tabInlineLabel;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabMaxWidth = global::TiuShop.Droid.Resource.Attribute.tabMaxWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabMinWidth = global::TiuShop.Droid.Resource.Attribute.tabMinWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabMode = global::TiuShop.Droid.Resource.Attribute.tabMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabPadding = global::TiuShop.Droid.Resource.Attribute.tabPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabPaddingBottom = global::TiuShop.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabPaddingEnd = global::TiuShop.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabPaddingStart = global::TiuShop.Droid.Resource.Attribute.tabPaddingStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabPaddingTop = global::TiuShop.Droid.Resource.Attribute.tabPaddingTop;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabRippleColor = global::TiuShop.Droid.Resource.Attribute.tabRippleColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabSelectedTextColor = global::TiuShop.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabStyle = global::TiuShop.Droid.Resource.Attribute.tabStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabTextAppearance = global::TiuShop.Droid.Resource.Attribute.tabTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabTextColor = global::TiuShop.Droid.Resource.Attribute.tabTextColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.tabUnboundedRipple = global::TiuShop.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAllCaps = global::TiuShop.Droid.Resource.Attribute.textAllCaps;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceBody1 = global::TiuShop.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceBody2 = global::TiuShop.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceButton = global::TiuShop.Droid.Resource.Attribute.textAppearanceButton;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceCaption = global::TiuShop.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceHeadline1 = global::TiuShop.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceHeadline2 = global::TiuShop.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceHeadline3 = global::TiuShop.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceHeadline4 = global::TiuShop.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceHeadline5 = global::TiuShop.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceHeadline6 = global::TiuShop.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceLargePopupMenu = global::TiuShop.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceListItem = global::TiuShop.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceListItemSecondary = global::TiuShop.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceListItemSmall = global::TiuShop.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceOverline = global::TiuShop.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearancePopupMenuHeader = global::TiuShop.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceSearchResultSubtitle = global::TiuShop.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceSearchResultTitle = global::TiuShop.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceSmallPopupMenu = global::TiuShop.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceSubtitle1 = global::TiuShop.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceSubtitle2 = global::TiuShop.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Rg.Plugins.Popup.Resource.Attribute.textColorAlertDialogListItem = global::TiuShop.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Rg.Plugins.Popup.Resource.Attribute.textColorSearchUrl = global::TiuShop.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Rg.Plugins.Popup.Resource.Attribute.textEndPadding = global::TiuShop.Droid.Resource.Attribute.textEndPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.textInputStyle = global::TiuShop.Droid.Resource.Attribute.textInputStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.textLocale = global::TiuShop.Droid.Resource.Attribute.textLocale;
+			global::Rg.Plugins.Popup.Resource.Attribute.textStartPadding = global::TiuShop.Droid.Resource.Attribute.textStartPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.theme = global::TiuShop.Droid.Resource.Attribute.theme;
+			global::Rg.Plugins.Popup.Resource.Attribute.thickness = global::TiuShop.Droid.Resource.Attribute.thickness;
+			global::Rg.Plugins.Popup.Resource.Attribute.thumbTextPadding = global::TiuShop.Droid.Resource.Attribute.thumbTextPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.thumbTint = global::TiuShop.Droid.Resource.Attribute.thumbTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.thumbTintMode = global::TiuShop.Droid.Resource.Attribute.thumbTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.tickMark = global::TiuShop.Droid.Resource.Attribute.tickMark;
+			global::Rg.Plugins.Popup.Resource.Attribute.tickMarkTint = global::TiuShop.Droid.Resource.Attribute.tickMarkTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.tickMarkTintMode = global::TiuShop.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.tint = global::TiuShop.Droid.Resource.Attribute.tint;
+			global::Rg.Plugins.Popup.Resource.Attribute.tintMode = global::TiuShop.Droid.Resource.Attribute.tintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.title = global::TiuShop.Droid.Resource.Attribute.title;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleEnabled = global::TiuShop.Droid.Resource.Attribute.titleEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleMargin = global::TiuShop.Droid.Resource.Attribute.titleMargin;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleMarginBottom = global::TiuShop.Droid.Resource.Attribute.titleMarginBottom;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleMarginEnd = global::TiuShop.Droid.Resource.Attribute.titleMarginEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleMargins = global::TiuShop.Droid.Resource.Attribute.titleMargins;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleMarginStart = global::TiuShop.Droid.Resource.Attribute.titleMarginStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleMarginTop = global::TiuShop.Droid.Resource.Attribute.titleMarginTop;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleTextAppearance = global::TiuShop.Droid.Resource.Attribute.titleTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleTextColor = global::TiuShop.Droid.Resource.Attribute.titleTextColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.titleTextStyle = global::TiuShop.Droid.Resource.Attribute.titleTextStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.toolbarId = global::TiuShop.Droid.Resource.Attribute.toolbarId;
+			global::Rg.Plugins.Popup.Resource.Attribute.toolbarNavigationButtonStyle = global::TiuShop.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.toolbarStyle = global::TiuShop.Droid.Resource.Attribute.toolbarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.tooltipForegroundColor = global::TiuShop.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.tooltipFrameBackground = global::TiuShop.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.tooltipText = global::TiuShop.Droid.Resource.Attribute.tooltipText;
+			global::Rg.Plugins.Popup.Resource.Attribute.track = global::TiuShop.Droid.Resource.Attribute.track;
+			global::Rg.Plugins.Popup.Resource.Attribute.trackTint = global::TiuShop.Droid.Resource.Attribute.trackTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.trackTintMode = global::TiuShop.Droid.Resource.Attribute.trackTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.ttcIndex = global::TiuShop.Droid.Resource.Attribute.ttcIndex;
+			global::Rg.Plugins.Popup.Resource.Attribute.useCompatPadding = global::TiuShop.Droid.Resource.Attribute.useCompatPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.viewInflaterClass = global::TiuShop.Droid.Resource.Attribute.viewInflaterClass;
+			global::Rg.Plugins.Popup.Resource.Attribute.voiceIcon = global::TiuShop.Droid.Resource.Attribute.voiceIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowActionBar = global::TiuShop.Droid.Resource.Attribute.windowActionBar;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowActionBarOverlay = global::TiuShop.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowActionModeOverlay = global::TiuShop.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowFixedHeightMajor = global::TiuShop.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowFixedHeightMinor = global::TiuShop.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowFixedWidthMajor = global::TiuShop.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowFixedWidthMinor = global::TiuShop.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowMinWidthMajor = global::TiuShop.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowMinWidthMinor = global::TiuShop.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Rg.Plugins.Popup.Resource.Attribute.windowNoTitle = global::TiuShop.Droid.Resource.Attribute.windowNoTitle;
+			global::Rg.Plugins.Popup.Resource.Boolean.abc_action_bar_embed_tabs = global::TiuShop.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Rg.Plugins.Popup.Resource.Boolean.abc_allow_stacked_button_bar = global::TiuShop.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Rg.Plugins.Popup.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::TiuShop.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Rg.Plugins.Popup.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::TiuShop.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Rg.Plugins.Popup.Resource.Color.abc_background_cache_hint_selector_material_dark = global::TiuShop.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.abc_background_cache_hint_selector_material_light = global::TiuShop.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.abc_btn_colored_borderless_text_material = global::TiuShop.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Rg.Plugins.Popup.Resource.Color.abc_btn_colored_text_material = global::TiuShop.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Rg.Plugins.Popup.Resource.Color.abc_color_highlight_material = global::TiuShop.Droid.Resource.Color.abc_color_highlight_material;
+			global::Rg.Plugins.Popup.Resource.Color.abc_hint_foreground_material_dark = global::TiuShop.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.abc_hint_foreground_material_light = global::TiuShop.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.abc_primary_text_disable_only_material_dark = global::TiuShop.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.abc_primary_text_disable_only_material_light = global::TiuShop.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.abc_primary_text_material_dark = global::TiuShop.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.abc_primary_text_material_light = global::TiuShop.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.abc_search_url_text = global::TiuShop.Droid.Resource.Color.abc_search_url_text;
+			global::Rg.Plugins.Popup.Resource.Color.abc_search_url_text_normal = global::TiuShop.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Rg.Plugins.Popup.Resource.Color.abc_search_url_text_pressed = global::TiuShop.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Rg.Plugins.Popup.Resource.Color.abc_search_url_text_selected = global::TiuShop.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Rg.Plugins.Popup.Resource.Color.abc_secondary_text_material_dark = global::TiuShop.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.abc_secondary_text_material_light = global::TiuShop.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.abc_tint_btn_checkable = global::TiuShop.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Rg.Plugins.Popup.Resource.Color.abc_tint_default = global::TiuShop.Droid.Resource.Color.abc_tint_default;
+			global::Rg.Plugins.Popup.Resource.Color.abc_tint_edittext = global::TiuShop.Droid.Resource.Color.abc_tint_edittext;
+			global::Rg.Plugins.Popup.Resource.Color.abc_tint_seek_thumb = global::TiuShop.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Rg.Plugins.Popup.Resource.Color.abc_tint_spinner = global::TiuShop.Droid.Resource.Color.abc_tint_spinner;
+			global::Rg.Plugins.Popup.Resource.Color.abc_tint_switch_track = global::TiuShop.Droid.Resource.Color.abc_tint_switch_track;
+			global::Rg.Plugins.Popup.Resource.Color.accent_material_dark = global::TiuShop.Droid.Resource.Color.accent_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.accent_material_light = global::TiuShop.Droid.Resource.Color.accent_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.background_floating_material_dark = global::TiuShop.Droid.Resource.Color.background_floating_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.background_floating_material_light = global::TiuShop.Droid.Resource.Color.background_floating_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.background_material_dark = global::TiuShop.Droid.Resource.Color.background_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.background_material_light = global::TiuShop.Droid.Resource.Color.background_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.bright_foreground_disabled_material_dark = global::TiuShop.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.bright_foreground_disabled_material_light = global::TiuShop.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.bright_foreground_inverse_material_dark = global::TiuShop.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.bright_foreground_inverse_material_light = global::TiuShop.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.bright_foreground_material_dark = global::TiuShop.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.bright_foreground_material_light = global::TiuShop.Droid.Resource.Color.bright_foreground_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.browser_actions_bg_grey = global::TiuShop.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Rg.Plugins.Popup.Resource.Color.browser_actions_divider_color = global::TiuShop.Droid.Resource.Color.browser_actions_divider_color;
+			global::Rg.Plugins.Popup.Resource.Color.browser_actions_text_color = global::TiuShop.Droid.Resource.Color.browser_actions_text_color;
+			global::Rg.Plugins.Popup.Resource.Color.browser_actions_title_color = global::TiuShop.Droid.Resource.Color.browser_actions_title_color;
+			global::Rg.Plugins.Popup.Resource.Color.button_material_dark = global::TiuShop.Droid.Resource.Color.button_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.button_material_light = global::TiuShop.Droid.Resource.Color.button_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.cardview_dark_background = global::TiuShop.Droid.Resource.Color.cardview_dark_background;
+			global::Rg.Plugins.Popup.Resource.Color.cardview_light_background = global::TiuShop.Droid.Resource.Color.cardview_light_background;
+			global::Rg.Plugins.Popup.Resource.Color.cardview_shadow_end_color = global::TiuShop.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Rg.Plugins.Popup.Resource.Color.cardview_shadow_start_color = global::TiuShop.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_bottom_navigation_shadow_color = global::TiuShop.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_primary = global::TiuShop.Droid.Resource.Color.design_default_color_primary;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_primary_dark = global::TiuShop.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Rg.Plugins.Popup.Resource.Color.design_error = global::TiuShop.Droid.Resource.Color.design_error;
+			global::Rg.Plugins.Popup.Resource.Color.design_fab_shadow_end_color = global::TiuShop.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_fab_shadow_mid_color = global::TiuShop.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_fab_shadow_start_color = global::TiuShop.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_fab_stroke_end_inner_color = global::TiuShop.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_fab_stroke_end_outer_color = global::TiuShop.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_fab_stroke_top_inner_color = global::TiuShop.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_fab_stroke_top_outer_color = global::TiuShop.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_snackbar_background_color = global::TiuShop.Droid.Resource.Color.design_snackbar_background_color;
+			global::Rg.Plugins.Popup.Resource.Color.dim_foreground_disabled_material_dark = global::TiuShop.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.dim_foreground_disabled_material_light = global::TiuShop.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.dim_foreground_material_dark = global::TiuShop.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.dim_foreground_material_light = global::TiuShop.Droid.Resource.Color.dim_foreground_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.error_color_material_dark = global::TiuShop.Droid.Resource.Color.error_color_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.error_color_material_light = global::TiuShop.Droid.Resource.Color.error_color_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.foreground_material_dark = global::TiuShop.Droid.Resource.Color.foreground_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.foreground_material_light = global::TiuShop.Droid.Resource.Color.foreground_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.highlighted_text_material_dark = global::TiuShop.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.highlighted_text_material_light = global::TiuShop.Droid.Resource.Color.highlighted_text_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.material_blue_grey_800 = global::TiuShop.Droid.Resource.Color.material_blue_grey_800;
+			global::Rg.Plugins.Popup.Resource.Color.material_blue_grey_900 = global::TiuShop.Droid.Resource.Color.material_blue_grey_900;
+			global::Rg.Plugins.Popup.Resource.Color.material_blue_grey_950 = global::TiuShop.Droid.Resource.Color.material_blue_grey_950;
+			global::Rg.Plugins.Popup.Resource.Color.material_deep_teal_200 = global::TiuShop.Droid.Resource.Color.material_deep_teal_200;
+			global::Rg.Plugins.Popup.Resource.Color.material_deep_teal_500 = global::TiuShop.Droid.Resource.Color.material_deep_teal_500;
+			global::Rg.Plugins.Popup.Resource.Color.material_grey_100 = global::TiuShop.Droid.Resource.Color.material_grey_100;
+			global::Rg.Plugins.Popup.Resource.Color.material_grey_300 = global::TiuShop.Droid.Resource.Color.material_grey_300;
+			global::Rg.Plugins.Popup.Resource.Color.material_grey_50 = global::TiuShop.Droid.Resource.Color.material_grey_50;
+			global::Rg.Plugins.Popup.Resource.Color.material_grey_600 = global::TiuShop.Droid.Resource.Color.material_grey_600;
+			global::Rg.Plugins.Popup.Resource.Color.material_grey_800 = global::TiuShop.Droid.Resource.Color.material_grey_800;
+			global::Rg.Plugins.Popup.Resource.Color.material_grey_850 = global::TiuShop.Droid.Resource.Color.material_grey_850;
+			global::Rg.Plugins.Popup.Resource.Color.material_grey_900 = global::TiuShop.Droid.Resource.Color.material_grey_900;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::TiuShop.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_bottom_nav_item_tint = global::TiuShop.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_bg_color_selector = global::TiuShop.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_ripple_color = global::TiuShop.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_stroke_color_selector = global::TiuShop.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_text_btn_ripple_color = global::TiuShop.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_text_color_disabled = global::TiuShop.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_text_color_selector = global::TiuShop.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_transparent_bg_color = global::TiuShop.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_chip_background_color = global::TiuShop.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_chip_close_icon_tint = global::TiuShop.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_chip_ripple_color = global::TiuShop.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_chip_text_color = global::TiuShop.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_fab_ripple_color = global::TiuShop.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_scrim_color = global::TiuShop.Droid.Resource.Color.mtrl_scrim_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_tabs_colored_ripple_color = global::TiuShop.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_tabs_icon_color_selector = global::TiuShop.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::TiuShop.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::TiuShop.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_tabs_ripple_color = global::TiuShop.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_textinput_default_box_stroke_color = global::TiuShop.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_textinput_disabled_color = global::TiuShop.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::TiuShop.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::TiuShop.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_text_btn_text_color_selector = global::TiuShop.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Rg.Plugins.Popup.Resource.Color.notification_action_color_filter = global::TiuShop.Droid.Resource.Color.notification_action_color_filter;
+			global::Rg.Plugins.Popup.Resource.Color.notification_icon_bg_color = global::TiuShop.Droid.Resource.Color.notification_icon_bg_color;
+			global::Rg.Plugins.Popup.Resource.Color.notification_material_background_media_default_color = global::TiuShop.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Rg.Plugins.Popup.Resource.Color.primary_dark_material_dark = global::TiuShop.Droid.Resource.Color.primary_dark_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.primary_dark_material_light = global::TiuShop.Droid.Resource.Color.primary_dark_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.primary_material_dark = global::TiuShop.Droid.Resource.Color.primary_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.primary_material_light = global::TiuShop.Droid.Resource.Color.primary_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.primary_text_default_material_dark = global::TiuShop.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.primary_text_default_material_light = global::TiuShop.Droid.Resource.Color.primary_text_default_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.primary_text_disabled_material_dark = global::TiuShop.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.primary_text_disabled_material_light = global::TiuShop.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.ripple_material_dark = global::TiuShop.Droid.Resource.Color.ripple_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.ripple_material_light = global::TiuShop.Droid.Resource.Color.ripple_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.secondary_text_default_material_dark = global::TiuShop.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.secondary_text_default_material_light = global::TiuShop.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.secondary_text_disabled_material_dark = global::TiuShop.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.secondary_text_disabled_material_light = global::TiuShop.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.switch_thumb_disabled_material_dark = global::TiuShop.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.switch_thumb_disabled_material_light = global::TiuShop.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.switch_thumb_material_dark = global::TiuShop.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.switch_thumb_material_light = global::TiuShop.Droid.Resource.Color.switch_thumb_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.switch_thumb_normal_material_dark = global::TiuShop.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Rg.Plugins.Popup.Resource.Color.switch_thumb_normal_material_light = global::TiuShop.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.tooltip_background_dark = global::TiuShop.Droid.Resource.Color.tooltip_background_dark;
+			global::Rg.Plugins.Popup.Resource.Color.tooltip_background_light = global::TiuShop.Droid.Resource.Color.tooltip_background_light;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_content_inset_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_default_height_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_default_padding_end_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_default_padding_start_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_elevation_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_stacked_max_height = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::TiuShop.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_button_min_height_material = global::TiuShop.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_button_min_width_material = global::TiuShop.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_button_min_width_overflow_material = global::TiuShop.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_alert_dialog_button_bar_height = global::TiuShop.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_alert_dialog_button_dimen = global::TiuShop.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_button_inset_horizontal_material = global::TiuShop.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_button_inset_vertical_material = global::TiuShop.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_button_padding_horizontal_material = global::TiuShop.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_button_padding_vertical_material = global::TiuShop.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::TiuShop.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_config_prefDialogWidth = global::TiuShop.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_control_corner_material = global::TiuShop.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_control_inset_material = global::TiuShop.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_control_padding_material = global::TiuShop.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_corner_radius_material = global::TiuShop.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_fixed_height_major = global::TiuShop.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_fixed_height_minor = global::TiuShop.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_fixed_width_major = global::TiuShop.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_fixed_width_minor = global::TiuShop.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::TiuShop.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::TiuShop.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_min_width_major = global::TiuShop.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_min_width_minor = global::TiuShop.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_padding_material = global::TiuShop.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_padding_top_material = global::TiuShop.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dialog_title_divider_material = global::TiuShop.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_disabled_alpha_material_dark = global::TiuShop.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_disabled_alpha_material_light = global::TiuShop.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dropdownitem_icon_width = global::TiuShop.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dropdownitem_text_padding_left = global::TiuShop.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_dropdownitem_text_padding_right = global::TiuShop.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_edit_text_inset_bottom_material = global::TiuShop.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::TiuShop.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_edit_text_inset_top_material = global::TiuShop.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_floating_window_z = global::TiuShop.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_list_item_height_large_material = global::TiuShop.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_list_item_height_material = global::TiuShop.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_list_item_height_small_material = global::TiuShop.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_list_item_padding_horizontal_material = global::TiuShop.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_panel_menu_list_width = global::TiuShop.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_progress_bar_height_material = global::TiuShop.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_search_view_preferred_height = global::TiuShop.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_search_view_preferred_width = global::TiuShop.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_seekbar_track_background_height_material = global::TiuShop.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_seekbar_track_progress_height_material = global::TiuShop.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_select_dialog_padding_start_material = global::TiuShop.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_switch_padding = global::TiuShop.Droid.Resource.Dimension.abc_switch_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_body_1_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_body_2_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_button_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_caption_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_display_1_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_display_2_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_display_3_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_display_4_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_headline_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_large_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_medium_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_menu_header_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_menu_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_small_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_subhead_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::TiuShop.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_title_material = global::TiuShop.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_title_material_toolbar = global::TiuShop.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Rg.Plugins.Popup.Resource.Dimension.browser_actions_context_menu_max_width = global::TiuShop.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.browser_actions_context_menu_min_padding = global::TiuShop.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.cardview_compat_inset_shadow = global::TiuShop.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Rg.Plugins.Popup.Resource.Dimension.cardview_default_elevation = global::TiuShop.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.cardview_default_radius = global::TiuShop.Droid.Resource.Dimension.cardview_default_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.compat_button_inset_horizontal_material = global::TiuShop.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.compat_button_inset_vertical_material = global::TiuShop.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.compat_button_padding_horizontal_material = global::TiuShop.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.compat_button_padding_vertical_material = global::TiuShop.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.compat_control_corner_material = global::TiuShop.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Rg.Plugins.Popup.Resource.Dimension.compat_notification_large_icon_max_height = global::TiuShop.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.compat_notification_large_icon_max_width = global::TiuShop.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_appbar_elevation = global::TiuShop.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_active_text_size = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_elevation = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_height = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_icon_size = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_item_max_width = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_item_min_width = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_margin = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_shadow_height = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_text_size = global::TiuShop.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_sheet_modal_elevation = global::TiuShop.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_sheet_peek_height_min = global::TiuShop.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_fab_border_width = global::TiuShop.Droid.Resource.Dimension.design_fab_border_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_fab_elevation = global::TiuShop.Droid.Resource.Dimension.design_fab_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_fab_image_size = global::TiuShop.Droid.Resource.Dimension.design_fab_image_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_fab_size_mini = global::TiuShop.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_fab_size_normal = global::TiuShop.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_fab_translation_z_hovered_focused = global::TiuShop.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_fab_translation_z_pressed = global::TiuShop.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_elevation = global::TiuShop.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_icon_padding = global::TiuShop.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_icon_size = global::TiuShop.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_item_horizontal_padding = global::TiuShop.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_item_icon_padding = global::TiuShop.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_max_width = global::TiuShop.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_padding_bottom = global::TiuShop.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_separator_vertical_padding = global::TiuShop.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_action_inline_max_width = global::TiuShop.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_background_corner_radius = global::TiuShop.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_elevation = global::TiuShop.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::TiuShop.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_max_width = global::TiuShop.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_min_width = global::TiuShop.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_padding_horizontal = global::TiuShop.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_padding_vertical = global::TiuShop.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::TiuShop.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_text_size = global::TiuShop.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_tab_max_width = global::TiuShop.Droid.Resource.Dimension.design_tab_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_tab_scrollable_min_width = global::TiuShop.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_tab_text_size = global::TiuShop.Droid.Resource.Dimension.design_tab_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_tab_text_size_2line = global::TiuShop.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_textinput_caption_translate_y = global::TiuShop.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Rg.Plugins.Popup.Resource.Dimension.disabled_alpha_material_dark = global::TiuShop.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Rg.Plugins.Popup.Resource.Dimension.disabled_alpha_material_light = global::TiuShop.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Rg.Plugins.Popup.Resource.Dimension.fastscroll_default_thickness = global::TiuShop.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Rg.Plugins.Popup.Resource.Dimension.fastscroll_margin = global::TiuShop.Droid.Resource.Dimension.fastscroll_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.fastscroll_minimum_range = global::TiuShop.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Rg.Plugins.Popup.Resource.Dimension.highlight_alpha_material_colored = global::TiuShop.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Rg.Plugins.Popup.Resource.Dimension.highlight_alpha_material_dark = global::TiuShop.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Rg.Plugins.Popup.Resource.Dimension.highlight_alpha_material_light = global::TiuShop.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Rg.Plugins.Popup.Resource.Dimension.hint_alpha_material_dark = global::TiuShop.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Rg.Plugins.Popup.Resource.Dimension.hint_alpha_material_light = global::TiuShop.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Rg.Plugins.Popup.Resource.Dimension.hint_pressed_alpha_material_dark = global::TiuShop.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Rg.Plugins.Popup.Resource.Dimension.hint_pressed_alpha_material_light = global::TiuShop.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Rg.Plugins.Popup.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::TiuShop.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Rg.Plugins.Popup.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::TiuShop.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Rg.Plugins.Popup.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::TiuShop.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::TiuShop.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::TiuShop.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::TiuShop.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::TiuShop.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_height = global::TiuShop.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_corner_radius = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_disabled_elevation = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_disabled_z = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_elevation = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_focused_z = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_hovered_z = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_icon_padding = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_inset = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_letter_spacing = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_padding_bottom = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_padding_left = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_padding_right = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_padding_top = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_pressed_z = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_stroke_size = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_text_size = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_z = global::TiuShop.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_card_elevation = global::TiuShop.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_card_spacing = global::TiuShop.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_chip_pressed_translation_z = global::TiuShop.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_chip_text_size = global::TiuShop.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_fab_elevation = global::TiuShop.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::TiuShop.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_fab_translation_z_pressed = global::TiuShop.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_navigation_elevation = global::TiuShop.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::TiuShop.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_navigation_item_icon_padding = global::TiuShop.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::TiuShop.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_snackbar_margin = global::TiuShop.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::TiuShop.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::TiuShop.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::TiuShop.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::TiuShop.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::TiuShop.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::TiuShop.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_toolbar_default_height = global::TiuShop.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_action_icon_size = global::TiuShop.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_action_text_size = global::TiuShop.Droid.Resource.Dimension.notification_action_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_big_circle_margin = global::TiuShop.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_content_margin_start = global::TiuShop.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_large_icon_height = global::TiuShop.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_large_icon_width = global::TiuShop.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_main_column_padding_top = global::TiuShop.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_media_narrow_margin = global::TiuShop.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_right_icon_size = global::TiuShop.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_right_side_padding_top = global::TiuShop.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_small_icon_background_padding = global::TiuShop.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_small_icon_size_as_large = global::TiuShop.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_subtext_size = global::TiuShop.Droid.Resource.Dimension.notification_subtext_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_top_pad = global::TiuShop.Droid.Resource.Dimension.notification_top_pad;
+			global::Rg.Plugins.Popup.Resource.Dimension.notification_top_pad_large_text = global::TiuShop.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_corner_radius = global::TiuShop.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_horizontal_padding = global::TiuShop.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_margin = global::TiuShop.Droid.Resource.Dimension.tooltip_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::TiuShop.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_precise_anchor_threshold = global::TiuShop.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_vertical_padding = global::TiuShop.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_y_offset_non_touch = global::TiuShop.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_y_offset_touch = global::TiuShop.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_action_bar_item_background_material = global::TiuShop.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_borderless_material = global::TiuShop.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_check_material = global::TiuShop.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_check_material_anim = global::TiuShop.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::TiuShop.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::TiuShop.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_colored_material = global::TiuShop.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_default_mtrl_shape = global::TiuShop.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_radio_material = global::TiuShop.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_radio_material_anim = global::TiuShop.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::TiuShop.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::TiuShop.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::TiuShop.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::TiuShop.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_cab_background_internal_bg = global::TiuShop.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_cab_background_top_material = global::TiuShop.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_control_background_material = global::TiuShop.Droid.Resource.Drawable.abc_control_background_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_dialog_material_background = global::TiuShop.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_edit_text_material = global::TiuShop.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_ab_back_material = global::TiuShop.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::TiuShop.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_clear_material = global::TiuShop.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_go_search_api_material = global::TiuShop.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::TiuShop.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_menu_overflow_material = global::TiuShop.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::TiuShop.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_search_api_material = global::TiuShop.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_star_black_16dp = global::TiuShop.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_star_black_36dp = global::TiuShop.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_star_black_48dp = global::TiuShop.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_star_half_black_16dp = global::TiuShop.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_star_half_black_36dp = global::TiuShop.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_star_half_black_48dp = global::TiuShop.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ic_voice_search_api_material = global::TiuShop.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_item_background_holo_dark = global::TiuShop.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_item_background_holo_light = global::TiuShop.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_divider_material = global::TiuShop.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_divider_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_focused_holo = global::TiuShop.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_longpressed_holo = global::TiuShop.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_pressed_holo_dark = global::TiuShop.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_pressed_holo_light = global::TiuShop.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::TiuShop.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::TiuShop.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::TiuShop.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_selector_disabled_holo_light = global::TiuShop.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_selector_holo_dark = global::TiuShop.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_list_selector_holo_light = global::TiuShop.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::TiuShop.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_popup_background_mtrl_mult = global::TiuShop.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ratingbar_indicator_material = global::TiuShop.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ratingbar_material = global::TiuShop.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_ratingbar_small_material = global::TiuShop.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::TiuShop.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::TiuShop.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_seekbar_thumb_material = global::TiuShop.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_seekbar_tick_mark_material = global::TiuShop.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_seekbar_track_material = global::TiuShop.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::TiuShop.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_spinner_textfield_background_material = global::TiuShop.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_switch_thumb_material = global::TiuShop.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_switch_track_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_tab_indicator_material = global::TiuShop.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::TiuShop.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_textfield_search_material = global::TiuShop.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_text_cursor_material = global::TiuShop.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::TiuShop.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::TiuShop.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::TiuShop.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::TiuShop.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::TiuShop.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::TiuShop.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Rg.Plugins.Popup.Resource.Drawable.abc_vector_test = global::TiuShop.Droid.Resource.Drawable.abc_vector_test;
+			global::Rg.Plugins.Popup.Resource.Drawable.avd_hide_password = global::TiuShop.Droid.Resource.Drawable.avd_hide_password;
+			global::Rg.Plugins.Popup.Resource.Drawable.avd_show_password = global::TiuShop.Droid.Resource.Drawable.avd_show_password;
+			global::Rg.Plugins.Popup.Resource.Drawable.btn_checkbox_checked_mtrl = global::TiuShop.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Rg.Plugins.Popup.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::TiuShop.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Rg.Plugins.Popup.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::TiuShop.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Rg.Plugins.Popup.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::TiuShop.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Rg.Plugins.Popup.Resource.Drawable.btn_radio_off_mtrl = global::TiuShop.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Rg.Plugins.Popup.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::TiuShop.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Rg.Plugins.Popup.Resource.Drawable.btn_radio_on_mtrl = global::TiuShop.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Rg.Plugins.Popup.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::TiuShop.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Rg.Plugins.Popup.Resource.Drawable.design_bottom_navigation_item_background = global::TiuShop.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Rg.Plugins.Popup.Resource.Drawable.design_fab_background = global::TiuShop.Droid.Resource.Drawable.design_fab_background;
+			global::Rg.Plugins.Popup.Resource.Drawable.design_ic_visibility = global::TiuShop.Droid.Resource.Drawable.design_ic_visibility;
+			global::Rg.Plugins.Popup.Resource.Drawable.design_ic_visibility_off = global::TiuShop.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Rg.Plugins.Popup.Resource.Drawable.design_password_eye = global::TiuShop.Droid.Resource.Drawable.design_password_eye;
+			global::Rg.Plugins.Popup.Resource.Drawable.design_snackbar_background = global::TiuShop.Droid.Resource.Drawable.design_snackbar_background;
+			global::Rg.Plugins.Popup.Resource.Drawable.ic_mtrl_chip_checked_black = global::TiuShop.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Rg.Plugins.Popup.Resource.Drawable.ic_mtrl_chip_checked_circle = global::TiuShop.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Rg.Plugins.Popup.Resource.Drawable.ic_mtrl_chip_close_circle = global::TiuShop.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_tabs_default_indicator = global::TiuShop.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Rg.Plugins.Popup.Resource.Drawable.navigation_empty_icon = global::TiuShop.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_action_background = global::TiuShop.Droid.Resource.Drawable.notification_action_background;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_bg = global::TiuShop.Droid.Resource.Drawable.notification_bg;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_bg_low = global::TiuShop.Droid.Resource.Drawable.notification_bg_low;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_bg_low_normal = global::TiuShop.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_bg_low_pressed = global::TiuShop.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_bg_normal = global::TiuShop.Droid.Resource.Drawable.notification_bg_normal;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_bg_normal_pressed = global::TiuShop.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_icon_background = global::TiuShop.Droid.Resource.Drawable.notification_icon_background;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_template_icon_bg = global::TiuShop.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_template_icon_low_bg = global::TiuShop.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Rg.Plugins.Popup.Resource.Drawable.notification_tile_bg = global::TiuShop.Droid.Resource.Drawable.notification_tile_bg;
+			global::Rg.Plugins.Popup.Resource.Drawable.notify_panel_notification_icon_bg = global::TiuShop.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Rg.Plugins.Popup.Resource.Drawable.tooltip_frame_dark = global::TiuShop.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Rg.Plugins.Popup.Resource.Drawable.tooltip_frame_light = global::TiuShop.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_action_clickable_span = global::TiuShop.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_0 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_1 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_10 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_11 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_12 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_13 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_14 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_15 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_16 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_17 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_18 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_19 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_2 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_20 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_21 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_22 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_23 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_24 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_25 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_26 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_27 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_28 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_29 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_3 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_30 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_31 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_4 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_5 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_6 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_7 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_8 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Rg.Plugins.Popup.Resource.Id.accessibility_custom_action_9 = global::TiuShop.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Rg.Plugins.Popup.Resource.Id.action0 = global::TiuShop.Droid.Resource.Id.action0;
+			global::Rg.Plugins.Popup.Resource.Id.actions = global::TiuShop.Droid.Resource.Id.actions;
+			global::Rg.Plugins.Popup.Resource.Id.action_bar = global::TiuShop.Droid.Resource.Id.action_bar;
+			global::Rg.Plugins.Popup.Resource.Id.action_bar_activity_content = global::TiuShop.Droid.Resource.Id.action_bar_activity_content;
+			global::Rg.Plugins.Popup.Resource.Id.action_bar_container = global::TiuShop.Droid.Resource.Id.action_bar_container;
+			global::Rg.Plugins.Popup.Resource.Id.action_bar_root = global::TiuShop.Droid.Resource.Id.action_bar_root;
+			global::Rg.Plugins.Popup.Resource.Id.action_bar_spinner = global::TiuShop.Droid.Resource.Id.action_bar_spinner;
+			global::Rg.Plugins.Popup.Resource.Id.action_bar_subtitle = global::TiuShop.Droid.Resource.Id.action_bar_subtitle;
+			global::Rg.Plugins.Popup.Resource.Id.action_bar_title = global::TiuShop.Droid.Resource.Id.action_bar_title;
+			global::Rg.Plugins.Popup.Resource.Id.action_container = global::TiuShop.Droid.Resource.Id.action_container;
+			global::Rg.Plugins.Popup.Resource.Id.action_context_bar = global::TiuShop.Droid.Resource.Id.action_context_bar;
+			global::Rg.Plugins.Popup.Resource.Id.action_divider = global::TiuShop.Droid.Resource.Id.action_divider;
+			global::Rg.Plugins.Popup.Resource.Id.action_image = global::TiuShop.Droid.Resource.Id.action_image;
+			global::Rg.Plugins.Popup.Resource.Id.action_menu_divider = global::TiuShop.Droid.Resource.Id.action_menu_divider;
+			global::Rg.Plugins.Popup.Resource.Id.action_menu_presenter = global::TiuShop.Droid.Resource.Id.action_menu_presenter;
+			global::Rg.Plugins.Popup.Resource.Id.action_mode_bar = global::TiuShop.Droid.Resource.Id.action_mode_bar;
+			global::Rg.Plugins.Popup.Resource.Id.action_mode_bar_stub = global::TiuShop.Droid.Resource.Id.action_mode_bar_stub;
+			global::Rg.Plugins.Popup.Resource.Id.action_mode_close_button = global::TiuShop.Droid.Resource.Id.action_mode_close_button;
+			global::Rg.Plugins.Popup.Resource.Id.action_text = global::TiuShop.Droid.Resource.Id.action_text;
+			global::Rg.Plugins.Popup.Resource.Id.activity_chooser_view_content = global::TiuShop.Droid.Resource.Id.activity_chooser_view_content;
+			global::Rg.Plugins.Popup.Resource.Id.add = global::TiuShop.Droid.Resource.Id.add;
+			global::Rg.Plugins.Popup.Resource.Id.alertTitle = global::TiuShop.Droid.Resource.Id.alertTitle;
+			global::Rg.Plugins.Popup.Resource.Id.all = global::TiuShop.Droid.Resource.Id.all;
+			global::Rg.Plugins.Popup.Resource.Id.ALT = global::TiuShop.Droid.Resource.Id.ALT;
+			global::Rg.Plugins.Popup.Resource.Id.always = global::TiuShop.Droid.Resource.Id.always;
+			global::Rg.Plugins.Popup.Resource.Id.async = global::TiuShop.Droid.Resource.Id.async;
+			global::Rg.Plugins.Popup.Resource.Id.auto = global::TiuShop.Droid.Resource.Id.auto;
+			global::Rg.Plugins.Popup.Resource.Id.beginning = global::TiuShop.Droid.Resource.Id.beginning;
+			global::Rg.Plugins.Popup.Resource.Id.blocking = global::TiuShop.Droid.Resource.Id.blocking;
+			global::Rg.Plugins.Popup.Resource.Id.bottom = global::TiuShop.Droid.Resource.Id.bottom;
+			global::Rg.Plugins.Popup.Resource.Id.bottomtab_navarea = global::TiuShop.Droid.Resource.Id.bottomtab_navarea;
+			global::Rg.Plugins.Popup.Resource.Id.bottomtab_tabbar = global::TiuShop.Droid.Resource.Id.bottomtab_tabbar;
+			global::Rg.Plugins.Popup.Resource.Id.browser_actions_header_text = global::TiuShop.Droid.Resource.Id.browser_actions_header_text;
+			global::Rg.Plugins.Popup.Resource.Id.browser_actions_menu_items = global::TiuShop.Droid.Resource.Id.browser_actions_menu_items;
+			global::Rg.Plugins.Popup.Resource.Id.browser_actions_menu_item_icon = global::TiuShop.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Rg.Plugins.Popup.Resource.Id.browser_actions_menu_item_text = global::TiuShop.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Rg.Plugins.Popup.Resource.Id.browser_actions_menu_view = global::TiuShop.Droid.Resource.Id.browser_actions_menu_view;
+			global::Rg.Plugins.Popup.Resource.Id.buttonPanel = global::TiuShop.Droid.Resource.Id.buttonPanel;
+			global::Rg.Plugins.Popup.Resource.Id.cancel_action = global::TiuShop.Droid.Resource.Id.cancel_action;
+			global::Rg.Plugins.Popup.Resource.Id.center = global::TiuShop.Droid.Resource.Id.center;
+			global::Rg.Plugins.Popup.Resource.Id.center_horizontal = global::TiuShop.Droid.Resource.Id.center_horizontal;
+			global::Rg.Plugins.Popup.Resource.Id.center_vertical = global::TiuShop.Droid.Resource.Id.center_vertical;
+			global::Rg.Plugins.Popup.Resource.Id.checkbox = global::TiuShop.Droid.Resource.Id.checkbox;
+			global::Rg.Plugins.Popup.Resource.Id.@checked = global::TiuShop.Droid.Resource.Id.@checked;
+			global::Rg.Plugins.Popup.Resource.Id.chronometer = global::TiuShop.Droid.Resource.Id.chronometer;
+			global::Rg.Plugins.Popup.Resource.Id.clip_horizontal = global::TiuShop.Droid.Resource.Id.clip_horizontal;
+			global::Rg.Plugins.Popup.Resource.Id.clip_vertical = global::TiuShop.Droid.Resource.Id.clip_vertical;
+			global::Rg.Plugins.Popup.Resource.Id.collapseActionView = global::TiuShop.Droid.Resource.Id.collapseActionView;
+			global::Rg.Plugins.Popup.Resource.Id.container = global::TiuShop.Droid.Resource.Id.container;
+			global::Rg.Plugins.Popup.Resource.Id.content = global::TiuShop.Droid.Resource.Id.content;
+			global::Rg.Plugins.Popup.Resource.Id.contentPanel = global::TiuShop.Droid.Resource.Id.contentPanel;
+			global::Rg.Plugins.Popup.Resource.Id.coordinator = global::TiuShop.Droid.Resource.Id.coordinator;
+			global::Rg.Plugins.Popup.Resource.Id.CTRL = global::TiuShop.Droid.Resource.Id.CTRL;
+			global::Rg.Plugins.Popup.Resource.Id.custom = global::TiuShop.Droid.Resource.Id.custom;
+			global::Rg.Plugins.Popup.Resource.Id.customPanel = global::TiuShop.Droid.Resource.Id.customPanel;
+			global::Rg.Plugins.Popup.Resource.Id.decor_content_parent = global::TiuShop.Droid.Resource.Id.decor_content_parent;
+			global::Rg.Plugins.Popup.Resource.Id.default_activity_button = global::TiuShop.Droid.Resource.Id.default_activity_button;
+			global::Rg.Plugins.Popup.Resource.Id.design_bottom_sheet = global::TiuShop.Droid.Resource.Id.design_bottom_sheet;
+			global::Rg.Plugins.Popup.Resource.Id.design_menu_item_action_area = global::TiuShop.Droid.Resource.Id.design_menu_item_action_area;
+			global::Rg.Plugins.Popup.Resource.Id.design_menu_item_action_area_stub = global::TiuShop.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Rg.Plugins.Popup.Resource.Id.design_menu_item_text = global::TiuShop.Droid.Resource.Id.design_menu_item_text;
+			global::Rg.Plugins.Popup.Resource.Id.design_navigation_view = global::TiuShop.Droid.Resource.Id.design_navigation_view;
+			global::Rg.Plugins.Popup.Resource.Id.dialog_button = global::TiuShop.Droid.Resource.Id.dialog_button;
+			global::Rg.Plugins.Popup.Resource.Id.disableHome = global::TiuShop.Droid.Resource.Id.disableHome;
+			global::Rg.Plugins.Popup.Resource.Id.edit_query = global::TiuShop.Droid.Resource.Id.edit_query;
+			global::Rg.Plugins.Popup.Resource.Id.end = global::TiuShop.Droid.Resource.Id.end;
+			global::Rg.Plugins.Popup.Resource.Id.end_padder = global::TiuShop.Droid.Resource.Id.end_padder;
+			global::Rg.Plugins.Popup.Resource.Id.enterAlways = global::TiuShop.Droid.Resource.Id.enterAlways;
+			global::Rg.Plugins.Popup.Resource.Id.enterAlwaysCollapsed = global::TiuShop.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Rg.Plugins.Popup.Resource.Id.exitUntilCollapsed = global::TiuShop.Droid.Resource.Id.exitUntilCollapsed;
+			global::Rg.Plugins.Popup.Resource.Id.expanded_menu = global::TiuShop.Droid.Resource.Id.expanded_menu;
+			global::Rg.Plugins.Popup.Resource.Id.expand_activities_button = global::TiuShop.Droid.Resource.Id.expand_activities_button;
+			global::Rg.Plugins.Popup.Resource.Id.fill = global::TiuShop.Droid.Resource.Id.fill;
+			global::Rg.Plugins.Popup.Resource.Id.filled = global::TiuShop.Droid.Resource.Id.filled;
+			global::Rg.Plugins.Popup.Resource.Id.fill_horizontal = global::TiuShop.Droid.Resource.Id.fill_horizontal;
+			global::Rg.Plugins.Popup.Resource.Id.fill_vertical = global::TiuShop.Droid.Resource.Id.fill_vertical;
+			global::Rg.Plugins.Popup.Resource.Id.@fixed = global::TiuShop.Droid.Resource.Id.@fixed;
+			global::Rg.Plugins.Popup.Resource.Id.flyoutcontent_appbar = global::TiuShop.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Rg.Plugins.Popup.Resource.Id.forever = global::TiuShop.Droid.Resource.Id.forever;
+			global::Rg.Plugins.Popup.Resource.Id.FUNCTION = global::TiuShop.Droid.Resource.Id.FUNCTION;
+			global::Rg.Plugins.Popup.Resource.Id.ghost_view = global::TiuShop.Droid.Resource.Id.ghost_view;
+			global::Rg.Plugins.Popup.Resource.Id.ghost_view_holder = global::TiuShop.Droid.Resource.Id.ghost_view_holder;
+			global::Rg.Plugins.Popup.Resource.Id.group_divider = global::TiuShop.Droid.Resource.Id.group_divider;
+			global::Rg.Plugins.Popup.Resource.Id.home = global::TiuShop.Droid.Resource.Id.home;
+			global::Rg.Plugins.Popup.Resource.Id.homeAsUp = global::TiuShop.Droid.Resource.Id.homeAsUp;
+			global::Rg.Plugins.Popup.Resource.Id.icon = global::TiuShop.Droid.Resource.Id.icon;
+			global::Rg.Plugins.Popup.Resource.Id.icon_group = global::TiuShop.Droid.Resource.Id.icon_group;
+			global::Rg.Plugins.Popup.Resource.Id.ifRoom = global::TiuShop.Droid.Resource.Id.ifRoom;
+			global::Rg.Plugins.Popup.Resource.Id.image = global::TiuShop.Droid.Resource.Id.image;
+			global::Rg.Plugins.Popup.Resource.Id.info = global::TiuShop.Droid.Resource.Id.info;
+			global::Rg.Plugins.Popup.Resource.Id.italic = global::TiuShop.Droid.Resource.Id.italic;
+			global::Rg.Plugins.Popup.Resource.Id.item_touch_helper_previous_elevation = global::TiuShop.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Rg.Plugins.Popup.Resource.Id.labeled = global::TiuShop.Droid.Resource.Id.labeled;
+			global::Rg.Plugins.Popup.Resource.Id.largeLabel = global::TiuShop.Droid.Resource.Id.largeLabel;
+			global::Rg.Plugins.Popup.Resource.Id.left = global::TiuShop.Droid.Resource.Id.left;
+			global::Rg.Plugins.Popup.Resource.Id.line1 = global::TiuShop.Droid.Resource.Id.line1;
+			global::Rg.Plugins.Popup.Resource.Id.line3 = global::TiuShop.Droid.Resource.Id.line3;
+			global::Rg.Plugins.Popup.Resource.Id.listMode = global::TiuShop.Droid.Resource.Id.listMode;
+			global::Rg.Plugins.Popup.Resource.Id.list_item = global::TiuShop.Droid.Resource.Id.list_item;
+			global::Rg.Plugins.Popup.Resource.Id.main_appbar = global::TiuShop.Droid.Resource.Id.main_appbar;
+			global::Rg.Plugins.Popup.Resource.Id.main_tablayout = global::TiuShop.Droid.Resource.Id.main_tablayout;
+			global::Rg.Plugins.Popup.Resource.Id.main_toolbar = global::TiuShop.Droid.Resource.Id.main_toolbar;
+			global::Rg.Plugins.Popup.Resource.Id.main_viewpager = global::TiuShop.Droid.Resource.Id.main_viewpager;
+			global::Rg.Plugins.Popup.Resource.Id.masked = global::TiuShop.Droid.Resource.Id.masked;
+			global::Rg.Plugins.Popup.Resource.Id.media_actions = global::TiuShop.Droid.Resource.Id.media_actions;
+			global::Rg.Plugins.Popup.Resource.Id.message = global::TiuShop.Droid.Resource.Id.message;
+			global::Rg.Plugins.Popup.Resource.Id.META = global::TiuShop.Droid.Resource.Id.META;
+			global::Rg.Plugins.Popup.Resource.Id.middle = global::TiuShop.Droid.Resource.Id.middle;
+			global::Rg.Plugins.Popup.Resource.Id.mini = global::TiuShop.Droid.Resource.Id.mini;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_child_content_container = global::TiuShop.Droid.Resource.Id.mtrl_child_content_container;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_internal_children_alpha_tag = global::TiuShop.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Rg.Plugins.Popup.Resource.Id.multiply = global::TiuShop.Droid.Resource.Id.multiply;
+			global::Rg.Plugins.Popup.Resource.Id.navigation_header_container = global::TiuShop.Droid.Resource.Id.navigation_header_container;
+			global::Rg.Plugins.Popup.Resource.Id.never = global::TiuShop.Droid.Resource.Id.never;
+			global::Rg.Plugins.Popup.Resource.Id.none = global::TiuShop.Droid.Resource.Id.none;
+			global::Rg.Plugins.Popup.Resource.Id.normal = global::TiuShop.Droid.Resource.Id.normal;
+			global::Rg.Plugins.Popup.Resource.Id.notification_background = global::TiuShop.Droid.Resource.Id.notification_background;
+			global::Rg.Plugins.Popup.Resource.Id.notification_main_column = global::TiuShop.Droid.Resource.Id.notification_main_column;
+			global::Rg.Plugins.Popup.Resource.Id.notification_main_column_container = global::TiuShop.Droid.Resource.Id.notification_main_column_container;
+			global::Rg.Plugins.Popup.Resource.Id.off = global::TiuShop.Droid.Resource.Id.off;
+			global::Rg.Plugins.Popup.Resource.Id.on = global::TiuShop.Droid.Resource.Id.on;
+			global::Rg.Plugins.Popup.Resource.Id.outline = global::TiuShop.Droid.Resource.Id.outline;
+			global::Rg.Plugins.Popup.Resource.Id.parallax = global::TiuShop.Droid.Resource.Id.parallax;
+			global::Rg.Plugins.Popup.Resource.Id.parentPanel = global::TiuShop.Droid.Resource.Id.parentPanel;
+			global::Rg.Plugins.Popup.Resource.Id.parent_matrix = global::TiuShop.Droid.Resource.Id.parent_matrix;
+			global::Rg.Plugins.Popup.Resource.Id.pin = global::TiuShop.Droid.Resource.Id.pin;
+			global::Rg.Plugins.Popup.Resource.Id.progress_circular = global::TiuShop.Droid.Resource.Id.progress_circular;
+			global::Rg.Plugins.Popup.Resource.Id.progress_horizontal = global::TiuShop.Droid.Resource.Id.progress_horizontal;
+			global::Rg.Plugins.Popup.Resource.Id.radio = global::TiuShop.Droid.Resource.Id.radio;
+			global::Rg.Plugins.Popup.Resource.Id.right = global::TiuShop.Droid.Resource.Id.right;
+			global::Rg.Plugins.Popup.Resource.Id.right_icon = global::TiuShop.Droid.Resource.Id.right_icon;
+			global::Rg.Plugins.Popup.Resource.Id.right_side = global::TiuShop.Droid.Resource.Id.right_side;
+			global::Rg.Plugins.Popup.Resource.Id.save_non_transition_alpha = global::TiuShop.Droid.Resource.Id.save_non_transition_alpha;
+			global::Rg.Plugins.Popup.Resource.Id.save_overlay_view = global::TiuShop.Droid.Resource.Id.save_overlay_view;
+			global::Rg.Plugins.Popup.Resource.Id.screen = global::TiuShop.Droid.Resource.Id.screen;
+			global::Rg.Plugins.Popup.Resource.Id.scroll = global::TiuShop.Droid.Resource.Id.scroll;
+			global::Rg.Plugins.Popup.Resource.Id.scrollable = global::TiuShop.Droid.Resource.Id.scrollable;
+			global::Rg.Plugins.Popup.Resource.Id.scrollIndicatorDown = global::TiuShop.Droid.Resource.Id.scrollIndicatorDown;
+			global::Rg.Plugins.Popup.Resource.Id.scrollIndicatorUp = global::TiuShop.Droid.Resource.Id.scrollIndicatorUp;
+			global::Rg.Plugins.Popup.Resource.Id.scrollView = global::TiuShop.Droid.Resource.Id.scrollView;
+			global::Rg.Plugins.Popup.Resource.Id.search_badge = global::TiuShop.Droid.Resource.Id.search_badge;
+			global::Rg.Plugins.Popup.Resource.Id.search_bar = global::TiuShop.Droid.Resource.Id.search_bar;
+			global::Rg.Plugins.Popup.Resource.Id.search_button = global::TiuShop.Droid.Resource.Id.search_button;
+			global::Rg.Plugins.Popup.Resource.Id.search_close_btn = global::TiuShop.Droid.Resource.Id.search_close_btn;
+			global::Rg.Plugins.Popup.Resource.Id.search_edit_frame = global::TiuShop.Droid.Resource.Id.search_edit_frame;
+			global::Rg.Plugins.Popup.Resource.Id.search_go_btn = global::TiuShop.Droid.Resource.Id.search_go_btn;
+			global::Rg.Plugins.Popup.Resource.Id.search_mag_icon = global::TiuShop.Droid.Resource.Id.search_mag_icon;
+			global::Rg.Plugins.Popup.Resource.Id.search_plate = global::TiuShop.Droid.Resource.Id.search_plate;
+			global::Rg.Plugins.Popup.Resource.Id.search_src_text = global::TiuShop.Droid.Resource.Id.search_src_text;
+			global::Rg.Plugins.Popup.Resource.Id.search_voice_btn = global::TiuShop.Droid.Resource.Id.search_voice_btn;
+			global::Rg.Plugins.Popup.Resource.Id.selected = global::TiuShop.Droid.Resource.Id.selected;
+			global::Rg.Plugins.Popup.Resource.Id.select_dialog_listview = global::TiuShop.Droid.Resource.Id.select_dialog_listview;
+			global::Rg.Plugins.Popup.Resource.Id.shellcontent_appbar = global::TiuShop.Droid.Resource.Id.shellcontent_appbar;
+			global::Rg.Plugins.Popup.Resource.Id.shellcontent_toolbar = global::TiuShop.Droid.Resource.Id.shellcontent_toolbar;
+			global::Rg.Plugins.Popup.Resource.Id.SHIFT = global::TiuShop.Droid.Resource.Id.SHIFT;
+			global::Rg.Plugins.Popup.Resource.Id.shortcut = global::TiuShop.Droid.Resource.Id.shortcut;
+			global::Rg.Plugins.Popup.Resource.Id.showCustom = global::TiuShop.Droid.Resource.Id.showCustom;
+			global::Rg.Plugins.Popup.Resource.Id.showHome = global::TiuShop.Droid.Resource.Id.showHome;
+			global::Rg.Plugins.Popup.Resource.Id.showTitle = global::TiuShop.Droid.Resource.Id.showTitle;
+			global::Rg.Plugins.Popup.Resource.Id.sliding_tabs = global::TiuShop.Droid.Resource.Id.sliding_tabs;
+			global::Rg.Plugins.Popup.Resource.Id.smallLabel = global::TiuShop.Droid.Resource.Id.smallLabel;
+			global::Rg.Plugins.Popup.Resource.Id.snackbar_action = global::TiuShop.Droid.Resource.Id.snackbar_action;
+			global::Rg.Plugins.Popup.Resource.Id.snackbar_text = global::TiuShop.Droid.Resource.Id.snackbar_text;
+			global::Rg.Plugins.Popup.Resource.Id.snap = global::TiuShop.Droid.Resource.Id.snap;
+			global::Rg.Plugins.Popup.Resource.Id.snapMargins = global::TiuShop.Droid.Resource.Id.snapMargins;
+			global::Rg.Plugins.Popup.Resource.Id.spacer = global::TiuShop.Droid.Resource.Id.spacer;
+			global::Rg.Plugins.Popup.Resource.Id.split_action_bar = global::TiuShop.Droid.Resource.Id.split_action_bar;
+			global::Rg.Plugins.Popup.Resource.Id.src_atop = global::TiuShop.Droid.Resource.Id.src_atop;
+			global::Rg.Plugins.Popup.Resource.Id.src_in = global::TiuShop.Droid.Resource.Id.src_in;
+			global::Rg.Plugins.Popup.Resource.Id.src_over = global::TiuShop.Droid.Resource.Id.src_over;
+			global::Rg.Plugins.Popup.Resource.Id.start = global::TiuShop.Droid.Resource.Id.start;
+			global::Rg.Plugins.Popup.Resource.Id.status_bar_latest_event_content = global::TiuShop.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Rg.Plugins.Popup.Resource.Id.stretch = global::TiuShop.Droid.Resource.Id.stretch;
+			global::Rg.Plugins.Popup.Resource.Id.submenuarrow = global::TiuShop.Droid.Resource.Id.submenuarrow;
+			global::Rg.Plugins.Popup.Resource.Id.submit_area = global::TiuShop.Droid.Resource.Id.submit_area;
+			global::Rg.Plugins.Popup.Resource.Id.SYM = global::TiuShop.Droid.Resource.Id.SYM;
+			global::Rg.Plugins.Popup.Resource.Id.tabMode = global::TiuShop.Droid.Resource.Id.tabMode;
+			global::Rg.Plugins.Popup.Resource.Id.tag_accessibility_actions = global::TiuShop.Droid.Resource.Id.tag_accessibility_actions;
+			global::Rg.Plugins.Popup.Resource.Id.tag_accessibility_clickable_spans = global::TiuShop.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Rg.Plugins.Popup.Resource.Id.tag_accessibility_heading = global::TiuShop.Droid.Resource.Id.tag_accessibility_heading;
+			global::Rg.Plugins.Popup.Resource.Id.tag_accessibility_pane_title = global::TiuShop.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Rg.Plugins.Popup.Resource.Id.tag_screen_reader_focusable = global::TiuShop.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Rg.Plugins.Popup.Resource.Id.tag_transition_group = global::TiuShop.Droid.Resource.Id.tag_transition_group;
+			global::Rg.Plugins.Popup.Resource.Id.tag_unhandled_key_event_manager = global::TiuShop.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Rg.Plugins.Popup.Resource.Id.tag_unhandled_key_listeners = global::TiuShop.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Rg.Plugins.Popup.Resource.Id.text = global::TiuShop.Droid.Resource.Id.text;
+			global::Rg.Plugins.Popup.Resource.Id.text2 = global::TiuShop.Droid.Resource.Id.text2;
+			global::Rg.Plugins.Popup.Resource.Id.textinput_counter = global::TiuShop.Droid.Resource.Id.textinput_counter;
+			global::Rg.Plugins.Popup.Resource.Id.textinput_error = global::TiuShop.Droid.Resource.Id.textinput_error;
+			global::Rg.Plugins.Popup.Resource.Id.textinput_helper_text = global::TiuShop.Droid.Resource.Id.textinput_helper_text;
+			global::Rg.Plugins.Popup.Resource.Id.textSpacerNoButtons = global::TiuShop.Droid.Resource.Id.textSpacerNoButtons;
+			global::Rg.Plugins.Popup.Resource.Id.textSpacerNoTitle = global::TiuShop.Droid.Resource.Id.textSpacerNoTitle;
+			global::Rg.Plugins.Popup.Resource.Id.textStart = global::TiuShop.Droid.Resource.Id.textStart;
+			global::Rg.Plugins.Popup.Resource.Id.time = global::TiuShop.Droid.Resource.Id.time;
+			global::Rg.Plugins.Popup.Resource.Id.title = global::TiuShop.Droid.Resource.Id.title;
+			global::Rg.Plugins.Popup.Resource.Id.titleDividerNoCustom = global::TiuShop.Droid.Resource.Id.titleDividerNoCustom;
+			global::Rg.Plugins.Popup.Resource.Id.title_template = global::TiuShop.Droid.Resource.Id.title_template;
+			global::Rg.Plugins.Popup.Resource.Id.toolbar = global::TiuShop.Droid.Resource.Id.toolbar;
+			global::Rg.Plugins.Popup.Resource.Id.top = global::TiuShop.Droid.Resource.Id.top;
+			global::Rg.Plugins.Popup.Resource.Id.topPanel = global::TiuShop.Droid.Resource.Id.topPanel;
+			global::Rg.Plugins.Popup.Resource.Id.touch_outside = global::TiuShop.Droid.Resource.Id.touch_outside;
+			global::Rg.Plugins.Popup.Resource.Id.transition_current_scene = global::TiuShop.Droid.Resource.Id.transition_current_scene;
+			global::Rg.Plugins.Popup.Resource.Id.transition_layout_save = global::TiuShop.Droid.Resource.Id.transition_layout_save;
+			global::Rg.Plugins.Popup.Resource.Id.transition_position = global::TiuShop.Droid.Resource.Id.transition_position;
+			global::Rg.Plugins.Popup.Resource.Id.transition_scene_layoutid_cache = global::TiuShop.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Rg.Plugins.Popup.Resource.Id.transition_transform = global::TiuShop.Droid.Resource.Id.transition_transform;
+			global::Rg.Plugins.Popup.Resource.Id.@unchecked = global::TiuShop.Droid.Resource.Id.@unchecked;
+			global::Rg.Plugins.Popup.Resource.Id.uniform = global::TiuShop.Droid.Resource.Id.uniform;
+			global::Rg.Plugins.Popup.Resource.Id.unlabeled = global::TiuShop.Droid.Resource.Id.unlabeled;
+			global::Rg.Plugins.Popup.Resource.Id.up = global::TiuShop.Droid.Resource.Id.up;
+			global::Rg.Plugins.Popup.Resource.Id.useLogo = global::TiuShop.Droid.Resource.Id.useLogo;
+			global::Rg.Plugins.Popup.Resource.Id.view_offset_helper = global::TiuShop.Droid.Resource.Id.view_offset_helper;
+			global::Rg.Plugins.Popup.Resource.Id.visible = global::TiuShop.Droid.Resource.Id.visible;
+			global::Rg.Plugins.Popup.Resource.Id.withText = global::TiuShop.Droid.Resource.Id.withText;
+			global::Rg.Plugins.Popup.Resource.Id.wrap_content = global::TiuShop.Droid.Resource.Id.wrap_content;
+			global::Rg.Plugins.Popup.Resource.Integer.abc_config_activityDefaultDur = global::TiuShop.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Rg.Plugins.Popup.Resource.Integer.abc_config_activityShortDur = global::TiuShop.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Rg.Plugins.Popup.Resource.Integer.app_bar_elevation_anim_duration = global::TiuShop.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Rg.Plugins.Popup.Resource.Integer.bottom_sheet_slide_duration = global::TiuShop.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Rg.Plugins.Popup.Resource.Integer.cancel_button_image_alpha = global::TiuShop.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Rg.Plugins.Popup.Resource.Integer.config_tooltipAnimTime = global::TiuShop.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Rg.Plugins.Popup.Resource.Integer.design_snackbar_text_max_lines = global::TiuShop.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Rg.Plugins.Popup.Resource.Integer.design_tab_indicator_anim_duration_ms = global::TiuShop.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Rg.Plugins.Popup.Resource.Integer.hide_password_duration = global::TiuShop.Droid.Resource.Integer.hide_password_duration;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_btn_anim_delay_ms = global::TiuShop.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_btn_anim_duration_ms = global::TiuShop.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_chip_anim_duration = global::TiuShop.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::TiuShop.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Rg.Plugins.Popup.Resource.Integer.show_password_duration = global::TiuShop.Droid.Resource.Integer.show_password_duration;
+			global::Rg.Plugins.Popup.Resource.Integer.status_bar_notification_info_maxnum = global::TiuShop.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Rg.Plugins.Popup.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::TiuShop.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Rg.Plugins.Popup.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::TiuShop.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Rg.Plugins.Popup.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::TiuShop.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Rg.Plugins.Popup.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::TiuShop.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Rg.Plugins.Popup.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::TiuShop.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Rg.Plugins.Popup.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::TiuShop.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Rg.Plugins.Popup.Resource.Interpolator.fast_out_slow_in = global::TiuShop.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Rg.Plugins.Popup.Resource.Interpolator.mtrl_fast_out_linear_in = global::TiuShop.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Rg.Plugins.Popup.Resource.Interpolator.mtrl_fast_out_slow_in = global::TiuShop.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Rg.Plugins.Popup.Resource.Interpolator.mtrl_linear = global::TiuShop.Droid.Resource.Interpolator.mtrl_linear;
+			global::Rg.Plugins.Popup.Resource.Interpolator.mtrl_linear_out_slow_in = global::TiuShop.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_action_bar_title_item = global::TiuShop.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_action_bar_up_container = global::TiuShop.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_action_menu_item_layout = global::TiuShop.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_action_menu_layout = global::TiuShop.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_action_mode_bar = global::TiuShop.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_action_mode_close_item_material = global::TiuShop.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_activity_chooser_view = global::TiuShop.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_activity_chooser_view_list_item = global::TiuShop.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_alert_dialog_button_bar_material = global::TiuShop.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_alert_dialog_material = global::TiuShop.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_alert_dialog_title_material = global::TiuShop.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_cascading_menu_item_layout = global::TiuShop.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_dialog_title_material = global::TiuShop.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_expanded_menu_layout = global::TiuShop.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_list_menu_item_checkbox = global::TiuShop.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_list_menu_item_icon = global::TiuShop.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_list_menu_item_layout = global::TiuShop.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_list_menu_item_radio = global::TiuShop.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_popup_menu_header_item_layout = global::TiuShop.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_popup_menu_item_layout = global::TiuShop.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_screen_content_include = global::TiuShop.Droid.Resource.Layout.abc_screen_content_include;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_screen_simple = global::TiuShop.Droid.Resource.Layout.abc_screen_simple;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_screen_simple_overlay_action_mode = global::TiuShop.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_screen_toolbar = global::TiuShop.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_search_dropdown_item_icons_2line = global::TiuShop.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_search_view = global::TiuShop.Droid.Resource.Layout.abc_search_view;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_select_dialog_material = global::TiuShop.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Rg.Plugins.Popup.Resource.Layout.abc_tooltip = global::TiuShop.Droid.Resource.Layout.abc_tooltip;
+			global::Rg.Plugins.Popup.Resource.Layout.BottomTabLayout = global::TiuShop.Droid.Resource.Layout.BottomTabLayout;
+			global::Rg.Plugins.Popup.Resource.Layout.browser_actions_context_menu_page = global::TiuShop.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Rg.Plugins.Popup.Resource.Layout.browser_actions_context_menu_row = global::TiuShop.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Rg.Plugins.Popup.Resource.Layout.custom_dialog = global::TiuShop.Droid.Resource.Layout.custom_dialog;
+			global::Rg.Plugins.Popup.Resource.Layout.design_bottom_navigation_item = global::TiuShop.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Rg.Plugins.Popup.Resource.Layout.design_bottom_sheet_dialog = global::TiuShop.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Rg.Plugins.Popup.Resource.Layout.design_layout_snackbar = global::TiuShop.Droid.Resource.Layout.design_layout_snackbar;
+			global::Rg.Plugins.Popup.Resource.Layout.design_layout_snackbar_include = global::TiuShop.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Rg.Plugins.Popup.Resource.Layout.design_layout_tab_icon = global::TiuShop.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Rg.Plugins.Popup.Resource.Layout.design_layout_tab_text = global::TiuShop.Droid.Resource.Layout.design_layout_tab_text;
+			global::Rg.Plugins.Popup.Resource.Layout.design_menu_item_action_area = global::TiuShop.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_item = global::TiuShop.Droid.Resource.Layout.design_navigation_item;
+			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_item_header = global::TiuShop.Droid.Resource.Layout.design_navigation_item_header;
+			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_item_separator = global::TiuShop.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_item_subheader = global::TiuShop.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_menu = global::TiuShop.Droid.Resource.Layout.design_navigation_menu;
+			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_menu_item = global::TiuShop.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Rg.Plugins.Popup.Resource.Layout.FallbackTabbarDoNotUse = global::TiuShop.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Rg.Plugins.Popup.Resource.Layout.FallbackToolbarDoNotUse = global::TiuShop.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Rg.Plugins.Popup.Resource.Layout.FlyoutContent = global::TiuShop.Droid.Resource.Layout.FlyoutContent;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_layout_snackbar = global::TiuShop.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_layout_snackbar_include = global::TiuShop.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_action = global::TiuShop.Droid.Resource.Layout.notification_action;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_action_tombstone = global::TiuShop.Droid.Resource.Layout.notification_action_tombstone;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_media_action = global::TiuShop.Droid.Resource.Layout.notification_media_action;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_media_cancel_action = global::TiuShop.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_big_media = global::TiuShop.Droid.Resource.Layout.notification_template_big_media;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_big_media_custom = global::TiuShop.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_big_media_narrow = global::TiuShop.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_big_media_narrow_custom = global::TiuShop.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_custom_big = global::TiuShop.Droid.Resource.Layout.notification_template_custom_big;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_icon_group = global::TiuShop.Droid.Resource.Layout.notification_template_icon_group;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_lines_media = global::TiuShop.Droid.Resource.Layout.notification_template_lines_media;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_media = global::TiuShop.Droid.Resource.Layout.notification_template_media;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_media_custom = global::TiuShop.Droid.Resource.Layout.notification_template_media_custom;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_part_chronometer = global::TiuShop.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Rg.Plugins.Popup.Resource.Layout.notification_template_part_time = global::TiuShop.Droid.Resource.Layout.notification_template_part_time;
+			global::Rg.Plugins.Popup.Resource.Layout.RootLayout = global::TiuShop.Droid.Resource.Layout.RootLayout;
+			global::Rg.Plugins.Popup.Resource.Layout.select_dialog_item_material = global::TiuShop.Droid.Resource.Layout.select_dialog_item_material;
+			global::Rg.Plugins.Popup.Resource.Layout.select_dialog_multichoice_material = global::TiuShop.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Rg.Plugins.Popup.Resource.Layout.select_dialog_singlechoice_material = global::TiuShop.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Rg.Plugins.Popup.Resource.Layout.ShellContent = global::TiuShop.Droid.Resource.Layout.ShellContent;
+			global::Rg.Plugins.Popup.Resource.Layout.support_simple_spinner_dropdown_item = global::TiuShop.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Rg.Plugins.Popup.Resource.Layout.Tabbar = global::TiuShop.Droid.Resource.Layout.Tabbar;
+			global::Rg.Plugins.Popup.Resource.Layout.Toolbar = global::TiuShop.Droid.Resource.Layout.Toolbar;
+			global::Rg.Plugins.Popup.Resource.String.abc_action_bar_home_description = global::TiuShop.Droid.Resource.String.abc_action_bar_home_description;
+			global::Rg.Plugins.Popup.Resource.String.abc_action_bar_up_description = global::TiuShop.Droid.Resource.String.abc_action_bar_up_description;
+			global::Rg.Plugins.Popup.Resource.String.abc_action_menu_overflow_description = global::TiuShop.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Rg.Plugins.Popup.Resource.String.abc_action_mode_done = global::TiuShop.Droid.Resource.String.abc_action_mode_done;
+			global::Rg.Plugins.Popup.Resource.String.abc_activitychooserview_choose_application = global::TiuShop.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Rg.Plugins.Popup.Resource.String.abc_activity_chooser_view_see_all = global::TiuShop.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Rg.Plugins.Popup.Resource.String.abc_capital_off = global::TiuShop.Droid.Resource.String.abc_capital_off;
+			global::Rg.Plugins.Popup.Resource.String.abc_capital_on = global::TiuShop.Droid.Resource.String.abc_capital_on;
+			global::Rg.Plugins.Popup.Resource.String.abc_menu_alt_shortcut_label = global::TiuShop.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_menu_ctrl_shortcut_label = global::TiuShop.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_menu_delete_shortcut_label = global::TiuShop.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_menu_enter_shortcut_label = global::TiuShop.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_menu_function_shortcut_label = global::TiuShop.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_menu_meta_shortcut_label = global::TiuShop.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_menu_shift_shortcut_label = global::TiuShop.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_menu_space_shortcut_label = global::TiuShop.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_menu_sym_shortcut_label = global::TiuShop.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_prepend_shortcut_label = global::TiuShop.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Rg.Plugins.Popup.Resource.String.abc_searchview_description_clear = global::TiuShop.Droid.Resource.String.abc_searchview_description_clear;
+			global::Rg.Plugins.Popup.Resource.String.abc_searchview_description_query = global::TiuShop.Droid.Resource.String.abc_searchview_description_query;
+			global::Rg.Plugins.Popup.Resource.String.abc_searchview_description_search = global::TiuShop.Droid.Resource.String.abc_searchview_description_search;
+			global::Rg.Plugins.Popup.Resource.String.abc_searchview_description_submit = global::TiuShop.Droid.Resource.String.abc_searchview_description_submit;
+			global::Rg.Plugins.Popup.Resource.String.abc_searchview_description_voice = global::TiuShop.Droid.Resource.String.abc_searchview_description_voice;
+			global::Rg.Plugins.Popup.Resource.String.abc_search_hint = global::TiuShop.Droid.Resource.String.abc_search_hint;
+			global::Rg.Plugins.Popup.Resource.String.abc_shareactionprovider_share_with = global::TiuShop.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Rg.Plugins.Popup.Resource.String.abc_shareactionprovider_share_with_application = global::TiuShop.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Rg.Plugins.Popup.Resource.String.abc_toolbar_collapse_description = global::TiuShop.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Rg.Plugins.Popup.Resource.String.appbar_scrolling_view_behavior = global::TiuShop.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Rg.Plugins.Popup.Resource.String.bottom_sheet_behavior = global::TiuShop.Droid.Resource.String.bottom_sheet_behavior;
+			global::Rg.Plugins.Popup.Resource.String.character_counter_content_description = global::TiuShop.Droid.Resource.String.character_counter_content_description;
+			global::Rg.Plugins.Popup.Resource.String.character_counter_pattern = global::TiuShop.Droid.Resource.String.character_counter_pattern;
+			global::Rg.Plugins.Popup.Resource.String.fab_transformation_scrim_behavior = global::TiuShop.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Rg.Plugins.Popup.Resource.String.fab_transformation_sheet_behavior = global::TiuShop.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Rg.Plugins.Popup.Resource.String.hide_bottom_view_on_scroll_behavior = global::TiuShop.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_chip_close_icon_content_description = global::TiuShop.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Rg.Plugins.Popup.Resource.String.password_toggle_content_description = global::TiuShop.Droid.Resource.String.password_toggle_content_description;
+			global::Rg.Plugins.Popup.Resource.String.path_password_eye = global::TiuShop.Droid.Resource.String.path_password_eye;
+			global::Rg.Plugins.Popup.Resource.String.path_password_eye_mask_strike_through = global::TiuShop.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Rg.Plugins.Popup.Resource.String.path_password_eye_mask_visible = global::TiuShop.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Rg.Plugins.Popup.Resource.String.path_password_strike_through = global::TiuShop.Droid.Resource.String.path_password_strike_through;
+			global::Rg.Plugins.Popup.Resource.String.search_menu_title = global::TiuShop.Droid.Resource.String.search_menu_title;
+			global::Rg.Plugins.Popup.Resource.String.status_bar_notification_info_overflow = global::TiuShop.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Rg.Plugins.Popup.Resource.Style.AlertDialog_AppCompat = global::TiuShop.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.AlertDialog_AppCompat_Light = global::TiuShop.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Animation_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Animation_AppCompat_DropDownUp = global::TiuShop.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Rg.Plugins.Popup.Resource.Style.Animation_AppCompat_Tooltip = global::TiuShop.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Rg.Plugins.Popup.Resource.Style.Animation_Design_BottomSheetDialog = global::TiuShop.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_AlertDialog_AppCompat = global::TiuShop.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_AlertDialog_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Animation_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::TiuShop.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Animation_AppCompat_Tooltip = global::TiuShop.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Rg.Plugins.Popup.Resource.Style.Base_CardView = global::TiuShop.Droid.Resource.Style.Base_CardView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::TiuShop.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_DialogWindowTitle_AppCompat = global::TiuShop.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Button = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Large = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Small = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Title = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::TiuShop.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_AppCompat = global::TiuShop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::TiuShop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::TiuShop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::TiuShop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::TiuShop.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::TiuShop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::TiuShop.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::TiuShop.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents = global::TiuShop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::TiuShop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::TiuShop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::TiuShop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::TiuShop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::TiuShop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::TiuShop.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_AppCompat = global::TiuShop.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::TiuShop.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V22_Theme_AppCompat = global::TiuShop.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V22_Theme_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V23_Theme_AppCompat = global::TiuShop.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V23_Theme_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V26_Theme_AppCompat = global::TiuShop.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V26_Theme_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::TiuShop.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V28_Theme_AppCompat = global::TiuShop.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V28_Theme_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V7_Theme_AppCompat = global::TiuShop.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V7_Theme_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::TiuShop.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::TiuShop.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::TiuShop.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::TiuShop.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActionBar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActionButton = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActionMode = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Button = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Button_Small = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_EditText = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ImageButton = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ListView = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_RatingBar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_SearchView = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_SeekBar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Spinner = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_TextView = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Toolbar = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::TiuShop.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_Design_TabLayout = global::TiuShop.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_Chip = global::TiuShop.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::TiuShop.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::TiuShop.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Rg.Plugins.Popup.Resource.Style.CardView = global::TiuShop.Droid.Resource.Style.CardView;
+			global::Rg.Plugins.Popup.Resource.Style.CardView_Dark = global::TiuShop.Droid.Resource.Style.CardView_Dark;
+			global::Rg.Plugins.Popup.Resource.Style.CardView_Light = global::TiuShop.Droid.Resource.Style.CardView_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_AppCompat = global::TiuShop.Droid.Resource.Style.Platform_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_MaterialComponents = global::TiuShop.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_MaterialComponents_Dialog = global::TiuShop.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_MaterialComponents_Light = global::TiuShop.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::TiuShop.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_ThemeOverlay_AppCompat = global::TiuShop.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::TiuShop.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_V21_AppCompat = global::TiuShop.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_V21_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_V25_AppCompat = global::TiuShop.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_V25_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Platform_Widget_AppCompat_Spinner = global::TiuShop.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::TiuShop.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::TiuShop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Rg.Plugins.Popup.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::TiuShop.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::TiuShop.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Body1 = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Body2 = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Button = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Caption = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Display1 = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Display2 = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Display3 = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Display4 = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Headline = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Large = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Medium = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Menu = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Small = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Subhead = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Title = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Tooltip = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TiuShop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification_Info = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification_Media = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification_Time = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification_Title = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::TiuShop.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::TiuShop.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Counter = global::TiuShop.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Counter_Overflow = global::TiuShop.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Error = global::TiuShop.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_HelperText = global::TiuShop.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Hint = global::TiuShop.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Snackbar_Message = global::TiuShop.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Tab = global::TiuShop.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Button = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Caption = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Chip = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Overline = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::TiuShop.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TiuShop.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TiuShop.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::TiuShop.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat = global::TiuShop.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::TiuShop.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_Dark = global::TiuShop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::TiuShop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::TiuShop.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::TiuShop.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::TiuShop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_Light = global::TiuShop.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::TiuShop.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat = global::TiuShop.Droid.Resource.Style.Theme_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_CompactMenu = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DayNight = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Dialog = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light_Dialog = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_NoActionBar = global::TiuShop.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_Design = global::TiuShop.Droid.Resource.Style.Theme_Design;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_Design_BottomSheetDialog = global::TiuShop.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_Design_Light = global::TiuShop.Droid.Resource.Style.Theme_Design_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::TiuShop.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_Design_Light_NoActionBar = global::TiuShop.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_Design_NoActionBar = global::TiuShop.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Bridge = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_CompactMenu = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_NoActionBar = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::TiuShop.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActionBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActionButton = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActionMode = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ActivityChooserView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Button = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ButtonBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Button_Borderless = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Button_Colored = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Button_Small = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_EditText = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ImageButton = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionButton = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_SearchView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ListMenuView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ListPopupWindow = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ListView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ListView_DropDown = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ListView_Menu = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_PopupMenu = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_PopupWindow = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ProgressBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_RatingBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_RatingBar_Small = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_SearchView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_SeekBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Spinner = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_TextView = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Toolbar = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::TiuShop.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Compat_NotificationActionContainer = global::TiuShop.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Compat_NotificationActionText = global::TiuShop.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_AppBarLayout = global::TiuShop.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_BottomNavigationView = global::TiuShop.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_BottomSheet_Modal = global::TiuShop.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_CollapsingToolbar = global::TiuShop.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_FloatingActionButton = global::TiuShop.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_NavigationView = global::TiuShop.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::TiuShop.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_Snackbar = global::TiuShop.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_TabLayout = global::TiuShop.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_TextInputLayout = global::TiuShop.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_Icon = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_CardView = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_ChipGroup = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Chip_Action = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_NavigationView = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Snackbar = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TabLayout = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Toolbar = global::TiuShop.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Support_CoordinatorLayout = global::TiuShop.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar = global::TiuShop.Droid.Resource.Styleable.ActionBar;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBarLayout = global::TiuShop.Droid.Resource.Styleable.ActionBarLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::TiuShop.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_background = global::TiuShop.Droid.Resource.Styleable.ActionBar_background;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_backgroundSplit = global::TiuShop.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_backgroundStacked = global::TiuShop.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_contentInsetEnd = global::TiuShop.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::TiuShop.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_contentInsetLeft = global::TiuShop.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_contentInsetRight = global::TiuShop.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_contentInsetStart = global::TiuShop.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::TiuShop.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_customNavigationLayout = global::TiuShop.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_displayOptions = global::TiuShop.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_divider = global::TiuShop.Droid.Resource.Styleable.ActionBar_divider;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_elevation = global::TiuShop.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_height = global::TiuShop.Droid.Resource.Styleable.ActionBar_height;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_hideOnContentScroll = global::TiuShop.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_homeAsUpIndicator = global::TiuShop.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_homeLayout = global::TiuShop.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_icon = global::TiuShop.Droid.Resource.Styleable.ActionBar_icon;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::TiuShop.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_itemPadding = global::TiuShop.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_logo = global::TiuShop.Droid.Resource.Styleable.ActionBar_logo;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_navigationMode = global::TiuShop.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_popupTheme = global::TiuShop.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_progressBarPadding = global::TiuShop.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_progressBarStyle = global::TiuShop.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_subtitle = global::TiuShop.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_subtitleTextStyle = global::TiuShop.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_title = global::TiuShop.Droid.Resource.Styleable.ActionBar_title;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar_titleTextStyle = global::TiuShop.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMenuItemView = global::TiuShop.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMenuItemView_android_minWidth = global::TiuShop.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMenuView = global::TiuShop.Droid.Resource.Styleable.ActionMenuView;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMode = global::TiuShop.Droid.Resource.Styleable.ActionMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMode_background = global::TiuShop.Droid.Resource.Styleable.ActionMode_background;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMode_backgroundSplit = global::TiuShop.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMode_closeItemLayout = global::TiuShop.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMode_height = global::TiuShop.Droid.Resource.Styleable.ActionMode_height;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMode_subtitleTextStyle = global::TiuShop.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActionMode_titleTextStyle = global::TiuShop.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActivityChooserView = global::TiuShop.Droid.Resource.Styleable.ActivityChooserView;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::TiuShop.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.ActivityChooserView_initialActivityCount = global::TiuShop.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Rg.Plugins.Popup.Resource.Styleable.AlertDialog = global::TiuShop.Droid.Resource.Styleable.AlertDialog;
+			global::Rg.Plugins.Popup.Resource.Styleable.AlertDialog_android_layout = global::TiuShop.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.AlertDialog_buttonIconDimen = global::TiuShop.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Rg.Plugins.Popup.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::TiuShop.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.AlertDialog_listItemLayout = global::TiuShop.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.AlertDialog_listLayout = global::TiuShop.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::TiuShop.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.AlertDialog_showTitle = global::TiuShop.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::TiuShop.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableCompat = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableItem = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableTransition = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Rg.Plugins.Popup.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::TiuShop.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout = global::TiuShop.Droid.Resource.Styleable.AppBarLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayoutStates = global::TiuShop.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::TiuShop.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::TiuShop.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayoutStates_state_liftable = global::TiuShop.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayoutStates_state_lifted = global::TiuShop.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_android_background = global::TiuShop.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::TiuShop.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::TiuShop.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_elevation = global::TiuShop.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_expanded = global::TiuShop.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_Layout = global::TiuShop.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::TiuShop.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::TiuShop.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_liftOnScroll = global::TiuShop.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatImageView = global::TiuShop.Droid.Resource.Styleable.AppCompatImageView;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatImageView_android_src = global::TiuShop.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatImageView_srcCompat = global::TiuShop.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatImageView_tint = global::TiuShop.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatImageView_tintMode = global::TiuShop.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatSeekBar = global::TiuShop.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatSeekBar_android_thumb = global::TiuShop.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatSeekBar_tickMark = global::TiuShop.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::TiuShop.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::TiuShop.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextHelper = global::TiuShop.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::TiuShop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::TiuShop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::TiuShop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::TiuShop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::TiuShop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::TiuShop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::TiuShop.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_android_textAppearance = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_drawableTint = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_drawableTintMode = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_fontFamily = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_lineHeight = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_textAllCaps = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTextView_textLocale = global::TiuShop.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarDivider = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarSize = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarTheme = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeBackground = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_buttonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_checkboxStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorAccent = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorControlActivated = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorControlNormal = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorError = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorPrimary = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_controlBackground = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_dialogTheme = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_dividerVertical = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_editTextBackground = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_editTextColor = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_editTextStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_panelBackground = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_searchViewStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_seekBarStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_spinnerStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_switchStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_toolbarStyle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowActionBar = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowNoTitle = global::TiuShop.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar = global::TiuShop.Droid.Resource.Styleable.BottomAppBar;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_backgroundTint = global::TiuShop.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::TiuShop.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_fabCradleMargin = global::TiuShop.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::TiuShop.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::TiuShop.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_hideOnScroll = global::TiuShop.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_elevation = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_itemBackground = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_itemIconSize = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_itemIconTint = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_itemTextColor = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_menu = global::TiuShop.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout = global::TiuShop.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::TiuShop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::TiuShop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::TiuShop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::TiuShop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Rg.Plugins.Popup.Resource.Styleable.ButtonBarLayout = global::TiuShop.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ButtonBarLayout_allowStacking = global::TiuShop.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView = global::TiuShop.Droid.Resource.Styleable.CardView;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_android_minHeight = global::TiuShop.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_android_minWidth = global::TiuShop.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_cardBackgroundColor = global::TiuShop.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_cardCornerRadius = global::TiuShop.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_cardElevation = global::TiuShop.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_cardMaxElevation = global::TiuShop.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_cardPreventCornerOverlap = global::TiuShop.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_cardUseCompatPadding = global::TiuShop.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_contentPadding = global::TiuShop.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_contentPaddingBottom = global::TiuShop.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_contentPaddingLeft = global::TiuShop.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_contentPaddingRight = global::TiuShop.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.CardView_contentPaddingTop = global::TiuShop.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip = global::TiuShop.Droid.Resource.Styleable.Chip;
+			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup = global::TiuShop.Droid.Resource.Styleable.ChipGroup;
+			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_checkedChip = global::TiuShop.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_chipSpacing = global::TiuShop.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::TiuShop.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_chipSpacingVertical = global::TiuShop.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_singleLine = global::TiuShop.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_singleSelection = global::TiuShop.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_checkable = global::TiuShop.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_ellipsize = global::TiuShop.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_maxWidth = global::TiuShop.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_text = global::TiuShop.Droid.Resource.Styleable.Chip_android_text;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_textAppearance = global::TiuShop.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_checkedIcon = global::TiuShop.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_checkedIconEnabled = global::TiuShop.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_checkedIconVisible = global::TiuShop.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipBackgroundColor = global::TiuShop.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipCornerRadius = global::TiuShop.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipEndPadding = global::TiuShop.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipIcon = global::TiuShop.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipIconEnabled = global::TiuShop.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipIconSize = global::TiuShop.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipIconTint = global::TiuShop.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipIconVisible = global::TiuShop.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipMinHeight = global::TiuShop.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipStartPadding = global::TiuShop.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipStrokeColor = global::TiuShop.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipStrokeWidth = global::TiuShop.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIcon = global::TiuShop.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconEnabled = global::TiuShop.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconEndPadding = global::TiuShop.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconSize = global::TiuShop.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconStartPadding = global::TiuShop.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconTint = global::TiuShop.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconVisible = global::TiuShop.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_hideMotionSpec = global::TiuShop.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_iconEndPadding = global::TiuShop.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_iconStartPadding = global::TiuShop.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_rippleColor = global::TiuShop.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_showMotionSpec = global::TiuShop.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_textEndPadding = global::TiuShop.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_textStartPadding = global::TiuShop.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_Layout = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_title = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::TiuShop.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Rg.Plugins.Popup.Resource.Styleable.ColorStateListItem = global::TiuShop.Droid.Resource.Styleable.ColorStateListItem;
+			global::Rg.Plugins.Popup.Resource.Styleable.ColorStateListItem_alpha = global::TiuShop.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Rg.Plugins.Popup.Resource.Styleable.ColorStateListItem_android_alpha = global::TiuShop.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Rg.Plugins.Popup.Resource.Styleable.ColorStateListItem_android_color = global::TiuShop.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Rg.Plugins.Popup.Resource.Styleable.CompoundButton = global::TiuShop.Droid.Resource.Styleable.CompoundButton;
+			global::Rg.Plugins.Popup.Resource.Styleable.CompoundButton_android_button = global::TiuShop.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Rg.Plugins.Popup.Resource.Styleable.CompoundButton_buttonCompat = global::TiuShop.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.CompoundButton_buttonTint = global::TiuShop.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.CompoundButton_buttonTintMode = global::TiuShop.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_keylines = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_Layout = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Rg.Plugins.Popup.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::TiuShop.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle = global::TiuShop.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::TiuShop.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::TiuShop.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_barLength = global::TiuShop.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_color = global::TiuShop.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_drawableSize = global::TiuShop.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::TiuShop.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_spinBars = global::TiuShop.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_thickness = global::TiuShop.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_backgroundTint = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_borderWidth = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_elevation = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_fabCustomSize = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_fabSize = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_maxImageSize = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_rippleColor = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_showMotionSpec = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_useCompatPadding = global::TiuShop.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.FlowLayout = global::TiuShop.Droid.Resource.Styleable.FlowLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.FlowLayout_itemSpacing = global::TiuShop.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Rg.Plugins.Popup.Resource.Styleable.FlowLayout_lineSpacing = global::TiuShop.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamily = global::TiuShop.Droid.Resource.Styleable.FontFamily;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_android_font = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_android_fontStyle = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_android_fontWeight = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_font = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_fontStyle = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_fontWeight = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamilyFont_ttcIndex = global::TiuShop.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamily_fontProviderAuthority = global::TiuShop.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamily_fontProviderCerts = global::TiuShop.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::TiuShop.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::TiuShop.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamily_fontProviderPackage = global::TiuShop.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Rg.Plugins.Popup.Resource.Styleable.FontFamily_fontProviderQuery = global::TiuShop.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Rg.Plugins.Popup.Resource.Styleable.ForegroundLinearLayout = global::TiuShop.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::TiuShop.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Rg.Plugins.Popup.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::TiuShop.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::TiuShop.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor = global::TiuShop.Droid.Resource.Styleable.GradientColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColorItem = global::TiuShop.Droid.Resource.Styleable.GradientColorItem;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColorItem_android_color = global::TiuShop.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColorItem_android_offset = global::TiuShop.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_centerColor = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_centerX = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_centerY = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_endColor = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_endX = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_endY = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_gradientRadius = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_startColor = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_startX = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_startY = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_tileMode = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_type = global::TiuShop.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_android_gravity = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_android_orientation = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_divider = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_Layout = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_showDividers = global::TiuShop.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Rg.Plugins.Popup.Resource.Styleable.ListPopupWindow = global::TiuShop.Droid.Resource.Styleable.ListPopupWindow;
+			global::Rg.Plugins.Popup.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::TiuShop.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Rg.Plugins.Popup.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::TiuShop.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton = global::TiuShop.Droid.Resource.Styleable.MaterialButton;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_android_insetBottom = global::TiuShop.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_android_insetLeft = global::TiuShop.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_android_insetRight = global::TiuShop.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_android_insetTop = global::TiuShop.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_backgroundTint = global::TiuShop.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_backgroundTintMode = global::TiuShop.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_cornerRadius = global::TiuShop.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_icon = global::TiuShop.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_iconGravity = global::TiuShop.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_iconPadding = global::TiuShop.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_iconSize = global::TiuShop.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_iconTint = global::TiuShop.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_iconTintMode = global::TiuShop.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_rippleColor = global::TiuShop.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_strokeColor = global::TiuShop.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_strokeWidth = global::TiuShop.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView = global::TiuShop.Droid.Resource.Styleable.MaterialCardView;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_strokeColor = global::TiuShop.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_strokeWidth = global::TiuShop.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup = global::TiuShop.Droid.Resource.Styleable.MenuGroup;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup_android_checkableBehavior = global::TiuShop.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup_android_enabled = global::TiuShop.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup_android_id = global::TiuShop.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup_android_menuCategory = global::TiuShop.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup_android_orderInCategory = global::TiuShop.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup_android_visible = global::TiuShop.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem = global::TiuShop.Droid.Resource.Styleable.MenuItem;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_actionLayout = global::TiuShop.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_actionProviderClass = global::TiuShop.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_actionViewClass = global::TiuShop.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_alphabeticModifiers = global::TiuShop.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_checkable = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_checked = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_enabled = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_icon = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_id = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_menuCategory = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_numericShortcut = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_onClick = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_orderInCategory = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_title = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_titleCondensed = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_android_visible = global::TiuShop.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_contentDescription = global::TiuShop.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_iconTint = global::TiuShop.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_iconTintMode = global::TiuShop.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_numericModifiers = global::TiuShop.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_showAsAction = global::TiuShop.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuItem_tooltipText = global::TiuShop.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView = global::TiuShop.Droid.Resource.Styleable.MenuView;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView_android_headerBackground = global::TiuShop.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView_android_horizontalDivider = global::TiuShop.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView_android_itemBackground = global::TiuShop.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::TiuShop.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView_android_itemTextAppearance = global::TiuShop.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView_android_verticalDivider = global::TiuShop.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView_android_windowAnimationStyle = global::TiuShop.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView_preserveIconSpacing = global::TiuShop.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Rg.Plugins.Popup.Resource.Styleable.MenuView_subMenuArrow = global::TiuShop.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView = global::TiuShop.Droid.Resource.Styleable.NavigationView;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_android_background = global::TiuShop.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::TiuShop.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_android_maxWidth = global::TiuShop.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_elevation = global::TiuShop.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_headerLayout = global::TiuShop.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemBackground = global::TiuShop.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemHorizontalPadding = global::TiuShop.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemIconPadding = global::TiuShop.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemIconTint = global::TiuShop.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemTextAppearance = global::TiuShop.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemTextColor = global::TiuShop.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_menu = global::TiuShop.Droid.Resource.Styleable.NavigationView_menu;
+			global::Rg.Plugins.Popup.Resource.Styleable.PopupWindow = global::TiuShop.Droid.Resource.Styleable.PopupWindow;
+			global::Rg.Plugins.Popup.Resource.Styleable.PopupWindowBackgroundState = global::TiuShop.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Rg.Plugins.Popup.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::TiuShop.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Rg.Plugins.Popup.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::TiuShop.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.PopupWindow_android_popupBackground = global::TiuShop.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.PopupWindow_overlapAnchor = global::TiuShop.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecycleListView = global::TiuShop.Droid.Resource.Styleable.RecycleListView;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::TiuShop.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::TiuShop.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView = global::TiuShop.Droid.Resource.Styleable.RecyclerView;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_android_clipToPadding = global::TiuShop.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_android_descendantFocusability = global::TiuShop.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_android_orientation = global::TiuShop.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_fastScrollEnabled = global::TiuShop.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::TiuShop.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::TiuShop.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::TiuShop.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::TiuShop.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_layoutManager = global::TiuShop.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_reverseLayout = global::TiuShop.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_spanCount = global::TiuShop.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Rg.Plugins.Popup.Resource.Styleable.RecyclerView_stackFromEnd = global::TiuShop.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.ScrimInsetsFrameLayout = global::TiuShop.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::TiuShop.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Rg.Plugins.Popup.Resource.Styleable.ScrollingViewBehavior_Layout = global::TiuShop.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::TiuShop.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView = global::TiuShop.Droid.Resource.Styleable.SearchView;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_android_focusable = global::TiuShop.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_android_imeOptions = global::TiuShop.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_android_inputType = global::TiuShop.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_android_maxWidth = global::TiuShop.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_closeIcon = global::TiuShop.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_commitIcon = global::TiuShop.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_defaultQueryHint = global::TiuShop.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_goIcon = global::TiuShop.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_iconifiedByDefault = global::TiuShop.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_layout = global::TiuShop.Droid.Resource.Styleable.SearchView_layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_queryBackground = global::TiuShop.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_queryHint = global::TiuShop.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_searchHintIcon = global::TiuShop.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_searchIcon = global::TiuShop.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_submitBackground = global::TiuShop.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_suggestionRowLayout = global::TiuShop.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_voiceIcon = global::TiuShop.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.Snackbar = global::TiuShop.Droid.Resource.Styleable.Snackbar;
+			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout = global::TiuShop.Droid.Resource.Styleable.SnackbarLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_android_maxWidth = global::TiuShop.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_elevation = global::TiuShop.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::TiuShop.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.Snackbar_snackbarButtonStyle = global::TiuShop.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.Snackbar_snackbarStyle = global::TiuShop.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.Spinner = global::TiuShop.Droid.Resource.Styleable.Spinner;
+			global::Rg.Plugins.Popup.Resource.Styleable.Spinner_android_dropDownWidth = global::TiuShop.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.Spinner_android_entries = global::TiuShop.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Rg.Plugins.Popup.Resource.Styleable.Spinner_android_popupBackground = global::TiuShop.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.Spinner_android_prompt = global::TiuShop.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Rg.Plugins.Popup.Resource.Styleable.Spinner_popupTheme = global::TiuShop.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable = global::TiuShop.Droid.Resource.Styleable.StateListDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawableItem = global::TiuShop.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawableItem_android_drawable = global::TiuShop.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable_android_constantSize = global::TiuShop.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable_android_dither = global::TiuShop.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::TiuShop.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::TiuShop.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable_android_variablePadding = global::TiuShop.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable_android_visible = global::TiuShop.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat = global::TiuShop.Droid.Resource.Styleable.SwitchCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_android_textOff = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_android_textOn = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_android_thumb = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_showText = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_splitTrack = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_switchMinWidth = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_switchPadding = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_switchTextAppearance = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_thumbTextPadding = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_thumbTint = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_thumbTintMode = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_track = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_trackTint = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_trackTintMode = global::TiuShop.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabItem = global::TiuShop.Droid.Resource.Styleable.TabItem;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabItem_android_icon = global::TiuShop.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabItem_android_layout = global::TiuShop.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabItem_android_text = global::TiuShop.Droid.Resource.Styleable.TabItem_android_text;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout = global::TiuShop.Droid.Resource.Styleable.TabLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabBackground = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabContentStart = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabGravity = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabIconTint = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabIconTintMode = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabIndicator = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabIndicatorColor = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabIndicatorGravity = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabIndicatorHeight = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabInlineLabel = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabMaxWidth = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabMinWidth = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabMode = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabPadding = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabPaddingBottom = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabPaddingEnd = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabPaddingStart = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabPaddingTop = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabRippleColor = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabSelectedTextColor = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabTextAppearance = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabTextColor = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TabLayout_tabUnboundedRipple = global::TiuShop.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance = global::TiuShop.Droid.Resource.Styleable.TextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_fontFamily = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_shadowColor = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_shadowDx = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_shadowDy = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_shadowRadius = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_textColor = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_textColorHint = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_textColorLink = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_textFontWeight = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_textSize = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_textStyle = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_android_typeface = global::TiuShop.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_fontFamily = global::TiuShop.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_fontVariationSettings = global::TiuShop.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_textAllCaps = global::TiuShop.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_textLocale = global::TiuShop.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout = global::TiuShop.Droid.Resource.Styleable.TextInputLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_android_hint = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_android_textColorHint = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxStrokeColor = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterEnabled = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterMaxLength = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterTextAppearance = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_errorEnabled = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_errorTextAppearance = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_helperText = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_helperTextEnabled = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_hintEnabled = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_hintTextAppearance = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleTint = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::TiuShop.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.ThemeEnforcement = global::TiuShop.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Rg.Plugins.Popup.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::TiuShop.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::TiuShop.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::TiuShop.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar = global::TiuShop.Droid.Resource.Styleable.Toolbar;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_android_gravity = global::TiuShop.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_android_minHeight = global::TiuShop.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_buttonGravity = global::TiuShop.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_collapseContentDescription = global::TiuShop.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_collapseIcon = global::TiuShop.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_contentInsetEnd = global::TiuShop.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::TiuShop.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_contentInsetLeft = global::TiuShop.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_contentInsetRight = global::TiuShop.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_contentInsetStart = global::TiuShop.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::TiuShop.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_logo = global::TiuShop.Droid.Resource.Styleable.Toolbar_logo;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_logoDescription = global::TiuShop.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_maxButtonHeight = global::TiuShop.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_menu = global::TiuShop.Droid.Resource.Styleable.Toolbar_menu;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_navigationContentDescription = global::TiuShop.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_navigationIcon = global::TiuShop.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_popupTheme = global::TiuShop.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_subtitle = global::TiuShop.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_subtitleTextAppearance = global::TiuShop.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_subtitleTextColor = global::TiuShop.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_title = global::TiuShop.Droid.Resource.Styleable.Toolbar_title;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleMargin = global::TiuShop.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleMarginBottom = global::TiuShop.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleMarginEnd = global::TiuShop.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleMargins = global::TiuShop.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleMarginStart = global::TiuShop.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleMarginTop = global::TiuShop.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleTextAppearance = global::TiuShop.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleTextColor = global::TiuShop.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.View = global::TiuShop.Droid.Resource.Styleable.View;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewBackgroundHelper = global::TiuShop.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewBackgroundHelper_android_background = global::TiuShop.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::TiuShop.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::TiuShop.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewStubCompat = global::TiuShop.Droid.Resource.Styleable.ViewStubCompat;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewStubCompat_android_id = global::TiuShop.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewStubCompat_android_inflatedId = global::TiuShop.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewStubCompat_android_layout = global::TiuShop.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.View_android_focusable = global::TiuShop.Droid.Resource.Styleable.View_android_focusable;
+			global::Rg.Plugins.Popup.Resource.Styleable.View_android_theme = global::TiuShop.Droid.Resource.Styleable.View_android_theme;
+			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingEnd = global::TiuShop.Droid.Resource.Styleable.View_paddingEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingStart = global::TiuShop.Droid.Resource.Styleable.View_paddingStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.View_theme = global::TiuShop.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::TiuShop.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::TiuShop.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::TiuShop.Droid.Resource.Attribute.fontProviderAuthority;
@@ -8859,787 +11492,841 @@ namespace TiuShop.Droid
 			public const int logoDescription = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int materialAlertDialogBodyTextStyle = 2130903437;
+			public const int lottieAnimationViewStyle = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int materialAlertDialogTheme = 2130903438;
+			public const int lottie_autoPlay = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int materialAlertDialogTitleIconStyle = 2130903439;
+			public const int lottie_cacheComposition = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int materialAlertDialogTitlePanelStyle = 2130903440;
+			public const int lottie_colorFilter = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int materialAlertDialogTitleTextStyle = 2130903441;
+			public const int lottie_enableMergePathsForKitKatAndAbove = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int materialButtonOutlinedStyle = 2130903442;
+			public const int lottie_fallbackRes = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int materialButtonStyle = 2130903443;
+			public const int lottie_fileName = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int materialButtonToggleGroupStyle = 2130903444;
+			public const int lottie_ignoreDisabledSystemAnimations = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int materialCalendarDay = 2130903445;
+			public const int lottie_imageAssetsFolder = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int materialCalendarFullscreenTheme = 2130903446;
+			public const int lottie_loop = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int materialCalendarHeaderConfirmButton = 2130903447;
+			public const int lottie_progress = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int materialCalendarHeaderDivider = 2130903448;
+			public const int lottie_rawRes = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int materialCalendarHeaderLayout = 2130903449;
+			public const int lottie_renderMode = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int materialCalendarHeaderSelection = 2130903450;
+			public const int lottie_repeatCount = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int materialCalendarHeaderTitle = 2130903451;
+			public const int lottie_repeatMode = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int materialCalendarHeaderToggleButton = 2130903452;
+			public const int lottie_scale = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int materialCalendarStyle = 2130903453;
+			public const int lottie_speed = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int materialCalendarTheme = 2130903454;
+			public const int lottie_url = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int materialCardViewStyle = 2130903455;
+			public const int materialAlertDialogBodyTextStyle = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int materialThemeOverlay = 2130903456;
+			public const int materialAlertDialogTheme = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int maxActionInlineWidth = 2130903457;
+			public const int materialAlertDialogTitleIconStyle = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int maxButtonHeight = 2130903458;
+			public const int materialAlertDialogTitlePanelStyle = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int maxCharacterCount = 2130903459;
+			public const int materialAlertDialogTitleTextStyle = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int maxImageSize = 2130903460;
+			public const int materialButtonOutlinedStyle = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int maxLines = 2130903461;
+			public const int materialButtonStyle = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int measureWithLargestChild = 2130903462;
+			public const int materialButtonToggleGroupStyle = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int menu = 2130903463;
+			public const int materialCalendarDay = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int minTouchTargetSize = 2130903464;
+			public const int materialCalendarFullscreenTheme = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int multiChoiceItemLayout = 2130903465;
+			public const int materialCalendarHeaderConfirmButton = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int navigationContentDescription = 2130903466;
+			public const int materialCalendarHeaderDivider = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int navigationIcon = 2130903467;
+			public const int materialCalendarHeaderLayout = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int navigationMode = 2130903468;
+			public const int materialCalendarHeaderSelection = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int navigationViewStyle = 2130903469;
+			public const int materialCalendarHeaderTitle = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int number = 2130903470;
+			public const int materialCalendarHeaderToggleButton = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int numericModifiers = 2130903471;
+			public const int materialCalendarStyle = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int overlapAnchor = 2130903472;
+			public const int materialCalendarTheme = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int paddingBottomNoButtons = 2130903473;
+			public const int materialCardViewStyle = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int paddingBottomSystemWindowInsets = 2130903474;
+			public const int materialThemeOverlay = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int paddingEnd = 2130903475;
+			public const int maxActionInlineWidth = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int paddingLeftSystemWindowInsets = 2130903476;
+			public const int maxButtonHeight = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int paddingRightSystemWindowInsets = 2130903477;
+			public const int maxCharacterCount = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int paddingStart = 2130903478;
+			public const int maxImageSize = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int paddingTopNoTitle = 2130903479;
+			public const int maxLines = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int panelBackground = 2130903480;
+			public const int measureWithLargestChild = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int panelMenuListTheme = 2130903481;
+			public const int menu = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int panelMenuListWidth = 2130903482;
+			public const int minTouchTargetSize = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int passwordToggleContentDescription = 2130903483;
+			public const int multiChoiceItemLayout = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int passwordToggleDrawable = 2130903484;
+			public const int navigationContentDescription = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int passwordToggleEnabled = 2130903485;
+			public const int navigationIcon = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int passwordToggleTint = 2130903486;
+			public const int navigationMode = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int passwordToggleTintMode = 2130903487;
+			public const int navigationViewStyle = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int placeholderText = 2130903488;
+			public const int number = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int placeholderTextAppearance = 2130903489;
+			public const int numericModifiers = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int placeholderTextColor = 2130903490;
+			public const int overlapAnchor = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int popupMenuBackground = 2130903491;
+			public const int paddingBottomNoButtons = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int popupMenuStyle = 2130903492;
+			public const int paddingBottomSystemWindowInsets = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int popupTheme = 2130903493;
+			public const int paddingEnd = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int popupWindowStyle = 2130903494;
+			public const int paddingLeftSystemWindowInsets = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int prefixText = 2130903495;
+			public const int paddingRightSystemWindowInsets = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int prefixTextAppearance = 2130903496;
+			public const int paddingStart = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int prefixTextColor = 2130903497;
+			public const int paddingTopNoTitle = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int preserveIconSpacing = 2130903498;
+			public const int panelBackground = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int pressedTranslationZ = 2130903499;
+			public const int panelMenuListTheme = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int progressBarPadding = 2130903500;
+			public const int panelMenuListWidth = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int progressBarStyle = 2130903501;
+			public const int passwordToggleContentDescription = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int queryBackground = 2130903502;
+			public const int passwordToggleDrawable = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int queryHint = 2130903503;
+			public const int passwordToggleEnabled = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int radioButtonStyle = 2130903504;
+			public const int passwordToggleTint = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int rangeFillColor = 2130903505;
+			public const int passwordToggleTintMode = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int ratingBarStyle = 2130903506;
+			public const int placeholderText = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int ratingBarStyleIndicator = 2130903507;
+			public const int placeholderTextAppearance = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int ratingBarStyleSmall = 2130903508;
+			public const int placeholderTextColor = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int recyclerViewStyle = 2130903509;
+			public const int popupMenuBackground = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int reverseLayout = 2130903510;
+			public const int popupMenuStyle = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int rippleColor = 2130903511;
+			public const int popupTheme = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int scrimAnimationDuration = 2130903512;
+			public const int popupWindowStyle = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int scrimBackground = 2130903513;
+			public const int prefixText = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int scrimVisibleHeightTrigger = 2130903514;
+			public const int prefixTextAppearance = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int scrollViewStyle = 2130903515;
+			public const int prefixTextColor = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int searchHintIcon = 2130903516;
+			public const int preserveIconSpacing = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int searchIcon = 2130903517;
+			public const int pressedTranslationZ = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int searchViewStyle = 2130903518;
+			public const int progressBarPadding = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int seekBarStyle = 2130903519;
+			public const int progressBarStyle = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int selectableItemBackground = 2130903520;
+			public const int queryBackground = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int selectableItemBackgroundBorderless = 2130903521;
+			public const int queryHint = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int selectionRequired = 2130903522;
+			public const int radioButtonStyle = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int shapeAppearance = 2130903523;
+			public const int rangeFillColor = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int shapeAppearanceLargeComponent = 2130903524;
+			public const int ratingBarStyle = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int shapeAppearanceMediumComponent = 2130903525;
+			public const int ratingBarStyleIndicator = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int shapeAppearanceOverlay = 2130903526;
+			public const int ratingBarStyleSmall = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int shapeAppearanceSmallComponent = 2130903527;
+			public const int recyclerViewStyle = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int showAsAction = 2130903528;
+			public const int reverseLayout = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int showDividers = 2130903529;
+			public const int rippleColor = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int showMotionSpec = 2130903530;
+			public const int scrimAnimationDuration = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int showText = 2130903531;
+			public const int scrimBackground = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int showTitle = 2130903532;
+			public const int scrimVisibleHeightTrigger = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int shrinkMotionSpec = 2130903533;
+			public const int scrollViewStyle = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int singleChoiceItemLayout = 2130903534;
+			public const int searchHintIcon = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int singleLine = 2130903535;
+			public const int searchIcon = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int singleSelection = 2130903536;
+			public const int searchViewStyle = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int sliderStyle = 2130903537;
+			public const int seekBarStyle = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int snackbarButtonStyle = 2130903538;
+			public const int selectableItemBackground = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int snackbarStyle = 2130903539;
+			public const int selectableItemBackgroundBorderless = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int snackbarTextViewStyle = 2130903540;
+			public const int selectionRequired = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int spanCount = 2130903541;
+			public const int shapeAppearance = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int spinBars = 2130903542;
+			public const int shapeAppearanceLargeComponent = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int spinnerDropDownItemStyle = 2130903543;
+			public const int shapeAppearanceMediumComponent = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int spinnerStyle = 2130903544;
+			public const int shapeAppearanceOverlay = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int splitTrack = 2130903545;
+			public const int shapeAppearanceSmallComponent = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int srcCompat = 2130903546;
+			public const int showAsAction = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int stackFromEnd = 2130903547;
+			public const int showDividers = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int startIconCheckable = 2130903548;
+			public const int showMotionSpec = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int startIconContentDescription = 2130903549;
+			public const int showText = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int startIconDrawable = 2130903550;
+			public const int showTitle = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int startIconTint = 2130903551;
+			public const int shrinkMotionSpec = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int startIconTintMode = 2130903552;
+			public const int singleChoiceItemLayout = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int state_above_anchor = 2130903553;
+			public const int singleLine = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int state_collapsed = 2130903554;
+			public const int singleSelection = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int state_collapsible = 2130903555;
+			public const int sliderStyle = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int state_dragged = 2130903556;
+			public const int snackbarButtonStyle = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int state_liftable = 2130903557;
+			public const int snackbarStyle = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int state_lifted = 2130903558;
+			public const int snackbarTextViewStyle = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int statusBarBackground = 2130903559;
+			public const int spanCount = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int statusBarForeground = 2130903560;
+			public const int spinBars = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int statusBarScrim = 2130903561;
+			public const int spinnerDropDownItemStyle = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int strokeColor = 2130903562;
+			public const int spinnerStyle = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int strokeWidth = 2130903563;
+			public const int splitTrack = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int subMenuArrow = 2130903564;
+			public const int srcCompat = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int submitBackground = 2130903565;
+			public const int stackFromEnd = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int subtitle = 2130903566;
+			public const int startIconCheckable = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int subtitleTextAppearance = 2130903567;
+			public const int startIconContentDescription = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int subtitleTextColor = 2130903568;
+			public const int startIconDrawable = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int subtitleTextStyle = 2130903569;
+			public const int startIconTint = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int suffixText = 2130903570;
+			public const int startIconTintMode = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int suffixTextAppearance = 2130903571;
+			public const int state_above_anchor = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int suffixTextColor = 2130903572;
+			public const int state_collapsed = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int suggestionRowLayout = 2130903573;
+			public const int state_collapsible = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903574;
+			public const int state_dragged = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int switchMinWidth = 2130903575;
+			public const int state_liftable = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int switchPadding = 2130903576;
+			public const int state_lifted = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int switchStyle = 2130903577;
+			public const int statusBarBackground = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int switchTextAppearance = 2130903578;
+			public const int statusBarForeground = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int tabBackground = 2130903579;
+			public const int statusBarScrim = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int tabContentStart = 2130903580;
+			public const int strokeColor = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int tabGravity = 2130903581;
+			public const int strokeWidth = 2130903581;
 			
 			// aapt resource value: 0x7F03021E
-			public const int tabIconTint = 2130903582;
+			public const int subMenuArrow = 2130903582;
 			
 			// aapt resource value: 0x7F03021F
-			public const int tabIconTintMode = 2130903583;
+			public const int submitBackground = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int tabIndicator = 2130903584;
+			public const int subtitle = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int tabIndicatorAnimationDuration = 2130903585;
+			public const int subtitleTextAppearance = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int tabIndicatorColor = 2130903586;
+			public const int subtitleTextColor = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int tabIndicatorFullWidth = 2130903587;
+			public const int subtitleTextStyle = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int tabIndicatorGravity = 2130903588;
+			public const int suffixText = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int tabIndicatorHeight = 2130903589;
+			public const int suffixTextAppearance = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int tabInlineLabel = 2130903590;
+			public const int suffixTextColor = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int tabMaxWidth = 2130903591;
+			public const int suggestionRowLayout = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int tabMinWidth = 2130903592;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int tabMode = 2130903593;
+			public const int switchMinWidth = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int tabPadding = 2130903594;
+			public const int switchPadding = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int tabPaddingBottom = 2130903595;
+			public const int switchStyle = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int tabPaddingEnd = 2130903596;
+			public const int switchTextAppearance = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int tabPaddingStart = 2130903597;
+			public const int tabBackground = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int tabPaddingTop = 2130903598;
+			public const int tabContentStart = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int tabRippleColor = 2130903599;
+			public const int tabGravity = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int tabSelectedTextColor = 2130903600;
+			public const int tabIconTint = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int tabStyle = 2130903601;
+			public const int tabIconTintMode = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int tabTextAppearance = 2130903602;
+			public const int tabIndicator = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int tabTextColor = 2130903603;
+			public const int tabIndicatorAnimationDuration = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int tabUnboundedRipple = 2130903604;
+			public const int tabIndicatorColor = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int textAllCaps = 2130903605;
+			public const int tabIndicatorFullWidth = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int textAppearanceBody1 = 2130903606;
+			public const int tabIndicatorGravity = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int textAppearanceBody2 = 2130903607;
+			public const int tabIndicatorHeight = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int textAppearanceButton = 2130903608;
+			public const int tabInlineLabel = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int textAppearanceCaption = 2130903609;
+			public const int tabMaxWidth = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int textAppearanceHeadline1 = 2130903610;
+			public const int tabMinWidth = 2130903610;
 			
 			// aapt resource value: 0x7F03023B
-			public const int textAppearanceHeadline2 = 2130903611;
+			public const int tabMode = 2130903611;
 			
 			// aapt resource value: 0x7F03023C
-			public const int textAppearanceHeadline3 = 2130903612;
+			public const int tabPadding = 2130903612;
 			
 			// aapt resource value: 0x7F03023D
-			public const int textAppearanceHeadline4 = 2130903613;
+			public const int tabPaddingBottom = 2130903613;
 			
 			// aapt resource value: 0x7F03023E
-			public const int textAppearanceHeadline5 = 2130903614;
+			public const int tabPaddingEnd = 2130903614;
 			
 			// aapt resource value: 0x7F03023F
-			public const int textAppearanceHeadline6 = 2130903615;
+			public const int tabPaddingStart = 2130903615;
 			
 			// aapt resource value: 0x7F030240
-			public const int textAppearanceLargePopupMenu = 2130903616;
+			public const int tabPaddingTop = 2130903616;
 			
 			// aapt resource value: 0x7F030241
-			public const int textAppearanceLineHeightEnabled = 2130903617;
+			public const int tabRippleColor = 2130903617;
 			
 			// aapt resource value: 0x7F030242
-			public const int textAppearanceListItem = 2130903618;
+			public const int tabSelectedTextColor = 2130903618;
 			
 			// aapt resource value: 0x7F030243
-			public const int textAppearanceListItemSecondary = 2130903619;
+			public const int tabStyle = 2130903619;
 			
 			// aapt resource value: 0x7F030244
-			public const int textAppearanceListItemSmall = 2130903620;
+			public const int tabTextAppearance = 2130903620;
 			
 			// aapt resource value: 0x7F030245
-			public const int textAppearanceOverline = 2130903621;
+			public const int tabTextColor = 2130903621;
 			
 			// aapt resource value: 0x7F030246
-			public const int textAppearancePopupMenuHeader = 2130903622;
+			public const int tabUnboundedRipple = 2130903622;
 			
 			// aapt resource value: 0x7F030247
-			public const int textAppearanceSearchResultSubtitle = 2130903623;
+			public const int textAllCaps = 2130903623;
 			
 			// aapt resource value: 0x7F030248
-			public const int textAppearanceSearchResultTitle = 2130903624;
+			public const int textAppearanceBody1 = 2130903624;
 			
 			// aapt resource value: 0x7F030249
-			public const int textAppearanceSmallPopupMenu = 2130903625;
+			public const int textAppearanceBody2 = 2130903625;
 			
 			// aapt resource value: 0x7F03024A
-			public const int textAppearanceSubtitle1 = 2130903626;
+			public const int textAppearanceButton = 2130903626;
 			
 			// aapt resource value: 0x7F03024B
-			public const int textAppearanceSubtitle2 = 2130903627;
+			public const int textAppearanceCaption = 2130903627;
 			
 			// aapt resource value: 0x7F03024C
-			public const int textColorAlertDialogListItem = 2130903628;
+			public const int textAppearanceHeadline1 = 2130903628;
 			
 			// aapt resource value: 0x7F03024D
-			public const int textColorSearchUrl = 2130903629;
+			public const int textAppearanceHeadline2 = 2130903629;
 			
 			// aapt resource value: 0x7F03024E
-			public const int textEndPadding = 2130903630;
+			public const int textAppearanceHeadline3 = 2130903630;
 			
 			// aapt resource value: 0x7F03024F
-			public const int textInputLayoutFocusedRectEnabled = 2130903631;
+			public const int textAppearanceHeadline4 = 2130903631;
 			
 			// aapt resource value: 0x7F030250
-			public const int textInputStyle = 2130903632;
+			public const int textAppearanceHeadline5 = 2130903632;
 			
 			// aapt resource value: 0x7F030251
-			public const int textLocale = 2130903633;
+			public const int textAppearanceHeadline6 = 2130903633;
 			
 			// aapt resource value: 0x7F030252
-			public const int textStartPadding = 2130903634;
+			public const int textAppearanceLargePopupMenu = 2130903634;
 			
 			// aapt resource value: 0x7F030253
-			public const int theme = 2130903635;
+			public const int textAppearanceLineHeightEnabled = 2130903635;
 			
 			// aapt resource value: 0x7F030254
-			public const int themeLineHeight = 2130903636;
+			public const int textAppearanceListItem = 2130903636;
 			
 			// aapt resource value: 0x7F030255
-			public const int thickness = 2130903637;
+			public const int textAppearanceListItemSecondary = 2130903637;
 			
 			// aapt resource value: 0x7F030256
-			public const int thumbColor = 2130903638;
+			public const int textAppearanceListItemSmall = 2130903638;
 			
 			// aapt resource value: 0x7F030257
-			public const int thumbElevation = 2130903639;
+			public const int textAppearanceOverline = 2130903639;
 			
 			// aapt resource value: 0x7F030258
-			public const int thumbRadius = 2130903640;
+			public const int textAppearancePopupMenuHeader = 2130903640;
 			
 			// aapt resource value: 0x7F030259
-			public const int thumbTextPadding = 2130903641;
+			public const int textAppearanceSearchResultSubtitle = 2130903641;
 			
 			// aapt resource value: 0x7F03025A
-			public const int thumbTint = 2130903642;
+			public const int textAppearanceSearchResultTitle = 2130903642;
 			
 			// aapt resource value: 0x7F03025B
-			public const int thumbTintMode = 2130903643;
+			public const int textAppearanceSmallPopupMenu = 2130903643;
 			
 			// aapt resource value: 0x7F03025C
-			public const int tickColor = 2130903644;
+			public const int textAppearanceSubtitle1 = 2130903644;
 			
 			// aapt resource value: 0x7F03025D
-			public const int tickColorActive = 2130903645;
+			public const int textAppearanceSubtitle2 = 2130903645;
 			
 			// aapt resource value: 0x7F03025E
-			public const int tickColorInactive = 2130903646;
+			public const int textColorAlertDialogListItem = 2130903646;
 			
 			// aapt resource value: 0x7F03025F
-			public const int tickMark = 2130903647;
+			public const int textColorSearchUrl = 2130903647;
 			
 			// aapt resource value: 0x7F030260
-			public const int tickMarkTint = 2130903648;
+			public const int textEndPadding = 2130903648;
 			
 			// aapt resource value: 0x7F030261
-			public const int tickMarkTintMode = 2130903649;
+			public const int textInputLayoutFocusedRectEnabled = 2130903649;
 			
 			// aapt resource value: 0x7F030262
-			public const int tint = 2130903650;
+			public const int textInputStyle = 2130903650;
 			
 			// aapt resource value: 0x7F030263
-			public const int tintMode = 2130903651;
+			public const int textLocale = 2130903651;
 			
 			// aapt resource value: 0x7F030264
-			public const int title = 2130903652;
+			public const int textStartPadding = 2130903652;
 			
 			// aapt resource value: 0x7F030265
-			public const int titleEnabled = 2130903653;
+			public const int theme = 2130903653;
 			
 			// aapt resource value: 0x7F030266
-			public const int titleMargin = 2130903654;
+			public const int themeLineHeight = 2130903654;
 			
 			// aapt resource value: 0x7F030267
-			public const int titleMarginBottom = 2130903655;
+			public const int thickness = 2130903655;
 			
 			// aapt resource value: 0x7F030268
-			public const int titleMarginEnd = 2130903656;
-			
-			// aapt resource value: 0x7F03026B
-			public const int titleMargins = 2130903659;
+			public const int thumbColor = 2130903656;
 			
 			// aapt resource value: 0x7F030269
-			public const int titleMarginStart = 2130903657;
+			public const int thumbElevation = 2130903657;
 			
 			// aapt resource value: 0x7F03026A
-			public const int titleMarginTop = 2130903658;
+			public const int thumbRadius = 2130903658;
+			
+			// aapt resource value: 0x7F03026B
+			public const int thumbTextPadding = 2130903659;
 			
 			// aapt resource value: 0x7F03026C
-			public const int titleTextAppearance = 2130903660;
+			public const int thumbTint = 2130903660;
 			
 			// aapt resource value: 0x7F03026D
-			public const int titleTextColor = 2130903661;
+			public const int thumbTintMode = 2130903661;
 			
 			// aapt resource value: 0x7F03026E
-			public const int titleTextStyle = 2130903662;
+			public const int tickColor = 2130903662;
 			
 			// aapt resource value: 0x7F03026F
-			public const int toolbarId = 2130903663;
+			public const int tickColorActive = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int toolbarNavigationButtonStyle = 2130903664;
+			public const int tickColorInactive = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int toolbarStyle = 2130903665;
+			public const int tickMark = 2130903665;
 			
 			// aapt resource value: 0x7F030272
-			public const int tooltipForegroundColor = 2130903666;
+			public const int tickMarkTint = 2130903666;
 			
 			// aapt resource value: 0x7F030273
-			public const int tooltipFrameBackground = 2130903667;
+			public const int tickMarkTintMode = 2130903667;
 			
 			// aapt resource value: 0x7F030274
-			public const int tooltipStyle = 2130903668;
+			public const int tint = 2130903668;
 			
 			// aapt resource value: 0x7F030275
-			public const int tooltipText = 2130903669;
+			public const int tintMode = 2130903669;
 			
 			// aapt resource value: 0x7F030276
-			public const int track = 2130903670;
+			public const int title = 2130903670;
 			
 			// aapt resource value: 0x7F030277
-			public const int trackColor = 2130903671;
+			public const int titleEnabled = 2130903671;
 			
 			// aapt resource value: 0x7F030278
-			public const int trackColorActive = 2130903672;
+			public const int titleMargin = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int trackColorInactive = 2130903673;
+			public const int titleMarginBottom = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int trackHeight = 2130903674;
-			
-			// aapt resource value: 0x7F03027B
-			public const int trackTint = 2130903675;
-			
-			// aapt resource value: 0x7F03027C
-			public const int trackTintMode = 2130903676;
+			public const int titleMarginEnd = 2130903674;
 			
 			// aapt resource value: 0x7F03027D
-			public const int transitionShapeAppearance = 2130903677;
+			public const int titleMargins = 2130903677;
+			
+			// aapt resource value: 0x7F03027B
+			public const int titleMarginStart = 2130903675;
+			
+			// aapt resource value: 0x7F03027C
+			public const int titleMarginTop = 2130903676;
 			
 			// aapt resource value: 0x7F03027E
-			public const int ttcIndex = 2130903678;
+			public const int titleTextAppearance = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int useCompatPadding = 2130903679;
+			public const int titleTextColor = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int useMaterialThemeColors = 2130903680;
+			public const int titleTextStyle = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int values = 2130903681;
+			public const int toolbarId = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int verticalOffset = 2130903682;
+			public const int toolbarNavigationButtonStyle = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int viewInflaterClass = 2130903683;
+			public const int toolbarStyle = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int voiceIcon = 2130903684;
+			public const int tooltipForegroundColor = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int windowActionBar = 2130903685;
+			public const int tooltipFrameBackground = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int windowActionBarOverlay = 2130903686;
+			public const int tooltipStyle = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int windowActionModeOverlay = 2130903687;
+			public const int tooltipText = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int windowFixedHeightMajor = 2130903688;
+			public const int track = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int windowFixedHeightMinor = 2130903689;
+			public const int trackColor = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int windowFixedWidthMajor = 2130903690;
+			public const int trackColorActive = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int windowFixedWidthMinor = 2130903691;
+			public const int trackColorInactive = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int windowMinWidthMajor = 2130903692;
+			public const int trackHeight = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int windowMinWidthMinor = 2130903693;
+			public const int trackTint = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int windowNoTitle = 2130903694;
+			public const int trackTintMode = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int yearSelectedStyle = 2130903695;
+			public const int transitionShapeAppearance = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int yearStyle = 2130903696;
+			public const int ttcIndex = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int yearTodayStyle = 2130903697;
+			public const int useCompatPadding = 2130903697;
+			
+			// aapt resource value: 0x7F030292
+			public const int useMaterialThemeColors = 2130903698;
+			
+			// aapt resource value: 0x7F030293
+			public const int values = 2130903699;
+			
+			// aapt resource value: 0x7F030294
+			public const int verticalOffset = 2130903700;
+			
+			// aapt resource value: 0x7F030295
+			public const int viewInflaterClass = 2130903701;
+			
+			// aapt resource value: 0x7F030296
+			public const int voiceIcon = 2130903702;
+			
+			// aapt resource value: 0x7F030297
+			public const int windowActionBar = 2130903703;
+			
+			// aapt resource value: 0x7F030298
+			public const int windowActionBarOverlay = 2130903704;
+			
+			// aapt resource value: 0x7F030299
+			public const int windowActionModeOverlay = 2130903705;
+			
+			// aapt resource value: 0x7F03029A
+			public const int windowFixedHeightMajor = 2130903706;
+			
+			// aapt resource value: 0x7F03029B
+			public const int windowFixedHeightMinor = 2130903707;
+			
+			// aapt resource value: 0x7F03029C
+			public const int windowFixedWidthMajor = 2130903708;
+			
+			// aapt resource value: 0x7F03029D
+			public const int windowFixedWidthMinor = 2130903709;
+			
+			// aapt resource value: 0x7F03029E
+			public const int windowMinWidthMajor = 2130903710;
+			
+			// aapt resource value: 0x7F03029F
+			public const int windowMinWidthMinor = 2130903711;
+			
+			// aapt resource value: 0x7F0302A0
+			public const int windowNoTitle = 2130903712;
+			
+			// aapt resource value: 0x7F0302A1
+			public const int yearSelectedStyle = 2130903713;
+			
+			// aapt resource value: 0x7F0302A2
+			public const int yearStyle = 2130903714;
+			
+			// aapt resource value: 0x7F0302A3
+			public const int yearTodayStyle = 2130903715;
 			
 			static Attribute()
 			{
@@ -11706,101 +14393,110 @@ namespace TiuShop.Droid
 			// aapt resource value: 0x7F070073
 			public const int logo500_500 = 2131165299;
 			
+			// aapt resource value: 0x7F070076
+			public const int logoT500_500 = 2131165302;
+			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_calendar_black_24dp = 2131165300;
+			public const int logo_facebook = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_clear_black_24dp = 2131165301;
-			
-			// aapt resource value: 0x7F070076
-			public const int material_ic_edit_black_24dp = 2131165302;
+			public const int logo_google = 2131165301;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165303;
+			public const int material_ic_calendar_black_24dp = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165304;
+			public const int material_ic_clear_black_24dp = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165305;
+			public const int material_ic_edit_black_24dp = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165306;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_dialog_background = 2131165307;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_dropdown_arrow = 2131165308;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_ic_arrow_drop_down = 2131165309;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_ic_arrow_drop_up = 2131165310;
+			public const int mtrl_dialog_background = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_ic_cancel = 2131165311;
+			public const int mtrl_dropdown_arrow = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_ic_error = 2131165312;
+			public const int mtrl_ic_arrow_drop_down = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_popupmenu_background = 2131165313;
+			public const int mtrl_ic_arrow_drop_up = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int mtrl_popupmenu_background_dark = 2131165314;
+			public const int mtrl_ic_cancel = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int mtrl_tabs_default_indicator = 2131165315;
+			public const int mtrl_ic_error = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int navigation_empty_icon = 2131165316;
+			public const int mtrl_popupmenu_background = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_action_background = 2131165317;
+			public const int mtrl_popupmenu_background_dark = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg = 2131165318;
+			public const int mtrl_tabs_default_indicator = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_bg_low = 2131165319;
+			public const int navigation_empty_icon = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg_low_normal = 2131165320;
+			public const int notification_action_background = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_low_pressed = 2131165321;
+			public const int notification_bg = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_bg_normal = 2131165322;
+			public const int notification_bg_low = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_bg_normal_pressed = 2131165323;
+			public const int notification_bg_low_normal = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_icon_background = 2131165324;
+			public const int notification_bg_low_pressed = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_template_icon_bg = 2131165325;
+			public const int notification_bg_normal = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notification_template_icon_low_bg = 2131165326;
+			public const int notification_bg_normal_pressed = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int notification_tile_bg = 2131165327;
+			public const int notification_icon_background = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int notify_panel_notification_icon_bg = 2131165328;
+			public const int notification_template_icon_bg = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int test_custom_background = 2131165329;
+			public const int notification_template_icon_low_bg = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int tooltip_frame_dark = 2131165330;
+			public const int notification_tile_bg = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int tooltip_frame_light = 2131165331;
+			public const int notify_panel_notification_icon_bg = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int test_custom_background = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int tooltip_frame_dark = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int tooltip_frame_light = 2131165334;
 			
 			static Drawable()
 			{
@@ -11996,19 +14692,22 @@ namespace TiuShop.Droid
 			public const int auto = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int beginning = 2131230789;
+			public const int automatic = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int blocking = 2131230790;
+			public const int beginning = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int bottom = 2131230791;
+			public const int blocking = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int bottomtab_navarea = 2131230792;
+			public const int bottom = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int bottomtab_tabbar = 2131230793;
+			public const int bottomtab_navarea = 2131230793;
+			
+			// aapt resource value: 0x7F08004A
+			public const int bottomtab_tabbar = 2131230794;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -12016,692 +14715,707 @@ namespace TiuShop.Droid
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
-			// aapt resource value: 0x7F08004A
-			public const int browser_actions_header_text = 2131230794;
-			
-			// aapt resource value: 0x7F08004D
-			public const int browser_actions_menu_items = 2131230797;
-			
 			// aapt resource value: 0x7F08004B
-			public const int browser_actions_menu_item_icon = 2131230795;
-			
-			// aapt resource value: 0x7F08004C
-			public const int browser_actions_menu_item_text = 2131230796;
+			public const int browser_actions_header_text = 2131230795;
 			
 			// aapt resource value: 0x7F08004E
-			public const int browser_actions_menu_view = 2131230798;
+			public const int browser_actions_menu_items = 2131230798;
+			
+			// aapt resource value: 0x7F08004C
+			public const int browser_actions_menu_item_icon = 2131230796;
+			
+			// aapt resource value: 0x7F08004D
+			public const int browser_actions_menu_item_text = 2131230797;
 			
 			// aapt resource value: 0x7F08004F
-			public const int buttonPanel = 2131230799;
+			public const int browser_actions_menu_view = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int cancel_action = 2131230800;
+			public const int buttonPanel = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int cancel_button = 2131230801;
+			public const int cancel_action = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int center = 2131230802;
+			public const int cancel_button = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int center_horizontal = 2131230803;
+			public const int center = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int center_vertical = 2131230804;
+			public const int center_horizontal = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int checkbox = 2131230805;
+			public const int center_vertical = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int @checked = 2131230806;
+			public const int checkbox = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int chip = 2131230807;
+			public const int @checked = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int chip1 = 2131230808;
+			public const int chip = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int chip2 = 2131230809;
+			public const int chip1 = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int chip3 = 2131230810;
+			public const int chip2 = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int chip_group = 2131230811;
+			public const int chip3 = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int chronometer = 2131230812;
+			public const int chip_group = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int clear_text = 2131230813;
+			public const int chronometer = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int clip_horizontal = 2131230814;
+			public const int clear_text = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int clip_vertical = 2131230815;
+			public const int clip_horizontal = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int collapseActionView = 2131230816;
+			public const int clip_vertical = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int confirm_button = 2131230817;
+			public const int collapseActionView = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int container = 2131230818;
+			public const int confirm_button = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int content = 2131230819;
+			public const int container = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int contentPanel = 2131230820;
+			public const int content = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int coordinator = 2131230821;
+			public const int contentPanel = 2131230821;
+			
+			// aapt resource value: 0x7F080066
+			public const int coordinator = 2131230822;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F080066
-			public const int custom = 2131230822;
-			
 			// aapt resource value: 0x7F080067
-			public const int customPanel = 2131230823;
+			public const int custom = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int cut = 2131230824;
+			public const int customPanel = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int date_picker_actions = 2131230825;
+			public const int cut = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int decor_content_parent = 2131230826;
+			public const int date_picker_actions = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int default_activity_button = 2131230827;
+			public const int decor_content_parent = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int design_bottom_sheet = 2131230828;
+			public const int default_activity_button = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int design_menu_item_action_area = 2131230829;
+			public const int design_bottom_sheet = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int design_menu_item_action_area_stub = 2131230830;
+			public const int design_menu_item_action_area = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int design_menu_item_text = 2131230831;
+			public const int design_menu_item_action_area_stub = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int design_navigation_view = 2131230832;
+			public const int design_menu_item_text = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int dialog_button = 2131230833;
+			public const int design_navigation_view = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int disableHome = 2131230834;
+			public const int dialog_button = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int dropdown_menu = 2131230835;
+			public const int disableHome = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int edit_query = 2131230836;
+			public const int dropdown_menu = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int end = 2131230837;
+			public const int edit_query = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int end_padder = 2131230838;
+			public const int end = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int enterAlways = 2131230839;
+			public const int end_padder = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int enterAlwaysCollapsed = 2131230840;
+			public const int enterAlways = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int exitUntilCollapsed = 2131230841;
-			
-			// aapt resource value: 0x7F08007B
-			public const int expanded_menu = 2131230843;
+			public const int enterAlwaysCollapsed = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int expand_activities_button = 2131230842;
+			public const int exitUntilCollapsed = 2131230842;
 			
 			// aapt resource value: 0x7F08007C
-			public const int fade = 2131230844;
+			public const int expanded_menu = 2131230844;
+			
+			// aapt resource value: 0x7F08007B
+			public const int expand_activities_button = 2131230843;
 			
 			// aapt resource value: 0x7F08007D
-			public const int fill = 2131230845;
-			
-			// aapt resource value: 0x7F080080
-			public const int filled = 2131230848;
+			public const int fade = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int fill_horizontal = 2131230846;
-			
-			// aapt resource value: 0x7F08007F
-			public const int fill_vertical = 2131230847;
+			public const int fill = 2131230846;
 			
 			// aapt resource value: 0x7F080081
-			public const int fitToContents = 2131230849;
+			public const int filled = 2131230849;
+			
+			// aapt resource value: 0x7F08007F
+			public const int fill_horizontal = 2131230847;
+			
+			// aapt resource value: 0x7F080080
+			public const int fill_vertical = 2131230848;
 			
 			// aapt resource value: 0x7F080082
-			public const int @fixed = 2131230850;
+			public const int fitToContents = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int floating = 2131230851;
+			public const int @fixed = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int flyoutcontent_appbar = 2131230852;
+			public const int floating = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int forever = 2131230853;
+			public const int flyoutcontent_appbar = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int fragment_container_view_tag = 2131230854;
+			public const int forever = 2131230854;
+			
+			// aapt resource value: 0x7F080087
+			public const int fragment_container_view_tag = 2131230855;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F080087
-			public const int ghost_view = 2131230855;
-			
 			// aapt resource value: 0x7F080088
-			public const int ghost_view_holder = 2131230856;
+			public const int ghost_view = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int gone = 2131230857;
+			public const int ghost_view_holder = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int group_divider = 2131230858;
+			public const int gone = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int hideable = 2131230859;
+			public const int group_divider = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int home = 2131230860;
+			public const int hardware = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int homeAsUp = 2131230861;
+			public const int hideable = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int icon = 2131230862;
+			public const int home = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int icon_group = 2131230863;
+			public const int homeAsUp = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int ifRoom = 2131230864;
+			public const int icon = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int image = 2131230865;
+			public const int icon_group = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int info = 2131230866;
+			public const int ifRoom = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int italic = 2131230867;
+			public const int image = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int item_touch_helper_previous_elevation = 2131230868;
+			public const int info = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int labeled = 2131230869;
+			public const int italic = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int largeLabel = 2131230870;
+			public const int item_touch_helper_previous_elevation = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int left = 2131230871;
+			public const int labeled = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int line1 = 2131230872;
+			public const int largeLabel = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int line3 = 2131230873;
+			public const int left = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int listMode = 2131230874;
+			public const int line1 = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int list_item = 2131230875;
+			public const int line3 = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int main_appbar = 2131230876;
+			public const int listMode = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int main_tablayout = 2131230877;
+			public const int list_item = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int main_toolbar = 2131230878;
+			public const int lottie_layer_name = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int main_viewpager = 2131230879;
+			public const int main_appbar = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int masked = 2131230880;
+			public const int main_tablayout = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int media_actions = 2131230881;
+			public const int main_toolbar = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int media_controller_compat_view_tag = 2131230882;
+			public const int main_viewpager = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int message = 2131230883;
+			public const int masked = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int media_actions = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int media_controller_compat_view_tag = 2131230885;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int message = 2131230886;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
-			// aapt resource value: 0x7F0800A4
-			public const int middle = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int mini = 2131230885;
-			
-			// aapt resource value: 0x7F0800A6
-			public const int month_grid = 2131230886;
-			
 			// aapt resource value: 0x7F0800A7
-			public const int month_navigation_bar = 2131230887;
+			public const int middle = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int month_navigation_fragment_toggle = 2131230888;
+			public const int mini = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int month_navigation_next = 2131230889;
+			public const int month_grid = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int month_navigation_previous = 2131230890;
+			public const int month_navigation_bar = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int month_title = 2131230891;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int mtrl_calendar_days_of_week = 2131230893;
+			public const int month_navigation_fragment_toggle = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int mtrl_calendar_day_selector_frame = 2131230892;
+			public const int month_navigation_next = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int month_navigation_previous = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int mtrl_calendar_frame = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int mtrl_calendar_main_pane = 2131230895;
+			public const int month_title = 2131230894;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int mtrl_calendar_months = 2131230896;
+			public const int mtrl_calendar_days_of_week = 2131230896;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int mtrl_calendar_day_selector_frame = 2131230895;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int mtrl_calendar_selection_frame = 2131230897;
+			public const int mtrl_calendar_frame = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int mtrl_calendar_text_input_frame = 2131230898;
+			public const int mtrl_calendar_main_pane = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int mtrl_calendar_year_selector_frame = 2131230899;
+			public const int mtrl_calendar_months = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int mtrl_card_checked_layer_id = 2131230900;
+			public const int mtrl_calendar_selection_frame = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int mtrl_child_content_container = 2131230901;
+			public const int mtrl_calendar_text_input_frame = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int mtrl_internal_children_alpha_tag = 2131230902;
+			public const int mtrl_calendar_year_selector_frame = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int mtrl_motion_snapshot_view = 2131230903;
+			public const int mtrl_card_checked_layer_id = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int mtrl_picker_fullscreen = 2131230904;
+			public const int mtrl_child_content_container = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int mtrl_picker_header = 2131230905;
+			public const int mtrl_internal_children_alpha_tag = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int mtrl_picker_header_selection_text = 2131230906;
+			public const int mtrl_motion_snapshot_view = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int mtrl_picker_header_title_and_selection = 2131230907;
+			public const int mtrl_picker_fullscreen = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int mtrl_picker_header_toggle = 2131230908;
+			public const int mtrl_picker_header = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int mtrl_picker_text_input_date = 2131230909;
+			public const int mtrl_picker_header_selection_text = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int mtrl_picker_text_input_range_end = 2131230910;
+			public const int mtrl_picker_header_title_and_selection = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int mtrl_picker_text_input_range_start = 2131230911;
+			public const int mtrl_picker_header_toggle = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int mtrl_picker_title_text = 2131230912;
+			public const int mtrl_picker_text_input_date = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int multiply = 2131230913;
+			public const int mtrl_picker_text_input_range_end = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int navigation_header_container = 2131230914;
+			public const int mtrl_picker_text_input_range_start = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int never = 2131230915;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int none = 2131230917;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int normal = 2131230918;
+			public const int mtrl_picker_title_text = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int noScroll = 2131230916;
+			public const int multiply = 2131230916;
 			
-			// aapt resource value: 0x7F0800C7
-			public const int notification_background = 2131230919;
+			// aapt resource value: 0x7F0800C5
+			public const int navigation_header_container = 2131230917;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int never = 2131230918;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int notification_main_column = 2131230920;
+			public const int none = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int notification_main_column_container = 2131230921;
+			public const int normal = 2131230921;
+			
+			// aapt resource value: 0x7F0800C7
+			public const int noScroll = 2131230919;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int off = 2131230922;
+			public const int notification_background = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int on = 2131230923;
+			public const int notification_main_column = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int outline = 2131230924;
+			public const int notification_main_column_container = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int parallax = 2131230925;
+			public const int off = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int parentPanel = 2131230926;
+			public const int on = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int parent_matrix = 2131230927;
+			public const int outline = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int password_toggle = 2131230928;
+			public const int parallax = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int peekHeight = 2131230929;
+			public const int parentPanel = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int pin = 2131230930;
+			public const int parent_matrix = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int progress_circular = 2131230931;
+			public const int password_toggle = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int progress_horizontal = 2131230932;
+			public const int peekHeight = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int radio = 2131230933;
+			public const int pin = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int right = 2131230934;
+			public const int progress_circular = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int right_icon = 2131230935;
+			public const int progress_horizontal = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int right_side = 2131230936;
+			public const int radio = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int rounded = 2131230937;
+			public const int restart = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int row_index_key = 2131230938;
+			public const int reverse = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int save_non_transition_alpha = 2131230939;
+			public const int right = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int save_overlay_view = 2131230940;
+			public const int right_icon = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int scale = 2131230941;
+			public const int right_side = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int screen = 2131230942;
+			public const int rounded = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int scroll = 2131230943;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int scrollable = 2131230947;
+			public const int row_index_key = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int scrollIndicatorDown = 2131230944;
+			public const int save_non_transition_alpha = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int scrollIndicatorUp = 2131230945;
+			public const int save_overlay_view = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int scrollView = 2131230946;
+			public const int scale = 2131230946;
+			
+			// aapt resource value: 0x7F0800E3
+			public const int screen = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int search_badge = 2131230948;
-			
-			// aapt resource value: 0x7F0800E5
-			public const int search_bar = 2131230949;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int search_button = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int search_close_btn = 2131230951;
+			public const int scroll = 2131230948;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int search_edit_frame = 2131230952;
+			public const int scrollable = 2131230952;
+			
+			// aapt resource value: 0x7F0800E5
+			public const int scrollIndicatorDown = 2131230949;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int scrollIndicatorUp = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int scrollView = 2131230951;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int search_go_btn = 2131230953;
+			public const int search_badge = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int search_mag_icon = 2131230954;
+			public const int search_bar = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int search_plate = 2131230955;
+			public const int search_button = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int search_src_text = 2131230956;
+			public const int search_close_btn = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int search_voice_btn = 2131230957;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int selected = 2131230959;
+			public const int search_edit_frame = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int select_dialog_listview = 2131230958;
+			public const int search_go_btn = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int search_mag_icon = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int shellcontent_appbar = 2131230960;
+			public const int search_plate = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int shellcontent_toolbar = 2131230961;
+			public const int search_src_text = 2131230961;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int search_voice_btn = 2131230962;
+			
+			// aapt resource value: 0x7F0800F4
+			public const int selected = 2131230964;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int select_dialog_listview = 2131230963;
+			
+			// aapt resource value: 0x7F0800F5
+			public const int shellcontent_appbar = 2131230965;
+			
+			// aapt resource value: 0x7F0800F6
+			public const int shellcontent_toolbar = 2131230966;
 			
 			// aapt resource value: 0x7F080006
 			public const int SHIFT = 2131230726;
 			
-			// aapt resource value: 0x7F0800F2
-			public const int shortcut = 2131230962;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int showCustom = 2131230963;
-			
-			// aapt resource value: 0x7F0800F4
-			public const int showHome = 2131230964;
-			
-			// aapt resource value: 0x7F0800F5
-			public const int showTitle = 2131230965;
-			
-			// aapt resource value: 0x7F0800F6
-			public const int skipCollapsed = 2131230966;
-			
 			// aapt resource value: 0x7F0800F7
-			public const int slide = 2131230967;
+			public const int shortcut = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int sliding_tabs = 2131230968;
+			public const int showCustom = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int smallLabel = 2131230969;
+			public const int showHome = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int snackbar_action = 2131230970;
+			public const int showTitle = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int snackbar_text = 2131230971;
+			public const int skipCollapsed = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int snap = 2131230972;
+			public const int slide = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int snapMargins = 2131230973;
+			public const int sliding_tabs = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int spacer = 2131230974;
+			public const int smallLabel = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int split_action_bar = 2131230975;
+			public const int snackbar_action = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int src_atop = 2131230976;
+			public const int snackbar_text = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int src_in = 2131230977;
+			public const int snap = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int src_over = 2131230978;
+			public const int snapMargins = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int start = 2131230979;
+			public const int software = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int status_bar_latest_event_content = 2131230980;
+			public const int spacer = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int stretch = 2131230981;
+			public const int split_action_bar = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int submenuarrow = 2131230982;
+			public const int src_atop = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int submit_area = 2131230983;
+			public const int src_in = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int src_over = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int start = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int status_bar_latest_event_content = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int stretch = 2131230987;
+			
+			// aapt resource value: 0x7F08010C
+			public const int submenuarrow = 2131230988;
+			
+			// aapt resource value: 0x7F08010D
+			public const int submit_area = 2131230989;
 			
 			// aapt resource value: 0x7F080007
 			public const int SYM = 2131230727;
 			
-			// aapt resource value: 0x7F080108
-			public const int tabMode = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int tag_accessibility_actions = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int tag_accessibility_clickable_spans = 2131230986;
-			
-			// aapt resource value: 0x7F08010B
-			public const int tag_accessibility_heading = 2131230987;
-			
-			// aapt resource value: 0x7F08010C
-			public const int tag_accessibility_pane_title = 2131230988;
-			
-			// aapt resource value: 0x7F08010D
-			public const int tag_screen_reader_focusable = 2131230989;
-			
 			// aapt resource value: 0x7F08010E
-			public const int tag_transition_group = 2131230990;
+			public const int tabMode = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int tag_unhandled_key_event_manager = 2131230991;
+			public const int tag_accessibility_actions = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int tag_unhandled_key_listeners = 2131230992;
+			public const int tag_accessibility_clickable_spans = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int test_checkbox_android_button_tint = 2131230993;
+			public const int tag_accessibility_heading = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int test_checkbox_app_button_tint = 2131230994;
+			public const int tag_accessibility_pane_title = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int test_radiobutton_android_button_tint = 2131230995;
+			public const int tag_screen_reader_focusable = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int test_radiobutton_app_button_tint = 2131230996;
+			public const int tag_transition_group = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int text = 2131230997;
+			public const int tag_unhandled_key_event_manager = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int text2 = 2131230998;
+			public const int tag_unhandled_key_listeners = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int textEnd = 2131230999;
-			
-			// aapt resource value: 0x7F08011D
-			public const int textinput_counter = 2131231005;
-			
-			// aapt resource value: 0x7F08011E
-			public const int textinput_error = 2131231006;
-			
-			// aapt resource value: 0x7F08011F
-			public const int textinput_helper_text = 2131231007;
-			
-			// aapt resource value: 0x7F080120
-			public const int textinput_placeholder = 2131231008;
-			
-			// aapt resource value: 0x7F080121
-			public const int textinput_prefix_text = 2131231009;
-			
-			// aapt resource value: 0x7F080122
-			public const int textinput_suffix_text = 2131231010;
+			public const int test_checkbox_android_button_tint = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int textSpacerNoButtons = 2131231000;
+			public const int test_checkbox_app_button_tint = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int textSpacerNoTitle = 2131231001;
+			public const int test_radiobutton_android_button_tint = 2131231001;
 			
 			// aapt resource value: 0x7F08011A
-			public const int textStart = 2131231002;
+			public const int test_radiobutton_app_button_tint = 2131231002;
 			
 			// aapt resource value: 0x7F08011B
-			public const int text_input_end_icon = 2131231003;
+			public const int text = 2131231003;
 			
 			// aapt resource value: 0x7F08011C
-			public const int text_input_start_icon = 2131231004;
+			public const int text2 = 2131231004;
+			
+			// aapt resource value: 0x7F08011D
+			public const int textEnd = 2131231005;
 			
 			// aapt resource value: 0x7F080123
-			public const int time = 2131231011;
+			public const int textinput_counter = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int title = 2131231012;
+			public const int textinput_error = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int titleDividerNoCustom = 2131231013;
+			public const int textinput_helper_text = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int title_template = 2131231014;
+			public const int textinput_placeholder = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int toolbar = 2131231015;
+			public const int textinput_prefix_text = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int top = 2131231016;
+			public const int textinput_suffix_text = 2131231016;
+			
+			// aapt resource value: 0x7F08011E
+			public const int textSpacerNoButtons = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int textSpacerNoTitle = 2131231007;
+			
+			// aapt resource value: 0x7F080120
+			public const int textStart = 2131231008;
+			
+			// aapt resource value: 0x7F080121
+			public const int text_input_end_icon = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int text_input_start_icon = 2131231010;
 			
 			// aapt resource value: 0x7F080129
-			public const int topPanel = 2131231017;
+			public const int time = 2131231017;
+			
+			// aapt resource value: 0x7F08012A
+			public const int title = 2131231018;
+			
+			// aapt resource value: 0x7F08012B
+			public const int titleDividerNoCustom = 2131231019;
+			
+			// aapt resource value: 0x7F08012C
+			public const int title_template = 2131231020;
+			
+			// aapt resource value: 0x7F08012D
+			public const int toolbar = 2131231021;
+			
+			// aapt resource value: 0x7F08012E
+			public const int top = 2131231022;
+			
+			// aapt resource value: 0x7F08012F
+			public const int topPanel = 2131231023;
 			
 			// aapt resource value: 0x7F080008
 			public const int TOP_END = 2131230728;
@@ -12709,62 +15423,62 @@ namespace TiuShop.Droid
 			// aapt resource value: 0x7F080009
 			public const int TOP_START = 2131230729;
 			
-			// aapt resource value: 0x7F08012A
-			public const int touch_outside = 2131231018;
-			
-			// aapt resource value: 0x7F08012B
-			public const int transition_current_scene = 2131231019;
-			
-			// aapt resource value: 0x7F08012C
-			public const int transition_layout_save = 2131231020;
-			
-			// aapt resource value: 0x7F08012D
-			public const int transition_position = 2131231021;
-			
-			// aapt resource value: 0x7F08012E
-			public const int transition_scene_layoutid_cache = 2131231022;
-			
-			// aapt resource value: 0x7F08012F
-			public const int transition_transform = 2131231023;
-			
 			// aapt resource value: 0x7F080130
-			public const int @unchecked = 2131231024;
+			public const int touch_outside = 2131231024;
 			
 			// aapt resource value: 0x7F080131
-			public const int uniform = 2131231025;
+			public const int transition_current_scene = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int unlabeled = 2131231026;
+			public const int transition_layout_save = 2131231026;
 			
 			// aapt resource value: 0x7F080133
-			public const int up = 2131231027;
+			public const int transition_position = 2131231027;
 			
 			// aapt resource value: 0x7F080134
-			public const int useLogo = 2131231028;
+			public const int transition_scene_layoutid_cache = 2131231028;
 			
 			// aapt resource value: 0x7F080135
-			public const int view_offset_helper = 2131231029;
+			public const int transition_transform = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int view_tree_saved_state_registry_owner = 2131231030;
+			public const int @unchecked = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int visible = 2131231031;
+			public const int uniform = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int visible_removing_fragment_view_tag = 2131231032;
-			
-			// aapt resource value: 0x7F08013A
-			public const int withinBounds = 2131231034;
+			public const int unlabeled = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int withText = 2131231033;
+			public const int up = 2131231033;
+			
+			// aapt resource value: 0x7F08013A
+			public const int useLogo = 2131231034;
 			
 			// aapt resource value: 0x7F08013B
-			public const int wrap_content = 2131231035;
+			public const int view_offset_helper = 2131231035;
 			
 			// aapt resource value: 0x7F08013C
-			public const int zero_corner_chip = 2131231036;
+			public const int view_tree_saved_state_registry_owner = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int visible = 2131231037;
+			
+			// aapt resource value: 0x7F08013E
+			public const int visible_removing_fragment_view_tag = 2131231038;
+			
+			// aapt resource value: 0x7F080140
+			public const int withinBounds = 2131231040;
+			
+			// aapt resource value: 0x7F08013F
+			public const int withText = 2131231039;
+			
+			// aapt resource value: 0x7F080141
+			public const int wrap_content = 2131231041;
+			
+			// aapt resource value: 0x7F080142
+			public const int zero_corner_chip = 2131231042;
 			
 			static Id()
 			{
@@ -15711,7 +18425,7 @@ namespace TiuShop.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F03003C,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300D4,0x7F0300DD,0x7F0300DE,0x7F0300F2,0x7F030130,0x7F030136,0x7F03013C,0x7F03013D,0x7F030140,0x7F03014A,0x7F030157,0x7F03018B,0x7F0301AC,0x7F0301C5,0x7F0301CC,0x7F0301CD,0x7F03020E,0x7F030211,0x7F030264,0x7F03026E }
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F03003C,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300D4,0x7F0300DD,0x7F0300DE,0x7F0300F2,0x7F030130,0x7F030136,0x7F03013C,0x7F03013D,0x7F030140,0x7F03014A,0x7F030157,0x7F03018B,0x7F0301BE,0x7F0301D7,0x7F0301DE,0x7F0301DF,0x7F030220,0x7F030223,0x7F030276,0x7F030280 }
 			public static int[] ActionBar = new int[] {
 					2130903092,
 					2130903099,
@@ -15734,14 +18448,14 @@ namespace TiuShop.Droid
 					2130903370,
 					2130903383,
 					2130903435,
-					2130903468,
-					2130903493,
-					2130903500,
-					2130903501,
-					2130903566,
-					2130903569,
-					2130903652,
-					2130903662};
+					2130903486,
+					2130903511,
+					2130903518,
+					2130903519,
+					2130903584,
+					2130903587,
+					2130903670,
+					2130903680};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -15848,14 +18562,14 @@ namespace TiuShop.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F030097,0x7F030130,0x7F030211,0x7F03026E }
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F030097,0x7F030130,0x7F030223,0x7F030280 }
 			public static int[] ActionMode = new int[] {
 					2130903092,
 					2130903099,
 					2130903191,
 					2130903344,
-					2130903569,
-					2130903662};
+					2130903587,
+					2130903680};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -15886,16 +18600,16 @@ namespace TiuShop.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030066,0x7F030067,0x7F030180,0x7F030181,0x7F0301A9,0x7F0301EC,0x7F0301EE }
+			// aapt resource value: { 0x10100F2,0x7F030066,0x7F030067,0x7F030180,0x7F030181,0x7F0301BB,0x7F0301FE,0x7F030200 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903142,
 					2130903143,
 					2130903424,
 					2130903425,
-					2130903465,
-					2130903532,
-					2130903534};
+					2130903483,
+					2130903550,
+					2130903552};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -15978,7 +18692,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300F2,0x7F030106,0x7F030178,0x7F030179,0x7F030208 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300F2,0x7F030106,0x7F030178,0x7F030179,0x7F03021A }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
@@ -15987,14 +18701,14 @@ namespace TiuShop.Droid
 					2130903302,
 					2130903416,
 					2130903417,
-					2130903560};
+					2130903578};
 			
-			// aapt resource value: { 0x7F030202,0x7F030203,0x7F030205,0x7F030206 }
+			// aapt resource value: { 0x7F030214,0x7F030215,0x7F030217,0x7F030218 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903554,
-					2130903555,
-					2130903557,
-					2130903558};
+					2130903572,
+					2130903573,
+					2130903575,
+					2130903576};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -16043,12 +18757,12 @@ namespace TiuShop.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F0301FA,0x7F030262,0x7F030263 }
+			// aapt resource value: { 0x1010119,0x7F03020C,0x7F030274,0x7F030275 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903546,
-					2130903650,
-					2130903651};
+					2130903564,
+					2130903668,
+					2130903669};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -16062,12 +18776,12 @@ namespace TiuShop.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F03025F,0x7F030260,0x7F030261 }
+			// aapt resource value: { 0x1010142,0x7F030271,0x7F030272,0x7F030273 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903647,
-					2130903648,
-					2130903649};
+					2130903665,
+					2130903666,
+					2130903667};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -16112,7 +18826,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F03011C,0x7F03011F,0x7F030127,0x7F03016B,0x7F03017A,0x7F030235,0x7F030251 }
+			// aapt resource value: { 0x1010034,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F03011C,0x7F03011F,0x7F030127,0x7F03016B,0x7F03017A,0x7F030247,0x7F030263 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903087,
@@ -16133,8 +18847,8 @@ namespace TiuShop.Droid
 					2130903335,
 					2130903403,
 					2130903418,
-					2130903605,
-					2130903633};
+					2130903623,
+					2130903651};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -16199,7 +18913,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F03002E,0x7F03004F,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030068,0x7F030069,0x7F030074,0x7F03007B,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300AB,0x7F0300AC,0x7F0300B2,0x7F0300C1,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DF,0x7F0300E1,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F03013C,0x7F030149,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301C4,0x7F0301C6,0x7F0301D0,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301F7,0x7F0301F8,0x7F030219,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024C,0x7F03024D,0x7F030270,0x7F030271,0x7F030272,0x7F030273,0x7F030283,0x7F030285,0x7F030286,0x7F030287,0x7F030288,0x7F030289,0x7F03028A,0x7F03028B,0x7F03028C,0x7F03028D,0x7F03028E }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F03002E,0x7F03004F,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030068,0x7F030069,0x7F030074,0x7F03007B,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300AB,0x7F0300AC,0x7F0300B2,0x7F0300C1,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DF,0x7F0300E1,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F03013C,0x7F030149,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301D6,0x7F0301D8,0x7F0301E2,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F030209,0x7F03020A,0x7F03022B,0x7F030252,0x7F030254,0x7F030255,0x7F030256,0x7F030258,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025E,0x7F03025F,0x7F030282,0x7F030283,0x7F030284,0x7F030285,0x7F030295,0x7F030297,0x7F030298,0x7F030299,0x7F03029A,0x7F03029B,0x7F03029C,0x7F03029D,0x7F03029E,0x7F03029F,0x7F0302A0 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -16285,47 +18999,47 @@ namespace TiuShop.Droid
 					2130903432,
 					2130903433,
 					2130903434,
-					2130903480,
-					2130903481,
-					2130903482,
-					2130903492,
-					2130903494,
-					2130903504,
-					2130903506,
-					2130903507,
-					2130903508,
-					2130903518,
-					2130903519,
-					2130903520,
-					2130903521,
-					2130903543,
-					2130903544,
-					2130903577,
-					2130903616,
-					2130903618,
-					2130903619,
-					2130903620,
-					2130903622,
-					2130903623,
-					2130903624,
-					2130903625,
-					2130903628,
-					2130903629,
-					2130903664,
-					2130903665,
-					2130903666,
-					2130903667,
+					2130903498,
+					2130903499,
+					2130903500,
+					2130903510,
+					2130903512,
+					2130903522,
+					2130903524,
+					2130903525,
+					2130903526,
+					2130903536,
+					2130903537,
+					2130903538,
+					2130903539,
+					2130903561,
+					2130903562,
+					2130903595,
+					2130903634,
+					2130903636,
+					2130903637,
+					2130903638,
+					2130903640,
+					2130903641,
+					2130903642,
+					2130903643,
+					2130903646,
+					2130903647,
+					2130903682,
 					2130903683,
+					2130903684,
 					2130903685,
-					2130903686,
-					2130903687,
-					2130903688,
-					2130903689,
-					2130903690,
-					2130903691,
-					2130903692,
-					2130903693,
-					2130903694};
+					2130903701,
+					2130903703,
+					2130903704,
+					2130903705,
+					2130903706,
+					2130903707,
+					2130903708,
+					2130903709,
+					2130903710,
+					2130903711,
+					2130903712};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -16702,15 +19416,15 @@ namespace TiuShop.Droid
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F030035,0x7F03003F,0x7F030041,0x7F03013E,0x7F0301A3,0x7F0301AE,0x7F030282 }
+			// aapt resource value: { 0x7F030035,0x7F03003F,0x7F030041,0x7F03013E,0x7F0301B5,0x7F0301C0,0x7F030294 }
 			public static int[] Badge = new int[] {
 					2130903093,
 					2130903103,
 					2130903105,
 					2130903358,
-					2130903459,
-					2130903470,
-					2130903682};
+					2130903477,
+					2130903488,
+					2130903700};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -16733,7 +19447,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x7F03003D,0x7F0300F2,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F030137,0x7F0301B2,0x7F0301B4,0x7F0301B5 }
+			// aapt resource value: { 0x7F03003D,0x7F0300F2,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F030137,0x7F0301C4,0x7F0301C6,0x7F0301C7 }
 			public static int[] BottomAppBar = new int[] {
 					2130903101,
 					2130903282,
@@ -16743,9 +19457,9 @@ namespace TiuShop.Droid
 					2130903315,
 					2130903316,
 					2130903351,
-					2130903474,
-					2130903476,
-					2130903477};
+					2130903492,
+					2130903494,
+					2130903495};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -16780,7 +19494,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F03003D,0x7F0300F2,0x7F03014F,0x7F030152,0x7F030154,0x7F030155,0x7F030158,0x7F030164,0x7F030165,0x7F030166,0x7F03016A,0x7F0301A7 }
+			// aapt resource value: { 0x7F03003D,0x7F0300F2,0x7F03014F,0x7F030152,0x7F030154,0x7F030155,0x7F030158,0x7F030164,0x7F030165,0x7F030166,0x7F03016A,0x7F0301B9 }
 			public static int[] BottomNavigationView = new int[] {
 					2130903101,
 					2130903282,
@@ -16793,7 +19507,7 @@ namespace TiuShop.Droid
 					2130903397,
 					2130903398,
 					2130903402,
-					2130903463};
+					2130903481};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_backgroundTint = 0;
@@ -16831,7 +19545,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 11
 			public const int BottomNavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010440,0x7F03003D,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03012B,0x7F0301E3,0x7F0301E6 }
+			// aapt resource value: { 0x1010440,0x7F03003D,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03012B,0x7F0301F5,0x7F0301F8 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843840,
 					2130903101,
@@ -16844,8 +19558,8 @@ namespace TiuShop.Droid
 					2130903116,
 					2130903117,
 					2130903339,
-					2130903523,
-					2130903526};
+					2130903541,
+					2130903544};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_android_elevation = 0;
@@ -16948,7 +19662,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300FD,0x7F030135,0x7F030141,0x7F030145,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F0301EA,0x7F03024E,0x7F030252 }
+			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300FD,0x7F030135,0x7F030141,0x7F030145,0x7F0301E9,0x7F0301F5,0x7F0301F8,0x7F0301FC,0x7F030260,0x7F030264 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842904,
@@ -16985,22 +19699,22 @@ namespace TiuShop.Droid
 					2130903349,
 					2130903361,
 					2130903365,
-					2130903511,
-					2130903523,
-					2130903526,
-					2130903530,
-					2130903630,
-					2130903634};
+					2130903529,
+					2130903541,
+					2130903544,
+					2130903548,
+					2130903648,
+					2130903652};
 			
-			// aapt resource value: { 0x7F030076,0x7F030087,0x7F030088,0x7F030089,0x7F0301E2,0x7F0301EF,0x7F0301F0 }
+			// aapt resource value: { 0x7F030076,0x7F030087,0x7F030088,0x7F030089,0x7F0301F4,0x7F030201,0x7F030202 }
 			public static int[] ChipGroup = new int[] {
 					2130903158,
 					2130903175,
 					2130903176,
 					2130903177,
-					2130903522,
-					2130903535,
-					2130903536};
+					2130903540,
+					2130903553,
+					2130903554};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -17146,7 +19860,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 40
 			public const int Chip_textStartPadding = 40;
 			
-			// aapt resource value: { 0x7F03009A,0x7F03009B,0x7F0300C0,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F0301A5,0x7F0301D8,0x7F0301DA,0x7F030209,0x7F030264,0x7F030265,0x7F03026F }
+			// aapt resource value: { 0x7F03009A,0x7F03009B,0x7F0300C0,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F0301B7,0x7F0301EA,0x7F0301EC,0x7F03021B,0x7F030276,0x7F030277,0x7F030281 }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903194,
 					2130903195,
@@ -17158,13 +19872,13 @@ namespace TiuShop.Droid
 					2130903307,
 					2130903308,
 					2130903309,
-					2130903461,
-					2130903512,
-					2130903514,
-					2130903561,
-					2130903652,
-					2130903653,
-					2130903663};
+					2130903479,
+					2130903530,
+					2130903532,
+					2130903579,
+					2130903670,
+					2130903671,
+					2130903681};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -17262,10 +19976,10 @@ namespace TiuShop.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F030167,0x7F030207 }
+			// aapt resource value: { 0x7F030167,0x7F030219 }
 			public static int[] CoordinatorLayout = new int[] {
 					2130903399,
-					2130903559};
+					2130903577};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
@@ -17304,7 +20018,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03002C,0x7F03002D,0x7F030042,0x7F03009D,0x7F0300E6,0x7F03012A,0x7F0301F6,0x7F030255 }
+			// aapt resource value: { 0x7F03002C,0x7F03002D,0x7F030042,0x7F03009D,0x7F0300E6,0x7F03012A,0x7F030208,0x7F030267 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903084,
 					2130903085,
@@ -17312,8 +20026,8 @@ namespace TiuShop.Droid
 					2130903197,
 					2130903270,
 					2130903338,
-					2130903542,
-					2130903637};
+					2130903560,
+					2130903655};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -17346,13 +20060,13 @@ namespace TiuShop.Droid
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F0300F2,0x7F03010E,0x7F030135,0x7F0301EA,0x7F0301ED }
+			// aapt resource value: { 0x7F0300F2,0x7F03010E,0x7F030135,0x7F0301FC,0x7F0301FF }
 			public static int[] ExtendedFloatingActionButton = new int[] {
 					2130903282,
 					2130903310,
 					2130903349,
-					2130903530,
-					2130903533};
+					2130903548,
+					2130903551};
 			
 			// aapt resource value: { 0x7F030043,0x7F030044 }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
@@ -17380,7 +20094,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 4
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 4;
 			
-			// aapt resource value: { 0x101000E,0x7F03003D,0x7F03003E,0x7F03004E,0x7F0300F2,0x7F0300FD,0x7F030115,0x7F030116,0x7F030135,0x7F03013F,0x7F0301A4,0x7F0301CB,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F0301EA,0x7F03027F }
+			// aapt resource value: { 0x101000E,0x7F03003D,0x7F03003E,0x7F03004E,0x7F0300F2,0x7F0300FD,0x7F030115,0x7F030116,0x7F030135,0x7F03013F,0x7F0301B6,0x7F0301DD,0x7F0301E9,0x7F0301F5,0x7F0301F8,0x7F0301FC,0x7F030291 }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130903101,
@@ -17392,13 +20106,13 @@ namespace TiuShop.Droid
 					2130903318,
 					2130903349,
 					2130903359,
-					2130903460,
-					2130903499,
-					2130903511,
-					2130903523,
-					2130903526,
-					2130903530,
-					2130903679};
+					2130903478,
+					2130903517,
+					2130903529,
+					2130903541,
+					2130903544,
+					2130903548,
+					2130903697};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -17478,7 +20192,7 @@ namespace TiuShop.Droid
 					2130903332,
 					2130903333};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03011E,0x7F030126,0x7F030127,0x7F030128,0x7F03027E }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03011E,0x7F030126,0x7F030127,0x7F030128,0x7F030290 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -17489,7 +20203,7 @@ namespace TiuShop.Droid
 					2130903334,
 					2130903335,
 					2130903336,
-					2130903678};
+					2130903696};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -17642,11 +20356,11 @@ namespace TiuShop.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F0301B2,0x7F0301B4,0x7F0301B5 }
+			// aapt resource value: { 0x7F0301C4,0x7F0301C6,0x7F0301C7 }
 			public static int[] Insets = new int[] {
-					2130903474,
-					2130903476,
-					2130903477};
+					2130903492,
+					2130903494,
+					2130903495};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -17664,7 +20378,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300DE,0x7F0300E0,0x7F0301A6,0x7F0301E9 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300DE,0x7F0300E0,0x7F0301B8,0x7F0301FB }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -17673,8 +20387,8 @@ namespace TiuShop.Droid
 					16843048,
 					2130903262,
 					2130903264,
-					2130903462,
-					2130903529};
+					2130903480,
+					2130903547};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -17733,6 +20447,77 @@ namespace TiuShop.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
+			// aapt resource value: { 0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E }
+			public static int[] LottieAnimationView = new int[] {
+					2130903438,
+					2130903439,
+					2130903440,
+					2130903441,
+					2130903442,
+					2130903443,
+					2130903444,
+					2130903445,
+					2130903446,
+					2130903447,
+					2130903448,
+					2130903449,
+					2130903450,
+					2130903451,
+					2130903452,
+					2130903453,
+					2130903454};
+			
+			// aapt resource value: 0
+			public const int LottieAnimationView_lottie_autoPlay = 0;
+			
+			// aapt resource value: 1
+			public const int LottieAnimationView_lottie_cacheComposition = 1;
+			
+			// aapt resource value: 2
+			public const int LottieAnimationView_lottie_colorFilter = 2;
+			
+			// aapt resource value: 3
+			public const int LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove = 3;
+			
+			// aapt resource value: 4
+			public const int LottieAnimationView_lottie_fallbackRes = 4;
+			
+			// aapt resource value: 5
+			public const int LottieAnimationView_lottie_fileName = 5;
+			
+			// aapt resource value: 6
+			public const int LottieAnimationView_lottie_ignoreDisabledSystemAnimations = 6;
+			
+			// aapt resource value: 7
+			public const int LottieAnimationView_lottie_imageAssetsFolder = 7;
+			
+			// aapt resource value: 8
+			public const int LottieAnimationView_lottie_loop = 8;
+			
+			// aapt resource value: 9
+			public const int LottieAnimationView_lottie_progress = 9;
+			
+			// aapt resource value: 10
+			public const int LottieAnimationView_lottie_rawRes = 10;
+			
+			// aapt resource value: 11
+			public const int LottieAnimationView_lottie_renderMode = 11;
+			
+			// aapt resource value: 12
+			public const int LottieAnimationView_lottie_repeatCount = 12;
+			
+			// aapt resource value: 13
+			public const int LottieAnimationView_lottie_repeatMode = 13;
+			
+			// aapt resource value: 14
+			public const int LottieAnimationView_lottie_scale = 14;
+			
+			// aapt resource value: 15
+			public const int LottieAnimationView_lottie_speed = 15;
+			
+			// aapt resource value: 16
+			public const int LottieAnimationView_lottie_url = 16;
+			
 			// aapt resource value: { 0x7F030036,0x7F030037,0x7F030038,0x7F030039 }
 			public static int[] MaterialAlertDialog = new int[] {
 					2130903094,
@@ -17740,13 +20525,13 @@ namespace TiuShop.Droid
 					2130903096,
 					2130903097};
 			
-			// aapt resource value: { 0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191 }
+			// aapt resource value: { 0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3 }
 			public static int[] MaterialAlertDialogTheme = new int[] {
-					2130903437,
-					2130903438,
-					2130903439,
-					2130903440,
-					2130903441};
+					2130903455,
+					2130903456,
+					2130903457,
+					2130903458,
+					2130903459};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -17782,7 +20567,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03003D,0x7F03003E,0x7F0300C8,0x7F0300F2,0x7F030140,0x7F030142,0x7F030143,0x7F030144,0x7F030146,0x7F030147,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03003D,0x7F03003E,0x7F0300C8,0x7F0300F2,0x7F030140,0x7F030142,0x7F030143,0x7F030144,0x7F030146,0x7F030147,0x7F0301E9,0x7F0301F5,0x7F0301F8,0x7F03021C,0x7F03021D }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -17800,17 +20585,17 @@ namespace TiuShop.Droid
 					2130903364,
 					2130903366,
 					2130903367,
-					2130903511,
-					2130903523,
-					2130903526,
-					2130903562,
-					2130903563};
+					2130903529,
+					2130903541,
+					2130903544,
+					2130903580,
+					2130903581};
 			
-			// aapt resource value: { 0x7F030075,0x7F0301E2,0x7F0301F0 }
+			// aapt resource value: { 0x7F030075,0x7F0301F4,0x7F030202 }
 			public static int[] MaterialButtonToggleGroup = new int[] {
 					2130903157,
-					2130903522,
-					2130903536};
+					2130903540,
+					2130903554};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -17884,17 +20669,17 @@ namespace TiuShop.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0301D1,0x7F03028F,0x7F030290,0x7F030291 }
+			// aapt resource value: { 0x101020D,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0301E3,0x7F0302A1,0x7F0302A2,0x7F0302A3 }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
 					2130903253,
 					2130903254,
 					2130903255,
 					2130903256,
-					2130903505,
-					2130903695,
-					2130903696,
-					2130903697};
+					2130903523,
+					2130903713,
+					2130903714,
+					2130903715};
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030150,0x7F030159,0x7F03015A,0x7F030161,0x7F030162,0x7F030166 }
 			public static int[] MaterialCalendarItem = new int[] {
@@ -17966,18 +20751,18 @@ namespace TiuShop.Droid
 			// aapt resource value: 8
 			public const int MaterialCalendar_yearTodayStyle = 8;
 			
-			// aapt resource value: { 0x10101E5,0x7F03006F,0x7F030077,0x7F030079,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F030204,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x10101E5,0x7F03006F,0x7F030077,0x7F030079,0x7F0301E9,0x7F0301F5,0x7F0301F8,0x7F030216,0x7F03021C,0x7F03021D }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
 					2130903151,
 					2130903159,
 					2130903161,
-					2130903511,
-					2130903523,
-					2130903526,
-					2130903556,
-					2130903562,
-					2130903563};
+					2130903529,
+					2130903541,
+					2130903544,
+					2130903574,
+					2130903580,
+					2130903581};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -18009,10 +20794,10 @@ namespace TiuShop.Droid
 			// aapt resource value: 9
 			public const int MaterialCardView_strokeWidth = 9;
 			
-			// aapt resource value: { 0x7F03006A,0x7F030280 }
+			// aapt resource value: { 0x7F03006A,0x7F030292 }
 			public static int[] MaterialCheckBox = new int[] {
 					2130903146,
-					2130903680};
+					2130903698};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -18020,10 +20805,10 @@ namespace TiuShop.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F03006A,0x7F030280 }
+			// aapt resource value: { 0x7F03006A,0x7F030292 }
 			public static int[] MaterialRadioButton = new int[] {
 					2130903146,
-					2130903680};
+					2130903698};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -18031,10 +20816,10 @@ namespace TiuShop.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F0301E3,0x7F0301E6 }
+			// aapt resource value: { 0x7F0301F5,0x7F0301F8 }
 			public static int[] MaterialShape = new int[] {
-					2130903523,
-					2130903526};
+					2130903541,
+					2130903544};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -18095,7 +20880,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300B4,0x7F030146,0x7F030147,0x7F0301AF,0x7F0301E8,0x7F030275 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300B4,0x7F030146,0x7F030147,0x7F0301C1,0x7F0301FA,0x7F030287 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -18117,9 +20902,9 @@ namespace TiuShop.Droid
 					2130903220,
 					2130903366,
 					2130903367,
-					2130903471,
-					2130903528,
-					2130903669};
+					2130903489,
+					2130903546,
+					2130903687};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -18190,7 +20975,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301CA,0x7F03020C }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301DC,0x7F03021E }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -18199,8 +20984,8 @@ namespace TiuShop.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903498,
-					2130903564};
+					2130903516,
+					2130903582};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -18229,7 +21014,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300F2,0x7F03012F,0x7F03014F,0x7F030151,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030163,0x7F030166,0x7F0301A7 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300F2,0x7F03012F,0x7F03014F,0x7F030151,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030163,0x7F030166,0x7F0301B9 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
@@ -18251,7 +21036,7 @@ namespace TiuShop.Droid
 					2130903391,
 					2130903395,
 					2130903398,
-					2130903463};
+					2130903481};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -18316,15 +21101,15 @@ namespace TiuShop.Droid
 			// aapt resource value: 20
 			public const int NavigationView_menu = 20;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0301B0 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0301C2 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903472};
+					2130903490};
 			
-			// aapt resource value: { 0x7F030201 }
+			// aapt resource value: { 0x7F030213 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903553};
+					2130903571};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -18338,17 +21123,17 @@ namespace TiuShop.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030281 }
+			// aapt resource value: { 0x7F030293 }
 			public static int[] RangeSlider = new int[] {
-					2130903681};
+					2130903699};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_values = 0;
 			
-			// aapt resource value: { 0x7F0301B1,0x7F0301B7 }
+			// aapt resource value: { 0x7F0301C3,0x7F0301C9 }
 			public static int[] RecycleListView = new int[] {
-					2130903473,
-					2130903479};
+					2130903491,
+					2130903497};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -18356,7 +21141,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03016D,0x7F0301D6,0x7F0301F5,0x7F0301FB }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03016D,0x7F0301E8,0x7F030207,0x7F03020D }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
@@ -18367,9 +21152,9 @@ namespace TiuShop.Droid
 					2130903322,
 					2130903323,
 					2130903405,
-					2130903510,
-					2130903541,
-					2130903547};
+					2130903528,
+					2130903559,
+					2130903565};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -18421,14 +21206,14 @@ namespace TiuShop.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F0301DB }
+			// aapt resource value: { 0x7F0301ED }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130903515};
+					2130903533};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030090,0x7F0300B3,0x7F0300D9,0x7F03012C,0x7F030148,0x7F03016C,0x7F0301CE,0x7F0301CF,0x7F0301DC,0x7F0301DD,0x7F03020D,0x7F030215,0x7F030284 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030090,0x7F0300B3,0x7F0300D9,0x7F03012C,0x7F030148,0x7F03016C,0x7F0301E0,0x7F0301E1,0x7F0301EE,0x7F0301EF,0x7F03021F,0x7F030227,0x7F030296 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -18440,13 +21225,13 @@ namespace TiuShop.Droid
 					2130903340,
 					2130903368,
 					2130903404,
-					2130903502,
-					2130903503,
-					2130903516,
-					2130903517,
-					2130903565,
-					2130903573,
-					2130903684};
+					2130903520,
+					2130903521,
+					2130903534,
+					2130903535,
+					2130903583,
+					2130903591,
+					2130903702};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -18499,12 +21284,12 @@ namespace TiuShop.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F0301E3,0x7F0301E6,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x7F0301F5,0x7F0301F8,0x7F03021C,0x7F03021D }
 			public static int[] ShapeableImageView = new int[] {
-					2130903523,
-					2130903526,
-					2130903562,
-					2130903563};
+					2130903541,
+					2130903544,
+					2130903580,
+					2130903581};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_shapeAppearance = 0;
@@ -18561,7 +21346,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F03012D,0x7F03012E,0x7F030168,0x7F030169,0x7F030256,0x7F030257,0x7F030258,0x7F03025C,0x7F03025D,0x7F03025E,0x7F030277,0x7F030278,0x7F030279,0x7F03027A }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F03012D,0x7F03012E,0x7F030168,0x7F030169,0x7F030268,0x7F030269,0x7F03026A,0x7F03026E,0x7F03026F,0x7F030270,0x7F030289,0x7F03028A,0x7F03028B,0x7F03028C }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
@@ -18572,16 +21357,16 @@ namespace TiuShop.Droid
 					2130903342,
 					2130903400,
 					2130903401,
-					2130903638,
-					2130903639,
-					2130903640,
-					2130903644,
-					2130903645,
-					2130903646,
-					2130903671,
-					2130903672,
-					2130903673,
-					2130903674};
+					2130903656,
+					2130903657,
+					2130903658,
+					2130903662,
+					2130903663,
+					2130903664,
+					2130903689,
+					2130903690,
+					2130903691,
+					2130903692};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -18640,13 +21425,13 @@ namespace TiuShop.Droid
 			// aapt resource value: 18
 			public const int Slider_trackHeight = 18;
 			
-			// aapt resource value: { 0x7F0301F2,0x7F0301F3,0x7F0301F4 }
+			// aapt resource value: { 0x7F030204,0x7F030205,0x7F030206 }
 			public static int[] Snackbar = new int[] {
-					2130903538,
-					2130903539,
-					2130903540};
+					2130903556,
+					2130903557,
+					2130903558};
 			
-			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002A,0x7F03003A,0x7F03003D,0x7F03003E,0x7F0300F2,0x7F0301A1 }
+			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002A,0x7F03003A,0x7F03003D,0x7F03003E,0x7F0300F2,0x7F0301B3 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130903072,
@@ -18655,7 +21440,7 @@ namespace TiuShop.Droid
 					2130903101,
 					2130903102,
 					2130903282,
-					2130903457};
+					2130903475};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -18690,13 +21475,13 @@ namespace TiuShop.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0301C5 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0301D7 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903493};
+					2130903511};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -18747,29 +21532,29 @@ namespace TiuShop.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F030216 }
+			// aapt resource value: { 0x7F030228 }
 			public static int[] SwipeRefreshLayout = new int[] {
-					2130903574};
+					2130903592};
 			
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301EB,0x7F0301F9,0x7F030217,0x7F030218,0x7F03021A,0x7F030259,0x7F03025A,0x7F03025B,0x7F030276,0x7F03027B,0x7F03027C }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301FD,0x7F03020B,0x7F030229,0x7F03022A,0x7F03022C,0x7F03026B,0x7F03026C,0x7F03026D,0x7F030288,0x7F03028D,0x7F03028E }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903531,
-					2130903545,
-					2130903575,
-					2130903576,
-					2130903578,
-					2130903641,
-					2130903642,
-					2130903643,
-					2130903670,
-					2130903675,
-					2130903676};
+					2130903549,
+					2130903563,
+					2130903593,
+					2130903594,
+					2130903596,
+					2130903659,
+					2130903660,
+					2130903661,
+					2130903688,
+					2130903693,
+					2130903694};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -18813,9 +21598,9 @@ namespace TiuShop.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030280 }
+			// aapt resource value: { 0x7F030292 }
 			public static int[] SwitchMaterial = new int[] {
-					2130903680};
+					2130903698};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
@@ -18835,33 +21620,33 @@ namespace TiuShop.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030232,0x7F030233,0x7F030234 }
+			// aapt resource value: { 0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030244,0x7F030245,0x7F030246 }
 			public static int[] TabLayout = new int[] {
-					2130903579,
-					2130903580,
-					2130903581,
-					2130903582,
-					2130903583,
-					2130903584,
-					2130903585,
-					2130903586,
-					2130903587,
-					2130903588,
-					2130903589,
-					2130903590,
-					2130903591,
-					2130903592,
-					2130903593,
-					2130903594,
-					2130903595,
-					2130903596,
 					2130903597,
 					2130903598,
 					2130903599,
 					2130903600,
+					2130903601,
 					2130903602,
 					2130903603,
-					2130903604};
+					2130903604,
+					2130903605,
+					2130903606,
+					2130903607,
+					2130903608,
+					2130903609,
+					2130903610,
+					2130903611,
+					2130903612,
+					2130903613,
+					2130903614,
+					2130903615,
+					2130903616,
+					2130903617,
+					2130903618,
+					2130903620,
+					2130903621,
+					2130903622};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -18938,7 +21723,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03011F,0x7F030127,0x7F030235,0x7F030251 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03011F,0x7F030127,0x7F030247,0x7F030263 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -18954,8 +21739,8 @@ namespace TiuShop.Droid
 					16844165,
 					2130903327,
 					2130903335,
-					2130903605,
-					2130903633};
+					2130903623,
+					2130903651};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -19005,14 +21790,14 @@ namespace TiuShop.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x7F03024F }
+			// aapt resource value: { 0x7F030261 }
 			public static int[] TextInputEditText = new int[] {
-					2130903631};
+					2130903649};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301E3,0x7F0301E6,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030212,0x7F030213,0x7F030214 }
+			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301F5,0x7F0301F8,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030224,0x7F030225,0x7F030226 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
@@ -19055,27 +21840,27 @@ namespace TiuShop.Droid
 					2130903353,
 					2130903354,
 					2130903355,
-					2130903483,
-					2130903484,
-					2130903485,
-					2130903486,
-					2130903487,
-					2130903488,
-					2130903489,
-					2130903490,
-					2130903495,
-					2130903496,
-					2130903497,
-					2130903523,
-					2130903526,
-					2130903548,
-					2130903549,
-					2130903550,
-					2130903551,
-					2130903552,
+					2130903501,
+					2130903502,
+					2130903503,
+					2130903504,
+					2130903505,
+					2130903506,
+					2130903507,
+					2130903508,
+					2130903513,
+					2130903514,
+					2130903515,
+					2130903541,
+					2130903544,
+					2130903566,
+					2130903567,
+					2130903568,
+					2130903569,
 					2130903570,
-					2130903571,
-					2130903572};
+					2130903588,
+					2130903589,
+					2130903590};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -19278,7 +22063,7 @@ namespace TiuShop.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030065,0x7F030098,0x7F030099,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F03018B,0x7F03018C,0x7F0301A2,0x7F0301A7,0x7F0301AA,0x7F0301AB,0x7F0301C5,0x7F03020E,0x7F03020F,0x7F030210,0x7F030264,0x7F030266,0x7F030267,0x7F030268,0x7F030269,0x7F03026A,0x7F03026B,0x7F03026C,0x7F03026D }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030065,0x7F030098,0x7F030099,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F03018B,0x7F03018C,0x7F0301B4,0x7F0301B9,0x7F0301BC,0x7F0301BD,0x7F0301D7,0x7F030220,0x7F030221,0x7F030222,0x7F030276,0x7F030278,0x7F030279,0x7F03027A,0x7F03027B,0x7F03027C,0x7F03027D,0x7F03027E,0x7F03027F }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
@@ -19293,23 +22078,23 @@ namespace TiuShop.Droid
 					2130903226,
 					2130903435,
 					2130903436,
-					2130903458,
-					2130903463,
-					2130903466,
-					2130903467,
-					2130903493,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903652,
-					2130903654,
-					2130903655,
-					2130903656,
-					2130903657,
-					2130903658,
-					2130903659,
-					2130903660,
-					2130903661};
+					2130903476,
+					2130903481,
+					2130903484,
+					2130903485,
+					2130903511,
+					2130903584,
+					2130903585,
+					2130903586,
+					2130903670,
+					2130903672,
+					2130903673,
+					2130903674,
+					2130903675,
+					2130903676,
+					2130903677,
+					2130903678,
+					2130903679};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -19432,13 +22217,13 @@ namespace TiuShop.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0301B3,0x7F0301B6,0x7F030253 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0301C5,0x7F0301C8,0x7F030265 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903475,
-					2130903478,
-					2130903635};
+					2130903493,
+					2130903496,
+					2130903653};
 			
 			// aapt resource value: { 0x10100D4,0x7F03003D,0x7F03003E }
 			public static int[] ViewBackgroundHelper = new int[] {

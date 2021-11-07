@@ -4,6 +4,10 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "TiuShop.Android.dll" comes first in this list. */
 		"TiuShop.Android.dll",
 		"FormsViewGroup.dll",
+		"Lottie.Android.dll",
+		"Lottie.Forms.dll",
+		"Rg.Plugins.Popup.dll",
+		"Square.OkIO.dll",
 		"TiuShop.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",

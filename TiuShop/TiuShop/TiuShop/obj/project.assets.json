@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/4.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.657"
+        },
+        "compile": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -24,6 +36,18 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Rg.Plugins.Popup/2.0.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.657"
+        },
+        "compile": {
+          "lib/netstandard2.0/Rg.Plugins.Popup.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rg.Plugins.Popup.dll": {}
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -67,6 +91,45 @@
     }
   },
   "libraries": {
+    "Com.Airbnb.Xamarin.Forms.Lottie/4.0.11": {
+      "sha512": "YwomwOTLwZC3OBuDzPF7eGegCrxNsELd096fGgIurNgCooCOt4LAhlB7G77Qi5SlkTimWYPB3jMpHQoANQpkkg==",
+      "type": "package",
+      "path": "com.airbnb.xamarin.forms.lottie/4.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "com.airbnb.xamarin.forms.lottie.4.0.11.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.nuspec",
+        "icon.png",
+        "lib/monoandroid10.0/Lottie.Forms.dll",
+        "lib/monoandroid10.0/Lottie.Forms.pdb",
+        "lib/monoandroid10.0/Lottie.Forms.xml",
+        "lib/net472/Lottie.Forms.dll",
+        "lib/net472/Lottie.Forms.pdb",
+        "lib/net472/Lottie.Forms.xml",
+        "lib/netcoreapp3.1/Lottie.Forms.dll",
+        "lib/netcoreapp3.1/Lottie.Forms.pdb",
+        "lib/netcoreapp3.1/Lottie.Forms.xml",
+        "lib/netstandard2.0/Lottie.Forms.dll",
+        "lib/netstandard2.0/Lottie.Forms.pdb",
+        "lib/netstandard2.0/Lottie.Forms.xml",
+        "lib/tizen40/Lottie.Forms.dll",
+        "lib/tizen40/Lottie.Forms.pdb",
+        "lib/tizen40/Lottie.Forms.xml",
+        "lib/uap10.0.17763/Lottie.Forms.dll",
+        "lib/uap10.0.17763/Lottie.Forms.pdb",
+        "lib/uap10.0.17763/Lottie.Forms.pri",
+        "lib/uap10.0.17763/Lottie.Forms.xml",
+        "lib/xamarinios10/Lottie.Forms.dll",
+        "lib/xamarinios10/Lottie.Forms.pdb",
+        "lib/xamarinios10/Lottie.Forms.xml",
+        "lib/xamarinmac20/Lottie.Forms.dll",
+        "lib/xamarinmac20/Lottie.Forms.pdb",
+        "lib/xamarinmac20/Lottie.Forms.xml",
+        "readme.txt"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -209,6 +272,50 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Rg.Plugins.Popup/2.0.0.14": {
+      "sha512": "TGUbBSYtKuoqy/kRMw4apwoUY43DATNPUk7t0FJUJjUYnBAJTbRIr84ZvM8xVRltoIctpm5FfCnuliw6dUDywA==",
+      "type": "package",
+      "path": "rg.plugins.popup/2.0.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/monoandroid10.0/Rg.Plugins.Popup.dll",
+        "lib/monoandroid10.0/Rg.Plugins.Popup.pdb",
+        "lib/monoandroid10.0/Rg.Plugins.Popup.xml",
+        "lib/monoandroid90/Rg.Plugins.Popup.dll",
+        "lib/monoandroid90/Rg.Plugins.Popup.pdb",
+        "lib/monoandroid90/Rg.Plugins.Popup.xml",
+        "lib/net472/Rg.Plugins.Popup.dll",
+        "lib/net472/Rg.Plugins.Popup.pdb",
+        "lib/net472/Rg.Plugins.Popup.xml",
+        "lib/netcoreapp3.1/Rg.Plugins.Popup.dll",
+        "lib/netcoreapp3.1/Rg.Plugins.Popup.pdb",
+        "lib/netcoreapp3.1/Rg.Plugins.Popup.xml",
+        "lib/netstandard2.0/Rg.Plugins.Popup.dll",
+        "lib/netstandard2.0/Rg.Plugins.Popup.pdb",
+        "lib/netstandard2.0/Rg.Plugins.Popup.xml",
+        "lib/tizen80/Rg.Plugins.Popup.dll",
+        "lib/tizen80/Rg.Plugins.Popup.pdb",
+        "lib/tizen80/Rg.Plugins.Popup.xml",
+        "lib/xamarinios10/Rg.Plugins.Popup.dll",
+        "lib/xamarinios10/Rg.Plugins.Popup.pdb",
+        "lib/xamarinios10/Rg.Plugins.Popup.xml",
+        "lib/xamarinmac20/Rg.Plugins.Popup.dll",
+        "lib/xamarinmac20/Rg.Plugins.Popup.pdb",
+        "lib/xamarinmac20/Rg.Plugins.Popup.xml",
+        "lib/xamarintvos10/Rg.Plugins.Popup.dll",
+        "lib/xamarintvos10/Rg.Plugins.Popup.pdb",
+        "lib/xamarintvos10/Rg.Plugins.Popup.xml",
+        "lib/xamarinwatchos10/Rg.Plugins.Popup.dll",
+        "lib/xamarinwatchos10/Rg.Plugins.Popup.pdb",
+        "lib/xamarinwatchos10/Rg.Plugins.Popup.xml",
+        "readme.txt",
+        "rg.plugins.popup.2.0.0.14.nupkg.sha512",
+        "rg.plugins.popup.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -528,7 +635,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 4.0.11",
       "NETStandard.Library >= 2.0.3",
+      "Rg.Plugins.Popup >= 2.0.0.14",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
@@ -577,11 +686,19 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": {
+            "target": "Package",
+            "version": "[4.0.11, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Rg.Plugins.Popup": {
+            "target": "Package",
+            "version": "[2.0.0.14, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

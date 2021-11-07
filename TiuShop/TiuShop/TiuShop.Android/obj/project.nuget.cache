@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4FNhB1FXEvQ88smKWRQSMmgGLCAvxPuY5aFmO04pHrgb8fbesIk6YMIaKdB3Ee5WI34Jp+fdXoNXefy2ksBc+w==",
+  "dgSpecHash": "UEVSHxqxkvVFSdrzFigmBcrDHyGUocTtMISjOGCEnVKzW2KCjAP/bjDNkq5xn+3D341iQVHlnPxQkjlXUhKCbg==",
   "success": true,
   "projectFilePath": "D:\\mobile\\Xamarin\\TiuShop_XamarinForms\\TiuShop\\TiuShop\\TiuShop.Android\\TiuShop.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\namth\\.nuget\\packages\\com.airbnb.android.lottie\\4.1.0\\com.airbnb.android.lottie.4.1.0.nupkg.sha512",
+    "C:\\Users\\namth\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.11\\com.airbnb.xamarin.forms.lottie.4.0.11.nupkg.sha512",
+    "C:\\Users\\namth\\.nuget\\packages\\rg.plugins.popup\\2.0.0.14\\rg.plugins.popup.2.0.0.14.nupkg.sha512",
+    "C:\\Users\\namth\\.nuget\\packages\\square.okio\\1.17.4\\square.okio.1.17.4.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",

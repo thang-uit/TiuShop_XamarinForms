@@ -9,7 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "TiuShop/1.0.0": {
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "4.0.11",
           "NETStandard.Library": "2.0.3",
+          "Rg.Plugins.Popup": "2.0.0.14",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -17,10 +19,32 @@
           "TiuShop.dll": {}
         }
       },
+      "Com.Airbnb.Xamarin.Forms.Lottie/4.0.11": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {
+            "assemblyVersion": "4.0.11.0",
+            "fileVersion": "4.0.11.0"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Rg.Plugins.Popup/2.0.0.14": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rg.Plugins.Popup.dll": {
+            "assemblyVersion": "2.0.0.12",
+            "fileVersion": "2.0.0.12"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -66,6 +90,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Com.Airbnb.Xamarin.Forms.Lottie/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YwomwOTLwZC3OBuDzPF7eGegCrxNsELd096fGgIurNgCooCOt4LAhlB7G77Qi5SlkTimWYPB3jMpHQoANQpkkg==",
+      "path": "com.airbnb.xamarin.forms.lottie/4.0.11",
+      "hashPath": "com.airbnb.xamarin.forms.lottie.4.0.11.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -79,6 +110,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Rg.Plugins.Popup/2.0.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TGUbBSYtKuoqy/kRMw4apwoUY43DATNPUk7t0FJUJjUYnBAJTbRIr84ZvM8xVRltoIctpm5FfCnuliw6dUDywA==",
+      "path": "rg.plugins.popup/2.0.0.14",
+      "hashPath": "rg.plugins.popup.2.0.0.14.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",

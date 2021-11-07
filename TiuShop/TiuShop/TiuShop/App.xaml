@@ -10,6 +10,11 @@
             <Color x:Key="ColorMain3">#000000</Color>
             <Color x:Key="ColorMain4">#FF0000</Color>
 
+            <Color x:Key="ColorLoginFacebook">#1877F2</Color>
+            <Color x:Key="ColorLoginGoogle">#4a4a4a</Color>
+            
+            
+
             <!-- ______Color Light Mode______ -->
 
             <!-- Main Background -->
@@ -50,7 +55,8 @@
 
 
             <!-- ________________Language________________ -->
-            <x:String x:Key="lblLogin">Login</x:String>
+            <x:String x:Key="btnLoginFacebook">Login with Facebook</x:String>
+            <x:String x:Key="btnLoginGoogle">Login with Google</x:String>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

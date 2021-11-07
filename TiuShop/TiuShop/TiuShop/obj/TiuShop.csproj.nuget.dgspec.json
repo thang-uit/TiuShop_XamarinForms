@@ -44,11 +44,19 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.0.11, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.14, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

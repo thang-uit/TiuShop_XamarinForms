@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TiuShop.View.SplashPage">
-
+             x:Class="TiuShop.View.SplashPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+            <Image x:Name="imgLogo" Source="logoT500_500" 
+                   WidthRequest="200" HeightRequest="200" 
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.5, 0.5"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
 </ContentPage>
