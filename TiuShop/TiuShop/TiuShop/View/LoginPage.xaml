@@ -5,45 +5,39 @@
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <ScrollView Orientation="Vertical" BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
-            <RelativeLayout>
-                <forms:AnimationView
+            <StackLayout Orientation="Vertical">
+
+                <StackLayout Orientation="Vertical" VerticalOptions="Start">
+                    <forms:AnimationView
                     x:Name="animationViewLogin"
                     Animation="animation_1.json"
-                    Margin="20"                
+                    Margin="0, 20, 0, 20"                
                     WidthRequest="200"
                     HeightRequest="200"
                     RepeatMode="Infinite"
-                    AutoPlay="True"
-                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, 
-                    Property=Height, Factor=0, Constant=0}"
-                    
-                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, 
-                    Property=Width, Factor=1, Constant=0}"
-                    
-                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, 
-                    Property=Height, Factor=0.4, Constant=0}"/>
+                    AutoPlay="True"/>
+                </StackLayout>
 
-                <Button x:Name="btnLoginFacebook" Text="{DynamicResource btnLoginFacebook}" 
-                        CornerRadius="10" Margin="20" BackgroundColor="{AppThemeBinding Light={StaticResource ColorLoginFacebook}, Dark={StaticResource ColorLoginFacebook}}"
-                        ImageSource="logo_facebook" TextColor="{AppThemeBinding Light={StaticResource ColorMain2}, Dark={StaticResource ColorMain2}}"
-                                           
-                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, 
-                    Property=Height, Factor=.88, Constant=0}"
-                        
-                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, 
-                    Property=Width, Factor=1, Constant=0}"/>
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                </StackLayout>
 
-                <Button x:Name="btnLoginGoogle" Text="{DynamicResource btnLoginGoogle}" 
-                        CornerRadius="10" Margin="20" BackgroundColor="{AppThemeBinding Light={StaticResource ColorLoginGoogle}, Dark={StaticResource ColorLoginGoogle}}"
-                        ImageSource="logo_google" TextColor="{AppThemeBinding Light={StaticResource ColorMain2}, Dark={StaticResource ColorMain2}}"
-                            
-   
-                      RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName= btnLoginFacebook,
-                    Property=Y, Factor=0.87, Constant=0}"
-                        
-                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, 
-                    Property=Width, Factor=1, Constant=0}" />
-            </RelativeLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="End">
+                    <Button x:Name="btnLoginFacebook" 
+                            Text="{DynamicResource btnLoginFacebook}" 
+                            CornerRadius="10" Margin="20, 0, 20, 0" 
+                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLoginFacebook}, Dark={StaticResource ColorLoginFacebook}}"
+                            ImageSource="logo_facebook" 
+                            TextColor="{AppThemeBinding Light={StaticResource ColorMain2}, Dark={StaticResource ColorMain2}}"/>
+
+                    <Button x:Name="btnLoginGoogle" 
+                            Text="{DynamicResource btnLoginGoogle}" 
+                            CornerRadius="10" Margin="20, 10, 20, 10" 
+                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLoginGoogle}, Dark={StaticResource ColorLoginGoogle}}"
+                            ImageSource="logo_google" 
+                            TextColor="{AppThemeBinding Light={StaticResource ColorMain2}, Dark={StaticResource ColorMain2}}"/>
+                </StackLayout>
+                
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
