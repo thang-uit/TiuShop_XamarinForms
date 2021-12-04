@@ -27,7 +27,8 @@
                             CornerRadius="10" Margin="20, 0, 20, 0" 
                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLoginFacebook}, Dark={StaticResource ColorLoginFacebook}}"
                             ImageSource="logo_facebook" 
-                            TextColor="{AppThemeBinding Light={StaticResource ColorMain2}, Dark={StaticResource ColorMain2}}"/>
+                            TextColor="{AppThemeBinding Light={StaticResource ColorMain2}, Dark={StaticResource ColorMain2}}"
+                            Clicked="btnLoginFacebook_Clicked"/>
 
                     <Button x:Name="btnLoginGoogle" 
                             Text="{DynamicResource btnLoginGoogle}" 

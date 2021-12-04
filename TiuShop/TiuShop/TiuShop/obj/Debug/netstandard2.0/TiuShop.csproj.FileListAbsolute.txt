@@ -15,3 +15,5 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstan
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\SplashPage.xaml.g.cs
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\LoginPage.xaml.g.cs
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\Popup\MyPopup.xaml.g.cs
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\Popup\MyToast.xaml.g.cs

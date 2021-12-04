@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[4.0.11, )"
             },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
             "Rg.Plugins.Popup": {
               "target": "Package",
               "version": "[2.0.0.14, )"
@@ -106,6 +110,10 @@
               "target": "Package",
               "version": "[4.0.11, )"
             },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -135,7 +143,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

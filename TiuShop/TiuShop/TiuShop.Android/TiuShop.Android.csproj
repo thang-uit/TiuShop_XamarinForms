@@ -61,6 +61,9 @@
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
       <Version>4.0.11</Version>
     </PackageReference>
+    <PackageReference Include="FirebaseAuthentication.net">
+      <Version>3.7.2</Version>
+    </PackageReference>
     <PackageReference Include="Rg.Plugins.Popup">
       <Version>2.0.0.14</Version>
     </PackageReference>
