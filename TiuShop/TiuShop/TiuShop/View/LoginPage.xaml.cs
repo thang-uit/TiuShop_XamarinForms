@@ -18,11 +18,16 @@ namespace TiuShop.View
             InitializeComponent();
         }
 
-        private void btnLoginFacebook_Clicked(object sender, EventArgs e)
+        private void btnLogin_Clicked(object sender, EventArgs e)
         {
+            Application.Current.MainPage = new NavigationPage(new MainPage());
+            //Navigation.PushAsync(new MainPage());
+            //Navigation.PushPopupAsync(new MyPopup("Notification", "Do you want to log out?", "Yes"));
+        }
 
-            Navigation.PushPopupAsync(new MyPopup("Notification", "Do you want to log out?", "Yes"));
-
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RegisterPage());
         }
     }
 }

@@ -2,26 +2,105 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              x:Class="TiuShop.View.LoginPage"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
+        
         <ScrollView Orientation="Vertical" BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
-            <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Vertical" 
+                         VerticalOptions="Start" 
+                         HorizontalOptions="FillAndExpand"
+                         Padding="20">
 
-                <StackLayout Orientation="Vertical" VerticalOptions="Start">
-                    <forms:AnimationView
+                <forms:AnimationView
                     x:Name="animationViewLogin"
                     Animation="animation_1.json"
                     Margin="0, 20, 0, 20"                
-                    WidthRequest="200"
-                    HeightRequest="200"
+                    WidthRequest="250"
+                    HeightRequest="250"
                     RepeatMode="Infinite"
                     AutoPlay="True"/>
-                </StackLayout>
 
-                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
-                </StackLayout>
+                <Frame BackgroundColor="Transparent" 
+                       BorderColor="DarkGray"
+                       CornerRadius="10" 
+                       Padding="5"
+                       Margin="0"
+                       HorizontalOptions="FillAndExpand">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="&#xe853;" 
+                        TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                        FontSize="40"
+                        VerticalOptions="Center"
+                        FontFamily="RM"/>
 
-                <StackLayout Orientation="Vertical" VerticalOptions="End">
+                        <Entry x:Name="edtUsername" 
+                        Keyboard="Text" 
+                        Placeholder="{DynamicResource edtUsername}"
+                        MaxLength="100"
+                        Margin="0, 0, 10, 0"
+                        VerticalOptions="Center"
+                        HorizontalOptions="FillAndExpand"
+                        PlaceholderColor="Gray"
+                        TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                        ClearButtonVisibility="WhileEditing"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="Transparent" 
+                       BorderColor="DarkGray"
+                       CornerRadius="10" 
+                       Padding="5"
+                       Margin="0, 10, 0, 0"
+                       HorizontalOptions="FillAndExpand">                    
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="&#xe897;" 
+                        TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                        FontSize="40"
+                        VerticalOptions="Center"
+                        FontFamily="RM"/>
+
+                        <Entry x:Name="edtPassword" 
+                               Keyboard="Text" 
+                               IsPassword="True"
+                               Placeholder="{DynamicResource edtPassword}"
+                               MaxLength="100"
+                               Margin="0, 0, 10, 0"
+                               VerticalOptions="Center"
+                               HorizontalOptions="FillAndExpand"
+                               PlaceholderColor="Gray"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                    </StackLayout>
+                </Frame>
+
+                <Button x:Name="btnLogin" 
+                        VerticalOptions="Center"
+                        Text="{DynamicResource btnLogin}" 
+                        TextTransform="Uppercase"
+                        CornerRadius="10"
+                        Margin="0, 20, 0, 0"  
+                        Clicked="btnLogin_Clicked"
+                        TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+
+                <Label HorizontalOptions="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="{DynamicResource lblRegister1}" 
+                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                            <Span Text="{DynamicResource lblRegister2}" 
+                                  FontAttributes="Bold"
+                                  TextDecorations="Underline"
+                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                
+                <!--<StackLayout Orientation="Vertical" VerticalOptions="End">
                     <Button x:Name="btnLoginFacebook" 
                             Text="{DynamicResource btnLoginFacebook}" 
                             CornerRadius="10" Margin="20, 0, 20, 0" 
@@ -36,9 +115,10 @@
                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLoginGoogle}, Dark={StaticResource ColorLoginGoogle}}"
                             ImageSource="logo_google" 
                             TextColor="{AppThemeBinding Light={StaticResource ColorMain2}, Dark={StaticResource ColorMain2}}"/>
-                </StackLayout>
+                </StackLayout>-->
                 
             </StackLayout>
         </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>

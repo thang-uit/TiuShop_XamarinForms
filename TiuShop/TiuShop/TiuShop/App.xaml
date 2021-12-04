@@ -57,6 +57,16 @@
             <!-- ________________Language________________ -->
             <x:String x:Key="btnLoginFacebook">Login with Facebook</x:String>
             <x:String x:Key="btnLoginGoogle">Login with Google</x:String>
+            <x:String x:Key="btnLogin">Login</x:String>
+            <x:String x:Key="btnRegister">Register</x:String>
+            <x:String x:Key="btnBack">Back</x:String>
+            <x:String x:Key="lblRegister1">Don't have an account? </x:String>
+            <x:String x:Key="lblRegister2">Register</x:String>
+
+            <x:String x:Key="edtUsername">Username</x:String>
+            <x:String x:Key="edtPassword">Password</x:String>
+            <x:String x:Key="edtConfirmPassword">Confirm password</x:String>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

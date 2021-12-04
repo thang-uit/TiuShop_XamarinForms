@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiuShop.View.RegisterPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    <ContentPage.Content>
+
+        <ScrollView Orientation="Vertical"> 
+            <StackLayout Padding="0"
+                         BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+                <Grid>
+                    <StackLayout Padding="0" Margin="0">
+                        <Frame BackgroundColor="Yellow" 
+                               HeightRequest="150" 
+                               Padding="0"
+                               HorizontalOptions="FillAndExpand">
+                            <Image Source="bgregister.jpg" Aspect="AspectFill" Margin="0"/>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Margin="15, 110, 15, 0">
+                        <Frame 
+                            HasShadow="True"
+                            HeightRequest="350"
+                            HorizontalOptions="FillAndExpand"
+                            CornerRadius="10"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                            <StackLayout>
+                                <StackLayout Orientation="Vertical"
+                                             HorizontalOptions="CenterAndExpand">
+                                    <Label Text="{DynamicResource lblRegister2}"
+                                               FontSize="Large"
+                                               TextTransform="Uppercase"
+                                               FontAttributes="Bold"
+                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                </StackLayout>
+
+                                <StackLayout Margin="0, 25, 0, 0">
+                                    <Frame BackgroundColor="Transparent" 
+                                           BorderColor="DarkGray"
+                                           CornerRadius="10" 
+                                           Padding="5"
+                                           Margin="0"
+                                           HorizontalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="&#xe853;" 
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="40"
+                                                   VerticalOptions="Center"
+                                                   FontFamily="RM"/>
+
+                                            <Entry x:Name="edtUsername" 
+                                                   Keyboard="Text" 
+                                                   Placeholder="{DynamicResource edtUsername}"
+                                                   MaxLength="100"
+                                                   Margin="0, 0, 10, 0"
+                                                   VerticalOptions="Center"
+                                                   HorizontalOptions="FillAndExpand"
+                                                   PlaceholderColor="Gray"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   ClearButtonVisibility="WhileEditing"/>
+                                        </StackLayout>
+                                    </Frame>
+
+                                    <Frame BackgroundColor="Transparent" 
+                                           BorderColor="DarkGray"
+                                           CornerRadius="10" 
+                                           Padding="5"
+                                           Margin="0, 20, 0, 0"
+                                           HorizontalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="&#xe897;" 
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="40"
+                                                   VerticalOptions="Center"
+                                                   FontFamily="RM"/>
+
+                                            <Entry x:Name="edtPassword" 
+                                                   Keyboard="Text" 
+                                                   IsPassword="True"
+                                                   Placeholder="{DynamicResource edtPassword}"
+                                                   MaxLength="100"
+                                                   Margin="0, 0, 10, 0"
+                                                   VerticalOptions="Center"
+                                                   HorizontalOptions="FillAndExpand"
+                                                   PlaceholderColor="Gray"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                        </StackLayout>
+                                    </Frame>
+
+                                    <Frame BackgroundColor="Transparent" 
+                                           BorderColor="DarkGray"
+                                           CornerRadius="10" 
+                                           Padding="5"
+                                           Margin="0, 20, 0, 0"
+                                           HorizontalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="&#xe897;" 
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="40"
+                                                   VerticalOptions="Center"
+                                                   FontFamily="RM"/>
+
+                                            <Entry x:Name="edtConfirmPassword" 
+                                                   Keyboard="Text" 
+                                                   IsPassword="True"
+                                                   Placeholder="{DynamicResource edtConfirmPassword}"
+                                                   MaxLength="100"
+                                                   Margin="0, 0, 10, 0"
+                                                   VerticalOptions="Center"
+                                                   HorizontalOptions="FillAndExpand"
+                                                   PlaceholderColor="Gray"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                        </StackLayout>
+                                    </Frame>
+
+                                    <StackLayout Orientation="Horizontal"
+                                                 Margin="0, 20, 0, 0">
+                                        <Button x:Name="btnBack" 
+                                            VerticalOptions="Center"
+                                            Text="{DynamicResource btnBack}"
+                                            TextTransform="Uppercase"
+                                            CornerRadius="10"
+                                            HorizontalOptions="FillAndExpand"
+                                            Clicked="btnBack_Clicked"/>
+
+                                        <Button x:Name="btnRegister" 
+                                            VerticalOptions="Center"
+                                            Text="{DynamicResource btnRegister}" 
+                                            TextTransform="Uppercase"
+                                            CornerRadius="10"
+                                            HorizontalOptions="FillAndExpand"
+                                            Clicked="btnRegister_Clicked"
+                                            TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+                                    </StackLayout>
+
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
