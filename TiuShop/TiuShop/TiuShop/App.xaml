@@ -66,6 +66,11 @@
             <x:String x:Key="edtUsername">Username</x:String>
             <x:String x:Key="edtPassword">Password</x:String>
             <x:String x:Key="edtConfirmPassword">Confirm password</x:String>
+            
+            <x:String x:Key="tabShop">Shop</x:String>
+            <x:String x:Key="tabExplore">Explore</x:String>
+            <x:String x:Key="tabCollection">Collection</x:String>
+            <x:String x:Key="tabProfile">Profile</x:String>
 
         </ResourceDictionary>
     </Application.Resources>

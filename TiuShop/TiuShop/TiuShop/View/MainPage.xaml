@@ -1,14 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TiuShop.MainPage"
-             NavigationPage.HasNavigationBar="False"
-             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            xmlns:view="clr-namespace:TiuShop.View"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            x:Class="TiuShop.MainPage"
+            NavigationPage.HasNavigationBar="False"
+            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+    <!--<ContentPage Title="Shop" IconImageSource="ic_shop.png">
+        <Label></Label>
+    </ContentPage>-->
     
-    <StackLayout
+    <view:TabShopPage Title="{DynamicResource tabShop}" IconImageSource="ic_shop.png"
+                      BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    </view:TabShopPage>
+
+    <view:TabSearchPage Title="{DynamicResource tabExplore}" IconImageSource="ic_explore.png"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    </view:TabSearchPage>
+
+    <view:TabCollectionPage Title="{DynamicResource tabCollection}" IconImageSource="ic_collection.png"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    </view:TabCollectionPage>
+
+    <view:TabCollectionPage Title="{DynamicResource tabProfile}" IconImageSource="ic_profile.png"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    </view:TabCollectionPage>
+
+    <!--<StackLayout
         Orientation="Vertical"
         BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
-        <!--<Label Text="&#xe88a;" 
+        --><!--<Label Text="&#xe88a;" 
                TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                FontSize="50"
                FontFamily="RM"/>
@@ -16,9 +39,8 @@
         <Button Text="&#xe5e0;" 
                 FontSize="50"
                 TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                FontFamily="RM"/>-->
+                FontFamily="RM"/>--><!--
         
-        
-    </StackLayout>
+    </StackLayout>-->
 
-</ContentPage>
+</TabbedPage>

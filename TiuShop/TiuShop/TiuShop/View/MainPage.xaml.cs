@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace TiuShop
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : TabbedPage
     {
         public MainPage()
         {

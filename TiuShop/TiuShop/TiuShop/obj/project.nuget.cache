@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IqEl/+Rw9fljA5YvJmwEpd/QpZxsw2/71cQq+IOGb+9JMcpkKnwgBjgHJvUjayGP71D2iZrbJKTsjeXCxmtnSw==",
+  "dgSpecHash": "WcYOhJ3VTt3rYhET2s0yQvBW8qWZDczRrMnwNV4j67YX+E9CY2uEVZF0Vy9tKoF1VXLwAku2mMkYMaG9oca4TQ==",
   "success": true,
   "projectFilePath": "D:\\mobile\\Xamarin\\TiuShop_XamarinForms\\TiuShop\\TiuShop\\TiuShop\\TiuShop.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\namth\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\namth\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\namth\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\rg.plugins.popup\\2.0.0.14\\rg.plugins.popup.2.0.0.14.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
