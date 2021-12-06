@@ -21,7 +21,7 @@
                     <StackLayout Margin="15, 110, 15, 0">
                         <Frame 
                             HasShadow="True"
-                            HeightRequest="350"
+                            HeightRequest="450"
                             HorizontalOptions="FillAndExpand"
                             CornerRadius="10"
                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
@@ -53,6 +53,32 @@
                                             <Entry x:Name="edtUsername" 
                                                    Keyboard="Text" 
                                                    Placeholder="{DynamicResource edtUsername}"
+                                                   MaxLength="100"
+                                                   Margin="0, 0, 10, 0"
+                                                   VerticalOptions="Center"
+                                                   HorizontalOptions="FillAndExpand"
+                                                   PlaceholderColor="Gray"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   ClearButtonVisibility="WhileEditing"/>
+                                        </StackLayout>
+                                    </Frame>
+
+                                    <Frame BackgroundColor="Transparent" 
+                                           BorderColor="DarkGray"
+                                           CornerRadius="10" 
+                                           Padding="5"
+                                           Margin="0, 20, 0, 0"
+                                           HorizontalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="&#xe7fd;" 
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="40"
+                                                   VerticalOptions="Center"
+                                                   FontFamily="RM"/>
+
+                                            <Entry x:Name="edtDisplayName" 
+                                                   Keyboard="Text" 
+                                                   Placeholder="{DynamicResource edtDisplayName}"
                                                    MaxLength="100"
                                                    Margin="0, 0, 10, 0"
                                                    VerticalOptions="Center"

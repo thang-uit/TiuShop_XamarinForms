@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PiZZtR1QI9ZLNw07DFiKKuo4p33FgcadxPThKpbFqMVN4sU/V4jrzR4fXxfx+dFrurM2Ut2/hv15qPMOjtbtdg==",
+  "dgSpecHash": "J055Nhd667vEXuphSOKqMlUuUcdFFB2lLxh8rfRUPnw4IVY5yJ//qqr39XXxfqQ3Web60B5GxOPYUzzGB2b3HQ==",
   "success": true,
   "projectFilePath": "D:\\mobile\\Xamarin\\TiuShop_XamarinForms\\TiuShop\\TiuShop\\TiuShop.iOS\\TiuShop.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\namth\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.13\\com.airbnb.ios.lottie.2.5.13.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.11\\com.airbnb.xamarin.forms.lottie.4.0.11.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",

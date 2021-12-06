@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uk/ARXnYdV+tvAN8Gj67ir5RSv3ltbFwGAsQHVX7ujnrRx4MeW1l8abJftrODrZldoFgDCMgOC9XivmjUdYN4g==",
+  "dgSpecHash": "73LMu8VlHCTbx2eCeYq/g145UJbx7dghZcZ6WhG8guGUhdmx3bszDZy9uPRoPRX4JOq1BYNRQZv+SKQjPeSNGw==",
   "success": true,
   "projectFilePath": "D:\\mobile\\Xamarin\\TiuShop_XamarinForms\\TiuShop\\TiuShop\\TiuShop.Android\\TiuShop.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\namth\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\com.airbnb.android.lottie\\4.1.0\\com.airbnb.android.lottie.4.1.0.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.11\\com.airbnb.xamarin.forms.lottie.4.0.11.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
@@ -56,6 +57,8 @@
     "C:\\Users\\namth\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\namth\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\namth\\.nuget\\packages\\xamarin.android.circlepageindicator\\1.1.1\\xamarin.android.circlepageindicator.1.1.1.nupkg.sha512",
+    "C:\\Users\\namth\\.nuget\\packages\\xamarin.android.verticalviewpager\\1.1.2\\xamarin.android.verticalviewpager.1.1.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

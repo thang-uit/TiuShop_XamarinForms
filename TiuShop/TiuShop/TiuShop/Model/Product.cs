@@ -11,7 +11,7 @@ namespace TiuShop.Model
         public List<ProductImage> productImages;
         public string productDescription;
         public string productDate; // Product Create
-        public int productPrice; 
+        public int productPrice;
         public int productSale;
         public int productFinalPrice;
         public string productCategory;

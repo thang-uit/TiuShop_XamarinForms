@@ -3,6 +3,10 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "TiuShop.Android.dll" comes first in this list. */
 		"TiuShop.Android.dll",
+		"CarouselView.FormsPlugin.Abstractions.dll",
+		"CarouselView.FormsPlugin.Droid.dll",
+		"Com.Android.DeskClock.dll",
+		"Com.ViewPagerIndicator.dll",
 		"Firebase.Auth.dll",
 		"FormsViewGroup.dll",
 		"Lottie.Android.dll",

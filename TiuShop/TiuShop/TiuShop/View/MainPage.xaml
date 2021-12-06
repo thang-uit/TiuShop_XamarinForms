@@ -8,10 +8,6 @@
             NavigationPage.HasNavigationBar="False"
             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
 
-    <!--<ContentPage Title="Shop" IconImageSource="ic_shop.png">
-        <Label></Label>
-    </ContentPage>-->
-    
     <view:TabShopPage Title="{DynamicResource tabShop}" IconImageSource="ic_shop.png"
                       BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     </view:TabShopPage>

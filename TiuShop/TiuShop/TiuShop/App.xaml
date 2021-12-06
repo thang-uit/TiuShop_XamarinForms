@@ -64,6 +64,7 @@
             <x:String x:Key="lblRegister2">Register</x:String>
 
             <x:String x:Key="edtUsername">Username</x:String>
+            <x:String x:Key="edtDisplayName">Display name</x:String>
             <x:String x:Key="edtPassword">Password</x:String>
             <x:String x:Key="edtConfirmPassword">Confirm password</x:String>
             
@@ -71,6 +72,11 @@
             <x:String x:Key="tabExplore">Explore</x:String>
             <x:String x:Key="tabCollection">Collection</x:String>
             <x:String x:Key="tabProfile">Profile</x:String>
+
+            <x:String x:Key="lbltabShop1">Let's Start</x:String>
+            <x:String x:Key="lblMan">Man</x:String>
+            <x:String x:Key="lblWoman">Woman</x:String>
+            <x:String x:Key="lblHot">HOT</x:String>
 
         </ResourceDictionary>
     </Application.Resources>

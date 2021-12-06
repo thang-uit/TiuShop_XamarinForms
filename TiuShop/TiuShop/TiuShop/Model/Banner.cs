@@ -6,8 +6,8 @@ namespace TiuShop.Model
 {
     public class Banner
     {
-        public string bannerID;
-        public string bannerImage;
-        public string productID;
+        public int bannerID { get; set; }
+        public string bannerImage { get; set; }
+        public int productID { get; set; }
     }
 }

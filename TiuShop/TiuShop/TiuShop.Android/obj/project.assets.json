@@ -2,6 +2,23 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v11.0": {
+      "CarouselView.FormsPlugin/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.CirclePageIndicator": "1.1.1",
+          "Xamarin.Android.VerticalViewPager": "1.1.2",
+          "Xamarin.AndroidX.ViewPager": "1.0.0.2",
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "compile": {
+          "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/MonoAndroid/CarouselView.FormsPlugin.Droid.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/MonoAndroid/CarouselView.FormsPlugin.Droid.dll": {}
+        }
+      },
       "Com.Airbnb.Android.Lottie/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -606,6 +623,30 @@
         },
         "runtime": {
           "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "Xamarin.Android.CirclePageIndicator/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.ViewPager": "1.0.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid/Com.ViewPagerIndicator.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/Com.ViewPagerIndicator.dll": {}
+        }
+      },
+      "Xamarin.Android.VerticalViewPager/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.ViewPager": "1.0.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid/Com.Android.DeskClock.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/Com.Android.DeskClock.dll": {}
         }
       },
       "Xamarin.AndroidX.Activity/1.1.0.5": {
@@ -1572,6 +1613,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CarouselView.FormsPlugin": "6.0.0",
           "Com.Airbnb.Xamarin.Forms.Lottie": "4.0.11",
           "FirebaseAuthentication.net": "3.7.2",
           "Newtonsoft.Json": "13.0.1",
@@ -1589,6 +1631,28 @@
     }
   },
   "libraries": {
+    "CarouselView.FormsPlugin/6.0.0": {
+      "sha512": "6O+/NNod+u5bO8EwNJOq2D2bHfV0NdarAUjrIBn4q6bsxgtX+ONo4JmKL2yBtRmKizoDOjM+r5GwO9ewePTGZg==",
+      "type": "package",
+      "path": "carouselview.formsplugin/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carouselview.formsplugin.6.0.0.nupkg.sha512",
+        "carouselview.formsplugin.nuspec",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Droid.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.pri",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP/CarouselView.FormsPlugin.UWP.xr.xml",
+        "lib/UAP10/FlipViewControl.xbf",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll",
+        "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/portable-net45+netcore45/CarouselView.FormsPlugin.Abstractions.dll"
+      ]
+    },
     "Com.Airbnb.Android.Lottie/4.1.0": {
       "sha512": "Y71yRMXmC9e7HI8Oh2C7o9plhzGOJElzJE+S1fK+kboYg6BcEPVYLhcPaWhC9eBgclUbPEpXR8cFIIuTTYNd3g==",
       "type": "package",
@@ -4467,6 +4531,30 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "Xamarin.Android.CirclePageIndicator/1.1.1": {
+      "sha512": "7gl/aeZ1kQ+RUSqdTtG+a1jGTniypTn5iZoQ12BiVTw0RB1zN6lKLk+KGZQAaOTpi0EOGkeeB5S67SljaGZwrA==",
+      "type": "package",
+      "path": "xamarin.android.circlepageindicator/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Com.ViewPagerIndicator.dll",
+        "xamarin.android.circlepageindicator.1.1.1.nupkg.sha512",
+        "xamarin.android.circlepageindicator.nuspec"
+      ]
+    },
+    "Xamarin.Android.VerticalViewPager/1.1.2": {
+      "sha512": "tOM4WVpY7XXXfB640yqn5V8duzRXQddxtrFMpm5hBuSj67/vUJ+5b4uE7SgZ+2BFPPKrxSQurXE31wfEMt0UIA==",
+      "type": "package",
+      "path": "xamarin.android.verticalviewpager/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/Com.Android.DeskClock.dll",
+        "xamarin.android.verticalviewpager.1.1.2.nupkg.sha512",
+        "xamarin.android.verticalviewpager.nuspec"
+      ]
+    },
     "Xamarin.AndroidX.Activity/1.1.0.5": {
       "sha512": "HAHy6ibECkMBxrOmrOYjBSpHO7cDYIDEEQoUi797LlmzDLUa0/ywJRGBSf+THs10E9FcwdWbpwaWmgwWkgGJQA==",
       "type": "package",
@@ -5568,6 +5656,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
+      "CarouselView.FormsPlugin >= 6.0.0",
       "Com.Airbnb.Xamarin.Forms.Lottie >= 4.0.11",
       "FirebaseAuthentication.net >= 3.7.2",
       "Newtonsoft.Json >= 13.0.1",
@@ -5619,6 +5708,10 @@
     "frameworks": {
       "monoandroid11.0": {
         "dependencies": {
+          "CarouselView.FormsPlugin": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "Com.Airbnb.Xamarin.Forms.Lottie": {
             "target": "Package",
             "version": "[4.0.11, )"

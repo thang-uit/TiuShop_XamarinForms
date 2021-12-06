@@ -70,3 +70,5 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\De
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\TiuShop.iOS.csproj.CopyComplete
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\TiuShop.iOS.exe
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\TiuShop.iOS.pdb
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.Abstractions.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.iOS.dll
