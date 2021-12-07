@@ -78,6 +78,8 @@
             <x:String x:Key="lblWoman">Woman</x:String>
             <x:String x:Key="lblHot">HOT</x:String>
 
+            <x:String x:Key="edtSearch">Search</x:String>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>
