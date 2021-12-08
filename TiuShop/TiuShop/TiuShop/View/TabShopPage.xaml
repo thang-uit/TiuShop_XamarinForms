@@ -46,7 +46,7 @@
                     <slider:CarouselViewControl.ItemTemplate>
                         <DataTemplate>
                             <StackLayout VerticalOptions="Fill" Padding="0" Orientation="Horizontal">
-                                <Image Source="{Binding bannerImage}" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
+                                <Image Source="{Binding Image}" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
                             </StackLayout>
                         </DataTemplate>
                     </slider:CarouselViewControl.ItemTemplate>
@@ -119,7 +119,7 @@
                 </StackLayout>
 
 
-                <ScrollView Orientation="Horizontal" Margin="0, 10, 0, 0" Padding="0">
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never" Margin="0, 10, 0, 0" Padding="0">
                     <StackLayout Orientation="Horizontal">
 
                         <Frame Margin="10, 0, 0, 0"

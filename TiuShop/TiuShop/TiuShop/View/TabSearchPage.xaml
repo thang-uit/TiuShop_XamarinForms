@@ -10,21 +10,22 @@
                     VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                     BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
 
-            <StackLayout VerticalOptions="StartAndExpand">
-                <Frame BackgroundColor="Transparent"
+            <StackLayout>
+                <StackLayout VerticalOptions="Start">
+                    <Frame BackgroundColor="Transparent"
                        BorderColor="DarkGray"
                        CornerRadius="10" 
                        Padding="5"
                        Margin="5, 5, 5, 0"
                        HorizontalOptions="FillAndExpand">
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="&#xe8b6;" 
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe8b6;" 
                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                            FontSize="30"
                            VerticalOptions="Center"
                            FontFamily="RM"/>
 
-                        <Entry x:Name="edtSearch" 
+                            <Entry x:Name="edtSearch" 
                            Keyboard="Text" 
                            Placeholder="{DynamicResource edtSearch}"
                            MaxLength="200"
@@ -34,13 +35,152 @@
                            PlaceholderColor="Gray"
                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                            ClearButtonVisibility="WhileEditing"/>
-                    </StackLayout>
-                </Frame>
-                
-                
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Margin="0, 10, 0, 0">
+                    <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+
+                        <StackLayout Orientation="Horizontal">
+                            <Frame HeightRequest="40" 
+                               CornerRadius="50" 
+                               HasShadow="True" 
+                               IsClippedToBounds="True" 
+                               Padding="0"
+                               Margin="10, 0, 0, 0"
+                               BorderColor="{StaticResource ColorMain1}"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                               HorizontalOptions="Start">
+                                <StackLayout Orientation="Horizontal" Padding="5">
+                                    <Frame HeightRequest="30" WidthRequest="30" CornerRadius="50" Padding="0" HasShadow="False" BackgroundColor="{StaticResource ColorMain5}" HorizontalOptions="Start">
+                                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Label Text="&#xf19e;"
+                                           TextColor="{StaticResource ColorMain3}"
+                                           FontSize="Large"
+                                           VerticalTextAlignment="Center"
+                                           FontFamily="RM"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Label Text="Áo thun" 
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame HeightRequest="40" 
+                               CornerRadius="50" 
+                               HasShadow="True" 
+                               Margin="10, 0, 0, 0"
+                               IsClippedToBounds="True" 
+                               Padding="0"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                               HorizontalOptions="Start">
+                                <StackLayout Orientation="Horizontal" Padding="5">
+                                    <Frame HeightRequest="30" WidthRequest="30" CornerRadius="50" Padding="0" HasShadow="False" BackgroundColor="{StaticResource ColorMain5}" HorizontalOptions="Start">
+                                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Label Text="&#xf19e;"
+                                           TextColor="{StaticResource ColorMain3}"
+                                           FontSize="Large"
+                                           VerticalTextAlignment="Center"
+                                           FontFamily="RM"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Label Text="Áo khoác" 
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame HeightRequest="40" 
+                               CornerRadius="50" 
+                               HasShadow="True" 
+                               Margin="10, 0, 0, 0"
+                               IsClippedToBounds="True" 
+                               Padding="0"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                               HorizontalOptions="Start">
+                                <StackLayout Orientation="Horizontal" Padding="5">
+                                    <Frame HeightRequest="30" WidthRequest="30" CornerRadius="50" Padding="0" HasShadow="False" BackgroundColor="{StaticResource ColorMain5}" HorizontalOptions="Start">
+                                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Label Text="&#xf19e;"
+                                           TextColor="{StaticResource ColorMain3}"
+                                           FontSize="Large"
+                                           VerticalTextAlignment="Center"
+                                           FontFamily="RM"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Label Text="Quần Kaki" 
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame HeightRequest="40" 
+                               CornerRadius="50" 
+                               HasShadow="True" 
+                               IsClippedToBounds="True" 
+                               Margin="10, 0, 0, 0"
+                               Padding="0"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                               HorizontalOptions="Start">
+                                <StackLayout Orientation="Horizontal" Padding="5">
+                                    <Frame HeightRequest="30" WidthRequest="30" CornerRadius="50" Padding="0" HasShadow="False" BackgroundColor="{StaticResource ColorMain5}" HorizontalOptions="Start">
+                                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Label Text="&#xf19e;"
+                                           TextColor="{StaticResource ColorMain3}"
+                                           FontSize="Large"
+                                           VerticalTextAlignment="Center"
+                                           FontFamily="RM"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Label Text="Áo Sơ mi" 
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame HeightRequest="40" 
+                               CornerRadius="50" 
+                               HasShadow="True" 
+                               IsClippedToBounds="True" 
+                               Padding="0"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                               HorizontalOptions="Start">
+                                <StackLayout Orientation="Horizontal" Padding="5">
+                                    <Frame HeightRequest="30" WidthRequest="30" CornerRadius="50" Padding="0" HasShadow="False" BackgroundColor="{StaticResource ColorMain5}" HorizontalOptions="Start">
+                                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Label Text="&#xf19e;"
+                                           TextColor="{StaticResource ColorMain3}"
+                                           FontSize="Large"
+                                           VerticalTextAlignment="Center"
+                                           FontFamily="RM"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Label Text="Jeans" 
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+                        
+                    </ScrollView>
+                </StackLayout>
+
+                <StackLayout Margin="0, 10, 0, 0">
+                    <ListView x:Name="lvProduct" 
+                              VerticalOptions="CenterAndExpand" 
+                              HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+
             </StackLayout>
-            
-            
+
         </ScrollView>
         
     </ContentPage.Content>
