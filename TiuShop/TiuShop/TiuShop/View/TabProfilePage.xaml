@@ -5,12 +5,103 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
-        
+
         <ScrollView Orientation="Vertical"
                     VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                     BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
-            
-            
+
+            <StackLayout Padding="0"
+                         BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+                <Grid>
+                    <StackLayout Padding="0" Margin="0">
+                        <Frame BackgroundColor="Yellow" 
+                               HeightRequest="150" 
+                               Padding="0"
+                               HorizontalOptions="FillAndExpand">
+                            <Image Source="bgregister.jpg" Aspect="AspectFill" Margin="0"/>
+                        </Frame>
+                    </StackLayout>
+
+                    <StackLayout Margin="15, 110, 15, 0">
+                        <Frame 
+                            HasShadow="True"
+                            HeightRequest="60"
+                            HorizontalOptions="FillAndExpand"
+                            CornerRadius="10"
+                            Padding="10"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                                <Frame 
+                                    Padding="0" 
+                                    Margin="0"
+                                    HasShadow="True" 
+                                    HorizontalOptions="Start"
+                                    CornerRadius="50" 
+                                    IsClippedToBounds="True">
+
+                                    <Image Source="logo500_500.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <Label x:Name="lblName"
+                                       Text="{DynamicResource lblName}"
+                                       HorizontalOptions="Start"
+                                       FontSize="Medium"
+                                       FontAttributes="Bold"
+                                       VerticalTextAlignment="Center"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                <StackLayout HorizontalOptions="CenterAndExpand"/>
+
+                                <Image Source="ic_shoppingcart.png" HorizontalOptions="End"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+
+                <StackLayout Orientation="Vertical">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".25*"/>
+                            <ColumnDefinition Width=".25*"/>
+                            <ColumnDefinition Width=".25*"/>
+                            <ColumnDefinition Width=".25*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0">
+                            <Label Text="&#xe0ee;"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   HorizontalOptions="Center"
+                                   FontFamily="RM"/>
+                            <Frame 
+                                Padding="0" 
+                                Margin="0"
+                                HasShadow="True" 
+                                CornerRadius="50" 
+                                HeightRequest="20"
+                                WidthRequest="20"
+                                HorizontalOptions="Center"
+                                BackgroundColor="{StaticResource ColorMain4}"
+                                IsClippedToBounds="True">
+
+                                <Label Text="1" HorizontalOptions="Center" TextColor="{StaticResource ColorMain2}"/>
+                            </Frame>
+
+                            <Label Text="Chờ xác nhận" 
+                                   FontSize="Caption"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+
+                <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
         </ScrollView>
         
     </ContentPage.Content>
