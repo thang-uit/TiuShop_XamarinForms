@@ -25,7 +25,7 @@ namespace TiuShop.View
             //Navigation.PushPopupAsync(new MyPopup("Notification", "Do you want to log out?", "Yes"));
         }
 
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private void tapRegister_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new RegisterPage());
         }

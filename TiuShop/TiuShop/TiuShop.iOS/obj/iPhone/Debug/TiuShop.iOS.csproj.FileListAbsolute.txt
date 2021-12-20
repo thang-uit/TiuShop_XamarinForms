@@ -72,3 +72,8 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\De
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\TiuShop.iOS.pdb
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.Abstractions.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.iOS.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\_ProcessedContentPath.items

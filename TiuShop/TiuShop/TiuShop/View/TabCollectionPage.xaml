@@ -5,10 +5,61 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
-        
-        <StackLayout>
-            
-        </StackLayout>
-        
+
+        <ScrollView Orientation="Vertical"
+                    VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+            <StackLayout Margin="0" Padding="0">
+                <Grid>
+                    <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="500" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <Frame BackgroundColor="{StaticResource ColorMain2}"
+                               HeightRequest="45"
+                               WidthRequest="120" 
+                               CornerRadius="50" 
+                               HasShadow="False" 
+                               BorderColor="DarkGray" 
+                               Margin="0" 
+                               Padding="0"
+                               HorizontalOptions="Center">
+                        <Label Text="Đi chơi" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    </Frame>
+                </Grid>
+                <Image Source="slider1.jpg" Aspect="AspectFill"/>
+
+                <Grid>
+                    <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="500" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <Frame BackgroundColor="{StaticResource ColorMain2}"
+                               HeightRequest="45"
+                               WidthRequest="120" 
+                               CornerRadius="50" 
+                               HasShadow="False" 
+                               BorderColor="DarkGray" 
+                               Margin="0" 
+                               Padding="0"
+                               HorizontalOptions="Center">
+                        <Label Text="Hẹn hò" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    </Frame>
+                </Grid>
+                <Image Source="slider1.jpg" Aspect="AspectFill"/>
+
+                <Grid>
+                    <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="500" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <Frame BackgroundColor="{StaticResource ColorMain2}"
+                               HeightRequest="45"
+                               WidthRequest="120" 
+                               CornerRadius="50" 
+                               HasShadow="False" 
+                               BorderColor="DarkGray" 
+                               Margin="0" 
+                               Padding="0"
+                               HorizontalOptions="Center">
+                        <Label Text="Tiệc tùng" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    </Frame>
+                </Grid>
+                <Image Source="slider1.jpg" Aspect="AspectFill"/>
+            </StackLayout>
+        </ScrollView>
+
     </ContentPage.Content>
 </ContentPage>

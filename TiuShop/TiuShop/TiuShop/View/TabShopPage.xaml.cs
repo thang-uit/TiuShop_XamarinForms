@@ -39,5 +39,10 @@ namespace TiuShop.View
 
             this.slider.ItemsSource = resultSlider;
         }
+
+        private void tapProduct_Tapped(object sender, EventArgs e)
+        {
+            DisplayAlert("Alert", "Bất ngờ lắm phải không", "Bất ngờ");
+        }
     }
 }

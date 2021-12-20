@@ -126,9 +126,15 @@
                                Padding="10"
                                CornerRadius="10"
                                HasShadow="True"
-                               WidthRequest="200"
+                               WidthRequest="170"
                                IsClippedToBounds="True"
                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    x:Name="tapProduct"
+                                    Tapped="tapProduct_Tapped" 
+                                    NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
 
                             <StackLayout Orientation="Vertical">
                                 <Frame Padding="0" HasShadow="False" CornerRadius="10">
@@ -199,10 +205,16 @@
                                Padding="10"
                                CornerRadius="10"
                                HasShadow="True"
-                               WidthRequest="200"
+                               WidthRequest="170"
                                IsClippedToBounds="True"
                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Tapped="tapProduct_Tapped" 
+                                    NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+                            
                             <StackLayout Orientation="Vertical">
                                 <Frame Padding="0" HasShadow="False" CornerRadius="10">
                                     <Image Source="woman.jpg" Aspect="AspectFill"/>
@@ -266,10 +278,16 @@
                                Padding="10"
                                CornerRadius="10"
                                HasShadow="True"
-                               WidthRequest="200"
+                               WidthRequest="170"
                                IsClippedToBounds="True"
                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Tapped="tapProduct_Tapped" 
+                                    NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+                            
                             <StackLayout Orientation="Vertical">
                                 <Frame Padding="0" HasShadow="False" CornerRadius="10">
                                     <Image Source="man.jpg" Aspect="AspectFill"/>
@@ -339,10 +357,16 @@
                                Padding="10"
                                CornerRadius="10"
                                HasShadow="True"
-                               WidthRequest="200"
+                               WidthRequest="170"
                                IsClippedToBounds="True"
                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Tapped="tapProduct_Tapped" 
+                                    NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+                            
                             <StackLayout Orientation="Vertical">
                                 <Frame Padding="0" HasShadow="False" CornerRadius="10">
                                     <Image Source="woman.jpg" Aspect="AspectFill"/>
@@ -406,10 +430,16 @@
                                Padding="10"
                                CornerRadius="10"
                                HasShadow="True"
-                               WidthRequest="200"
+                               WidthRequest="170"
                                IsClippedToBounds="True"
                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Tapped="tapProduct_Tapped" 
+                                    NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+                            
                             <StackLayout Orientation="Vertical">
                                 <Frame Padding="0" HasShadow="False" CornerRadius="10">
                                     <Image Source="man.jpg" Aspect="AspectFill"/>

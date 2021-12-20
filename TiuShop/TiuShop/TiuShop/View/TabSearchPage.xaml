@@ -169,19 +169,345 @@
                             </Frame>
 
                         </StackLayout>
-                        
+
                     </ScrollView>
                 </StackLayout>
 
                 <StackLayout Margin="0, 10, 0, 0">
-                    <ListView x:Name="lvProduct" 
+                    <!--<ListView x:Name="lvProduct" 
                               VerticalOptions="CenterAndExpand" 
-                              HorizontalOptions="CenterAndExpand"/>
-                </StackLayout>
+                              HorizontalOptions="CenterAndExpand"/>-->
 
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".5*"/>
+                            <ColumnDefinition Width=".5*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame Margin="0"
+                                       Grid.Column="0"
+                                       Grid.Row="0"
+                                       Padding="10"
+                                       CornerRadius="10"
+                                       HasShadow="True"
+                                       WidthRequest="170"
+                                       IsClippedToBounds="True"
+                                       BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                        NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+
+                            <StackLayout Orientation="Vertical">
+                                <Frame Padding="0" HasShadow="False" CornerRadius="10">
+                                    <Image Source="man.jpg" Aspect="AspectFill" WidthRequest="170" HeightRequest="170"/>
+                                </Frame>
+
+                                <Label Text="Áo khoác CORDOUROY.REGULAR" 
+                                               FontSize="Medium" 
+                                               HorizontalOptions="Start" 
+                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="&#xe54e;"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="120000"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   TextColor="{StaticResource ColorMain4}"/>
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="&#xea22;"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame Margin="0"
+                                       Grid.Column="1"
+                                       Grid.Row="0"
+                                       Padding="10"
+                                       CornerRadius="10"
+                                       HasShadow="True"
+                                       WidthRequest="170"
+                                       IsClippedToBounds="True"
+                                       BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                        NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+
+                            <StackLayout Orientation="Vertical">
+                                <Frame Padding="0" HasShadow="False" CornerRadius="10">
+                                    <Image Source="man.jpg" Aspect="AspectFill" WidthRequest="170" HeightRequest="170"/>
+                                </Frame>
+
+                                <Label Text="Áo khoác CORDOUROY.REGULAR" 
+                                               FontSize="Medium" 
+                                               HorizontalOptions="Start" 
+                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="&#xe54e;"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="120000"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   TextColor="{StaticResource ColorMain4}"/>
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="&#xea22;"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame Margin="0"
+                                       Grid.Column="0"
+                                       Grid.Row="1"
+                                       Padding="10"
+                                       CornerRadius="10"
+                                       HasShadow="True"
+                                       WidthRequest="170"
+                                       IsClippedToBounds="True"
+                                       BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                        NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+
+                            <StackLayout Orientation="Vertical">
+                                <Frame Padding="0" HasShadow="False" CornerRadius="10">
+                                    <Image Source="man.jpg" Aspect="AspectFill" WidthRequest="170" HeightRequest="170"/>
+                                </Frame>
+
+                                <Label Text="Áo khoác CORDOUROY.REGULAR" 
+                                               FontSize="Medium" 
+                                               HorizontalOptions="Start" 
+                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="&#xe54e;"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="120000"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   TextColor="{StaticResource ColorMain4}"/>
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="&#xea22;"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame Margin="0"
+                                       Grid.Column="1"
+                                       Grid.Row="1"
+                                       Padding="10"
+                                       CornerRadius="10"
+                                       HasShadow="True"
+                                       WidthRequest="170"
+                                       IsClippedToBounds="True"
+                                       BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                        NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+
+                            <StackLayout Orientation="Vertical">
+                                <Frame Padding="0" HasShadow="False" CornerRadius="10">
+                                    <Image Source="man.jpg" Aspect="AspectFill" WidthRequest="170" HeightRequest="170"/>
+                                </Frame>
+
+                                <Label Text="Áo khoác CORDOUROY.REGULAR" 
+                                               FontSize="Medium" 
+                                               HorizontalOptions="Start" 
+                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="&#xe54e;"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="120000"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   TextColor="{StaticResource ColorMain4}"/>
+                                </StackLayout>
+
+                                <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="&#xea22;"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+
+                                    <Label Text="&#xe838;"
+                                                   TextColor="{StaticResource ColorMain1}"
+                                                   FontSize="Small"
+                                                   VerticalTextAlignment="Center"
+                                                   FontFamily="RM"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
             </StackLayout>
 
         </ScrollView>
-        
     </ContentPage.Content>
 </ContentPage>

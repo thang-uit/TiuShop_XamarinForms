@@ -20,9 +20,9 @@
                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     </view:TabCollectionPage>
 
-    <view:TabCollectionPage Title="{DynamicResource tabProfile}" IconImageSource="ic_profile.png"
+    <view:TabProfilePage Title="{DynamicResource tabProfile}" IconImageSource="ic_profile.png"
                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
-    </view:TabCollectionPage>
+    </view:TabProfilePage>
 
     <!--<StackLayout
         Orientation="Vertical"

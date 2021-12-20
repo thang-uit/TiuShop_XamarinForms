@@ -96,7 +96,7 @@
                     </Label.FormattedText>
 
                     <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        <TapGestureRecognizer x:Name="tapRegister" Tapped="tapRegister_Tapped"/>
                     </Label.GestureRecognizers>
                 </Label>
                 
