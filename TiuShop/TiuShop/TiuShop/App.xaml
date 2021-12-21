@@ -10,6 +10,8 @@
             <Color x:Key="ColorMain3">#000000</Color>
             <Color x:Key="ColorMain4">#FF0000</Color>
             <Color x:Key="ColorMain5">#BBD4FC</Color>
+            <Color x:Key="ColorMain6">#FBC02D</Color>
+            <Color x:Key="ColorMain7">#17B978</Color>
 
             <Color x:Key="ColorLoginFacebook">#1877F2</Color>
             <Color x:Key="ColorLoginGoogle">#4a4a4a</Color>
@@ -81,6 +83,11 @@
 
             <x:String x:Key="edtSearch">Search</x:String>
             <x:String x:Key="lblName">Your Name</x:String>
+
+            <x:String x:Key="lblWaitingConfirm">Waiting confirm</x:String>
+            <x:String x:Key="lblGoods">Waiting goods</x:String>
+            <x:String x:Key="lblDelivering">Delivering</x:String>
+            <x:String x:Key="lblSuccess">Success</x:String>
 
         </ResourceDictionary>
     </Application.Resources>
