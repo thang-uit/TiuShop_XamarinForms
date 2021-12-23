@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns:pages="http://rotorgames.com" 
+                 xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="TiuShop.View.Popup.MyLoading">
+
+    <StackLayout Orientation="Vertical" 
+                 VerticalOptions="CenterAndExpand" 
+                 HorizontalOptions="CenterAndExpand" 
+                 Padding="10"
+                 WidthRequest="60"
+                 HeightRequest="60"
+                 BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+        <ActivityIndicator x:Name="defaultActivityIndicator"
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="Fill" 
+                           Color="{StaticResource ColorMain1}"
+                           IsRunning="True" />
+    </StackLayout>
+
+</pages:PopupPage>

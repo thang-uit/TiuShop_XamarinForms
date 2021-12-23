@@ -11,7 +11,8 @@
                     BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
 
             <StackLayout Padding="0"
-                         BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+                     Orientation="Vertical"
+                     BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
                 <Grid>
                     <StackLayout Padding="0" Margin="0">
                         <Frame BackgroundColor="Yellow" 
@@ -257,14 +258,72 @@
 
                 <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
 
-                <StackLayout Orientation="Vertical" Margin="0, 10, 0, 0">
-                    <ListView>
-                        
-                    </ListView>
-                </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="0, 10, 0, 0">
+                    <Frame x:Name="frUserInformation"
+                           HasShadow="True" 
+                           Padding="10"
+                           Margin="5, 5, 5, 0"
+                           CornerRadius="5"
+                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                        <Label x:Name="lblUserInformation"
+                               Text="{DynamicResource lblUserInformation}" 
+                               FontSize="Medium"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                    </Frame>
 
+                    <Frame x:Name="frChangePassword"
+                           HasShadow="True" 
+                           Padding="10"
+                           Margin="5, 5, 5, 0"
+                           CornerRadius="5"
+                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                        <Label x:Name="lblChangePassword"
+                               Text="{DynamicResource lblChangePassword}" 
+                               FontSize="Medium"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                    </Frame>
+
+                    <Frame x:Name="frTheme"
+                           HasShadow="True" 
+                           Padding="10"
+                           Margin="5, 5, 5, 0"
+                           CornerRadius="5"
+                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="lblTheme"
+                               Text="{DynamicResource lblTheme}" 
+                               FontSize="Medium"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                            <StackLayout HorizontalOptions="CenterAndExpand"/>
+                            <Switch x:Name="swtTheme" HorizontalOptions="End" IsToggled="False" ThumbColor="{StaticResource ColorMain1}" OnColor="{StaticResource ColorMain1}" />
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame x:Name="frRating"
+                           HasShadow="True" 
+                           Padding="10"
+                           Margin="5, 5, 5, 0"
+                           CornerRadius="5"
+                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                        <Label x:Name="lblRating"
+                               Text="{DynamicResource lblRating}" 
+                               FontSize="Medium"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                    </Frame>
+
+                </StackLayout>
             </StackLayout>
+
         </ScrollView>
-        
+
     </ContentPage.Content>
 </ContentPage>

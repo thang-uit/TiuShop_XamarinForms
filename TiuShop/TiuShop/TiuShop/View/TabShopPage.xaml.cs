@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Rg.Plugins.Popup.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,6 +7,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using TiuShop.Model;
+using TiuShop.View.Popup;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -42,7 +44,8 @@ namespace TiuShop.View
 
         private void tapProduct_Tapped(object sender, EventArgs e)
         {
-            DisplayAlert("Alert", "Bất ngờ lắm phải không", "Bất ngờ");
+            //DisplayAlert("Alert", "Bất ngờ lắm phải không", "Bất ngờ");
+            Navigation.PushPopupAsync(new MyLoading());
         }
     }
 }

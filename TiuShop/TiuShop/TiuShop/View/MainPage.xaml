@@ -6,7 +6,7 @@
             android:TabbedPage.ToolbarPlacement="Bottom"
             x:Class="TiuShop.MainPage"
             NavigationPage.HasNavigationBar="False"
-            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
     <view:TabShopPage Title="{DynamicResource tabShop}" IconImageSource="ic_shop.png"
                       BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">

@@ -24,7 +24,7 @@
             <Color x:Key="ColorLight1">#FFFFFF</Color>
 
             <!-- Second Background -->
-            <Color x:Key="ColorLight2">#FFFFFF</Color>
+            <Color x:Key="ColorLight2">#FDFBFB</Color>
 
             <!-- Text color chính -->
             <Color x:Key="ColorLight3">#000000</Color>
@@ -88,6 +88,11 @@
             <x:String x:Key="lblGoods">Waiting goods</x:String>
             <x:String x:Key="lblDelivering">Delivering</x:String>
             <x:String x:Key="lblSuccess">Success</x:String>
+
+            <x:String x:Key="lblUserInformation">User Information</x:String>
+            <x:String x:Key="lblChangePassword">Change Password</x:String>
+            <x:String x:Key="lblTheme">Theme</x:String>
+            <x:String x:Key="lblRating">Rating</x:String>
 
         </ResourceDictionary>
     </Application.Resources>
