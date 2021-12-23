@@ -64,9 +64,6 @@
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
       <Version>4.0.11</Version>
     </PackageReference>
-    <PackageReference Include="FirebaseAuthentication.net">
-      <Version>3.7.2</Version>
-    </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>13.0.1</Version>
     </PackageReference>
@@ -75,6 +72,9 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Rating">
+      <Version>1.0.0.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

@@ -11,12 +11,12 @@
         "dependencies": {
           "CarouselView.FormsPlugin": "6.0.0",
           "Com.Airbnb.Xamarin.Forms.Lottie": "4.0.11",
-          "FirebaseAuthentication.net": "3.7.2",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
           "Rg.Plugins.Popup": "2.0.0.14",
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Rating": "1.0.0.2"
         },
         "runtime": {
           "TiuShop.dll": {}
@@ -38,18 +38,6 @@
           "lib/netstandard2.0/Lottie.Forms.dll": {
             "assemblyVersion": "4.0.11.0",
             "fileVersion": "4.0.11.0"
-          }
-        }
-      },
-      "FirebaseAuthentication.net/3.7.2": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.3",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -112,6 +100,18 @@
             "fileVersion": "5.0.0.671"
           }
         }
+      },
+      "Xamarin.Rating/1.0.0.2": {
+        "dependencies": {
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rating.dll": {
+            "assemblyVersion": "1.0.0.2",
+            "fileVersion": "1.0.0.2"
+          }
+        }
       }
     }
   },
@@ -134,13 +134,6 @@
       "sha512": "sha512-YwomwOTLwZC3OBuDzPF7eGegCrxNsELd096fGgIurNgCooCOt4LAhlB7G77Qi5SlkTimWYPB3jMpHQoANQpkkg==",
       "path": "com.airbnb.xamarin.forms.lottie/4.0.11",
       "hashPath": "com.airbnb.xamarin.forms.lottie.4.0.11.nupkg.sha512"
-    },
-    "FirebaseAuthentication.net/3.7.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-d0Zc0tiE7NutI/jMX/T81LU/rX3HVBH8vtvKTbIeN6BCIQ+wipstz7tm5MnIgAeh4ehqCHTiVuMOHztqfCVCBQ==",
-      "path": "firebaseauthentication.net/3.7.2",
-      "hashPath": "firebaseauthentication.net.3.7.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -190,6 +183,13 @@
       "sha512": "sha512-Rqc6xvWR/sf+Db5+qRCFmuYTWVp04QWRfwPto2/JHbShSy4Ed53Q2jpoFzsoloXkJA6saD236PlaWAhT6vI4gw==",
       "path": "xamarin.forms/5.0.0.2012",
       "hashPath": "xamarin.forms.5.0.0.2012.nupkg.sha512"
+    },
+    "Xamarin.Rating/1.0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-udVmz8Y+GeqMHG6zgAlNnvenyWv/PrwKZnw+8dqh9h7t/IeBGm2xtNpjBug+K9vFl+fjFSODwP+Xgut+yILI8Q==",
+      "path": "xamarin.rating/1.0.0.2",
+      "hashPath": "xamarin.rating.1.0.0.2.nupkg.sha512"
     }
   }
 }

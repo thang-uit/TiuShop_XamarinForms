@@ -23,19 +23,6 @@
           "lib/netstandard2.0/Lottie.Forms.dll": {}
         }
       },
-      "FirebaseAuthentication.net/3.7.2": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Newtonsoft.Json": "11.0.2"
-        },
-        "compile": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.1/Firebase.Auth.dll": {}
-        }
-      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -118,6 +105,19 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Rating/1.0.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "compile": {
+          "lib/netstandard2.0/Rating.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rating.dll": {}
+        }
       }
     }
   },
@@ -181,18 +181,6 @@
         "lib/xamarinmac20/Lottie.Forms.pdb",
         "lib/xamarinmac20/Lottie.Forms.xml",
         "readme.txt"
-      ]
-    },
-    "FirebaseAuthentication.net/3.7.2": {
-      "sha512": "d0Zc0tiE7NutI/jMX/T81LU/rX3HVBH8vtvKTbIeN6BCIQ+wipstz7tm5MnIgAeh4ehqCHTiVuMOHztqfCVCBQ==",
-      "type": "package",
-      "path": "firebaseauthentication.net/3.7.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "firebaseauthentication.net.3.7.2.nupkg.sha512",
-        "firebaseauthentication.net.nuspec",
-        "lib/netstandard1.1/Firebase.Auth.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -723,18 +711,30 @@
         "xamarin.forms.5.0.0.2012.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Xamarin.Rating/1.0.0.2": {
+      "sha512": "udVmz8Y+GeqMHG6zgAlNnvenyWv/PrwKZnw+8dqh9h7t/IeBGm2xtNpjBug+K9vFl+fjFSODwP+Xgut+yILI8Q==",
+      "type": "package",
+      "path": "xamarin.rating/1.0.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Rating.dll",
+        "xamarin.rating.1.0.0.2.nupkg.sha512",
+        "xamarin.rating.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "CarouselView.FormsPlugin >= 6.0.0",
       "Com.Airbnb.Xamarin.Forms.Lottie >= 4.0.11",
-      "FirebaseAuthentication.net >= 3.7.2",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 13.0.1",
       "Rg.Plugins.Popup >= 2.0.0.14",
       "Xamarin.Essentials >= 1.6.1",
-      "Xamarin.Forms >= 5.0.0.2012"
+      "Xamarin.Forms >= 5.0.0.2012",
+      "Xamarin.Rating >= 1.0.0.2"
     ]
   },
   "packageFolders": {
@@ -789,10 +789,6 @@
             "target": "Package",
             "version": "[4.0.11, )"
           },
-          "FirebaseAuthentication.net": {
-            "target": "Package",
-            "version": "[3.7.2, )"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -814,6 +810,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2012, )"
+          },
+          "Xamarin.Rating": {
+            "target": "Package",
+            "version": "[1.0.0.2, )"
           }
         },
         "imports": [

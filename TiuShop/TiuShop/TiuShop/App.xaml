@@ -24,7 +24,7 @@
             <Color x:Key="ColorLight1">#FFFFFF</Color>
 
             <!-- Second Background -->
-            <Color x:Key="ColorLight2">#FDFBFB</Color>
+            <Color x:Key="ColorLight2">#fafdff</Color>
 
             <!-- Text color chính -->
             <Color x:Key="ColorLight3">#000000</Color>
@@ -93,6 +93,10 @@
             <x:String x:Key="lblChangePassword">Change Password</x:String>
             <x:String x:Key="lblTheme">Theme</x:String>
             <x:String x:Key="lblRating">Rating</x:String>
+
+            <x:String x:Key="lblTitle1">Product Detail</x:String>
+            <x:String x:Key="btnAddToCart">Add to cart</x:String>
+            <x:String x:Key="picSize">Size</x:String>
 
         </ResourceDictionary>
     </Application.Resources>

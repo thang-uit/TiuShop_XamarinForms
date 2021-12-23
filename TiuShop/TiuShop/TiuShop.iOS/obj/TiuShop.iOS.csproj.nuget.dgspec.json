@@ -50,10 +50,6 @@
               "target": "Package",
               "version": "[4.0.11, )"
             },
-            "FirebaseAuthentication.net": {
-              "target": "Package",
-              "version": "[3.7.2, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -69,6 +65,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.Rating": {
+              "target": "Package",
+              "version": "[1.0.0.2, )"
             }
           }
         }
@@ -133,10 +133,6 @@
               "target": "Package",
               "version": "[4.0.11, )"
             },
-            "FirebaseAuthentication.net": {
-              "target": "Package",
-              "version": "[3.7.2, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -158,6 +154,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.Rating": {
+              "target": "Package",
+              "version": "[1.0.0.2, )"
             }
           },
           "imports": [

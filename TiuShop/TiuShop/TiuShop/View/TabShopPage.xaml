@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:slider="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:slider="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
              x:Class="TiuShop.View.TabShopPage"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
@@ -36,7 +37,7 @@
                                             HeightRequest="200"
                                             InfiniteScrolling="True"
                                             AutoplayInterval="4"
-                                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}"
+                                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
                                             ShowIndicators="True"
                                             AnimateTransition="True"
                                             VerticalOptions="Start"

@@ -45,7 +45,8 @@ namespace TiuShop.View
         private void tapProduct_Tapped(object sender, EventArgs e)
         {
             //DisplayAlert("Alert", "Bất ngờ lắm phải không", "Bất ngờ");
-            Navigation.PushPopupAsync(new MyLoading());
+            //Navigation.PushPopupAsync(new MyLoading());
+            Navigation.PushAsync(new ProductDetailPage());
         }
     }
 }
