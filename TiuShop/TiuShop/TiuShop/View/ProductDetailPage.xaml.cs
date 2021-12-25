@@ -26,5 +26,10 @@ namespace TiuShop.View
         {
 
         }
+
+        private void btnWriteComment_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

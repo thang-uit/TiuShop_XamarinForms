@@ -92,11 +92,16 @@
             <x:String x:Key="lblUserInformation">User Information</x:String>
             <x:String x:Key="lblChangePassword">Change Password</x:String>
             <x:String x:Key="lblTheme">Theme</x:String>
-            <x:String x:Key="lblRating">Rating</x:String>
+            <x:String x:Key="lblRating">Rating App</x:String>
 
             <x:String x:Key="lblTitle1">Product Detail</x:String>
+            <x:String x:Key="lblTitle2">Cart</x:String>
             <x:String x:Key="btnAddToCart">Add to cart</x:String>
             <x:String x:Key="picSize">Size</x:String>
+
+            <x:String x:Key="lblSize">Select Size</x:String>
+            <x:String x:Key="lblDescription">Description</x:String>
+            <x:String x:Key="lblComment">Comment</x:String>
 
         </ResourceDictionary>
     </Application.Resources>

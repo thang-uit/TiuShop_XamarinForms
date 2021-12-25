@@ -24,3 +24,4 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstan
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\Popup\MyLoading.xaml.g.cs
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\ProductDetailPage.xaml.g.cs
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.csproj.AssemblyReference.cache
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\CartPage.xaml.g.cs

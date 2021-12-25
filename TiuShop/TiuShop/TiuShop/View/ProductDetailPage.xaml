@@ -102,25 +102,88 @@
                                FontSize="Title"/>
                     </StackLayout>
 
-                    <Picker x:Name="picSize" 
-                            VerticalOptions="Center"
-                            HorizontalOptions="FillAndExpand"
-                            Title="{DynamicResource picSize}">
-                        <Picker.Items>
-                            <x:String>S</x:String>
-                            <x:String>M</x:String>
-                            <x:String>L</x:String>
-                            <x:String>XL</x:String>
-                            <x:String>XXL</x:String>
-                            <x:String>XXXL</x:String>
-                        </Picker.Items>
-                    </Picker>
+                    <StackLayout Orientation="Horizontal"
+                                 Margin="5, 5, 5, 0">
+
+                        <Label x:Name="lblSize"
+                               Margin="5, 5, 5, 0"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                               Text="{DynamicResource lblSize}"/>
+                        
+                        <Frame HasShadow="True"
+                               Margin="0"
+                               Padding="0"
+                               BorderColor="DarkGray"
+                               VerticalOptions="Center"
+                               HorizontalOptions="FillAndExpand"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                               CornerRadius="5">
+
+                            <Picker x:Name="picSize" 
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="FillAndExpand"
+                                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                                    Title="{DynamicResource picSize}">
+                                
+                                <Picker.Items>
+                                    <x:String>S</x:String>
+                                    <x:String>M</x:String>
+                                    <x:String>L</x:String>
+                                    <x:String>XL</x:String>
+                                    <x:String>XXL</x:String>
+                                    <x:String>XXXL</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </Frame>
+
+                    </StackLayout>
+                    
+                    <Label x:Name="lblDescription"
+                           Margin="0, 5, 0, 0"
+                           FontSize="Medium"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                           Text="{DynamicResource lblDescription}"/>
 
                     <Label x:Name="lblProductDescription"
-                           Margin="5, 5, 5, 0"
+                           Margin="5, 0, 5, 0"
                            FontSize="Body"
                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                            Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
+
+                    <BoxView BackgroundColor="DarkGray" HeightRequest="1" Margin="0, 5, 0, 0" HorizontalOptions="FillAndExpand"/>
+
+                    <StackLayout Orientation="Horizontal"
+                                 Margin="5, 5, 5, 0">
+                        <Label x:Name="lblComment"
+                               FontSize="Medium"
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                               Text="{DynamicResource lblComment}"/>
+
+                        <StackLayout HorizontalOptions="CenterAndExpand"/>
+
+                        <Button x:Name="btnWriteComment" 
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                CornerRadius="5"
+                                TextTransform="None"
+                                Clicked="btnWriteComment_Clicked"
+                                Text="{DynamicResource lblComment}" 
+                                TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical"
+                                 Margin="5, 5, 5, 0">
+                        
+                    </StackLayout>
                     
                 </StackLayout>
 

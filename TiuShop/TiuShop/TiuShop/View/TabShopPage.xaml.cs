@@ -48,5 +48,10 @@ namespace TiuShop.View
             //Navigation.PushPopupAsync(new MyLoading());
             Navigation.PushAsync(new ProductDetailPage());
         }
+
+        private void tapCart_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CartPage());
+        }
     }
 }

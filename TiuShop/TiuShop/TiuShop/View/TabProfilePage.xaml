@@ -54,7 +54,25 @@
 
                                 <StackLayout HorizontalOptions="CenterAndExpand"/>
 
-                                <Image Source="ic_shoppingcart.png" HorizontalOptions="End"/>
+                                <Frame BackgroundColor="{StaticResource ColorLight2}"
+                                       HeightRequest="45"
+                                       WidthRequest="45" 
+                                       CornerRadius="50" 
+                                       HasShadow="False" 
+                                       BorderColor="DarkGray" 
+                                       Margin="0" 
+                                       Padding="0"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center">
+                                    
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer x:Name="tapCart"
+                                                              Tapped="tapCart_Tapped"
+                                                              NumberOfTapsRequired="1"/>
+                                    </Frame.GestureRecognizers>
+                                    <Image Source="ic_shoppingcart.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                </Frame>
+
                             </StackLayout>
                         </Frame>
                     </StackLayout>

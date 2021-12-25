@@ -61,7 +61,26 @@
                                FontAttributes="Bold"
                                FontSize="Large"
                                TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
-                        <Image Source="ic_shoppingcart.png" AbsoluteLayout.LayoutBounds="1, 0.5, 25, 25" AbsoluteLayout.LayoutFlags="YProportional, XProportional"/>
+
+                        <Frame BackgroundColor="{StaticResource ColorLight2}"
+                               CornerRadius="50" 
+                               WidthRequest="45"
+                               HeightRequest="45"
+                               Margin="0" 
+                               Padding="0"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               HasShadow="False" 
+                               BorderColor="DarkGray"
+                               AbsoluteLayout.LayoutBounds="1, 0.5, 45, 45" AbsoluteLayout.LayoutFlags="YProportional, XProportional">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapCart"
+                                                      Tapped="tapCart_Tapped"
+                                                      NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+                            
+                            <Image Source="ic_shoppingcart.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        </Frame>
                     </AbsoluteLayout>
                 </StackLayout>
 
