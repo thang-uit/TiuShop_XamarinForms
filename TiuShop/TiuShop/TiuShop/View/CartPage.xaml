@@ -5,10 +5,20 @@
              Title="{DynamicResource lblTitle2}"
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <ScrollView Orientation="Vertical"
+                    VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+            <Frame HasShadow="True"
+                   Margin="5"
+                   CornerRadius="5"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                
+            </Frame>
+        </ScrollView>
+            
     </ContentPage.Content>
 </ContentPage>
