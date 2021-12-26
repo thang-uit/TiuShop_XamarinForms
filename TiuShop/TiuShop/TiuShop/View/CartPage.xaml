@@ -399,15 +399,38 @@
                 </StackLayout>
             </ScrollView>
 
-            <StackLayout Orientation="Vertical" VerticalOptions="End">
-                
-                <Button x:Name="btnCheckout" 
+            <StackLayout Orientation="Vertical" 
+                         VerticalOptions="End" 
+                         Padding="0" Margin="0"
+                         BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical" 
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="FillAndExpand">
+                        <Label x:Name="lblTotal"
+                               Text="{DynamicResource lblTotal}" 
+                               FontSize="Medium" 
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center" 
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                        <Label Text="500000" 
+                               FontSize="Medium"    
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"               
+                               TextColor="{StaticResource ColorMain4}"/>
+                    </StackLayout>
+                    
+                    <Button x:Name="btnCheckout" 
                             VerticalOptions="FillAndExpand"
                             HorizontalOptions="FillAndExpand"
-                            Text="{DynamicResource btnAddToCart}" 
+                            Text="{DynamicResource btnCheckout}"
+                            Clicked="btnCheckout_Clicked"
                             TextTransform="Uppercase"
                             TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+
+                </StackLayout>
             </StackLayout>
         </StackLayout>
             

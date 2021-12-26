@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace TiuShop.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CartPage : ContentPage
+    public partial class PaymentPage : ContentPage
     {
-        public CartPage()
+        public PaymentPage()
         {
             InitializeComponent();
-        }
-
-        private void btnCheckout_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new PaymentPage());
         }
     }
 }
