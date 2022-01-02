@@ -9,7 +9,7 @@
             <Color x:Key="ColorMain2">#FFFFFF</Color>
             <Color x:Key="ColorMain3">#000000</Color>
             <Color x:Key="ColorMain4">#FF0000</Color>
-            <Color x:Key="ColorMain5">#BBD4FC</Color>
+            <Color x:Key="ColorMain5">#DEEBFF</Color>
             <Color x:Key="ColorMain6">#FBC02D</Color>
             <Color x:Key="ColorMain7">#17B978</Color>
 
@@ -98,6 +98,8 @@
             <x:String x:Key="lblTitle1">Product Detail</x:String>
             <x:String x:Key="lblTitle2">Cart</x:String>
             <x:String x:Key="lblTitle3">Payment</x:String>
+            <x:String x:Key="lblTitle4">Comment</x:String>
+            
             <x:String x:Key="btnAddToCart">Add to cart</x:String>
             <x:String x:Key="picSize">Size</x:String>
 
@@ -109,6 +111,22 @@
             <x:String x:Key="lblTotal">Total</x:String>
             
             <x:String x:Key="edtPhoneNumber">Phone Number</x:String>
+            <x:String x:Key="edtComment">Enter your comment</x:String>
+            <x:String x:Key="btnComment">Post</x:String>
+
+
+            <x:String x:Key="lblAlert">Notice</x:String>
+            
+            <x:String x:Key="lblAlertContent1">Please enter username</x:String>
+            <x:String x:Key="lblAlertContent2">Please enter password</x:String>
+            <x:String x:Key="lblAlertContent3">Usernames must be at least 6 characters long</x:String>
+            <x:String x:Key="lblAlertContent4">Passwords must be at least 6 characters long</x:String>
+            <x:String x:Key="lblAlertContent5">Login fail! Please check your username and password again</x:String>
+            
+            <x:String x:Key="lblAlertOK">OK</x:String>
+            
+            
+            
 
         </ResourceDictionary>
     </Application.Resources>

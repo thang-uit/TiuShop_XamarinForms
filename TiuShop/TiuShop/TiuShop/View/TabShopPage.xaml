@@ -56,7 +56,8 @@
                 
                 <StackLayout>
                     <AbsoluteLayout HeightRequest="50" Margin="20, 0, 20, 0" HorizontalOptions="FillAndExpand">
-                        <Label AbsoluteLayout.LayoutBounds="0, 0, 1, 1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutFlags="All" 
+                        <Label x:Name="lblTest"
+                            AbsoluteLayout.LayoutBounds="0, 0, 1, 1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutFlags="All" 
                                Text="{DynamicResource lbltabShop1}" 
                                FontAttributes="Bold"
                                FontSize="Large"

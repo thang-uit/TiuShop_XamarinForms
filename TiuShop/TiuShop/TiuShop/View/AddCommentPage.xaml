@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:fRating="clr-namespace:Rating;assembly=Rating"
+             x:Class="TiuShop.View.AddCommentPage"
+             Title="{DynamicResource lblTitle4}"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    <ContentPage.Content>
+        
+        <StackLayout Orientation="Vertical">
+            <ScrollView Orientation="Vertical"
+                        VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+                <StackLayout Orientation="Vertical">
+                    <fRating:RatingBar x:Name="rbRating"
+                                       ImageHeight="40"
+                                       ImageWidth="40"
+                                       Margin="5, 10, 5, 0"
+                                       SelectedStarValue="3"
+                                       HorizontalOptions="Center"
+                                       FlowDirection="LeftToRight"
+                                       EmptyStarImage="emptystar"
+                                       FillStarImage="star"/>
+
+                    <Editor x:Name="edtComment" 
+                           HeightRequest="120"
+                           Keyboard="Text" 
+                           Placeholder="{DynamicResource edtComment}"
+                           MaxLength="500"
+                           Margin="5, 10, 5, 0"
+                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain5}, Dark={StaticResource ColorDark2}}"
+                           HorizontalOptions="FillAndExpand"
+                           PlaceholderColor="Gray"
+                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                    <Button x:Name="btnComment" 
+                            VerticalOptions="Center"
+                            HorizontalOptions="FillAndExpand"
+                            Text="{DynamicResource btnComment}" 
+                            TextTransform="Uppercase"
+                            CornerRadius="10"
+                            Margin="5, 5, 5, 0"
+                            Clicked="btnComment_Clicked"
+                            TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+                </StackLayout>
+                
+            </ScrollView>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

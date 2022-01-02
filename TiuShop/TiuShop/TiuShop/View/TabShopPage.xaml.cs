@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Refit;
 using Rg.Plugins.Popup.Extensions;
 using System;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using TiuShop.API;
 using TiuShop.Model;
 using TiuShop.View.Popup;
 using Xamarin.Forms;
@@ -40,6 +42,12 @@ namespace TiuShop.View
             var resultSlider = JsonConvert.DeserializeObject<Model.Slider[]>(result);
 
             this.slider.ItemsSource = resultSlider;
+
+            //var test = await httpClient.GetStringAsync("http://192.168.1.2/Code/TiuShop/abc.txt");
+            //this.lblTest.Text = test.ToString();
+
+            //var apiResponse = RestService.For<IApi>(Common.url);
+            //this.lblTest.Text = await apiResponse.Text();
         }
 
         private void tapProduct_Tapped(object sender, EventArgs e)
