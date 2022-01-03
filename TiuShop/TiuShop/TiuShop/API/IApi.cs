@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using TiuShop.DTO;
 using TiuShop.Model;
 
 namespace TiuShop.API
@@ -13,6 +14,6 @@ namespace TiuShop.API
         //Task<string> Text();
 
         [Post("/User/Login.php")]
-        Task<Account> Login([AliasAs("username")] string username, [AliasAs("password")] string password);
+        Task<CustomApiResponse<Account>> Login([Body] AccountRequest account);
     }
 }

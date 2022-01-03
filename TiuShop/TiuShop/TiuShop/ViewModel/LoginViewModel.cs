@@ -3,18 +3,21 @@ using Rg.Plugins.Popup.Extensions;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using TiuShop.API;
+using TiuShop.DTO;
 using TiuShop.View.Popup;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace TiuShop.ViewModel
 {
-    public class LoginViewModel: INotifyPropertyChanged
+    public class LoginViewModel : INotifyPropertyChanged
     {
         public ICommand loginCommand => new Command(Login);
 
@@ -30,7 +33,7 @@ namespace TiuShop.ViewModel
         public string Message1
         {
             get { return message1; }
-            set 
+            set
             {
                 message1 = value;
                 OnPropertyChanged();
@@ -53,7 +56,7 @@ namespace TiuShop.ViewModel
 
         void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
-            if(PropertyChanged == null)
+            if (PropertyChanged == null)
             {
                 return;
             }
@@ -66,7 +69,7 @@ namespace TiuShop.ViewModel
             {
                 this.Message1 = App.Current.Resources["lblAlertContent1"].ToString();
             }
-            else if(Username.Length < 6)
+            else if (Username.Length < 6)
             {
                 this.Message1 = App.Current.Resources["lblAlertContent3"].ToString();
             }
@@ -80,7 +83,7 @@ namespace TiuShop.ViewModel
             {
                 this.Message2 = App.Current.Resources["lblAlertContent2"].ToString();
             }
-            else if(Passsword.Length < 6)
+            else if (Passsword.Length < 6)
             {
                 this.Message2 = App.Current.Resources["lblAlertContent4"].ToString();
             }
@@ -90,7 +93,7 @@ namespace TiuShop.ViewModel
                 flag2 = true;
             }
 
-            if(flag1 && flag2)
+            if (flag1 && flag2)
             {
                 GetResponseAsync();
             }
@@ -98,26 +101,25 @@ namespace TiuShop.ViewModel
 
         private async void GetResponseAsync()
         {
+            //await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), Username +" | " + Passsword, App.Current.Resources["lblAlertOK"].ToString());
             await Application.Current.MainPage.Navigation.PushPopupAsync(new MyLoading());
 
-            var apiResponse = RestService.For<IApi>(Common.url);
-            var status = await apiResponse.Login(Username, Passsword);
+            var api = RestService.For<IApi>(Common.url);
+            AccountRequest accountRequest = new AccountRequest() { Username = Username, Password = Passsword };
+            var response = await api.Login(accountRequest);
 
-            if (status != null)
+            if (response.Status.Equals(Common.STATUS_SUCCESS))
             {
-                if (!string.IsNullOrEmpty(status.UserId.ToString()))
-                {
-                    //Preferences.Set(Common.KEY_USERID, status.UserId);
-                    await Application.Current.MainPage.Navigation.PopPopupAsync();
-                    await Application.Current.MainPage.Navigation.PushAsync(new MainPage());
-                }
+                // Preferences.Set(Common.KEY_USERID, response.Data.UserId);
+                await Application.Current.MainPage.Navigation.PopPopupAsync();
+                Application.Current.MainPage = new NavigationPage(new MainPage());
+                //await Application.Current.MainPage.Navigation.PushAsync(new MainPage());
             }
             else
             {
                 await Application.Current.MainPage.Navigation.PopPopupAsync();
                 await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent5"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
             }
-            await Application.Current.MainPage.Navigation.PopPopupAsync();
         }
     }
 }

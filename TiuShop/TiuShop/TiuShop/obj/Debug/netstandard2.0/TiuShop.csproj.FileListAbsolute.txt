@@ -27,3 +27,4 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstan
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\ref\TiuShop.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.pdb
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\TiuShop.csproj.AssemblyReference.cache
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\RefitStubs.g.cs

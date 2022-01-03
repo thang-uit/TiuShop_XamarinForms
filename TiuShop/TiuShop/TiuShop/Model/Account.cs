@@ -1,19 +1,20 @@
-﻿using Newtonsoft.Json;
+﻿
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace TiuShop.Model
 {
-    public partial class Account
+    public class Account
     {
         [JsonProperty("userID")]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
 
         [JsonProperty("username")]
         public string Username { get; set; }
 
         [JsonProperty("role")]
-        public int Role { get; set; }
+        public string Role { get; set; }
     }
 }

@@ -6,7 +6,7 @@
              Title="{DynamicResource lblTitle4}"
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
-        
+
         <StackLayout Orientation="Vertical">
             <ScrollView Orientation="Vertical"
                         VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
@@ -45,9 +45,9 @@
                             TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
                 </StackLayout>
-                
+
             </ScrollView>
         </StackLayout>
-        
+
     </ContentPage.Content>
 </ContentPage>

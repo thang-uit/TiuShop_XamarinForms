@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿
 using Refit;
 using Rg.Plugins.Popup.Extensions;
 using System;
@@ -36,12 +36,12 @@ namespace TiuShop.View
             //    new Banner() { bannerID = 5, bannerImage = "bgregister.jpg", productID = 5 },
             //};
 
-            var httpClient = new HttpClient();
-            var result = await httpClient.GetStringAsync("https://imusicapi.000webhostapp.com/Server/slider.php");
+            //var httpClient = new HttpClient();
+            //var result = await httpClient.GetStringAsync("https://imusicapi.000webhostapp.com/Server/slider.php");
 
-            var resultSlider = JsonConvert.DeserializeObject<Model.Slider[]>(result);
+            //var resultSlider = JsonConvert.DeserializeObject<Model.Slider[]>(result);
 
-            this.slider.ItemsSource = resultSlider;
+            //this.slider.ItemsSource = resultSlider;
 
             //var test = await httpClient.GetStringAsync("http://192.168.1.2/Code/TiuShop/abc.txt");
             //this.lblTest.Text = test.ToString();

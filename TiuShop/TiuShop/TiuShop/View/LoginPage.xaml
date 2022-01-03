@@ -10,9 +10,9 @@
     <ContentPage.BindingContext>
         <viewmodel:LoginViewModel/>
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Content>
-        
+
         <ScrollView Orientation="Vertical" BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
             <StackLayout Orientation="Vertical" 
                          VerticalOptions="Start" 
@@ -61,7 +61,7 @@
                        CornerRadius="10" 
                        Padding="5"
                        Margin="0, 5, 0, 0"
-                       HorizontalOptions="FillAndExpand">                    
+                       HorizontalOptions="FillAndExpand">
                     <StackLayout Orientation="Horizontal">
                         <Label Text="&#xe897;" 
                         TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
@@ -110,7 +110,7 @@
                         <TapGestureRecognizer x:Name="tapRegister" Tapped="tapRegister_Tapped"/>
                     </Label.GestureRecognizers>
                 </Label>
-                
+
                 <!--<StackLayout Orientation="Vertical" VerticalOptions="End">
                     <Button x:Name="btnLoginFacebook" 
                             Text="{DynamicResource btnLoginFacebook}" 
@@ -127,9 +127,9 @@
                             ImageSource="logo_google" 
                             TextColor="{AppThemeBinding Light={StaticResource ColorMain2}, Dark={StaticResource ColorMain2}}"/>
                 </StackLayout>-->
-                
+
             </StackLayout>
         </ScrollView>
-        
+
     </ContentPage.Content>
 </ContentPage>

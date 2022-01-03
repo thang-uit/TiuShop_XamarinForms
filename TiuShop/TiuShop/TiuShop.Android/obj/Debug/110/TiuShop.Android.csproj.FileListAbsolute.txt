@@ -655,13 +655,12 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\Rating.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\emptystar.png
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\star.png
-D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\TiuShop.Android.GeneratedMSBuildEditorConfig.editorconfig
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\Microsoft.Bcl.AsyncInterfaces.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\Refit.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\System.Buffers.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\System.Memory.dll
-D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\System.Net.Http.Json.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\System.Text.Encodings.Web.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\System.Text.Json.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\System.Threading.Tasks.Extensions.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\RefitStubs.g.cs

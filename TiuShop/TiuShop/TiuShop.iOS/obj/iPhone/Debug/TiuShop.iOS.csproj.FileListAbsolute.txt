@@ -71,3 +71,10 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\De
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\Rating.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\Refit.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\System.Buffers.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\System.Text.Encodings.Web.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\System.Text.Json.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\RefitStubs.g.cs
