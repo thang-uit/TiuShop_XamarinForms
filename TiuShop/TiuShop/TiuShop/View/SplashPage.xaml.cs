@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using TiuShop.API;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -40,7 +41,17 @@ namespace TiuShop.View
             await this.imgLogo.ScaleTo(1, 2000);
             await this.imgLogo.ScaleTo(0.8, 1500, Easing.Linear);
             await this.imgLogo.ScaleTo(200, 2500, Easing.Linear);
-            Application.Current.MainPage = new NavigationPage(new LoginPage());
+
+            var userID = Preferences.Get(Common.KEY_USERID, "");
+
+            if(string.IsNullOrWhiteSpace(userID) || string.IsNullOrEmpty(userID))
+            {
+                Application.Current.MainPage = new NavigationPage(new LoginPage());
+            }
+            else
+            {
+                Application.Current.MainPage = new NavigationPage(new MainPage());
+            }
         }
     }
 }

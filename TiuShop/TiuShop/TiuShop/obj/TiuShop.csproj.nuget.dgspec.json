@@ -64,7 +64,7 @@
             },
             "Refit": {
               "target": "Package",
-              "version": "[5.2.4, )"
+              "version": "[6.1.15, )"
             },
             "Rg.Plugins.Popup": {
               "target": "Package",

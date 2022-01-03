@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             x:Class="TiuShop.View.SuccessPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+    <ContentPage.Content>
+
+        <ScrollView Orientation="Vertical"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+            <StackLayout Orientation="Vertical" 
+                         HorizontalOptions="FillAndExpand"
+                         Padding="20">
+
+                <forms:AnimationView x:Name="animationViewSuccess"
+                                     Animation="animation_success.json"
+                                     Margin="0, 20, 0, 0"                
+                                     WidthRequest="280"
+                                     HeightRequest="280"
+                                     VerticalOptions="Center"
+                                     RepeatMode="Infinite"
+                                     AutoPlay="True"/>
+
+                <Label x:Name="lblNotice"
+                       FontSize="Large"
+                       TextTransform="Uppercase"
+                       FontAttributes="Bold"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalTextAlignment="Center"
+                       HorizontalOptions="Center"
+                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                <Button x:Name="btnSuccess" 
+                        VerticalOptions="Center"
+                        Text="{DynamicResource btnBack}" 
+                        TextTransform="Uppercase"
+                        CornerRadius="10"
+                        Clicked="btnSuccess_Clicked"
+                        TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -17,11 +17,6 @@ namespace TiuShop.View
             InitializeComponent();
         }
 
-        private void btnRegister_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnBack_Clicked(object sender, EventArgs e)
         {
             Navigation.PopAsync();

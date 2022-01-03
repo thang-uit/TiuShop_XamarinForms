@@ -4,12 +4,12 @@ using Rg.Plugins.Popup.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using TiuShop.API;
 using TiuShop.Model;
 using TiuShop.View.Popup;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -22,11 +22,13 @@ namespace TiuShop.View
         {
             InitializeComponent();
 
-            InitAsync();
+            Init();
         }
 
-        private async void InitAsync()
+        private void Init()
         {
+            var userID = Preferences.Get(Common.KEY_USERID, "");
+
             //List<Banner> banners = new List<Banner>()
             //{
             //    new Banner() { bannerID = 2, bannerImage = "slider2.jpg", productID = 2 },

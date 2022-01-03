@@ -16,6 +16,7 @@ public class MonoPackageManager_Resources {
 		"Refit.dll",
 		"Rg.Plugins.Popup.dll",
 		"Square.OkIO.dll",
+		"System.Net.Http.Json.dll",
 		"System.Text.Encodings.Web.dll",
 		"System.Text.Json.dll",
 		"TiuShop.dll",

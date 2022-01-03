@@ -114,19 +114,28 @@
             <x:String x:Key="edtComment">Enter your comment</x:String>
             <x:String x:Key="btnComment">Post</x:String>
 
-
             <x:String x:Key="lblAlert">Notice</x:String>
-            
+
+            <x:String x:Key="lblAlertContent0">Error. Please try again</x:String>
             <x:String x:Key="lblAlertContent1">Please enter username</x:String>
             <x:String x:Key="lblAlertContent2">Please enter password</x:String>
             <x:String x:Key="lblAlertContent3">Usernames must be at least 6 characters long</x:String>
             <x:String x:Key="lblAlertContent4">Passwords must be at least 6 characters long</x:String>
             <x:String x:Key="lblAlertContent5">Login fail! Please check your username and password again</x:String>
+
+            <x:String x:Key="lblAlertContent6">Please enter display name</x:String>
+            <x:String x:Key="lblAlertContent7">Please enter confirm password</x:String>
+            <x:String x:Key="lblAlertContent8">Display name must be at least 6 characters long</x:String>
+            <x:String x:Key="lblAlertContent9">Username already exists. Please choose another name</x:String>
+            <x:String x:Key="lblAlertContent10">Confirm password doesn't match</x:String>
+
+            <x:String x:Key="lblAlertContent11">Register successfully!</x:String>
             
             <x:String x:Key="lblAlertOK">OK</x:String>
-            
-            
-            
+
+            <x:String x:Key="btnSuccess1">Login</x:String>
+
+
 
         </ResourceDictionary>
     </Application.Resources>

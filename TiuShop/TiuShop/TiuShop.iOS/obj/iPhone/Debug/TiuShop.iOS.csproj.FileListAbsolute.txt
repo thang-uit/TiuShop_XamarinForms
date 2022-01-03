@@ -77,4 +77,5 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\De
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\System.Text.Encodings.Web.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\System.Text.Json.dll
-D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\RefitStubs.g.cs
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\bin\iPhone\Debug\System.Net.Http.Json.dll
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.iOS\obj\iPhone\Debug\TiuShop.iOS.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodel="clr-namespace:TiuShop.ViewModel"
              x:Class="TiuShop.View.RegisterPage"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+    <ContentPage.BindingContext>
+        <viewmodel:RegisterViewModel/>
+    </ContentPage.BindingContext>
+
     <ContentPage.Content>
 
-        <ScrollView Orientation="Vertical"> 
+        <ScrollView Orientation="Vertical">
             <StackLayout Padding="0"
                          BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
                 <Grid>
@@ -21,7 +27,7 @@
                     <StackLayout Margin="15, 110, 15, 0">
                         <Frame 
                             HasShadow="True"
-                            HeightRequest="450"
+                            HeightRequest="460"
                             HorizontalOptions="FillAndExpand"
                             CornerRadius="10"
                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
@@ -53,6 +59,7 @@
                                             <Entry x:Name="edtUsername" 
                                                    Keyboard="Text" 
                                                    Placeholder="{DynamicResource edtUsername}"
+                                                   Text="{Binding Username, Mode=TwoWay}"
                                                    MaxLength="100"
                                                    Margin="0, 0, 10, 0"
                                                    VerticalOptions="Center"
@@ -79,6 +86,7 @@
                                             <Entry x:Name="edtDisplayName" 
                                                    Keyboard="Text" 
                                                    Placeholder="{DynamicResource edtDisplayName}"
+                                                   Text="{Binding Displayname, Mode=TwoWay}"
                                                    MaxLength="100"
                                                    Margin="0, 0, 10, 0"
                                                    VerticalOptions="Center"
@@ -106,6 +114,7 @@
                                                    Keyboard="Text" 
                                                    IsPassword="True"
                                                    Placeholder="{DynamicResource edtPassword}"
+                                                   Text="{Binding Passsword, Mode=TwoWay}"
                                                    MaxLength="100"
                                                    Margin="0, 0, 10, 0"
                                                    VerticalOptions="Center"
@@ -132,6 +141,7 @@
                                                    Keyboard="Text" 
                                                    IsPassword="True"
                                                    Placeholder="{DynamicResource edtConfirmPassword}"
+                                                   Text="{Binding ConfirmPasssword, Mode=TwoWay}"
                                                    MaxLength="100"
                                                    Margin="0, 0, 10, 0"
                                                    VerticalOptions="Center"
@@ -157,10 +167,12 @@
                                             TextTransform="Uppercase"
                                             CornerRadius="10"
                                             HorizontalOptions="FillAndExpand"
-                                            Clicked="btnRegister_Clicked"
+                                                Command="{Binding registerCommand}"
                                             TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
                                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
                                     </StackLayout>
+
+                                    <Label Text="{Binding Message, Mode=TwoWay}" HorizontalOptions="Center" TextColor="{StaticResource ColorMain4}" FontSize="Caption"/>
 
                                 </StackLayout>
                             </StackLayout>
@@ -169,6 +181,6 @@
                 </Grid>
             </StackLayout>
         </ScrollView>
-        
+
     </ContentPage.Content>
 </ContentPage>

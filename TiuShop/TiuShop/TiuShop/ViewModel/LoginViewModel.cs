@@ -3,10 +3,8 @@ using Rg.Plugins.Popup.Extensions;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
-using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using TiuShop.API;
@@ -108,17 +106,25 @@ namespace TiuShop.ViewModel
             AccountRequest accountRequest = new AccountRequest() { Username = Username, Password = Passsword };
             var response = await api.Login(accountRequest);
 
-            if (response.Status.Equals(Common.STATUS_SUCCESS))
+            if(response != null)
             {
-                // Preferences.Set(Common.KEY_USERID, response.Data.UserId);
-                await Application.Current.MainPage.Navigation.PopPopupAsync();
-                Application.Current.MainPage = new NavigationPage(new MainPage());
-                //await Application.Current.MainPage.Navigation.PushAsync(new MainPage());
+                if (response.Status.Equals(Common.STATUS_SUCCESS))
+                {
+                    Preferences.Set(Common.KEY_USERID, response.Data.UserId);
+                    Application.Current.MainPage = new NavigationPage(new MainPage());
+                    await Application.Current.MainPage.Navigation.PopPopupAsync();
+                    //await Application.Current.MainPage.Navigation.PushAsync(new MainPage());
+                }
+                else
+                {
+                    await Application.Current.MainPage.Navigation.PopPopupAsync();
+                    await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent5"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                }
             }
             else
             {
                 await Application.Current.MainPage.Navigation.PopPopupAsync();
-                await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent5"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
             }
         }
     }

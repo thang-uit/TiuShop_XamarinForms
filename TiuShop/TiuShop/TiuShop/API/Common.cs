@@ -15,5 +15,9 @@ namespace TiuShop.API
         public static string STATUS_SUCCESS = "Success";
 
         public static string STATUS_FAIL = "Fail";
+
+        public static string LAYOUT_REGISTER = "REGISTER";
+
+
     }
 }
