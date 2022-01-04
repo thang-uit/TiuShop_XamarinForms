@@ -11,8 +11,8 @@ $_POST = json_decode(file_get_contents('php://input'), true);
 $db = new Database();
 $account = new Account($db->connect());
 
-$account->username = isset($_POST["username"]) ? $_POST["username"] : die();
-$account->password = isset($_POST["password"]) ? $_POST["password"] : die();
+$account->username = isset($_POST["username"]) && !empty($_POST["username"]) ? $_POST["username"] : "";
+$account->password = isset($_POST["password"]) && !empty($_POST["password"]) ? $_POST["password"] : "";
 
 $status = $account->checkUser($account->username, $account->password);
 

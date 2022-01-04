@@ -11,9 +11,9 @@ $_POST = json_decode(file_get_contents('php://input'), true);
 $db = new Database();
 $account = new Account($db->connect());
 
-$account->userID = isset($_POST["userID"]) ? $_POST["userID"] : die();
-$account->password = isset($_POST["password"]) ? $_POST["password"] : die();
-$newPassword = isset($_POST["newPassword"]) ? $_POST["newPassword"] : die();
+$account->userID = isset($_POST["userID"]) && !empty($_POST["userID"]) ? $_POST["userID"] : "";
+$account->password = isset($_POST["password"]) && !empty($_POST["password"]) ? $_POST["password"] : "";
+$newPassword = isset($_POST["newPassword"]) && !empty($_POST["newPassword"]) ? $_POST["newPassword"] : "";
 
 $status = $account->ChangePassword($account->userID, $account->password, $newPassword);
 

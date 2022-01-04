@@ -11,9 +11,9 @@ $_POST = json_decode(file_get_contents('php://input'), true);
 $db = new Database();
 $account = new Account($db->connect());
 
-$account->username = isset($_POST["username"]) ? $_POST["username"] : die();
-$account->password = isset($_POST["password"]) ? $_POST["password"] : die();
-$name = isset($_POST["name"]) ? $_POST["name"] : die();
+$account->username = isset($_POST["username"]) && !empty($_POST["username"]) ? $_POST["username"] : "";
+$account->password = isset($_POST["password"]) && !empty($_POST["password"]) ? $_POST["password"] : "";
+$name = isset($_POST["name"]) && !empty($_POST["name"]) ? $_POST["name"] : "";
 
 $status = $account->InsertUser($account->username, $account->password, $name);
 
@@ -38,6 +38,11 @@ if ($status == 1) {
     $array = array(
         "status" => $FAIL,
         "message" => "Register fail"
+    );
+} else if ($status == 4) {
+    $array = array(
+        "status" => $FAIL,
+        "message" => "Param is empty"
     );
 }
 

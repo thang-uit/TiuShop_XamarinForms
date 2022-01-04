@@ -44,43 +44,47 @@ class Account
 
     public function InsertUser($username, $password, $name)
     {
-        $query = "SELECT * FROM `account` WHERE `Acc_Username` = '$username';";
-        $stmt = $this->conn->prepare($query);
-        $stmt->execute();
+        if (empty($username) || empty($password) || empty($name)) {
+            return 4; // Empty
+        } else {
+            $query = "SELECT * FROM `account` WHERE `Acc_Username` = '$username';";
+            $stmt = $this->conn->prepare($query);
+            $stmt->execute();
 
-        if ($stmt->rowCount() <= 0) {
-            $md5Password = md5($password); // Encoding md5 password
+            if ($stmt->rowCount() <= 0) {
+                $md5Password = md5($password); // Encoding md5 password
 
-            $queryInsert = "INSERT INTO `account` (`Acc_ID`, `Acc_Username`, `Acc_Password`, `Acc_Role`) VALUES (NULL, ?, ?, '0');";
-            $data = array($username, $md5Password);
-            $stmt1 = $this->conn->prepare($queryInsert);
-            $stmt1->execute($data);
+                $queryInsert = "INSERT INTO `account` (`Acc_ID`, `Acc_Username`, `Acc_Password`, `Acc_Role`) VALUES (NULL, ?, ?, '0');";
+                $data = array($username, $md5Password);
+                $stmt1 = $this->conn->prepare($queryInsert);
+                $stmt1->execute($data);
 
-            if ($stmt1) {
-                $query1 = "SELECT * FROM `account` WHERE `Acc_Username` = '$username';";
-                $stmt2 = $this->conn->prepare($query1);
-                $stmt2->execute();
+                if ($stmt1) {
+                    $query1 = "SELECT * FROM `account` WHERE `Acc_Username` = '$username';";
+                    $stmt2 = $this->conn->prepare($query1);
+                    $stmt2->execute();
 
-                if ($stmt2->rowCount() > 0) {
-                    $row = $stmt2->fetch(PDO::FETCH_ASSOC);
+                    if ($stmt2->rowCount() > 0) {
+                        $row = $stmt2->fetch(PDO::FETCH_ASSOC);
 
-                    $queryInsert1 = "INSERT INTO `user` (`Use_ID`, `Use_Name`, `Use_Email`, `Use_Phone`, `Use_Address`, `Use_Create`) VALUES (?, ?, NULL, NULL, NULL, current_timestamp());";
-                    $data1 = array($row["Acc_ID"], $name);
-                    $stmt3 = $this->conn->prepare($queryInsert1);
-                    $stmt3->execute($data1);
+                        $queryInsert1 = "INSERT INTO `user` (`Use_ID`, `Use_Name`, `Use_Email`, `Use_Gender`, `Use_Phone`, `Use_Address`, `Use_Create`) VALUES (?, ?, NULL, NULL, NULL, NULL, current_timestamp());";
+                        $data1 = array($row["Acc_ID"], $name);
+                        $stmt3 = $this->conn->prepare($queryInsert1);
+                        $stmt3->execute($data1);
 
-                    $this->userID = $row["Acc_ID"];
-                    $this->username = $row["Acc_Username"];
-                    // $this->password = md5($row["Acc_Password"]);
-                    $this->role = $row["Acc_Role"];
+                        $this->userID = $row["Acc_ID"];
+                        $this->username = $row["Acc_Username"];
+                        // $this->password = md5($row["Acc_Password"]);
+                        $this->role = $row["Acc_Role"];
 
-                    return 1; // Register success
+                        return 1; // Register success
+                    }
+                } else {
+                    return 3; // Register fail
                 }
             } else {
-                return 3; // Register fail
+                return 2; // Username already exists
             }
-        } else {
-            return 2; // Username already exists
         }
     }
 
