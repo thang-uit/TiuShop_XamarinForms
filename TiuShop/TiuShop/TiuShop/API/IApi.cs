@@ -18,5 +18,8 @@ namespace TiuShop.API
 
         [Post("/User/Register.php")]
         Task<CustomApiResponse<Account>> Register([Body] AccountRequest account);
+
+        [Get("/Product/GetSlider.php?amount={amount}")]
+        Task<CustomApiResponse<List<Slider>>> GetSlider([AliasAs("amount")] int amount);
     }
 }

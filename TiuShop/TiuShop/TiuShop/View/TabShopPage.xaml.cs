@@ -23,6 +23,7 @@ namespace TiuShop.View
             InitializeComponent();
 
             Init();
+            InitSlider();
         }
 
         private void Init()
@@ -47,9 +48,7 @@ namespace TiuShop.View
 
             //var test = await httpClient.GetStringAsync("http://192.168.1.2/Code/TiuShop/abc.txt");
             //this.lblTest.Text = test.ToString();
-
-            //var apiResponse = RestService.For<IApi>(Common.url);
-            //this.lblTest.Text = await apiResponse.Text();
+            
         }
 
         private void tapProduct_Tapped(object sender, EventArgs e)
@@ -62,6 +61,39 @@ namespace TiuShop.View
         private void tapCart_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new CartPage());
+        }
+
+        private async void InitSlider()
+        {
+            var apiResponse = RestService.For<IApi>(Common.url);
+            var response = await apiResponse.GetSlider(5);
+
+            if (response != null)
+            {
+                if (response.Status.Equals(Common.STATUS_SUCCESS))
+                {
+                    foreach(var img in response.Data)
+                    {
+                        img.SliderImg = Common.imgUrl + img.SliderImg;
+                    }    
+                    this.slider.ItemsSource = response.Data;
+                }
+            }
+        }
+
+        private void tapMan_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tapWoman_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tapBoth_Tapped(object sender, EventArgs e)
+        {
+
         }
     }
 }

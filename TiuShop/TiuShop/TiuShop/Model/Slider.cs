@@ -2,18 +2,19 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using TiuShop.API;
 
 namespace TiuShop.Model
 {
-    public partial class Slider
+    public class Slider
     {
         [JsonProperty("sliderID")]
-        public int SliderId { get; set; }
+        public string SliderId { get; set; }
 
-        [JsonProperty("image")]
-        public string Image { get; set; }
+        [JsonProperty("sliderImg")]
+        public string SliderImg { get; set; }
 
-        [JsonProperty("songID")]
-        public int SongId { get; set; }
+        [JsonProperty("productID")]
+        public string ProductId { get; set; }
     }
 }

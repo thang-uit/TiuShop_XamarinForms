@@ -8,7 +8,7 @@ namespace TiuShop.API
     {
         public static string url = "http://192.168.1.2/Code/TiuShop/API/Controller";
 
-        public static string apiUrl = "http://192.168.1.2/";
+        public static string imgUrl = "http://192.168.1.2";
 
         public static string KEY_USERID = "USERID";
 

@@ -76,7 +76,7 @@
             <x:String x:Key="tabCollection">Collection</x:String>
             <x:String x:Key="tabProfile">Profile</x:String>
 
-            <x:String x:Key="lbltabShop1">Let's Start</x:String>
+            <x:String x:Key="lbltabShop1">TIU SHOP</x:String>
             <x:String x:Key="lblMan">Man</x:String>
             <x:String x:Key="lblWoman">Woman</x:String>
             <x:String x:Key="lblHot">HOT</x:String>
