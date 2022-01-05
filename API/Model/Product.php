@@ -17,8 +17,6 @@ class Product
     public $collectionID = "collectionID";
     public $stock = "stock";
 
-    public $comment = "comment";
-
     public function __construct($database)
     {
         $this->conn = $database;
