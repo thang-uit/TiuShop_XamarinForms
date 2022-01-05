@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 
 include_once('../../Config/db.php');
 include_once('../../Model/User.php');
-include_once('../Common.php');
+include_once('../../Config/Common.php');
 
 $_POST = json_decode(file_get_contents('php://input'), true);
 
@@ -13,7 +13,7 @@ $user = new User($db->connect());
 
 $user->userID = isset($_POST["userID"]) && !empty($_POST["userID"]) ? $_POST["userID"] : "";
 
-$status = $user->getUser($user->userID);
+$status = $user->getUserInfo($user->userID);
 
 $array = [];
 

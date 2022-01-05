@@ -3,24 +3,25 @@ header('Access-Control-Allow-Origin:*');
 header('Content-Type: application/json');
 
 include_once('../../Config/db.php');
-include_once('../../Model/Slider.php');
+include_once('../../Model/Product.php');
 include_once('../../Config/Common.php');
 
 // $_POST = json_decode(file_get_contents('php://input'), true);
 
 $db = new Database();
-$slider = new Slider($db->connect());
+$product = new Product($db->connect());
 
+$option = isset($_GET["option"]) && !empty($_GET["option"]) ? $_GET["option"] : "";
 $amount = isset($_GET["amount"]) && !empty($_GET["amount"]) ? $_GET["amount"] : "5";
 
-$arraySlider = $slider->getSlider($amount);
+$arrayProduct = $product->getGroupProduct($option, $amount);
 
 $array = [];
 
 $array = array(
     "status" => $SUCCESS,
-    "data" => $arraySlider,
-    "message" => "Slider"
+    "data" => $arrayProduct,
+    "message" => "Product"
 );
 
 echo json_encode($array);

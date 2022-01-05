@@ -19,7 +19,7 @@ class User
         $this->conn = $database;
     }
 
-    public function getUser($userID)
+    public function getUserInfo($userID)
     {
         $query = "SELECT * FROM `user`, `account` WHERE `user`.`Use_ID` = `account`.`Acc_ID` AND `user`.`Use_ID` = '$userID';";
         $stmt = $this->conn->prepare($query);

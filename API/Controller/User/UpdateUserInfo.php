@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 
 include_once('../../Config/db.php');
 include_once('../../Model/User.php');
-include_once('../Common.php');
+include_once('../../Config/Common.php');
 
 $_POST = json_decode(file_get_contents('php://input'), true);
 
@@ -23,7 +23,7 @@ $status = $user->updateUser($user->userID, $user->name, $user->email, $user->gen
 $array = [];
 
 if ($status == 1) {
-    $status1 = $user->getUser($user->userID);
+    $status1 = $user->getUserInfo($user->userID);
 
     if ($status1 == 1) {
         $array = array(

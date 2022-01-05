@@ -21,7 +21,7 @@ class Slider
 
         $arraySlider = [];
 
-        while ($row = $row = $stmt->fetch()) {
+        while ($row = $stmt->fetch()) {
             array_push($arraySlider, array(
                 $this->sliderID => $row["Sli_ID"],
                 $this->sliderImg => $row["Sli_Img"],

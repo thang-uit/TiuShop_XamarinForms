@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 
 include_once('../../Config/db.php');
 include_once('../../Model/Account.php');
-include_once('../Common.php');
+include_once('../../Config/Common.php');
 
 $_POST = json_decode(file_get_contents('php://input'), true);
 
