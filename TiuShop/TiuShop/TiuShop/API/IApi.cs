@@ -21,5 +21,8 @@ namespace TiuShop.API
 
         [Get("/Product/GetSlider.php?amount={amount}")]
         Task<CustomApiResponse<List<Slider>>> GetSlider([AliasAs("amount")] int amount);
+
+        [Get("/Product/GetGroupProduct.php?amount={amount}&option={option}")]
+        Task<CustomApiResponse<List<Product>>> GetGroupProduct([AliasAs("option")] string option, [AliasAs("amount")] int amount);
     }
 }

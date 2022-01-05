@@ -12,7 +12,7 @@ namespace TiuShop.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProductDetailPage : ContentPage
     {
-        public ProductDetailPage()
+        public ProductDetailPage(string productID)
         {
             InitializeComponent();
         }

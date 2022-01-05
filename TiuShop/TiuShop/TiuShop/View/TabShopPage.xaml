@@ -7,11 +7,15 @@
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
 
-        <ScrollView Orientation="Vertical" 
+        <RefreshView x:Name="rfvRefresh" 
+                     RefreshColor="{StaticResource ColorMain1}" 
+                     Refreshing="rfvRefresh_Refreshing">
+            
+            <ScrollView Orientation="Vertical" 
                     BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}"
                     VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <StackLayout>
-                <!--<Grid VerticalOptions="Center" RowDefinitions="200, *">
+                <StackLayout>
+                    <!--<Grid VerticalOptions="Center" RowDefinitions="200, *">
                     <CarouselView x:Name="carouselView" Margin="0" IsBounceEnabled="True" IndicatorView="indicatorView">
                         <CarouselView.ItemTemplate>
                             <DataTemplate>
@@ -32,8 +36,8 @@
                     </IndicatorView>
                 </Grid>-->
 
-                <!-- Library: https://github.com/alexrainman/CarouselView -->
-                <slider:CarouselViewControl x:Name="slider"
+                    <!-- Library: https://github.com/alexrainman/CarouselView -->
+                    <slider:CarouselViewControl x:Name="slider"
                                             HeightRequest="200"
                                             InfiniteScrolling="True"
                                             AutoplayInterval="4"
@@ -44,26 +48,26 @@
                                             HorizontalOptions="FillAndExpand"
                                             IndicatorsTintColor="DarkGray"
                                             CurrentPageIndicatorTintColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}">
-                    <slider:CarouselViewControl.ItemTemplate>
-                        <DataTemplate>
-                            <StackLayout VerticalOptions="Fill" Padding="0" Orientation="Horizontal">
-                                <Image Source="{Binding SliderImg}" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
-                            </StackLayout>
-                        </DataTemplate>
-                    </slider:CarouselViewControl.ItemTemplate>
-                </slider:CarouselViewControl>
+                        <slider:CarouselViewControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout VerticalOptions="Fill" Padding="0" Orientation="Horizontal">
+                                    <Image Source="{Binding SliderImg}" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </slider:CarouselViewControl.ItemTemplate>
+                    </slider:CarouselViewControl>
 
 
-                <StackLayout>
-                    <AbsoluteLayout HeightRequest="50" Margin="20, 0, 20, 0" HorizontalOptions="FillAndExpand">
-                        <Label x:Name="lblTest"
+                    <StackLayout>
+                        <AbsoluteLayout HeightRequest="50" Margin="20, 0, 20, 0" HorizontalOptions="FillAndExpand">
+                            <Label x:Name="lblTest"
                             AbsoluteLayout.LayoutBounds="0, 0, 1, 1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutFlags="All" 
                                Text="{DynamicResource lbltabShop1}" 
                                FontAttributes="Bold"
                                FontSize="Large"
                                TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
 
-                        <Frame BackgroundColor="{StaticResource ColorLight2}"
+                            <Frame BackgroundColor="{StaticResource ColorLight2}"
                                CornerRadius="50" 
                                WidthRequest="45"
                                HeightRequest="45"
@@ -74,99 +78,101 @@
                                HasShadow="False" 
                                BorderColor="DarkGray"
                                AbsoluteLayout.LayoutBounds="1, 0.5, 45, 45" AbsoluteLayout.LayoutFlags="YProportional, XProportional">
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer x:Name="tapCart"
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="tapCart"
                                                       Tapped="tapCart_Tapped"
                                                       NumberOfTapsRequired="1"/>
-                            </Frame.GestureRecognizers>
+                                </Frame.GestureRecognizers>
 
-                            <Image Source="ic_shoppingcart.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center"/>
-                        </Frame>
-                    </AbsoluteLayout>
-                </StackLayout>
+                                <Image Source="ic_shoppingcart.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center"/>
+                            </Frame>
+                        </AbsoluteLayout>
+                    </StackLayout>
 
 
-                <Grid Margin="10">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="200"/>
-                        <RowDefinition Height="200"/>
-                    </Grid.RowDefinitions>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="200"/>
+                        </Grid.RowDefinitions>
 
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width=".5*"/>
-                        <ColumnDefinition Width=".5*"/>
-                    </Grid.ColumnDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".5*"/>
+                            <ColumnDefinition Width=".5*"/>
+                        </Grid.ColumnDefinitions>
 
-                    <Frame HasShadow="True" CornerRadius="10" Grid.Row="0" Grid.Column="0" Padding="0" 
+                        <Frame HasShadow="True" CornerRadius="10" Grid.Row="0" Grid.Column="0" Padding="0" 
                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
-                        <StackLayout>
-                            <Label Text="{DynamicResource lblMan}"
+                            <StackLayout>
+                                <Label Text="{DynamicResource lblMan}"
                                    FontSize="Small" VerticalTextAlignment="Center" HorizontalOptions="Center" 
                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
-                            <Image Source="man.jpg" Aspect="AspectFill"/>
-                        </StackLayout>
+                                <Image Source="man.jpg" Aspect="AspectFill"/>
+                            </StackLayout>
 
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="tapMan"
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapMan"
                                                   Tapped="tapMan_Tapped"
                                                   NumberOfTapsRequired="1"/>
-                        </Frame.GestureRecognizers>
-                    </Frame>
+                            </Frame.GestureRecognizers>
+                        </Frame>
 
-                    <Frame HasShadow="True" CornerRadius="10" Grid.Row="0" Grid.Column="1" Padding="0"
+                        <Frame HasShadow="True" CornerRadius="10" Grid.Row="0" Grid.Column="1" Padding="0"
                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
-                        <StackLayout>
-                            <Label Text="{DynamicResource lblWoman}"
+                            <StackLayout>
+                                <Label Text="{DynamicResource lblWoman}"
                                    FontSize="Small" VerticalTextAlignment="Center" HorizontalOptions="Center" 
                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
-                            <Image Source="woman.jpg" Aspect="AspectFill"/>
-                        </StackLayout>
+                                <Image Source="woman.jpg" Aspect="AspectFill"/>
+                            </StackLayout>
 
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="tapWoman"
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapWoman"
                                                   Tapped="tapWoman_Tapped"
                                                   NumberOfTapsRequired="1"/>
-                        </Frame.GestureRecognizers>
-                    </Frame>
+                            </Frame.GestureRecognizers>
+                        </Frame>
 
-                    <Frame HasShadow="True" CornerRadius="10" Grid.Row="1" Grid.ColumnSpan="2" Padding="0">
-                        <Image Source="mw.jpg" Aspect="AspectFill"/>
+                        <Frame HasShadow="True" CornerRadius="10" Grid.Row="1" Grid.ColumnSpan="2" Padding="0">
+                            <Image Source="mw.jpg" Aspect="AspectFill"/>
 
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="tapBoth"
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapBoth"
                                                   Tapped="tapBoth_Tapped"
                                                   NumberOfTapsRequired="1"/>
-                        </Frame.GestureRecognizers>
-                    </Frame>
-                </Grid>
-
-                <StackLayout Margin="0" Padding="0">
-                    <Grid>
-                        <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center"/>
-                        <Frame BackgroundColor="{StaticResource ColorMain2}"
-                               HeightRequest="45"
-                               WidthRequest="45" 
-                               CornerRadius="50" 
-                               HasShadow="False" 
-                               BorderColor="DarkGray" 
-                               Margin="0" 
-                               Padding="0"
-                               HorizontalOptions="Center">
-                            <Label Text="{DynamicResource lblHot}" TextTransform="Uppercase" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                            </Frame.GestureRecognizers>
                         </Frame>
                     </Grid>
-                </StackLayout>
 
+                    <StackLayout Margin="0" Padding="0">
+                        <Grid>
+                            <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Frame BackgroundColor="{StaticResource ColorMain2}"
+                                   HeightRequest="45"
+                                   WidthRequest="45" 
+                                   CornerRadius="50" 
+                                   HasShadow="False" 
+                                   BorderColor="DarkGray" 
+                                   Margin="0" 
+                                   Padding="0"
+                                   HorizontalOptions="Center">
+                                <Label Text="{DynamicResource lblNew}" TextTransform="Uppercase" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                            </Frame>
+                        </Grid>
 
-                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never" Margin="0, 10, 0, 0" Padding="0">
-                    <StackLayout Orientation="Horizontal">
+                        <CollectionView x:Name="clvNewProduct"
+                                        HeightRequest="320"
+                                        BackgroundColor="Transparent"
+                                        SelectionChanged="clvNewProduct_SelectionChanged"
+                                        SelectionMode="Single">
 
-                        <ListView x:Name="lvProduct"
-                                  HasUnevenRows="True">
-                            <ListView.ItemTemplate>
+                            <CollectionView.ItemsLayout>
+                                <LinearItemsLayout  ItemSpacing="10" Orientation="Horizontal"/>
+                            </CollectionView.ItemsLayout>
+
+                            <CollectionView.ItemTemplate>
                                 <DataTemplate>
-                                    <ViewCell>
-                                        <Frame Margin="10, 0, 0, 0"
+                                    <Frame Margin="10, 0, 0, 0"
                                                Padding="10"
                                                CornerRadius="10"
                                                HasShadow="True"
@@ -174,58 +180,142 @@
                                                IsClippedToBounds="True"
                                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
-                                            <StackLayout Orientation="Vertical">
-                                                <StackLayout x:Name="discount"
+                                        <StackLayout Orientation="Vertical">
+                                            <StackLayout x:Name="discount"
                                                              Orientation="Horizontal" 
                                                              HorizontalOptions="End" 
                                                              IsVisible="True">
-                                                    <Label Text="&#xe54e;"
+                                                <Label Text="&#xe54e;"
                                                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                                            FontSize="Small"
                                                            FontAttributes="Bold"
                                                            VerticalTextAlignment="Center"
                                                            FontFamily="RM"/>
 
-                                                    <Label Text="20"
+                                                <Label Text="{Binding Sale}"
                                                            FontSize="Small"
                                                            VerticalTextAlignment="Center"
                                                            VerticalOptions="Center"
                                                            TextColor="{StaticResource ColorMain4}"/>
-                                                </StackLayout>
-                                                
-                                                <Frame Padding="0" HasShadow="False" CornerRadius="10">
-                                                    <Image Source="man.jpg" Aspect="AspectFill"/>
-                                                </Frame>
+                                            </StackLayout>
 
-                                                <Label Text="Áo khoác CORDOUROY.REGULAR" 
+                                            <Frame Padding="0" HasShadow="False" CornerRadius="10" >
+                                                <Image Source="{Binding Image[0]}" Aspect="AspectFill" HeightRequest="200"/>
+                                            </Frame>
+
+                                            <Label Text="{Binding Name}" 
                                                        FontSize="Medium" 
+                                                        LineBreakMode="TailTruncation"
                                                        HorizontalOptions="Start" 
                                                        TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
 
-                                                <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+                                            <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
 
-                                                <StackLayout Orientation="Horizontal" 
+                                            <StackLayout Orientation="Horizontal" 
                                                              HorizontalOptions="Center">
-                                                    <StackLayout HorizontalOptions="Center">
-                                                        <Label Text="120000"
+                                                <StackLayout HorizontalOptions="Center">
+                                                    <Label Text="{Binding FinalPrice}"
                                                                FontSize="Medium"
                                                                VerticalTextAlignment="Center"
                                                                VerticalOptions="Center"
                                                                TextColor="{StaticResource ColorMain4}"/>
-                                                    </StackLayout>
                                                 </StackLayout>
                                             </StackLayout>
-                                        </Frame>
-
-                                    </ViewCell>
+                                        </StackLayout>
+                                    </Frame>
                                 </DataTemplate>
-                            </ListView.ItemTemplate>
-                        </ListView>
+                            </CollectionView.ItemTemplate>
 
+                        </CollectionView>
                     </StackLayout>
-                </ScrollView>
-                
-            </StackLayout>
-        </ScrollView>
+
+                    <StackLayout Margin="0" Padding="0">
+                        <Grid>
+                            <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Frame BackgroundColor="{StaticResource ColorMain2}"
+                                   HeightRequest="45"
+                                   WidthRequest="45" 
+                                   CornerRadius="50" 
+                                   HasShadow="False" 
+                                   BorderColor="DarkGray" 
+                                   Margin="0" 
+                                   Padding="0"
+                                   HorizontalOptions="Center">
+                                <Label Text="{DynamicResource lblSale}" TextTransform="Uppercase" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                            </Frame>
+                        </Grid>
+
+                        <CollectionView x:Name="clvSaleProduct"
+                                        HeightRequest="320"
+                                        BackgroundColor="Transparent"
+                                        SelectionChanged="clvSaleProduct_SelectionChanged"
+                                        SelectionMode="Single">
+
+                            <CollectionView.ItemsLayout>
+                                <LinearItemsLayout  ItemSpacing="10" Orientation="Horizontal"/>
+                            </CollectionView.ItemsLayout>
+
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Frame Margin="10, 0, 0, 0"
+                                               Padding="10"
+                                               CornerRadius="10"
+                                               HasShadow="True"
+                                               WidthRequest="170"
+                                               IsClippedToBounds="True"
+                                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                                        <StackLayout Orientation="Vertical">
+                                            <StackLayout x:Name="discount"
+                                                             Orientation="Horizontal" 
+                                                             HorizontalOptions="End" 
+                                                             IsVisible="True">
+                                                <Label Text="&#xe54e;"
+                                                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                           FontSize="Small"
+                                                           FontAttributes="Bold"
+                                                           VerticalTextAlignment="Center"
+                                                           FontFamily="RM"/>
+
+                                                <Label Text="{Binding Sale}"
+                                                           FontSize="Small"
+                                                           VerticalTextAlignment="Center"
+                                                           VerticalOptions="Center"
+                                                           TextColor="{StaticResource ColorMain4}"/>
+                                            </StackLayout>
+
+                                            <Frame Padding="0" HasShadow="False" CornerRadius="10" >
+                                                <Image Source="{Binding Image[0]}" Aspect="AspectFill" HeightRequest="200"/>
+                                            </Frame>
+
+                                            <Label Text="{Binding Name}" 
+                                                       FontSize="Medium" 
+                                                        LineBreakMode="TailTruncation"
+                                                       HorizontalOptions="Start" 
+                                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                            <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+
+                                            <StackLayout Orientation="Horizontal" 
+                                                             HorizontalOptions="Center">
+                                                <StackLayout HorizontalOptions="Center">
+                                                    <Label Text="{Binding FinalPrice}"
+                                                               FontSize="Medium"
+                                                               VerticalTextAlignment="Center"
+                                                               VerticalOptions="Center"
+                                                               TextColor="{StaticResource ColorMain4}"/>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </Frame>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+
+                        </CollectionView>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+            
+        </RefreshView>
     </ContentPage.Content>
 </ContentPage>

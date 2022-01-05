@@ -4,7 +4,7 @@
              x:Class="TiuShop.App">
     <Application.Resources>
         <ResourceDictionary>
-            <!-- ________________Color Main________________ -->          
+            <!-- ________________Color Main________________ -->
             <Color x:Key="ColorMain1">#FFD000</Color>
             <Color x:Key="ColorMain2">#FFFFFF</Color>
             <Color x:Key="ColorMain3">#000000</Color>
@@ -15,8 +15,8 @@
 
             <Color x:Key="ColorLoginFacebook">#1877F2</Color>
             <Color x:Key="ColorLoginGoogle">#4a4a4a</Color>
-            
-            
+
+
 
             <!-- ______Color Light Mode______ -->
 
@@ -24,7 +24,7 @@
             <Color x:Key="ColorLight1">#FFFFFF</Color>
 
             <!-- Second Background -->
-            <Color x:Key="ColorLight2">#fafdff</Color>
+            <Color x:Key="ColorLight2">#fffae3</Color>
 
             <!-- Text color chính -->
             <Color x:Key="ColorLight3">#000000</Color>
@@ -34,7 +34,7 @@
 
             <!-- EditText -->
             <Color x:Key="ColorLight5">#F4F4F4</Color>
-            
+
 
 
 
@@ -63,14 +63,14 @@
             <x:String x:Key="btnLogin">Login</x:String>
             <x:String x:Key="btnRegister">Register</x:String>
             <x:String x:Key="btnBack">Back</x:String>
-            <x:String x:Key="lblRegister1">Don't have an account? </x:String>
+            <x:String x:Key="lblRegister1">Don't have an account?</x:String>
             <x:String x:Key="lblRegister2">Register</x:String>
 
             <x:String x:Key="edtUsername">Username</x:String>
             <x:String x:Key="edtDisplayName">Display name</x:String>
             <x:String x:Key="edtPassword">Password</x:String>
             <x:String x:Key="edtConfirmPassword">Confirm password</x:String>
-            
+
             <x:String x:Key="tabShop">Shop</x:String>
             <x:String x:Key="tabExplore">Explore</x:String>
             <x:String x:Key="tabCollection">Collection</x:String>
@@ -79,7 +79,8 @@
             <x:String x:Key="lbltabShop1">TIU SHOP</x:String>
             <x:String x:Key="lblMan">Man</x:String>
             <x:String x:Key="lblWoman">Woman</x:String>
-            <x:String x:Key="lblHot">HOT</x:String>
+            <x:String x:Key="lblNew">New</x:String>
+            <x:String x:Key="lblSale">Sale</x:String>
 
             <x:String x:Key="edtSearch">Search</x:String>
             <x:String x:Key="lblName">Your Name</x:String>
@@ -99,7 +100,7 @@
             <x:String x:Key="lblTitle2">Cart</x:String>
             <x:String x:Key="lblTitle3">Payment</x:String>
             <x:String x:Key="lblTitle4">Comment</x:String>
-            
+
             <x:String x:Key="btnAddToCart">Add to cart</x:String>
             <x:String x:Key="picSize">Size</x:String>
 
@@ -109,7 +110,7 @@
 
             <x:String x:Key="btnCheckout">Checkout</x:String>
             <x:String x:Key="lblTotal">Total</x:String>
-            
+
             <x:String x:Key="edtPhoneNumber">Phone Number</x:String>
             <x:String x:Key="edtComment">Enter your comment</x:String>
             <x:String x:Key="btnComment">Post</x:String>
@@ -130,11 +131,10 @@
             <x:String x:Key="lblAlertContent10">Confirm password doesn't match</x:String>
 
             <x:String x:Key="lblAlertContent11">Register successfully!</x:String>
-            
+
             <x:String x:Key="lblAlertOK">OK</x:String>
 
             <x:String x:Key="btnSuccess1">Login</x:String>
-
 
 
         </ResourceDictionary>

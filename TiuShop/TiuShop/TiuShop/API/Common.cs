@@ -18,6 +18,11 @@ namespace TiuShop.API
 
         public static string LAYOUT_REGISTER = "REGISTER";
 
+        public static string NEW_PRODUCT = "new";
+        public static string DISCOUNT_PRODUCT = "discount";
+        public static string MAN_PRODUCT = "man";
+        public static string WOMAN_PRODUCT = "woman";
+        public static string BOTH_PRODUCT = "both";
 
     }
 }
