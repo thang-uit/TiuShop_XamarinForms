@@ -32,13 +32,6 @@ namespace TiuShop.View
         //    var userID = Preferences.Get(Common.KEY_USERID, "");
         //}
 
-        private void tapProduct_Tapped(object sender, EventArgs e)
-        {
-            //DisplayAlert("Alert", "Bất ngờ lắm phải không", "Bất ngờ");
-            //Navigation.PushPopupAsync(new MyLoading());
-            Navigation.PushAsync(new ProductDetailPage());
-        }
-
         private void tapCart_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new CartPage());
@@ -121,10 +114,10 @@ namespace TiuShop.View
             this.rfvRefresh.IsRefreshing = false;
         }
 
-        private async void clvNewProduct_SelectionChangedAsync(object sender, SelectionChangedEventArgs e)
+        private async void clvNewProduct_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Product product = e.CurrentSelection.FirstOrDefault() as Product;
-            if(product == null)
+            var product = e.CurrentSelection.FirstOrDefault() as Product;
+            if (product == null)
             {
                 return;
             }
@@ -133,7 +126,7 @@ namespace TiuShop.View
 
         private async void clvSaleProduct_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Product product = e.CurrentSelection.FirstOrDefault() as Product;
+            var product = e.CurrentSelection.FirstOrDefault() as Product;
             if (product == null)
             {
                 return;

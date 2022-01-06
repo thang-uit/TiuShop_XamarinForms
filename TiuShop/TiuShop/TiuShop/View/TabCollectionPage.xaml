@@ -6,60 +6,52 @@
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
 
-        <ScrollView Orientation="Vertical"
-                    VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
-                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+        <RefreshView x:Name="rfvRefresh" 
+                     RefreshColor="{StaticResource ColorMain1}" 
+                     Refreshing="rfvRefresh_Refreshing">
+            <ScrollView Orientation="Vertical"
+                        VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
 
-            <StackLayout Margin="0" Padding="0">
-                <Grid>
-                    <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="500" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
-                    <Frame BackgroundColor="{StaticResource ColorMain2}"
-                               HeightRequest="45"
-                               WidthRequest="120" 
-                               CornerRadius="50" 
-                               HasShadow="False" 
-                               BorderColor="DarkGray" 
-                               Margin="0" 
-                               Padding="0"
-                               HorizontalOptions="Center">
-                        <Label Text="Đi chơi" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-                    </Frame>
-                </Grid>
-                <Image Source="slider1.jpg" Aspect="AspectFill"/>
+                <StackLayout Margin="0, 5, 0, 0" Padding="0">
 
-                <Grid>
-                    <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="500" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
-                    <Frame BackgroundColor="{StaticResource ColorMain2}"
-                               HeightRequest="45"
-                               WidthRequest="120" 
-                               CornerRadius="50" 
-                               HasShadow="False" 
-                               BorderColor="DarkGray" 
-                               Margin="0" 
-                               Padding="0"
-                               HorizontalOptions="Center">
-                        <Label Text="Hẹn hò" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-                    </Frame>
-                </Grid>
-                <Image Source="slider1.jpg" Aspect="AspectFill"/>
+                    <CollectionView x:Name="clvCollections"
+                                    BackgroundColor="Transparent"
+                                    SelectionMode="Single"
+                                    SelectionChanged="clvCollections_SelectionChanged">
 
-                <Grid>
-                    <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="500" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
-                    <Frame BackgroundColor="{StaticResource ColorMain2}"
-                               HeightRequest="45"
-                               WidthRequest="120" 
-                               CornerRadius="50" 
-                               HasShadow="False" 
-                               BorderColor="DarkGray" 
-                               Margin="0" 
-                               Padding="0"
-                               HorizontalOptions="Center">
-                        <Label Text="Tiệc tùng" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-                    </Frame>
-                </Grid>
-                <Image Source="slider1.jpg" Aspect="AspectFill"/>
-            </StackLayout>
-        </ScrollView>
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout ItemSpacing="10" Orientation="Vertical"/>
+                        </CollectionView.ItemsLayout>
 
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                
+                                <StackLayout Margin="0, 10, 0, 0">
+                                    <Grid>
+                                        <BoxView BackgroundColor="DarkGray" HeightRequest="1" WidthRequest="500" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                                        <Frame BackgroundColor="{StaticResource ColorMain2}"
+                                               HeightRequest="45"
+                                               WidthRequest="120" 
+                                               CornerRadius="50" 
+                                               HasShadow="False" 
+                                               BorderColor="DarkGray" 
+                                               Margin="0" 
+                                               Padding="0"
+                                               HorizontalOptions="Center">
+                                            <Label Text="{Binding Name}" TextColor="{StaticResource ColorMain4}" FontAttributes="Bold" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                        </Frame>
+                                    </Grid>
+                                    <Image Source="{Binding Image}" Aspect="AspectFill"/>
+                                </StackLayout>
+                                
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                    
+                </StackLayout>
+            </ScrollView>
+        </RefreshView>
+       
     </ContentPage.Content>
 </ContentPage>

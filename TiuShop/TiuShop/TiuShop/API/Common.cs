@@ -23,6 +23,7 @@ namespace TiuShop.API
         public static string MAN_PRODUCT = "man";
         public static string WOMAN_PRODUCT = "woman";
         public static string BOTH_PRODUCT = "both";
+        public static string ALL_PRODUCT = "all";
 
     }
 }

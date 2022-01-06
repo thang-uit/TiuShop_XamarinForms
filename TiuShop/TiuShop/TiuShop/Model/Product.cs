@@ -22,6 +22,9 @@ namespace TiuShop.Model
         [JsonProperty("sale")]
         public string Sale { get; set; }
 
+        [JsonProperty("isSale")]
+        public string IsSale { get; set; }
+
         [JsonProperty("finalPrice")]
         public string FinalPrice { get; set; }
 

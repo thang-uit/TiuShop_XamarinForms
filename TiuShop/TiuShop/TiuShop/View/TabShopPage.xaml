@@ -184,7 +184,7 @@
                                             <StackLayout x:Name="discount"
                                                              Orientation="Horizontal" 
                                                              HorizontalOptions="End" 
-                                                             IsVisible="True">
+                                                             IsVisible="{Binding IsSale}">
                                                 <Label Text="&#xe54e;"
                                                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                                            FontSize="Small"
@@ -269,7 +269,7 @@
                                             <StackLayout x:Name="discount"
                                                              Orientation="Horizontal" 
                                                              HorizontalOptions="End" 
-                                                             IsVisible="True">
+                                                             IsVisible="{Binding IsSale}">
                                                 <Label Text="&#xe54e;"
                                                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                                            FontSize="Small"

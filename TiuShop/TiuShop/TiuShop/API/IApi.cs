@@ -24,5 +24,23 @@ namespace TiuShop.API
 
         [Get("/Product/GetGroupProduct.php?amount={amount}&option={option}")]
         Task<CustomApiResponse<List<Product>>> GetGroupProduct([AliasAs("option")] string option, [AliasAs("amount")] int amount);
+
+        [Get("/Product/GetCategoryProduct.php?categoryID={categoryID}")]
+        Task<CustomApiResponse<List<Product>>> GetCategoryProduct([AliasAs("categoryID")] string categoryID);
+
+        [Get("/Product/GetCollectionsProduct.php?collectionsID={collectionsID}")]
+        Task<CustomApiResponse<List<Product>>> GetCollectionsProduct([AliasAs("collectionsID")] int collectionsID);
+
+        [Get("/Product/SearchProduct.php?keyword={keyword}")]
+        Task<CustomApiResponse<List<Product>>> SearchProduct([AliasAs("keyword")] string keyword);
+
+        [Get("/Category/GetCategory.php")]
+        Task<CustomApiResponse<List<Category>>> GetCategory();
+
+        [Get("/Collections/GetCollections.php")]
+        Task<CustomApiResponse<List<Collections>>> GetCollections();
+
+        [Get("/Product/GetProductDetail.php?productID={productID}")]
+        Task<CustomApiResponse<Product>> GetProductDetail(string productID);
     }
 }
