@@ -136,6 +136,8 @@
 
             <x:String x:Key="btnSuccess1">Login</x:String>
 
+            <x:String x:Key="lblDelete">Delete</x:String>
+
 
         </ResourceDictionary>
     </Application.Resources>

@@ -42,5 +42,8 @@ namespace TiuShop.API
 
         [Get("/Product/GetProductDetail.php?productID={productID}")]
         Task<CustomApiResponse<Product>> GetProductDetail(string productID);
+
+        [Post("/Cart/GetCart.php")]
+        Task<CustomApiResponse<List<Cart>>> GetCart([Body] UserRequest user);
     }
 }

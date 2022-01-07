@@ -77,7 +77,7 @@
                                                            FontFamily="RM"/>
                                                 </StackLayout>
                                             </Frame>
-                                            <Label Text="{Binding Name}" 
+                                            <Label Text="{Binding Name}"
                                                    VerticalTextAlignment="Center"
                                                    HorizontalTextAlignment="Center" 
                                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
@@ -118,8 +118,7 @@
                                         <StackLayout Orientation="Vertical">
                                             <StackLayout x:Name="discount"
                                                              Orientation="Horizontal" 
-                                                             HorizontalOptions="End" 
-                                                             IsVisible="{Binding IsSale}">
+                                                             HorizontalOptions="End">
                                                 <Label Text="&#xe54e;"
                                                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                                            FontSize="Small"
@@ -131,6 +130,7 @@
                                                            FontSize="Small"
                                                            VerticalTextAlignment="Center"
                                                            VerticalOptions="Center"
+                                                           IsVisible="{Binding IsSale}"
                                                            TextColor="{StaticResource ColorMain4}"/>
                                             </StackLayout>
 

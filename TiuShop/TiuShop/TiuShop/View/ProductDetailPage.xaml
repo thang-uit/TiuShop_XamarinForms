@@ -48,7 +48,7 @@
 
                     <StackLayout Orientation="Horizontal"
                                  Margin="5, 5, 5, 0">
-                        <Label Text="&#xe54e;"
+                        <Label Text="&#xe263;"
                                TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                FontSize="Title"
                                VerticalOptions="Center"

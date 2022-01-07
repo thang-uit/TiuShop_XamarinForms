@@ -38,16 +38,16 @@
 
                     <!-- Library: https://github.com/alexrainman/CarouselView -->
                     <slider:CarouselViewControl x:Name="slider"
-                                            HeightRequest="200"
-                                            InfiniteScrolling="True"
-                                            AutoplayInterval="4"
-                                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
-                                            ShowIndicators="True"
-                                            AnimateTransition="True"
-                                            VerticalOptions="Start"
-                                            HorizontalOptions="FillAndExpand"
-                                            IndicatorsTintColor="DarkGray"
-                                            CurrentPageIndicatorTintColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}">
+                                                HeightRequest="200"
+                                                InfiniteScrolling="True"
+                                                AutoplayInterval="4"
+                                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                                                ShowIndicators="True"
+                                                AnimateTransition="True"
+                                                VerticalOptions="Start"
+                                                HorizontalOptions="FillAndExpand"
+                                                IndicatorsTintColor="DarkGray"
+                                                CurrentPageIndicatorTintColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}">
                         <slider:CarouselViewControl.ItemTemplate>
                             <DataTemplate>
                                 <StackLayout VerticalOptions="Fill" Padding="0" Orientation="Horizontal">
@@ -183,8 +183,7 @@
                                         <StackLayout Orientation="Vertical">
                                             <StackLayout x:Name="discount"
                                                              Orientation="Horizontal" 
-                                                             HorizontalOptions="End" 
-                                                             IsVisible="{Binding IsSale}">
+                                                             HorizontalOptions="End">
                                                 <Label Text="&#xe54e;"
                                                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                                            FontSize="Small"
@@ -196,6 +195,7 @@
                                                            FontSize="Small"
                                                            VerticalTextAlignment="Center"
                                                            VerticalOptions="Center"
+                                                           IsVisible="{Binding IsSale}"
                                                            TextColor="{StaticResource ColorMain4}"/>
                                             </StackLayout>
 
@@ -268,8 +268,7 @@
                                         <StackLayout Orientation="Vertical">
                                             <StackLayout x:Name="discount"
                                                              Orientation="Horizontal" 
-                                                             HorizontalOptions="End" 
-                                                             IsVisible="{Binding IsSale}">
+                                                             HorizontalOptions="End">
                                                 <Label Text="&#xe54e;"
                                                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                                            FontSize="Small"
@@ -281,6 +280,7 @@
                                                            FontSize="Small"
                                                            VerticalTextAlignment="Center"
                                                            VerticalOptions="Center"
+                                                           IsVisible="{Binding IsSale}"
                                                            TextColor="{StaticResource ColorMain4}"/>
                                             </StackLayout>
 
