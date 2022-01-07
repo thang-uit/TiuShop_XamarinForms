@@ -9,6 +9,7 @@ class Product
     public $image = "image";
     public $price = "price";
     public $sale = "sale";
+    public $isSale = "isSale";
     public $finalPrice = "finalPrice";
     public $description = "description";
     public $date = "date";
@@ -53,6 +54,11 @@ class Product
                     break;
                 }
 
+            case "all": {
+                    $query = "SELECT * FROM `product` ORDER BY rand();";
+                    break;
+                }
+
             default: {
                     $query = "SELECT * FROM `product` ORDER BY rand(" . date("Ymd") . "), `Pro_Date` DESC LIMIT $amount;";
                     break;
@@ -75,6 +81,7 @@ class Product
                 $this->image => array($row1["Pim_Img"]),
                 $this->price => number_format($row['Pro_Price'], 0, ",", "."),
                 $this->sale => $row["Pro_Sale"] . "%",
+                $this->isSale => $row["Pro_Sale"] > 0 ? "True" : "False",
                 $this->finalPrice => number_format($this->caculateFinalPrice($row['Pro_Price'], $row["Pro_Sale"]), 0, ",", "."),
                 $this->description => $row["Pro_Description"],
                 $this->date => $row["Pro_Date"],
@@ -99,18 +106,82 @@ class Product
             6 Quần Jogger
             7 Khác
         */
+
+        $arrayProduct = [];
+
+        $query = "SELECT * FROM `product` WHERE `Cat_ID` = $categoryID";
+        $stmt = $this->conn->prepare($query);
+        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        $stmt->execute();
+
+        while ($row = $stmt->fetch()) {
+            $query1 = "SELECT `productimg`.`Pim_Img` FROM `product`, `productimg` WHERE `product`.`Pro_ID` = `productimg`.`Pro_ID` AND `product`.`Pro_ID` = '" . $row["Pro_ID"] . "';";
+            $stmt1 = $this->conn->prepare($query1);
+            $stmt1->execute();
+            $row1 = $stmt1->fetch(PDO::FETCH_ASSOC);
+
+            array_push($arrayProduct, array(
+                $this->productID => $row["Pro_ID"],
+                $this->name => $row["Pro_Name"],
+                $this->image => array($row1["Pim_Img"]),
+                $this->price => number_format($row['Pro_Price'], 0, ",", "."),
+                $this->sale => $row["Pro_Sale"] . "%",
+                $this->isSale => $row["Pro_Sale"] > 0 ? "True" : "False",
+                $this->finalPrice => number_format($this->caculateFinalPrice($row['Pro_Price'], $row["Pro_Sale"]), 0, ",", "."),
+                $this->description => $row["Pro_Description"],
+                $this->date => $row["Pro_Date"],
+                $this->gender => $row["Pro_Gender"],
+                $this->categoryID => $row["Cat_ID"],
+                $this->collectionID => $row["Col_ID"],
+                $this->stock => $row["Pro_Stock"]
+            ));
+        }
+
+        return $arrayProduct;
     }
 
-    public function getCollectionsProduct($categoryID)
+    public function getCollectionsProduct($collectionsID)
     {
         /*
             1 Hangout with friends 
             2 Dating
             3 Party
         */
+
+        $arrayProduct = [];
+
+        $query = "SELECT * FROM `product` WHERE `Col_ID` = $collectionsID ORDER BY rand();";
+        $stmt = $this->conn->prepare($query);
+        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        $stmt->execute();
+
+        while ($row = $stmt->fetch()) {
+            $query1 = "SELECT `productimg`.`Pim_Img` FROM `product`, `productimg` WHERE `product`.`Pro_ID` = `productimg`.`Pro_ID` AND `product`.`Pro_ID` = '" . $row["Pro_ID"] . "';";
+            $stmt1 = $this->conn->prepare($query1);
+            $stmt1->execute();
+            $row1 = $stmt1->fetch(PDO::FETCH_ASSOC);
+
+            array_push($arrayProduct, array(
+                $this->productID => $row["Pro_ID"],
+                $this->name => $row["Pro_Name"],
+                $this->image => array($row1["Pim_Img"]),
+                $this->price => number_format($row['Pro_Price'], 0, ",", "."),
+                $this->sale => $row["Pro_Sale"] . "%",
+                $this->isSale => $row["Pro_Sale"] > 0 ? "True" : "False",
+                $this->finalPrice => number_format($this->caculateFinalPrice($row['Pro_Price'], $row["Pro_Sale"]), 0, ",", "."),
+                $this->description => $row["Pro_Description"],
+                $this->date => $row["Pro_Date"],
+                $this->gender => $row["Pro_Gender"],
+                $this->categoryID => $row["Cat_ID"],
+                $this->collectionID => $row["Col_ID"],
+                $this->stock => $row["Pro_Stock"]
+            ));
+        }
+
+        return $arrayProduct;
     }
 
-    public function getProductDetail($userID, $productID)
+    public function getProductDetail($productID)
     {
         // $query = "SELECT * FROM `product` WHERE `product`.`Pro_ID` = '$productID';";
         $query = "SELECT * FROM `product`, `productimg` WHERE `product`.`Pro_ID` = `productimg`.`Pro_ID` AND `product`.`Pro_ID` = '$productID';";
@@ -127,6 +198,7 @@ class Product
                 $this->name => $row["Pro_Name"],
                 $this->price => number_format($row['Pro_Price'], 0, ",", "."),
                 $this->sale => $row["Pro_Sale"] . "%",
+                $this->isSale => $row["Pro_Sale"] > 0 ? "True" : "False",
                 $this->finalPrice => number_format($this->caculateFinalPrice($row['Pro_Price'], $row["Pro_Sale"]), 0, ",", "."),
                 $this->description => $row["Pro_Description"],
                 $this->date => $row["Pro_Date"],
@@ -144,6 +216,41 @@ class Product
         } else {
             $arrayProduct = null;
         }
+        return $arrayProduct;
+    }
+
+    public function searchProduct($keyword)
+    {
+        $arrayProduct = [];
+
+        $query = "SELECT * FROM `product` WHERE LOWER(Pro_Name) LIKE '%$keyword%' OR LOWER(Pro_Name) LIKE '%$keyword%'";
+        $stmt = $this->conn->prepare($query);
+        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        $stmt->execute();
+
+        while ($row = $stmt->fetch()) {
+            $query1 = "SELECT `productimg`.`Pim_Img` FROM `product`, `productimg` WHERE `product`.`Pro_ID` = `productimg`.`Pro_ID` AND `product`.`Pro_ID` = '" . $row["Pro_ID"] . "';";
+            $stmt1 = $this->conn->prepare($query1);
+            $stmt1->execute();
+            $row1 = $stmt1->fetch(PDO::FETCH_ASSOC);
+
+            array_push($arrayProduct, array(
+                $this->productID => $row["Pro_ID"],
+                $this->name => $row["Pro_Name"],
+                $this->image => array($row1["Pim_Img"]),
+                $this->price => number_format($row['Pro_Price'], 0, ",", "."),
+                $this->sale => $row["Pro_Sale"] . "%",
+                $this->isSale => $row["Pro_Sale"] > 0 ? "True" : "False",
+                $this->finalPrice => number_format($this->caculateFinalPrice($row['Pro_Price'], $row["Pro_Sale"]), 0, ",", "."),
+                $this->description => $row["Pro_Description"],
+                $this->date => $row["Pro_Date"],
+                $this->gender => $row["Pro_Gender"],
+                $this->categoryID => $row["Cat_ID"],
+                $this->collectionID => $row["Col_ID"],
+                $this->stock => $row["Pro_Stock"]
+            ));
+        }
+
         return $arrayProduct;
     }
 

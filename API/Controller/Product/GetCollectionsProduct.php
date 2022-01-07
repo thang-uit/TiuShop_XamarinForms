@@ -11,17 +11,22 @@ include_once('../../Config/Common.php');
 $db = new Database();
 $product = new Product($db->connect());
 
-// $userID = isset($_GET["userID"]) && !empty($_GET["userID"]) ? $_GET["userID"] : "";
-$productID = isset($_GET["productID"]) && !empty($_GET["productID"]) ? $_GET["productID"] : "";
+/*
+    1 Hangout with friends 
+    2 Dating
+    3 Party
+*/
 
-$arrayProduct = $product->getProductDetail($productID);
+$collectionsID = isset($_GET["collectionsID"]) && !empty($_GET["collectionsID"]) ? $_GET["collectionsID"] : "1";
+
+$arrayProduct = $product->getCollectionsProduct($collectionsID);
 
 $array = [];
 
 $array = array(
     "status" => $SUCCESS,
     "data" => $arrayProduct,
-    "message" => "Product"
+    "message" => "Get product from a collections"
 );
 
 echo json_encode($array);

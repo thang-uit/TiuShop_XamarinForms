@@ -11,17 +11,26 @@ include_once('../../Config/Common.php');
 $db = new Database();
 $product = new Product($db->connect());
 
-// $userID = isset($_GET["userID"]) && !empty($_GET["userID"]) ? $_GET["userID"] : "";
-$productID = isset($_GET["productID"]) && !empty($_GET["productID"]) ? $_GET["productID"] : "";
+/*
+    1 Áo thun
+    2 Áo khoác
+    3 Áo sơ mi
+    4 Quần short
+    5 Quần Jean
+    6 Quần Jogger
+    7 Khác
+*/
 
-$arrayProduct = $product->getProductDetail($productID);
+$categoryID = isset($_GET["categoryID"]) && !empty($_GET["categoryID"]) ? $_GET["categoryID"] : "1";
+
+$arrayProduct = $product->getCategoryProduct($categoryID);
 
 $array = [];
 
 $array = array(
     "status" => $SUCCESS,
     "data" => $arrayProduct,
-    "message" => "Product"
+    "message" => "Get product from a category"
 );
 
 echo json_encode($array);

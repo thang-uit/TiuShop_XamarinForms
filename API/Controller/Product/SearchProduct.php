@@ -11,17 +11,16 @@ include_once('../../Config/Common.php');
 $db = new Database();
 $product = new Product($db->connect());
 
-// $userID = isset($_GET["userID"]) && !empty($_GET["userID"]) ? $_GET["userID"] : "";
-$productID = isset($_GET["productID"]) && !empty($_GET["productID"]) ? $_GET["productID"] : "";
+$keyword = isset($_GET["keyword"]) && !empty($_GET["keyword"]) ? $_GET["keyword"] : "";
 
-$arrayProduct = $product->getProductDetail($productID);
+$arrayProduct = $product->searchProduct($keyword);
 
 $array = [];
 
 $array = array(
     "status" => $SUCCESS,
     "data" => $arrayProduct,
-    "message" => "Product"
+    "message" => "Search Product"
 );
 
 echo json_encode($array);
