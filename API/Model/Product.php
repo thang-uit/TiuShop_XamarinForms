@@ -17,6 +17,7 @@ class Product
     public $categoryID = "categoryID";
     public $collectionID = "collectionID";
     public $stock = "stock";
+    public $isWishList = "isWishList";
 
     public function __construct($database)
     {
@@ -181,9 +182,8 @@ class Product
         return $arrayProduct;
     }
 
-    public function getProductDetail($productID)
+    public function getProductDetail($userID, $productID)
     {
-        // $query = "SELECT * FROM `product` WHERE `product`.`Pro_ID` = '$productID';";
         $query = "SELECT * FROM `product`, `productimg` WHERE `product`.`Pro_ID` = `productimg`.`Pro_ID` AND `product`.`Pro_ID` = '$productID';";
         $stmt = $this->conn->prepare($query);
         $stmt->execute();
@@ -207,6 +207,17 @@ class Product
                 $this->collectionID => $row["Col_ID"],
                 $this->stock => $row["Pro_Stock"]
             );
+
+            $query1 = "SELECT * FROM `cart` WHERE `Use_ID` = '$userID' AND `Pro_ID` = '$productID' AND `cart`.`Car_Type` = 0;";
+            $stmt1 = $this->conn->prepare($query1);
+            $stmt1->execute();
+
+            if ($stmt1->rowCount() > 0) {
+                $arrayProduct[$this->isWishList] = true;
+            } else {
+                $arrayProduct[$this->isWishList] = false;
+            }
+
             array_push($arrayImg, $row["Pim_Img"]);
 
             while ($row1 = $stmt->fetch(PDO::FETCH_ASSOC)) {
