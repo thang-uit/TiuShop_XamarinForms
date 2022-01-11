@@ -9,5 +9,8 @@ namespace TiuShop.DTO
     {
         [JsonProperty("userID")]
         public string UserID { get; set; }
+
+        [JsonProperty("productID")]
+        public string ProductID { get; set; }
     }
 }

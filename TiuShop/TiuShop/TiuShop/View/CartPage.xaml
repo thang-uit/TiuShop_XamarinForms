@@ -1,26 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
+             xmlns:local="clr-namespace:TiuShop.ViewModel" 
+             xmlns:model="clr-namespace:TiuShop.Model"
              x:Class="TiuShop.View.CartPage"
              Title="{DynamicResource lblTitle2}"
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
 
-        <StackLayout Orientation="Vertical">
-            <ScrollView Orientation="Vertical"
-                    VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
-                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+        <StackLayout Orientation="Vertical" 
+                     x:DataType="local:HandleCartViewModel">
 
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand">
-
-                    <CollectionView x:Name="clvCart"
-                                    BackgroundColor="Transparent"
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="FillAndExpand"
+                         HorizontalOptions="FillAndExpand">
+                
+                <forms:AnimationView x:Name="animationViewEmpty"
+                                 Animation="animation_empty_cart.json"               
+                                 WidthRequest="200"
+                                 HeightRequest="200"
+                                 VerticalOptions="CenterAndExpand"
+                                 RepeatMode="Infinite"
+                                 AutoPlay="True"
+                                 IsVisible="{Binding IsCartDisable}"/>
+                
+                <RefreshView RefreshColor="{StaticResource ColorMain1}"
+                             Command="{Binding loadItemCommand}"
+                             IsRefreshing="{Binding IsBusy, Mode=TwoWay}"
+                             IsVisible="{Binding IsCartVisible}">
+                    
+                    <CollectionView BackgroundColor="Transparent"
                                     VerticalOptions="FillAndExpand"
                                     HorizontalOptions="FillAndExpand"
                                     SelectionMode="Single"
-                                    SelectionChanged="clvCart_SelectionChanged">
+                                    ItemsSource="{Binding Items}">
 
                         <CollectionView.ItemsLayout>
                             <LinearItemsLayout ItemSpacing="10" Orientation="Vertical"/>
@@ -29,12 +43,14 @@
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
 
-                                <SwipeView>
+                                <SwipeView x:DataType="model:Cart">
                                     <SwipeView.RightItems>
                                         <SwipeItems>
                                             <SwipeItem IsDestructive="True" 
                                                        Text="{DynamicResource lblDelete}"
-                                                       BackgroundColor="{StaticResource ColorMain4}"/>
+                                                       BackgroundColor="{StaticResource ColorMain4}"
+                                                       Command="{Binding Source={RelativeSource AncestorType={x:Type local:HandleCartViewModel}}, Path = itemDeleteCommand}"
+                                                       CommandParameter="{Binding .}"/>
                                         </SwipeItems>
                                     </SwipeView.RightItems>
 
@@ -121,18 +137,18 @@
 
                                         </StackLayout>
                                     </Frame>
-                                    
+
                                 </SwipeView>
-                                
+
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
                     </CollectionView>
+                </RefreshView>
+            </StackLayout>
 
-                </StackLayout>
-            </ScrollView>
-
-            <StackLayout Orientation="Vertical" 
-                         VerticalOptions="End" 
+            <StackLayout IsVisible="{Binding IsCartVisible}"
+                         Orientation="Vertical" 
+                         VerticalOptions="End"
                          Padding="0" Margin="0"
                          BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
                 <StackLayout Orientation="Horizontal">
@@ -146,14 +162,14 @@
                                HorizontalOptions="Center" 
                                TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
 
-                        <Label Text="500000" 
+                        <Label Text="{Binding TotalPrice}"
                                FontSize="Medium"    
                                VerticalOptions="Center"
                                HorizontalOptions="Center"               
                                TextColor="{StaticResource ColorMain4}"/>
                     </StackLayout>
-                    
-                    <Button x:Name="btnCheckout" 
+
+                    <Button x:Name="btnCheckout"
                             VerticalOptions="FillAndExpand"
                             HorizontalOptions="FillAndExpand"
                             Text="{DynamicResource btnCheckout}"
@@ -161,7 +177,6 @@
                             TextTransform="Uppercase"
                             TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
                             BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
-
                 </StackLayout>
             </StackLayout>
         </StackLayout>

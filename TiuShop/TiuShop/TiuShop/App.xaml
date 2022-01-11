@@ -100,6 +100,7 @@
             <x:String x:Key="lblTitle2">Cart</x:String>
             <x:String x:Key="lblTitle3">Payment</x:String>
             <x:String x:Key="lblTitle4">Comment</x:String>
+            <x:String x:Key="lblTitle5">WishList</x:String>
 
             <x:String x:Key="btnAddToCart">Add to cart</x:String>
             <x:String x:Key="picSize">Size</x:String>
@@ -131,14 +132,21 @@
             <x:String x:Key="lblAlertContent10">Confirm password doesn't match</x:String>
 
             <x:String x:Key="lblAlertContent11">Register successfully!</x:String>
+            <x:String x:Key="lblAlertContent12">Product added to wishlist ❤</x:String>
+            <x:String x:Key="lblAlertContent13">Product removed from wishlist</x:String>
+            <x:String x:Key="lblAlertContent14">Product added to cart</x:String>
+            <x:String x:Key="lblAlertContent15">Are you sure you want to delete this product?</x:String>
 
             <x:String x:Key="lblAlertOK">OK</x:String>
+            <x:String x:Key="lblAlertCancel">Cancel</x:String>
 
             <x:String x:Key="btnSuccess1">Login</x:String>
 
             <x:String x:Key="lblDelete">Delete</x:String>
+            <x:String x:Key="btnMoveToCart">Add to&#x0a;Cart</x:String>
 
-
+            <x:String x:Key="lblEmpty"></x:String>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

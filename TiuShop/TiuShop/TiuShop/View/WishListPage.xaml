@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:TiuShop.ViewModel" 
+             xmlns:model="clr-namespace:TiuShop.Model" 
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             x:Class="TiuShop.View.WishListPage"
+             Title="{DynamicResource lblTitle5}"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    <ContentPage.Content>
+
+        <StackLayout x:DataType="local:HandleWishListViewModel">
+            <forms:AnimationView x:Name="animationViewEmpty"
+                                 Animation="animation_empty_cart.json"               
+                                 WidthRequest="200"
+                                 HeightRequest="200"
+                                 VerticalOptions="CenterAndExpand"
+                                 RepeatMode="Infinite"
+                                 AutoPlay="True"
+                                 IsVisible="{Binding IsWishListDisable}"/>
+
+            <RefreshView RefreshColor="{StaticResource ColorMain1}"
+                         Command="{Binding loadItemCommand}"
+                         IsRefreshing="{Binding IsBusy, Mode=TwoWay}"
+                         IsVisible="{Binding IsWishListVisible}">
+
+                <CollectionView x:Name="clvWishList"
+                                    BackgroundColor="Transparent"
+                                    VerticalOptions="FillAndExpand"
+                                    HorizontalOptions="FillAndExpand"
+                                    SelectionMode="Single"
+                                    ItemsSource="{Binding Items}">
+
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout ItemSpacing="10" Orientation="Vertical"/>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+
+                            <SwipeView x:DataType="model:Cart">
+                                <SwipeView.RightItems>
+                                    <SwipeItems>
+                                        <SwipeItem IsDestructive="True" 
+                                                   Text="{DynamicResource lblDelete}"
+                                                   BackgroundColor="{StaticResource ColorMain4}"
+                                                   Command="{Binding Source={RelativeSource AncestorType={x:Type local:HandleWishListViewModel}}, Path = itemDeleteCommand}"
+                                                   CommandParameter="{Binding .}"/>
+                                    </SwipeItems>
+                                </SwipeView.RightItems>
+
+                                <Frame HasShadow="True"
+                                           HorizontalOptions="FillAndExpand"
+                                           Margin="0, 5, 0, 0"
+                                           Padding="5"
+                                           IsClippedToBounds="True"
+                                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                                    <StackLayout Orientation="Vertical" 
+                                                     VerticalOptions="Center">
+
+                                        <StackLayout Orientation="Horizontal"
+                                                         VerticalOptions="Center">
+
+                                            <Frame CornerRadius="10"
+                                                       WidthRequest="80"
+                                                       HeightRequest="80"
+                                                       Padding="0"
+                                                       Margin="0"
+                                                       HasShadow="True"
+                                                       IsClippedToBounds="True"
+                                                       VerticalOptions="Center">
+                                                <Image Source="{Binding Image[0]}" Aspect="AspectFill" WidthRequest="80" HeightRequest="80"/>
+                                            </Frame>
+
+                                            <StackLayout Orientation="Vertical"
+                                                             VerticalOptions="Center"
+                                                             HorizontalOptions="Start">
+                                                <Label Text="{Binding Name}" 
+                                                           FontSize="Small"
+                                                           HorizontalOptions="Start" 
+                                                           LineBreakMode="MiddleTruncation"
+                                                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                                <!--<StackLayout Orientation="Horizontal">
+                                                            <Label Text="Size:"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"
+                                                               FontSize="Small"
+                                                               VerticalTextAlignment="Center"/>
+
+                                                            <Label Text="{Binding Size}"
+                                                               FontSize="Small"
+                                                               VerticalTextAlignment="Center"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                                        </StackLayout>-->
+
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Label Text="&#xe263;"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                               FontSize="Small"
+                                                               VerticalTextAlignment="Center"
+                                                               FontFamily="RM"/>
+
+                                                    <Label Text="{Binding Price}"
+                                                               IsVisible="{Binding IsSale}"
+                                                               VerticalOptions="Center"
+                                                               TextColor="DarkGray"
+                                                               TextDecorations="Strikethrough"
+                                                               FontSize="Small"/>
+
+                                                    <Label Text="{Binding FinalPrice}"
+                                                               FontSize="Small"
+                                                               VerticalTextAlignment="Center"
+                                                               TextColor="{StaticResource ColorMain4}"/>
+                                                </StackLayout>
+                                            </StackLayout>
+
+                                            <StackLayout HorizontalOptions="CenterAndExpand"/>
+
+                                            <StackLayout Orientation="Vertical" 
+                                                                 VerticalOptions="FillAndExpand" 
+                                                                 HorizontalOptions="End">
+                                                <Button VerticalOptions="FillAndExpand"
+                                                                HorizontalOptions="FillAndExpand"
+                                                                Text="{DynamicResource btnMoveToCart}"
+                                                                TextTransform="Default"
+                                                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:HandleWishListViewModel}}, Path = itemMoveToCartCommand}"
+                                                                CommandParameter="{Binding .}"
+                                                                TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                                                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </SwipeView>
+
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

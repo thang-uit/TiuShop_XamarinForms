@@ -133,5 +133,10 @@ namespace TiuShop.View
             }
             await Navigation.PushAsync(new ProductDetailPage(product.ProductId));
         }
+
+        private void tapWishList_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new WishListPage());
+        }
     }
 }

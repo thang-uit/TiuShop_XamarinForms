@@ -7,6 +7,9 @@ namespace TiuShop.Model
 {
     public class Cart
     {
+        [JsonProperty("cartID")]
+        public string CartID { get; set; }
+
         [JsonProperty("productID")]
         public string ProductId { get; set; }
 

@@ -60,24 +60,49 @@
 
                     <StackLayout>
                         <AbsoluteLayout HeightRequest="50" Margin="20, 0, 20, 0" HorizontalOptions="FillAndExpand">
-                            <Label x:Name="lblTest"
-                            AbsoluteLayout.LayoutBounds="0, 0, 1, 1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutFlags="All" 
-                               Text="{DynamicResource lbltabShop1}" 
-                               FontAttributes="Bold"
-                               FontSize="Large"
-                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                            <Frame BackgroundColor="{StaticResource ColorLight2}"
+                                   CornerRadius="50" 
+                                   WidthRequest="45"
+                                   HeightRequest="45"
+                                   Margin="0" 
+                                   Padding="0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"
+                                   HasShadow="False" 
+                                   BorderColor="DarkGray"
+                                   AbsoluteLayout.LayoutBounds="0, 0.5, 45, 45" AbsoluteLayout.LayoutFlags="YProportional, XProportional">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="tapWishList"
+                                                          Tapped="tapWishList_Tapped"
+                                                          NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
+
+                                <Image Source="ic_heartfull.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center"/>
+                            </Frame>
+
+                            <Image Source="logo322_116.png" Aspect="AspectFill" 
+                                   AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+                                   AbsoluteLayout.LayoutFlags="All"
+                                   VerticalOptions="Center" HorizontalOptions="Center"/>
+                            
+                            <!--<Label x:Name="lblTest"
+                                   AbsoluteLayout.LayoutBounds="0, 0, 1, 1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutFlags="All" 
+                                   Text="{DynamicResource lbltabShop1}" 
+                                   FontAttributes="Bold"
+                                   FontSize="Large"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>-->
 
                             <Frame BackgroundColor="{StaticResource ColorLight2}"
-                               CornerRadius="50" 
-                               WidthRequest="45"
-                               HeightRequest="45"
-                               Margin="0" 
-                               Padding="0"
-                               VerticalOptions="Center"
-                               HorizontalOptions="Center"
-                               HasShadow="False" 
-                               BorderColor="DarkGray"
-                               AbsoluteLayout.LayoutBounds="1, 0.5, 45, 45" AbsoluteLayout.LayoutFlags="YProportional, XProportional">
+                                   CornerRadius="50" 
+                                   WidthRequest="45"
+                                   HeightRequest="45"
+                                   Margin="0" 
+                                   Padding="0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"
+                                   HasShadow="False" 
+                                   BorderColor="DarkGray"
+                                   AbsoluteLayout.LayoutBounds="1, 0.5, 45, 45" AbsoluteLayout.LayoutFlags="YProportional, XProportional">
                                 <Frame.GestureRecognizers>
                                     <TapGestureRecognizer x:Name="tapCart"
                                                       Tapped="tapCart_Tapped"

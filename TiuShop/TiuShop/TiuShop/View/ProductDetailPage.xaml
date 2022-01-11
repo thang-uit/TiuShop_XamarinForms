@@ -7,17 +7,15 @@
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
 
-        <RefreshView x:Name="rfvRefresh" 
-                     RefreshColor="{StaticResource ColorMain1}" 
-                     Refreshing="rfvRefresh_Refreshing">
 
+        <StackLayout Orientation="Vertical" Margin="0">
             <ScrollView Orientation="Vertical"
                         VerticalScrollBarVisibility="Never"
                         Margin="0"
                         VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                         BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
 
-                <StackLayout Orientation="Vertical" Margin="0">
+                <StackLayout>
                     <slider:CarouselViewControl x:Name="slider"
                                             HeightRequest="500"
                                             InfiniteScrolling="True"
@@ -37,14 +35,48 @@
                             </DataTemplate>
                         </slider:CarouselViewControl.ItemTemplate>
                     </slider:CarouselViewControl>
-                    
 
-                    <Label x:Name="lblProductName" 
-                           Text="This is Product Name This is Product Name" 
-                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                           FontSize="Medium"
-                           Margin="5, 5, 5, 0"
-                           FontAttributes="Bold"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.85*"/>
+                            <ColumnDefinition Width="0.15*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label x:Name="lblProductName" 
+                               Grid.Row="0"
+                               Grid.Column="0"
+                               VerticalOptions="Center"
+                               Text="This is Product Name" 
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                               FontSize="Medium"
+                               Margin="5, 5, 5, 0"
+                               FontAttributes="Bold"/>
+
+                        <Frame BackgroundColor="{StaticResource ColorLight2}"
+                                   CornerRadius="50" 
+                                   WidthRequest="45"
+                                   HeightRequest="45"
+                                   Grid.Row="0"
+                                   Grid.Column="1"
+                                   Margin="0" 
+                                   Padding="0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"
+                                   HasShadow="False" 
+                                   BorderColor="DarkGray">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapWishList"
+                                                      Tapped="tapWishList_Tapped"
+                                                      NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+
+                            <Image x:Name="imgWishList" Source="ic_heart.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        </Frame>
+                    </Grid>
 
                     <StackLayout Orientation="Horizontal"
                                  Margin="5, 5, 5, 0">
@@ -92,17 +124,9 @@
                             <Picker x:Name="picSize" 
                                     VerticalOptions="Center"
                                     HorizontalOptions="FillAndExpand"
+                                    SelectedIndexChanged="picSize_SelectedIndexChanged"
                                     BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
                                     Title="{DynamicResource picSize}">
-
-                                <Picker.Items>
-                                    <x:String>S</x:String>
-                                    <x:String>M</x:String>
-                                    <x:String>L</x:String>
-                                    <x:String>XL</x:String>
-                                    <x:String>XXL</x:String>
-                                    <x:String>XXXL</x:String>
-                                </Picker.Items>
                             </Picker>
                         </Frame>
 
@@ -146,28 +170,31 @@
                     </StackLayout>
 
                     <StackLayout Orientation="Vertical"
-                                 Margin="5, 5, 5, 0">
+                             Margin="5, 5, 5, 0">
 
                     </StackLayout>
+                </StackLayout>
+            </ScrollView>
 
-                    <Frame Margin="0"
+
+            <Frame Margin="0"
                            Padding="0"
                            HasShadow="True"
                            IsClippedToBounds="True"
                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
-                        <StackLayout Orientation="Horizontal">
-                            <StackLayout Orientation="Vertical" VerticalOptions="Center">
-                                <Label x:Name="lblAmount" 
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                        <Label x:Name="lblAmount" 
                                        Text="1"
                                        VerticalOptions="Center"
                                        HorizontalOptions="Center"
                                        TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                        FontSize="Default"/>
-                                <Stepper x:Name="stpAmount" Minimum="1" Maximum="10" Increment="1" ValueChanged="stpAmount_ValueChanged"/>
-                            </StackLayout>
+                        <Stepper x:Name="stpAmount" Minimum="1" Maximum="10" Increment="1" ValueChanged="stpAmount_ValueChanged"/>
+                    </StackLayout>
 
-                            <Button x:Name="btnAddToCart" 
+                    <Button x:Name="btnAddToCart" 
                                     VerticalOptions="FillAndExpand"
                                     HorizontalOptions="FillAndExpand"
                                     Clicked="btnAddToCart_Clicked"
@@ -175,13 +202,9 @@
                                     TextTransform="Uppercase"
                                     TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
                                     BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
-                        </StackLayout>
-                    </Frame>
-
                 </StackLayout>
-
-            </ScrollView>
-
-        </RefreshView>
+            </Frame>
+            
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

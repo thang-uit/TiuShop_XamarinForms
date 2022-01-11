@@ -40,10 +40,28 @@ namespace TiuShop.API
         [Get("/Collections/GetCollections.php")]
         Task<CustomApiResponse<List<Collections>>> GetCollections();
 
-        [Get("/Product/GetProductDetail.php?productID={productID}")]
-        Task<CustomApiResponse<Product>> GetProductDetail(string productID);
+        [Post("/Product/GetProductDetail.php")]
+        Task<CustomApiResponse<Product>> GetProductDetail([Body] CartRequest cart);
 
         [Post("/Cart/GetCart.php")]
-        Task<CustomApiResponse<List<Cart>>> GetCart([Body] UserRequest user);
+        Task<CustomApiResponse<List<Cart>>> GetCart([Body] CartRequest cart);
+
+        [Post("/Cart/GetWishList.php")]
+        Task<CustomApiResponse<List<Cart>>> GetWishList([Body] CartRequest wishList);
+
+        [Post("/Cart/HandleWishList.php")]
+        Task<CustomApiResponse<Cart>> HandleWishList([Body] CartRequest wishList);
+
+        [Post("/Cart/AddToCart.php")]
+        Task<CustomApiResponse<Cart>> AddToCart([Body] CartRequest cart);
+
+        [Post("/Cart/DeleteCart.php")]
+        Task<CustomApiResponse<Cart>> DeleteCart([Body] CartRequest cart);
+
+        [Post("/Cart/MoveToCart.php")]
+        Task<CustomApiResponse<Cart>> MoveToCart([Body] CartRequest cart);
+
+        [Post("/Cart/UpdateCart.php")]
+        Task<CustomApiResponse<Cart>> UpdateCart([Body] CartRequest cart);
     }
 }

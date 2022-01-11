@@ -7,6 +7,9 @@ namespace TiuShop.DTO
 {
     public class CartRequest
     {
+        [JsonProperty("cartID")]
+        public string CartID { get; set; }
+
         [JsonProperty("userID")]
         public string UserID { get; set; }
 
