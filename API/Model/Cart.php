@@ -18,15 +18,7 @@ class Cart
     {
         $this->conn = $database;
     }
-
-    // public function checkUser($username)
-    // {
-    //     $query = "SELECT * FROM `account` WHERE `Acc_Username` = '$username';";
-    //     $stmt = $this->conn->prepare($query);
-    //     $stmt->execute();
-    //     return $stmt->rowCount();
-    // }
-
+    
     public function GetCart($type, $userID)
     {
         $arrayProductCart = [];
@@ -52,7 +44,7 @@ class Cart
                 $this->isSale => $row["Pro_Sale"] > 0 ? "True" : "False",
                 $this->finalPrice => number_format($this->caculateFinalPrice($row['Pro_Price'], $row["Pro_Sale"]), 0, ",", "."),
                 $this->size => $row["Pro_Size"],
-                $this->quantity => $row["Car_Amount"]
+                $this->quantity => (int) $row["Car_Amount"]
             ));
         }
 

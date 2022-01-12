@@ -41,17 +41,17 @@ class Product
                 }
 
             case "man": { // Pro_Gender = 0
-                    $query = "SELECT * FROM `product` WHERE `product`.`Pro_Gender` = 0 ORDER BY rand(" . date("Ymd") . ") LIMIT $amount;";
+                    $query = "SELECT * FROM `product` WHERE `product`.`Pro_Gender` = 0 ORDER BY rand(" . date("Ymd") . ");";
                     break;
                 }
 
             case "woman": { // Pro_Gender = 1
-                    $query = "SELECT * FROM `product` WHERE `product`.`Pro_Gender` = 1 ORDER BY rand(" . date("Ymd") . ") LIMIT $amount;";
+                    $query = "SELECT * FROM `product` WHERE `product`.`Pro_Gender` = 1 ORDER BY rand(" . date("Ymd") . ");";
                     break;
                 }
 
             case "both": { // Pro_Gender = 2
-                    $query = "SELECT * FROM `product` WHERE `product`.`Pro_Gender` = 2 ORDER BY rand(" . date("Ymd") . ") LIMIT $amount;";
+                    $query = "SELECT * FROM `product` WHERE `product`.`Pro_Gender` = 2 ORDER BY rand(" . date("Ymd") . ");";
                     break;
                 }
 
