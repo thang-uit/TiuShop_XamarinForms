@@ -85,9 +85,18 @@ namespace TiuShop.View
                     
                     this.lblProductFinalPrice.Text = response.Data.FinalPrice;
                     this.lblProductDescription.Text = response.Data.Description;
+
+                    await Navigation.PopPopupAsync();
+                }
+                else
+                {
+                    await Navigation.PopPopupAsync();
                 }
             }
-            await Navigation.PopPopupAsync();
+            else
+            {
+                await Navigation.PopPopupAsync();
+            }
         }
 
         private void stpAmount_ValueChanged(object sender, ValueChangedEventArgs e)
@@ -102,7 +111,7 @@ namespace TiuShop.View
             var selectedItem = this.picSize.SelectedItem as string;
 
             var apiResponse = RestService.For<IApi>(Common.url);
-            CartRequest wishList = new CartRequest() { UserID = Preferences.Get(Common.KEY_USERID, ""), ProductID = ID, Size = selectedItem.ToString(), Quantity = this.lblAmount.Text };
+            CartRequest wishList = new CartRequest() { UserID = Preferences.Get(Common.KEY_USERID, ""), ProductID = ID, Size = selectedItem.ToString(), Quantity = Convert.ToInt32(this.lblAmount.Text) };
             var response = await apiResponse.AddToCart(wishList);
 
             if (response != null)
@@ -168,14 +177,20 @@ namespace TiuShop.View
             }
         }
 
-        private void picSize_SelectedIndexChanged(object sender, EventArgs e)
+        private async void tbWishList_Clicked(object sender, EventArgs e)
         {
-            //var picked = (Picker)sender;
-            //int selected = picked.SelectedIndex;
-            //if (selected < 0)
-            //{
-            //    DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
-            //}
+            await Navigation.PushAsync(new WishListPage());
+        }
+
+        private async void tbCart_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CartPage());
+        }
+
+        private void rfvRefresh_Refreshing(object sender, EventArgs e)
+        {
+            InnitProductDetail(ID);
+            this.rfvRefresh.IsRefreshing = false;
         }
     }
 }

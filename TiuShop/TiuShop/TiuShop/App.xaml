@@ -79,6 +79,7 @@
             <x:String x:Key="lbltabShop1">TIU SHOP</x:String>
             <x:String x:Key="lblMan">Man</x:String>
             <x:String x:Key="lblWoman">Woman</x:String>
+            <x:String x:Key="lblBoth">Man and Woman</x:String>
             <x:String x:Key="lblNew">New</x:String>
             <x:String x:Key="lblSale">Sale</x:String>
 

@@ -26,5 +26,10 @@ namespace TiuShop.View
         {
             Navigation.PushAsync(new CartPage());
         }
+
+        private void tapWishList_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new WishListPage());
+        }
     }
 }

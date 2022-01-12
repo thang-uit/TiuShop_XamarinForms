@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TiuShop.API;
+using TiuShop.Model;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -44,9 +45,14 @@ namespace TiuShop.View
             this.rfvRefresh.IsRefreshing = false;
         }
 
-        private void clvCollections_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private async void clvCollections_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            var collections = e.CurrentSelection.FirstOrDefault() as Collections;
+            if (collections == null)
+            {
+                return;
+            }
+            await Navigation.PushAsync(new GroupProduct("", collections));
         }
     }
 }

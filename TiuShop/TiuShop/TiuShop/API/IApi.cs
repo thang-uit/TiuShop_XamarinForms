@@ -29,7 +29,7 @@ namespace TiuShop.API
         Task<CustomApiResponse<List<Product>>> GetCategoryProduct([AliasAs("categoryID")] string categoryID);
 
         [Get("/Product/GetCollectionsProduct.php?collectionsID={collectionsID}")]
-        Task<CustomApiResponse<List<Product>>> GetCollectionsProduct([AliasAs("collectionsID")] int collectionsID);
+        Task<CustomApiResponse<List<Product>>> GetCollectionsProduct([AliasAs("collectionsID")] string collectionsID);
 
         [Get("/Product/SearchProduct.php?keyword={keyword}")]
         Task<CustomApiResponse<List<Product>>> SearchProduct([AliasAs("keyword")] string keyword);
@@ -43,23 +43,23 @@ namespace TiuShop.API
         [Post("/Product/GetProductDetail.php")]
         Task<CustomApiResponse<Product>> GetProductDetail([Body] CartRequest cart);
 
-        [Post("/Cart/GetCart.php")]
-        Task<CustomApiResponse<List<Cart>>> GetCart([Body] CartRequest cart);
-
         [Post("/Cart/GetWishList.php")]
         Task<CustomApiResponse<List<Cart>>> GetWishList([Body] CartRequest wishList);
 
         [Post("/Cart/HandleWishList.php")]
         Task<CustomApiResponse<Cart>> HandleWishList([Body] CartRequest wishList);
 
+        [Post("/Cart/MoveToCart.php")]
+        Task<CustomApiResponse<Cart>> MoveToCart([Body] CartRequest cart);
+
+        [Post("/Cart/GetCart.php")]
+        Task<CustomApiResponse<List<Cart>>> GetCart([Body] CartRequest cart);
+
         [Post("/Cart/AddToCart.php")]
         Task<CustomApiResponse<Cart>> AddToCart([Body] CartRequest cart);
 
         [Post("/Cart/DeleteCart.php")]
         Task<CustomApiResponse<Cart>> DeleteCart([Body] CartRequest cart);
-
-        [Post("/Cart/MoveToCart.php")]
-        Task<CustomApiResponse<Cart>> MoveToCart([Body] CartRequest cart);
 
         [Post("/Cart/UpdateCart.php")]
         Task<CustomApiResponse<Cart>> UpdateCart([Body] CartRequest cart);

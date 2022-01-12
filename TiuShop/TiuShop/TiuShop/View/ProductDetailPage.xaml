@@ -5,18 +5,36 @@
              x:Class="TiuShop.View.ProductDetailPage"
              Title="{DynamicResource lblTitle1}"
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tbWishList"
+                     Text="{DynamicResource lblTitle5}" 
+                     Order="Secondary" 
+                     Priority="1"
+                     Clicked="tbWishList_Clicked"/>
+
+        <ToolbarItem x:Name="tbCart"
+                     Text="{DynamicResource lblTitle2}" 
+                     Order="Secondary" 
+                     Priority="2"
+                     Clicked="tbCart_Clicked"/>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
 
-
         <StackLayout Orientation="Vertical" Margin="0">
-            <ScrollView Orientation="Vertical"
+            <RefreshView x:Name="rfvRefresh" 
+                         RefreshColor="{StaticResource ColorMain1}" 
+                         Refreshing="rfvRefresh_Refreshing">
+                
+                <ScrollView Orientation="Vertical"
                         VerticalScrollBarVisibility="Never"
                         Margin="0"
                         VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                         BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
 
-                <StackLayout>
-                    <slider:CarouselViewControl x:Name="slider"
+                    <StackLayout>
+                        <slider:CarouselViewControl x:Name="slider"
                                             HeightRequest="500"
                                             InfiniteScrolling="True"
                                             AutoplayInterval="4"
@@ -27,26 +45,26 @@
                                             HorizontalOptions="FillAndExpand"
                                             IndicatorsTintColor="DarkGray"
                                             CurrentPageIndicatorTintColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}">
-                        <slider:CarouselViewControl.ItemTemplate>
-                            <DataTemplate>
-                                <StackLayout VerticalOptions="Fill" Padding="0" Orientation="Horizontal">
-                                    <Image Source="{Binding .}" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
-                                </StackLayout>
-                            </DataTemplate>
-                        </slider:CarouselViewControl.ItemTemplate>
-                    </slider:CarouselViewControl>
+                            <slider:CarouselViewControl.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout VerticalOptions="Fill" Padding="0" Orientation="Horizontal">
+                                        <Image Source="{Binding .}" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
+                                    </StackLayout>
+                                </DataTemplate>
+                            </slider:CarouselViewControl.ItemTemplate>
+                        </slider:CarouselViewControl>
 
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                        </Grid.RowDefinitions>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
 
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="0.85*"/>
-                            <ColumnDefinition Width="0.15*"/>
-                        </Grid.ColumnDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.85*"/>
+                                <ColumnDefinition Width="0.15*"/>
+                            </Grid.ColumnDefinitions>
 
-                        <Label x:Name="lblProductName" 
+                            <Label x:Name="lblProductName" 
                                Grid.Row="0"
                                Grid.Column="0"
                                VerticalOptions="Center"
@@ -56,7 +74,7 @@
                                Margin="5, 5, 5, 0"
                                FontAttributes="Bold"/>
 
-                        <Frame BackgroundColor="{StaticResource ColorLight2}"
+                            <Frame BackgroundColor="{StaticResource ColorLight2}"
                                    CornerRadius="50" 
                                    WidthRequest="45"
                                    HeightRequest="45"
@@ -68,42 +86,42 @@
                                    HorizontalOptions="Center"
                                    HasShadow="False" 
                                    BorderColor="DarkGray">
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer x:Name="tapWishList"
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="tapWishList"
                                                       Tapped="tapWishList_Tapped"
                                                       NumberOfTapsRequired="1"/>
-                            </Frame.GestureRecognizers>
+                                </Frame.GestureRecognizers>
 
-                            <Image x:Name="imgWishList" Source="ic_heart.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center"/>
-                        </Frame>
-                    </Grid>
+                                <Image x:Name="imgWishList" Source="ic_heart.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center"/>
+                            </Frame>
+                        </Grid>
 
-                    <StackLayout Orientation="Horizontal"
+                        <StackLayout Orientation="Horizontal"
                                  Margin="5, 5, 5, 0">
-                        <Label Text="&#xe263;"
+                            <Label Text="&#xe263;"
                                TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                FontSize="Title"
                                VerticalOptions="Center"
                                FontFamily="RM"/>
 
-                        <Label x:Name="lblProductPrice" 
+                            <Label x:Name="lblProductPrice" 
                                Text="0" 
                                VerticalOptions="Center"
                                TextColor="DarkGray"
                                TextDecorations="Strikethrough"
                                FontSize="Medium"/>
 
-                        <Label x:Name="lblProductFinalPrice" 
+                            <Label x:Name="lblProductFinalPrice" 
                                Text="0" 
                                VerticalOptions="Center"
                                TextColor="{StaticResource ColorMain4}"
                                FontSize="Title"/>
-                    </StackLayout>
+                        </StackLayout>
 
-                    <StackLayout Orientation="Horizontal"
+                        <StackLayout Orientation="Horizontal"
                                  Margin="5, 5, 5, 0">
 
-                        <Label x:Name="lblSize"
+                            <Label x:Name="lblSize"
                                Margin="5, 5, 5, 0"
                                FontSize="Medium"
                                FontAttributes="Bold"
@@ -112,7 +130,7 @@
                                TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                Text="{DynamicResource lblSize}"/>
 
-                        <Frame HasShadow="True"
+                            <Frame HasShadow="True"
                                Margin="0"
                                Padding="0"
                                BorderColor="DarkGray"
@@ -121,44 +139,43 @@
                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
                                CornerRadius="5">
 
-                            <Picker x:Name="picSize" 
+                                <Picker x:Name="picSize" 
                                     VerticalOptions="Center"
                                     HorizontalOptions="FillAndExpand"
-                                    SelectedIndexChanged="picSize_SelectedIndexChanged"
                                     BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
                                     Title="{DynamicResource picSize}">
-                            </Picker>
-                        </Frame>
+                                </Picker>
+                            </Frame>
 
-                    </StackLayout>
+                        </StackLayout>
 
-                    <Label Margin="0, 5, 0, 0"
+                        <Label Margin="0, 5, 0, 0"
                            FontSize="Medium"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"
                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                            Text="{DynamicResource lblDescription}"/>
 
-                    <Label x:Name="lblProductDescription"
+                        <Label x:Name="lblProductDescription"
                            Margin="5, 0, 5, 0"
                            FontSize="Body"
                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                            Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
 
-                    <BoxView BackgroundColor="DarkGray" HeightRequest="1" Margin="0, 5, 0, 0" HorizontalOptions="FillAndExpand"/>
+                        <BoxView BackgroundColor="DarkGray" HeightRequest="1" Margin="0, 5, 0, 0" HorizontalOptions="FillAndExpand"/>
 
-                    <StackLayout Orientation="Horizontal"
+                        <StackLayout Orientation="Horizontal"
                                  Margin="5, 5, 5, 0">
-                        <Label x:Name="lblComment"
+                            <Label x:Name="lblComment"
                                FontSize="Medium"
                                VerticalOptions="Center"
                                FontAttributes="Bold"
                                TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
                                Text="{DynamicResource lblComment}"/>
 
-                        <StackLayout HorizontalOptions="CenterAndExpand"/>
+                            <StackLayout HorizontalOptions="CenterAndExpand"/>
 
-                        <Button x:Name="btnWriteComment" 
+                            <Button x:Name="btnWriteComment" 
                                 VerticalOptions="Center"
                                 HorizontalOptions="Center"
                                 CornerRadius="5"
@@ -167,14 +184,15 @@
                                 Text="{DynamicResource lblComment}" 
                                 TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
                                 BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
-                    </StackLayout>
+                        </StackLayout>
 
-                    <StackLayout Orientation="Vertical"
+                        <StackLayout Orientation="Vertical"
                              Margin="5, 5, 5, 0">
 
+                        </StackLayout>
                     </StackLayout>
-                </StackLayout>
-            </ScrollView>
+                </ScrollView>
+            </RefreshView>
 
 
             <Frame Margin="0"

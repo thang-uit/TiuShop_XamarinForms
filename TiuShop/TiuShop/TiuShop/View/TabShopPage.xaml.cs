@@ -21,7 +21,6 @@ namespace TiuShop.View
         {
             InitializeComponent();
 
-            //Init();
             InitSlider();
             InitNewProduct();
             InitSaleProduct();
@@ -91,19 +90,19 @@ namespace TiuShop.View
             }
         }
 
-        private void tapMan_Tapped(object sender, EventArgs e)
+        private async void tapMan_Tapped(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new GroupProduct(Common.MAN_PRODUCT, null));
         }
 
-        private void tapWoman_Tapped(object sender, EventArgs e)
+        private async void tapWoman_Tapped(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new GroupProduct(Common.WOMAN_PRODUCT, null));
         }
 
-        private void tapBoth_Tapped(object sender, EventArgs e)
+        private async void tapBoth_Tapped(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new GroupProduct(Common.BOTH_PRODUCT, null));
         }
 
         private void rfvRefresh_Refreshing(object sender, EventArgs e)
@@ -137,6 +136,13 @@ namespace TiuShop.View
         private void tapWishList_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new WishListPage());
+        }
+
+        private void tapLogo_Tapped(object sender, EventArgs e)
+        {
+            InitSlider();
+            InitNewProduct();
+            InitSaleProduct();
         }
     }
 }

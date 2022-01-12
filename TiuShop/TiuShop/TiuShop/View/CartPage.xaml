@@ -131,8 +131,31 @@
                                                 </StackLayout>
                                             </StackLayout>
 
-                                            <StackLayout HorizontalOptions="EndAndExpand">
-                                                <Stepper Minimum="1" Maximum="10" Increment="1"/>
+                                            <StackLayout Orientation="Horizontal" 
+                                                         HorizontalOptions="EndAndExpand">
+
+                                                <Button VerticalOptions="Center"
+                                                        Text="-" 
+                                                        TextTransform="Uppercase"
+                                                        CornerRadius="5"
+                                                        FontAttributes="Bold"
+                                                        Command="{Binding Source={RelativeSource AncestorType={x:Type local:HandleCartViewModel}}, Path = itemDecreaseCommand}"
+                                                        CommandParameter="{Binding .}"
+                                                        TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                                                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+
+                                                <Button VerticalOptions="Center"
+                                                        Text="+" 
+                                                        TextTransform="Uppercase"
+                                                        CornerRadius="5"
+                                                        FontAttributes="Bold"
+                                                        Command="{Binding Source={RelativeSource AncestorType={x:Type local:HandleCartViewModel}}, Path = itemIncreaseCommand}"
+                                                        CommandParameter="{Binding .}"
+                                                        TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                                                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+                                                
+                                                <!--<Stepper Minimum="1" Maximum="10" Increment="1" 
+                                                         Value="{Binding Source={RelativeSource AncestorType={x:Type local:HandleCartViewModel}}, Path = itemIncreaseCommand}"/>-->
                                             </StackLayout>
 
                                         </StackLayout>

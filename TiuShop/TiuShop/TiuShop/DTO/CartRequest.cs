@@ -20,6 +20,6 @@ namespace TiuShop.DTO
         public string Size { get; set; }
 
         [JsonProperty("quantity")]
-        public string Quantity { get; set; }
+        public int Quantity { get; set; }
     }
 }

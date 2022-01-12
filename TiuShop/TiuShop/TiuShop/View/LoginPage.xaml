@@ -64,10 +64,10 @@
                        HorizontalOptions="FillAndExpand">
                     <StackLayout Orientation="Horizontal">
                         <Label Text="&#xe897;" 
-                        TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                        FontSize="40"
-                        VerticalOptions="Center"
-                        FontFamily="RM"/>
+                                TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                FontSize="40"
+                                VerticalOptions="Center"
+                                FontFamily="RM"/>
 
                         <Entry x:Name="edtPassword" 
                                Keyboard="Text" 

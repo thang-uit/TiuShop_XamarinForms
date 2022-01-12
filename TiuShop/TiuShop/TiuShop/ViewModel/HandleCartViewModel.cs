@@ -40,8 +40,8 @@ namespace TiuShop.ViewModel
             Items = new ObservableCollection<Cart>();
             loadItemCommand = new Command(async () => await LoadItem());
             itemDeleteCommand = new Command<Cart>(DeleteItem);
-            //itemIncreaseCommand = new Command<Cart>(IncreaseItem);
-            //itemDecreaseCommand = new Command<Cart>();
+            itemIncreaseCommand = new Command<Cart>(IncreaseItem);
+            itemDecreaseCommand = new Command<Cart>(DecreaseItem);
         }
 
         public async Task LoadItem()
@@ -65,9 +65,11 @@ namespace TiuShop.ViewModel
                         {
                             data.Image[0] = Common.imgUrl + data.Image[0];
                             data.FinalPrice = data.FinalPrice.Replace(".", "");
-                            TotalPrice = TotalPrice + (Convert.ToDecimal(data.Quantity) * Convert.ToDecimal(data.FinalPrice));
                             Items.Add(data);
                         }
+
+                        caculateTotalPrice();
+
                         if (Items.Count > 0)
                         {
                             this.IsCartVisible = true;
@@ -106,6 +108,7 @@ namespace TiuShop.ViewModel
 
             if (option)
             {
+                await Application.Current.MainPage.Navigation.PushPopupAsync(new MyLoading());
                 try
                 {
                     var apiResponse = RestService.For<IApi>(Common.url);
@@ -116,6 +119,7 @@ namespace TiuShop.ViewModel
                     {
                         if (response.Status.Equals(Common.STATUS_SUCCESS))
                         {
+                            await Application.Current.MainPage.Navigation.PopPopupAsync();
                             Items.Remove(cart);
 
                             if (Items.Count > 0)
@@ -133,50 +137,125 @@ namespace TiuShop.ViewModel
                         }
                         else
                         {
+                            await Application.Current.MainPage.Navigation.PopPopupAsync();
                             await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
                         }
                     }
+                    else
+                    {
+                        await Application.Current.MainPage.Navigation.PopPopupAsync();
+                        await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                    }
                 }
-                catch
+                catch (Exception e)
                 {
+                    await Application.Current.MainPage.Navigation.PopPopupAsync();
                     await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                    throw e;
                 }
             }
         }
 
-        //public async void IncreaseItem(Cart cart)
-        //{
-        //    if (cart == null)
-        //    {
-        //        return;
-        //    }
+        public async void IncreaseItem(Cart cart)
+        {
+            if (cart == null)
+            {
+                return;
+            }
 
-        //    try
-        //    {
-        //        var apiResponse = RestService.For<IApi>(Common.url);
-        //        CartRequest cartRequest = new CartRequest() { CartID = cart.CartID, Quantity = cart.Quantity };
-        //        var response = await apiResponse.UpdateCart(cartRequest);
+            try
+            {
+                cart.Quantity++;
 
-        //        if (response != null)
-        //        {
-        //            if (response.Status.Equals(Common.STATUS_SUCCESS))
-        //            {
-        //                Items.Remove(cart);
-        //                Items.Add(cart);
+                await Application.Current.MainPage.Navigation.PushPopupAsync(new MyLoading());
 
-        //                caculateTotalPrice();
-        //            }
-        //            else
-        //            {
-        //                await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
-        //            }
-        //        }
-        //    }
-        //    catch
-        //    {
-        //        await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
-        //    }
-        //}
+                var apiResponse = RestService.For<IApi>(Common.url);
+                CartRequest cartRequest = new CartRequest() { CartID = cart.CartID, Quantity = cart.Quantity };
+                var response = await apiResponse.UpdateCart(cartRequest);
+
+                if (response != null)
+                {
+                    if (response.Status.Equals(Common.STATUS_SUCCESS))
+                    {
+                        await Application.Current.MainPage.Navigation.PopPopupAsync();
+
+                        var index = Items.IndexOf(cart);
+                        Items.RemoveAt(index);
+                        Items.Insert(index, cart);
+
+                        caculateTotalPrice();
+                    }
+                    else
+                    {
+                        await Application.Current.MainPage.Navigation.PopPopupAsync();
+                        await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                    }
+                }
+                else
+                {
+                    await Application.Current.MainPage.Navigation.PopPopupAsync();
+                    await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                }
+            }
+            catch (Exception e)
+            {
+                await Application.Current.MainPage.Navigation.PopPopupAsync();
+                await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                throw e;
+            }
+        }
+
+        public async void DecreaseItem(Cart cart)
+        {
+            if (cart == null)
+            {
+                return;
+            }
+
+            try
+            {
+
+                if (cart.Quantity != 1)
+                {
+                    cart.Quantity--;
+                    await Application.Current.MainPage.Navigation.PushPopupAsync(new MyLoading());
+
+                    var apiResponse = RestService.For<IApi>(Common.url);
+                    CartRequest cartRequest = new CartRequest() { CartID = cart.CartID, Quantity = cart.Quantity };
+                    var response = await apiResponse.UpdateCart(cartRequest);
+
+                    if (response != null)
+                    {
+                        if (response.Status.Equals(Common.STATUS_SUCCESS))
+                        {
+                            await Application.Current.MainPage.Navigation.PopPopupAsync();
+
+                            var index = Items.IndexOf(cart);
+                            Items.RemoveAt(index);
+                            Items.Insert(index, cart);
+
+                            caculateTotalPrice();
+                        }
+                        else
+                        {
+                            await Application.Current.MainPage.Navigation.PopPopupAsync();
+                            await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                        }
+                    }
+                    else
+                    {
+                        await Application.Current.MainPage.Navigation.PopPopupAsync();
+                        await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                await Application.Current.MainPage.Navigation.PopPopupAsync();
+                await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                throw e;
+            }
+        }
 
         public void OnAppearing()
         {
@@ -185,10 +264,11 @@ namespace TiuShop.ViewModel
 
         private void caculateTotalPrice()
         {
-            foreach (var price in Items)
+            TotalPrice = 0;
+            foreach (var data in Items)
             {
-                price.FinalPrice = price.FinalPrice.Replace(".", "");
-                TotalPrice = TotalPrice + Convert.ToDecimal(price.FinalPrice);
+                //price.FinalPrice = price.FinalPrice.Replace(".", "");
+                TotalPrice = TotalPrice + (Convert.ToDecimal(data.Quantity) * Convert.ToDecimal(data.FinalPrice));
             }
         }
     }

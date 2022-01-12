@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiuShop.View.GroupProduct"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    <ContentPage.Content>
+
+        <RefreshView x:Name="rfvRefresh" 
+                     RefreshColor="{StaticResource ColorMain1}" 
+                     Refreshing="rfvRefresh_Refreshing">
+
+            <CollectionView x:Name="clvGroupProduct"
+                                        HeightRequest="320"
+                                        BackgroundColor="Transparent"
+                                        SelectionMode="Single"
+                                        VerticalOptions="FillAndExpand"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectionChanged="clvGroupProduct_SelectionChanged">
+
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" VerticalItemSpacing="5" HorizontalItemSpacing="5"/>
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="10, 0, 0, 0"
+                                               Padding="10"
+                                               CornerRadius="10"
+                                               HasShadow="True"
+                                               WidthRequest="170"
+                                               IsClippedToBounds="True"
+                                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                            <StackLayout Orientation="Vertical">
+                                <StackLayout x:Name="discount"
+                                                             Orientation="Horizontal" 
+                                                             HorizontalOptions="End">
+                                    <Label Text="&#xe54e;"
+                                                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                           FontSize="Small"
+                                                           FontAttributes="Bold"
+                                                           VerticalTextAlignment="Center"
+                                                           FontFamily="RM"/>
+
+                                    <Label Text="{Binding Sale}"
+                                                           FontSize="Small"
+                                                           VerticalTextAlignment="Center"
+                                                           VerticalOptions="Center"
+                                                           IsVisible="{Binding IsSale}"
+                                                           TextColor="{StaticResource ColorMain4}"/>
+                                </StackLayout>
+
+                                <Frame Padding="0" HasShadow="False" CornerRadius="10" >
+                                    <Image Source="{Binding Image[0]}" Aspect="AspectFill" HeightRequest="200"/>
+                                </Frame>
+
+                                <Label Text="{Binding Name}" 
+                                                       FontSize="Medium"
+                                                       HorizontalOptions="Start" 
+                                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+
+                                <StackLayout Orientation="Horizontal" 
+                                                             HorizontalOptions="Center">
+                                    <StackLayout HorizontalOptions="Center">
+                                        <Label Text="{Binding FinalPrice}"
+                                                               FontSize="Medium"
+                                                               VerticalTextAlignment="Center"
+                                                               VerticalOptions="Center"
+                                                               TextColor="{StaticResource ColorMain4}"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </RefreshView>
+
+    </ContentPage.Content>
+</ContentPage>

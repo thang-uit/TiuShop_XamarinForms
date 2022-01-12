@@ -77,13 +77,22 @@
                                                           NumberOfTapsRequired="1"/>
                                 </Frame.GestureRecognizers>
 
-                                <Image Source="ic_heartfull.png" Aspect="AspectFill" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                <Image Source="ic_heartfull.png" 
+                                       Aspect="AspectFill" VerticalOptions="Center" 
+                                       HorizontalOptions="Center"/>
                             </Frame>
 
                             <Image Source="logo322_116.png" Aspect="AspectFill" 
                                    AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
                                    AbsoluteLayout.LayoutFlags="All"
-                                   VerticalOptions="Center" HorizontalOptions="Center"/>
+                                   VerticalOptions="Center" HorizontalOptions="Center">
+                                
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="tapLogo"
+                                                          NumberOfTapsRequired="1"
+                                                          Tapped="tapLogo_Tapped"/>
+                                </Image.GestureRecognizers>
+                            </Image>
                             
                             <!--<Label x:Name="lblTest"
                                    AbsoluteLayout.LayoutBounds="0, 0, 1, 1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutFlags="All" 

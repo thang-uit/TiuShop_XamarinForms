@@ -77,11 +77,14 @@ namespace TiuShop.ViewModel
                 else
                 {
                     await Application.Current.MainPage.Navigation.PopPopupAsync();
+                    await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 await Application.Current.MainPage.Navigation.PopPopupAsync();
+                await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                throw e;
             }
             finally
             {
@@ -95,10 +98,12 @@ namespace TiuShop.ViewModel
             {
                 return;
             }
+
             var option = await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent15"].ToString(), App.Current.Resources["lblAlertOK"].ToString(), App.Current.Resources["lblAlertCancel"].ToString());
 
             if (option)
             {
+                await Application.Current.MainPage.Navigation.PushPopupAsync(new MyLoading());
                 try
                 {
                     var apiResponse = RestService.For<IApi>(Common.url);
@@ -109,6 +114,7 @@ namespace TiuShop.ViewModel
                     {
                         if (response.Status.Equals(Common.STATUS_SUCCESS))
                         {
+                            await Application.Current.MainPage.Navigation.PopPopupAsync();
                             Items.Remove(cart);
 
                             if (Items.Count > 0)
@@ -124,13 +130,21 @@ namespace TiuShop.ViewModel
                         }
                         else
                         {
+                            await Application.Current.MainPage.Navigation.PopPopupAsync();
                             await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
                         }
                     }
+                    else
+                    {
+                        await Application.Current.MainPage.Navigation.PopPopupAsync();
+                        await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                    }
                 }
-                catch
+                catch(Exception e)
                 {
+                    await Application.Current.MainPage.Navigation.PopPopupAsync();
                     await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
+                    throw e;
                 }
             }
         }
@@ -142,6 +156,7 @@ namespace TiuShop.ViewModel
                 return;
             }
 
+            await Application.Current.MainPage.Navigation.PushPopupAsync(new MyLoading());
             try
             {
                 var apiResponse = RestService.For<IApi>(Common.url);
@@ -152,6 +167,7 @@ namespace TiuShop.ViewModel
                 {
                     if (response.Status.Equals(Common.STATUS_SUCCESS))
                     {
+                        await Application.Current.MainPage.Navigation.PopPopupAsync();
                         Items.Remove(cart);
 
                         if (Items.Count > 0)
@@ -167,17 +183,16 @@ namespace TiuShop.ViewModel
                     }
                     else
                     {
+                        await Application.Current.MainPage.Navigation.PopPopupAsync();
                         await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
-                        this.IsWishListVisible = false;
-                        this.IsWishListDisable = true;
                     }
                 }
             }
-            catch
+            catch (Exception e)
             {
+                await Application.Current.MainPage.Navigation.PopPopupAsync();
                 await Application.Current.MainPage.DisplayAlert(App.Current.Resources["lblAlert"].ToString(), App.Current.Resources["lblAlertContent0"].ToString(), App.Current.Resources["lblAlertOK"].ToString());
-                this.IsWishListVisible = false;
-                this.IsWishListDisable = true;
+                throw e;
             }
         }
 
