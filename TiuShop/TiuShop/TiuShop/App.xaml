@@ -69,6 +69,7 @@
             <x:String x:Key="edtUsername">Username</x:String>
             <x:String x:Key="edtDisplayName">Display name</x:String>
             <x:String x:Key="edtPassword">Password</x:String>
+            <x:String x:Key="edtNewPassword">New Password</x:String>
             <x:String x:Key="edtConfirmPassword">Confirm password</x:String>
 
             <x:String x:Key="tabShop">Shop</x:String>
@@ -84,7 +85,7 @@
             <x:String x:Key="lblSale">Sale</x:String>
 
             <x:String x:Key="edtSearch">Search</x:String>
-            <x:String x:Key="lblName">Your Name</x:String>
+            <x:String x:Key="lblName">Name</x:String>
 
             <x:String x:Key="lblWaitingConfirm">Waiting confirm</x:String>
             <x:String x:Key="lblGoods">Waiting goods</x:String>
@@ -96,12 +97,17 @@
             <x:String x:Key="lblChangePassword">Change Password</x:String>
             <x:String x:Key="lblTheme">Theme</x:String>
             <x:String x:Key="lblRating">Rating App</x:String>
+            <x:String x:Key="lblLogout">Logout</x:String>
 
             <x:String x:Key="lblTitle1">Product Detail</x:String>
             <x:String x:Key="lblTitle2">Cart</x:String>
             <x:String x:Key="lblTitle3">Payment</x:String>
             <x:String x:Key="lblTitle4">Comment</x:String>
             <x:String x:Key="lblTitle5">WishList</x:String>
+            <x:String x:Key="lblTitle6">Address</x:String>
+            <x:String x:Key="lblTitle7">Order</x:String>
+            <x:String x:Key="lblTitle8">User Information</x:String>
+            <x:String x:Key="lblTitle9">Change Password</x:String>
 
             <x:String x:Key="btnAddToCart">Add to cart</x:String>
             <x:String x:Key="picSize">Size</x:String>
@@ -138,15 +144,53 @@
             <x:String x:Key="lblAlertContent14">Product added to cart</x:String>
             <x:String x:Key="lblAlertContent15">Are you sure you want to delete this product?</x:String>
 
+            <x:String x:Key="lblAlertContent16">Please enter name</x:String>
+            <x:String x:Key="lblAlertContent17">Please enter phone number</x:String>
+            <x:String x:Key="lblAlertContent18">Please enter email</x:String>
+            <x:String x:Key="lblAlertContent19">Please enter address</x:String>
+
+            <x:String x:Key="lblAlertContent20">Do you want to logout?</x:String>
+            
+            <x:String x:Key="lblAlertContent21">Update information successfully!</x:String>
+            <x:String x:Key="lblAlertContent22">Update failed!</x:String>
+            <x:String x:Key="lblAlertContent23">Update password successfully!</x:String>
+            <x:String x:Key="lblAlertContent24">Order successfully!</x:String>
+
             <x:String x:Key="lblAlertOK">OK</x:String>
             <x:String x:Key="lblAlertCancel">Cancel</x:String>
 
             <x:String x:Key="btnSuccess1">Login</x:String>
+            <x:String x:Key="btnSuccess2">Back To Home Page</x:String>
 
             <x:String x:Key="lblDelete">Delete</x:String>
             <x:String x:Key="btnMoveToCart">Add to&#x0a;Cart</x:String>
 
-            <x:String x:Key="lblEmpty"></x:String>
+            <x:String x:Key="edtEmail">Email</x:String>
+            <x:String x:Key="edtAddress">Address</x:String>
+            <x:String x:Key="edtNote">Note</x:String>
+            
+            <x:String x:Key="lblAddress">Your Address</x:String>
+
+            <x:String x:Key="lblName1">Name: </x:String>
+            <x:String x:Key="lblPhoneNumber1">Phone: </x:String>
+            <x:String x:Key="lblEmail1">Email: </x:String>
+            <x:String x:Key="lblAddress1">Address: </x:String>
+            <x:String x:Key="lblNote1">Note: </x:String>
+            <x:String x:Key="lblItem">Items</x:String>
+            
+            <x:String x:Key="lblItem1">Items: </x:String>
+            <x:String x:Key="lblDate">Date: </x:String>
+
+
+            <x:String x:Key="btnSave">Save</x:String>
+            <x:String x:Key="picGender">Gender</x:String>
+
+            <x:String x:Key="lblMale">Male</x:String>
+            <x:String x:Key="lblFeMale">Female</x:String>
+
+            <x:String x:Key="btnConfirm">Confirm</x:String>
+            
+            
             
         </ResourceDictionary>
     </Application.Resources>

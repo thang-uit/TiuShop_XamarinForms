@@ -139,8 +139,8 @@
                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
                             <StackLayout>
                                 <Label Text="{DynamicResource lblMan}"
-                                   FontSize="Small" VerticalTextAlignment="Center" HorizontalOptions="Center" 
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                       FontSize="Small" VerticalTextAlignment="Center" HorizontalOptions="Center" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
                                 <Image Source="man.jpg" Aspect="AspectFill"/>
                             </StackLayout>
 

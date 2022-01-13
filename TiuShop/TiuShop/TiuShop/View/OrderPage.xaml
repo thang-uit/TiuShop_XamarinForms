@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiuShop.View.OrderPage"
+             Title="{DynamicResource lblTitle7}"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ScrollView Orientation="Vertical"
+                        VerticalOptions="FillAndExpand" 
+                        HorizontalOptions="FillAndExpand"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+                <StackLayout Orientation="Vertical">
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="8"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="&#xe88a;" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                       FontSize="40"
+                                       VerticalOptions="Center"
+                                       FontFamily="RM"/>
+
+                                <Label Text="{DynamicResource lblAddress}"
+                                       FontSize="Medium"
+                                       FontAttributes="Bold"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                       VerticalOptions="Center"/>
+                            </StackLayout>
+
+                            <Label VerticalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{DynamicResource lblName1}" 
+                                              FontSize="Small"
+                                              FontAttributes="Bold"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                        <Span x:Name="lblName"
+                                              FontSize="Small"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label VerticalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{DynamicResource lblPhoneNumber1}" 
+                                              FontSize="Small"
+                                              FontAttributes="Bold"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                        <Span x:Name="lblPhone"
+                                              FontSize="Small"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label VerticalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{DynamicResource lblEmail1}" 
+                                              FontSize="Small"
+                                              FontAttributes="Bold"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                        <Span x:Name="lblEmail"
+                                              FontSize="Small"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label VerticalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{DynamicResource lblAddress1}"
+                                              FontSize="Small"
+                                              FontAttributes="Bold"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                        <Span x:Name="lblAddress"
+                                              FontSize="Small"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label VerticalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{DynamicResource lblNote1}"
+                                              FontSize="Small"
+                                              FontAttributes="Bold"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                        <Span x:Name="lblNote"
+                                              FontSize="Small"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </Frame>
+
+                    <StackLayout Orientation="Horizontal" Margin="5, 25, 0, 0">
+                        <Label Text="&#xe1a1;" 
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                               FontSize="40"
+                               VerticalOptions="Center"
+                               FontFamily="RM"/>
+
+                        <Label Text="{DynamicResource lblItem}"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                               VerticalOptions="Center"/>
+                    </StackLayout>
+
+                    <CollectionView x:Name="clvItems"
+                                    BackgroundColor="Transparent"
+                                    HorizontalOptions="FillAndExpand"
+                                    Margin="5, 0, 5, 0"
+                                    SelectionMode="Single">
+
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout ItemSpacing="10" Orientation="Vertical"/>
+                        </CollectionView.ItemsLayout>
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+
+                                <Frame HasShadow="True"
+                                           HorizontalOptions="FillAndExpand"
+                                           Margin="0, 5, 0, 0"
+                                           Padding="5"
+                                           IsClippedToBounds="True"
+                                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                                    <StackLayout Orientation="Vertical" 
+                                                     VerticalOptions="Center">
+
+                                        <StackLayout Orientation="Horizontal"
+                                                         VerticalOptions="Center">
+
+                                            <Frame CornerRadius="10"
+                                                       WidthRequest="80"
+                                                       HeightRequest="80"
+                                                       Padding="0"
+                                                       Margin="0"
+                                                       HasShadow="True"
+                                                       IsClippedToBounds="True"
+                                                       VerticalOptions="Center">
+                                                <Image Source="{Binding Image[0]}" Aspect="AspectFill" WidthRequest="80" HeightRequest="80"/>
+                                            </Frame>
+
+                                            <StackLayout Orientation="Vertical"
+                                                             VerticalOptions="Center"
+                                                             HorizontalOptions="Start">
+                                                <Label Text="{Binding Name}" 
+                                                           FontSize="Small"
+                                                           HorizontalOptions="Start" 
+                                                           LineBreakMode="MiddleTruncation"
+                                                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Label Text="Size:"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"
+                                                               FontSize="Small"
+                                                               VerticalTextAlignment="Center"/>
+
+                                                    <Label Text="{Binding Size}"
+                                                               FontSize="Small"
+                                                               VerticalTextAlignment="Center"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                                                </StackLayout>
+
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Label Text="&#xe263;"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                               FontSize="Small"
+                                                               VerticalTextAlignment="Center"
+                                                               FontFamily="RM"/>
+
+                                                    <Label Text="{Binding Price}"
+                                                               IsVisible="{Binding IsSale}"
+                                                               VerticalOptions="Center"
+                                                               TextColor="DarkGray"
+                                                               TextDecorations="Strikethrough"
+                                                               FontSize="Small"/>
+
+                                                    <Label Text="{Binding FinalPrice}"
+                                                               FontSize="Small"
+                                                               VerticalTextAlignment="Center"
+                                                               TextColor="{StaticResource ColorMain4}"/>
+                                                </StackLayout>
+                                            </StackLayout>
+
+                                            <StackLayout HorizontalOptions="CenterAndExpand"/>
+
+                                            <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="End">
+                                                <Label Text="{Binding Quantity}"
+                                                           VerticalOptions="Center"
+                                                           HorizontalOptions="Center"
+                                                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                           FontSize="Large"/>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+            </ScrollView>
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <StackLayout Orientation="Vertical" 
+                             VerticalOptions="Center"
+                             HorizontalOptions="FillAndExpand">
+                    <Label Text="{DynamicResource lblTotal}" 
+                           FontSize="Medium" 
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center" 
+                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                    <Label x:Name="lblTotalPrice"
+                           Text="0"
+                           FontSize="Medium"    
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"               
+                           TextColor="{StaticResource ColorMain4}"/>
+                </StackLayout>
+                
+                <Button x:Name="btnOrder"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Text="{DynamicResource lblTitle7}"
+                        TextTransform="Uppercase"
+                        Clicked="btnOrder_Clicked"
+                        TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

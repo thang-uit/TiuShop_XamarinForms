@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiuShop.View.UserInfomationPage"
+             Title="{DynamicResource lblTitle8}"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ScrollView Orientation="Vertical"
+                        VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+                <StackLayout Orientation="Vertical">
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe853;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Entry x:Name="edtName"
+                                   Placeholder="{DynamicResource lblName}"
+                                   MaxLength="100"
+                                   Margin="0, 0, 10, 0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="FillAndExpand"
+                                   PlaceholderColor="Gray"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   ClearButtonVisibility="WhileEditing"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label x:Name="lblMessage1"
+                           Margin="5, 0, 5, 0"
+                           TextColor="{StaticResource ColorMain4}" 
+                           FontSize="Caption"/>
+
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe324;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Entry x:Name="edtPhone"
+                                   Keyboard="Telephone" 
+                                   Placeholder="{DynamicResource edtPhoneNumber}"
+                                   MaxLength="15"
+                                   Margin="0, 0, 10, 0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="FillAndExpand"
+                                   PlaceholderColor="Gray"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   ClearButtonVisibility="WhileEditing"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label x:Name="lblMessage2"
+                           Margin="5, 0, 5, 0"
+                           TextColor="{StaticResource ColorMain4}" 
+                           FontSize="Caption"/>
+
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe0be;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Entry x:Name="edtEmail"
+                                   Keyboard="Email" 
+                                   Placeholder="{DynamicResource edtEmail}"
+                                   MaxLength="100"
+                                   Margin="0, 0, 10, 0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="FillAndExpand"
+                                   PlaceholderColor="Gray"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   ClearButtonVisibility="WhileEditing"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label x:Name="lblMessage3"
+                           Margin="5, 0, 5, 0"
+                           TextColor="{StaticResource ColorMain4}" 
+                           FontSize="Caption"/>
+
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe58d;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Picker x:Name="picGender" 
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="FillAndExpand"
+                                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                                    Title="{DynamicResource picGender}"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label Margin="5, 0, 5, 0"/>
+
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe88a;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Editor x:Name="edtAddress"
+                                    Placeholder="{DynamicResource edtAddress}"
+                                    MaxLength="500"
+                                    HeightRequest="100"
+                                    Margin="0, 0, 10, 0"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="FillAndExpand"
+                                    PlaceholderColor="Gray"
+                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label x:Name="lblMessage4"
+                           Margin="5, 0, 5, 0"
+                           TextColor="{StaticResource ColorMain4}" 
+                           FontSize="Caption"/>
+
+                </StackLayout>
+            </ScrollView>
+
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button x:Name="btnSave"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Text="{DynamicResource btnSave}"
+                        TextTransform="Uppercase"
+                        Clicked="btnSave_Clicked"
+                        TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

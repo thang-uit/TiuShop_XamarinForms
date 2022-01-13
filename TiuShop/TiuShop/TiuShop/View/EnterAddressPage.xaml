@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:TiuShop.ViewModel"
+             x:Class="TiuShop.View.EnterAddressPage"
+             Title="{DynamicResource lblTitle6}"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    <ContentPage.Content>
+
+        <StackLayout Orientation="Vertical"
+                     x:DataType="local:EnterAddressViewModel">
+            <ScrollView Orientation="Vertical"
+                        VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+
+                <StackLayout Orientation="Vertical">
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe853;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Entry x:Name="edtName"
+                                   Text="{Binding Name, Mode=TwoWay}"
+                                   Placeholder="{DynamicResource lblName}"
+                                   MaxLength="100"
+                                   Margin="0, 0, 10, 0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="FillAndExpand"
+                                   PlaceholderColor="Gray"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   ClearButtonVisibility="WhileEditing"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="{Binding Message1, Mode=TwoWay}" 
+                           Margin="5, 0, 5, 0"
+                           TextColor="{StaticResource ColorMain4}" 
+                           FontSize="Caption"/>
+
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe324;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Entry x:Name="edtPhone"
+                                   Text="{Binding Phone, Mode=TwoWay}"
+                                   Keyboard="Telephone" 
+                                   Placeholder="{DynamicResource edtPhoneNumber}"
+                                   MaxLength="15"
+                                   Margin="0, 0, 10, 0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="FillAndExpand"
+                                   PlaceholderColor="Gray"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   ClearButtonVisibility="WhileEditing"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="{Binding Message2, Mode=TwoWay}"
+                           Margin="5, 0, 5, 0"
+                           TextColor="{StaticResource ColorMain4}" 
+                           FontSize="Caption"/>
+
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe0be;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Entry x:Name="edtEmail"
+                                   Text="{Binding Email, Mode=TwoWay}"
+                                   Keyboard="Email" 
+                                   Placeholder="{DynamicResource edtEmail}"
+                                   MaxLength="100"
+                                   Margin="0, 0, 10, 0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="FillAndExpand"
+                                   PlaceholderColor="Gray"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   ClearButtonVisibility="WhileEditing"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="{Binding Message3, Mode=TwoWay}"
+                           Margin="5, 0, 5, 0"
+                           TextColor="{StaticResource ColorMain4}" 
+                           FontSize="Caption"/>
+
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xe88a;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Editor x:Name="edtAddress"
+                                    Text="{Binding Address, Mode=TwoWay}"
+                                    Placeholder="{DynamicResource edtAddress}"
+                                    MaxLength="500"
+                                    HeightRequest="100"
+                                    Margin="0, 0, 10, 0"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="FillAndExpand"
+                                    PlaceholderColor="Gray"
+                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="{Binding Message4, Mode=TwoWay}"
+                           Margin="5, 0, 5, 0"
+                           TextColor="{StaticResource ColorMain4}" 
+                           FontSize="Caption"/>
+
+                    <Frame BackgroundColor="Transparent" 
+                           BorderColor="DarkGray"
+                           CornerRadius="10" 
+                           Padding="5"
+                           Margin="5, 10, 5, 0"
+                           HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xf1fc;" 
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   FontSize="40"
+                                   VerticalOptions="Center"
+                                   FontFamily="RM"/>
+
+                            <Editor Text="{Binding Note, Mode=TwoWay}"
+                                    Placeholder="{DynamicResource edtNote}"
+                                    MaxLength="500"
+                                    HeightRequest="100"
+                                    Margin="0, 0, 10, 0"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="FillAndExpand"
+                                    PlaceholderColor="Gray"
+                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Text="{DynamicResource btnCheckout}"
+                        TextTransform="Uppercase"
+                        Command="{Binding checkOutCommand}"
+                        TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

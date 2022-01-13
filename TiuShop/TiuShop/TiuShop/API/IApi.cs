@@ -10,14 +10,20 @@ namespace TiuShop.API
 {
     public interface IApi
     {
-        //[Get("/abc.txt")]
-        //Task<string> Text();
-
         [Post("/User/Login.php")]
         Task<CustomApiResponse<Account>> Login([Body] AccountRequest account);
 
         [Post("/User/Register.php")]
         Task<CustomApiResponse<Account>> Register([Body] AccountRequest account);
+
+        [Post("/User/ChangePassword.php")]
+        Task<CustomApiResponse<Account>> ChangePassword([Body] AccountRequest account);
+
+        [Post("/User/GetUserInfo.php")]
+        Task<CustomApiResponse<User>> GetUserInfo([Body] UserRequest user);
+
+        [Post("/User/UpdateUserInfo.php")]
+        Task<CustomApiResponse<User>> UpdateUserInfo([Body] UserRequest user);
 
         [Get("/Product/GetSlider.php?amount={amount}")]
         Task<CustomApiResponse<List<Slider>>> GetSlider([AliasAs("amount")] int amount);
@@ -63,5 +69,14 @@ namespace TiuShop.API
 
         [Post("/Cart/UpdateCart.php")]
         Task<CustomApiResponse<Cart>> UpdateCart([Body] CartRequest cart);
+
+        [Post("/Order/AddNewOrder.php")]
+        Task<CustomApiResponse<Order>> AddNewOrder([Body] OrderRequest order);
+
+        [Post("/Order/GetAmountOrder.php")]
+        Task<CustomApiResponse<AmountOrder>> GetAmountOrder([Body] UserRequest user);
+
+        [Post("/Order/GetOrderInfo.php")]
+        Task<CustomApiResponse<List<Order>>> GetOrderInfo([Body] UserRequest user);
     }
 }

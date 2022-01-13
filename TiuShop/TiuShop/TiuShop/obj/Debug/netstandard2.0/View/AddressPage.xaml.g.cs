@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TiuShop.View.PaymentPage.xaml", "View/PaymentPage.xaml", typeof(global::TiuShop.View.PaymentPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TiuShop.View.AddressPage.xaml", "View/AddressPage.xaml", typeof(global::TiuShop.View.PaymentPage))]
 
 namespace TiuShop.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\PaymentPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\AddressPage.xaml")]
     public partial class PaymentPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiuShop.View.ViewOrderPage"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
+    <ContentPage.Content>
+        <RefreshView x:Name="rfvRefresh" 
+                     RefreshColor="{StaticResource ColorMain1}" 
+                     Refreshing="rfvRefresh_Refreshing">
+
+            <CollectionView x:Name="clvOrder"
+                            BackgroundColor="Transparent"
+                            VerticalOptions="FillAndExpand"
+                            HorizontalOptions="FillAndExpand"
+                            SelectionMode="Single"
+                            SelectionChanged="clvOrder_SelectionChanged">
+
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="10" Orientation="Vertical"/>
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame HasShadow="True"
+                               HorizontalOptions="FillAndExpand"
+                               Margin="0, 5, 0, 0"
+                               Padding="5"
+                               CornerRadius="10"
+                               IsClippedToBounds="True"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                            <StackLayout Orientation="Vertical">
+                                
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{DynamicResource lblName1}" 
+                                                  FontSize="Medium"
+                                                  FontAttributes="Bold"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                            
+                                            <Span x:Name="lblName"
+                                                  Text="{Binding Name}"
+                                                  FontSize="Medium"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                            <Span Text="("
+                                                  FontSize="Medium"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                            <Span x:Name="lblPhone"
+                                                  Text="{Binding Phone}"
+                                                  FontSize="Medium"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                            <Span Text=")"
+                                                  FontSize="Medium"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{DynamicResource lblAddress1}"
+                                                  FontSize="Medium"
+                                                  FontAttributes="Bold"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                            <Span x:Name="lblAddress"
+                                                  Text="{Binding Address}"
+                                                  FontSize="Medium"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{DynamicResource lblItem1}"
+                                                  FontSize="Medium"
+                                                  FontAttributes="Bold"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                            <Span x:Name="lblItem"
+                                                  FontSize="Medium"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{DynamicResource lblDate}"
+                                                  FontSize="Medium"
+                                                  FontAttributes="Bold"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                            <Span x:Name="lblDate"
+                                                  FontSize="Medium"
+                                                  Text="{Binding Date}"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="0.5*"/>
+                                        <ColumnDefinition Width="0.5*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Text="{DynamicResource lblTotal}"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"
+                                           FontSize="Medium"
+                                           FontAttributes="Bold"
+                                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                           Grid.Row="0" 
+                                           Grid.Column="0"/>
+
+                                    <Label x:Name="lblTotalPrice"
+                                           TextColor="{StaticResource ColorMain4}"
+                                           Text="{Binding TotalPrice}"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"
+                                           FontSize="Medium"
+                                           Grid.Row="0" 
+                                           Grid.Column="1"/>
+                                </Grid>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </RefreshView>
+    </ContentPage.Content>
+</ContentPage>

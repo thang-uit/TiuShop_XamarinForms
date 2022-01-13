@@ -48,5 +48,11 @@ namespace TiuShop.Model
 
         [JsonProperty("isWishList")]
         public bool IsWishList { get; set; }
+
+        //[JsonProperty("size")]
+        //public string Size { get; set; }
+
+        //[JsonProperty("quantity")]
+        //public int Quantity { get; set; }
     }
 }

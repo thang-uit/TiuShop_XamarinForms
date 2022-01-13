@@ -6,157 +6,160 @@
              BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
     <ContentPage.Content>
 
-        <ScrollView Orientation="Vertical"
+        <RefreshView x:Name="rfvRefresh" 
+                     RefreshColor="{StaticResource ColorMain1}" 
+                     Refreshing="rfvRefresh_Refreshing">
+            
+            <ScrollView Orientation="Vertical"
                     VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                     BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
 
-            <StackLayout Padding="0"
+                <StackLayout Padding="0"
                      Orientation="Vertical"
                      BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight1}, Dark={StaticResource ColorDark1}}">
-                <Grid>
-                    <StackLayout Padding="0" Margin="0">
-                        <Frame BackgroundColor="Yellow" 
-                               HeightRequest="150" 
-                               Padding="0"
-                               HorizontalOptions="FillAndExpand">
-                            <Image Source="bgregister.jpg" Aspect="AspectFill" Margin="0"/>
-                        </Frame>
-                    </StackLayout>
+                    <Grid>
+                        <StackLayout Padding="0" Margin="0">
+                            <Frame BackgroundColor="Yellow" 
+                                   HeightRequest="150" 
+                                   Padding="0"
+                                   HorizontalOptions="FillAndExpand">
+                                <Image Source="bgregister.jpg" Aspect="AspectFill" Margin="0"/>
+                            </Frame>
+                        </StackLayout>
 
-                    <StackLayout Margin="15, 110, 15, 0">
-                        <Frame 
-                            HasShadow="True"
-                            HeightRequest="60"
-                            HorizontalOptions="FillAndExpand"
-                            CornerRadius="10"
-                            Padding="10"
-                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                        <StackLayout Margin="15, 110, 15, 0">
+                            <Frame HasShadow="True"
+                                   HeightRequest="60"
+                                   HorizontalOptions="FillAndExpand"
+                                   CornerRadius="10"
+                                   Padding="10"
+                                   BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
-                            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                                <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                                    <Frame 
+                                        Padding="0" 
+                                        Margin="0"
+                                        HasShadow="True" 
+                                        HorizontalOptions="Start"
+                                        CornerRadius="50" 
+                                        IsClippedToBounds="True">
+
+                                        <Image Source="logo500_500.png" Aspect="AspectFill" Margin="0"/>
+                                    </Frame>
+
+                                    <Label x:Name="lblName"
+                                           Text="{DynamicResource lblName}"
+                                           HorizontalOptions="Start"
+                                           FontSize="Medium"
+                                           FontAttributes="Bold"
+                                           VerticalTextAlignment="Center"
+                                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                    <StackLayout HorizontalOptions="CenterAndExpand"/>
+
+                                    <Frame BackgroundColor="{StaticResource ColorLight2}"
+                                           HeightRequest="45"
+                                           WidthRequest="45" 
+                                           CornerRadius="50" 
+                                           HasShadow="False" 
+                                           BorderColor="DarkGray" 
+                                           Margin="0" 
+                                           Padding="0"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="Center">
+
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer x:Name="tapCart"
+                                                              Tapped="tapCart_Tapped"
+                                                              NumberOfTapsRequired="1"/>
+                                        </Frame.GestureRecognizers>
+                                        <Image Source="ic_shoppingcart.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                    </Frame>
+
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Grid>
+
+                    <StackLayout Orientation="Vertical" Margin="0, 10, 0, 0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width=".25*"/>
+                                <ColumnDefinition Width=".25*"/>
+                                <ColumnDefinition Width=".25*"/>
+                                <ColumnDefinition Width=".25*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackLayout Orientation="Vertical" 
+                                         Grid.Row="0"
+                                         Grid.Column="0"
+                                         Margin="0"
+                                         Padding="0" 
+                                         VerticalOptions="Center" 
+                                         HorizontalOptions="Center">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="tapOrder0"
+                                                          NumberOfTapsRequired="1"
+                                                          Tapped="tapOrder0_Tapped"/>
+                                </StackLayout.GestureRecognizers>
+
+                                <Label Text="&#xf075;"
+                                       FontSize="40"
+                                       Margin="0"
+                                       Padding="0" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"
+                                       HorizontalOptions="Center"
+                                       FontFamily="RM"/>
                                 <Frame 
                                     Padding="0" 
                                     Margin="0"
                                     HasShadow="True" 
-                                    HorizontalOptions="Start"
                                     CornerRadius="50" 
+                                    HeightRequest="20"
+                                    WidthRequest="20"
+                                    HorizontalOptions="Center"
+                                    BackgroundColor="{StaticResource ColorMain4}"
                                     IsClippedToBounds="True">
 
-                                    <Image Source="logo500_500.png" Aspect="AspectFill" Margin="0"/>
-                                </Frame>
-
-                                <Label x:Name="lblName"
-                                       Text="{DynamicResource lblName}"
-                                       HorizontalOptions="Start"
-                                       FontSize="Medium"
-                                       FontAttributes="Bold"
-                                       VerticalTextAlignment="Center"
-                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
-
-                                <StackLayout HorizontalOptions="CenterAndExpand"/>
-
-                                <Frame BackgroundColor="{StaticResource ColorLight2}"
-                                       HeightRequest="45"
-                                       WidthRequest="45" 
-                                       CornerRadius="50" 
-                                       HasShadow="False" 
-                                       BorderColor="DarkGray" 
-                                       Margin="0" 
-                                       Padding="0"
-                                       VerticalOptions="Center"
-                                       HorizontalOptions="Center">
-                                    
-                                    <Frame.GestureRecognizers>
-                                        <TapGestureRecognizer x:Name="tapCart"
-                                                              Tapped="tapCart_Tapped"
-                                                              NumberOfTapsRequired="1"/>
-                                    </Frame.GestureRecognizers>
-                                    <Image Source="ic_shoppingcart.png" VerticalOptions="Center" HorizontalOptions="Center"/>
-                                </Frame>
-
-                            </StackLayout>
-                        </Frame>
-                    </StackLayout>
-                </Grid>
-
-                <StackLayout Orientation="Vertical" Margin="0, 10, 0, 0">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width=".25*"/>
-                            <ColumnDefinition Width=".25*"/>
-                            <ColumnDefinition Width=".25*"/>
-                            <ColumnDefinition Width=".25*"/>
-                        </Grid.ColumnDefinitions>
-
-                        <StackLayout Orientation="Vertical" 
-                                     Grid.Row="0"
-                                     Grid.Column="0"
-                                     Margin="0"
-                                     Padding="0" 
-                                     VerticalOptions="Center" 
-                                     HorizontalOptions="Center">
-                            <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer 
-                                    x:Name="tap1"
-                                    NumberOfTapsRequired="1"/>
-                            </StackLayout.GestureRecognizers>
-
-                            <Label Text="&#xf075;"
-                                   FontSize="40"
-                                   Margin="0"
-                                   Padding="0" 
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"
-                                   HorizontalOptions="Center"
-                                   FontFamily="RM"/>
-                            <Frame 
-                                Padding="0" 
-                                Margin="0"
-                                HasShadow="True" 
-                                CornerRadius="50" 
-                                HeightRequest="20"
-                                WidthRequest="20"
-                                HorizontalOptions="Center"
-                                BackgroundColor="{StaticResource ColorMain4}"
-                                IsClippedToBounds="True">
-
-                                <Label x:Name="lblAmount1" 
-                                       Text="0" 
-                                       FontSize="Caption"
-                                       VerticalOptions="Center"
-                                       HorizontalOptions="Center" 
+                                    <Label x:Name="lblAmount1" 
+                                           Text="0" 
+                                           FontSize="Caption"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="Center" 
                                        TextColor="{StaticResource ColorMain2}"/>
-                            </Frame>
-                            <Label x:Name="lblWaitingConfirm"
-                                   Text="{DynamicResource lblWaitingConfirm}" 
-                                   HorizontalTextAlignment="Center"
-                                   FontSize="11"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                        </StackLayout>
+                                </Frame>
+                                <Label x:Name="lblWaitingConfirm"
+                                       Text="{DynamicResource lblWaitingConfirm}" 
+                                       HorizontalTextAlignment="Center"
+                                       FontSize="11"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                            </StackLayout>
 
-                        <StackLayout Orientation="Vertical" 
+                            <StackLayout Orientation="Vertical" 
                                      Grid.Row="0"
                                      Grid.Column="1"
                                      Margin="0"
                                      Padding="0" 
                                      VerticalOptions="Center" 
                                      HorizontalOptions="Center">
-                            <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer 
-                                    x:Name="tap2"
-                                    NumberOfTapsRequired="1"/>
-                            </StackLayout.GestureRecognizers>
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="tapOrder1"
+                                                          NumberOfTapsRequired="1"
+                                                          Tapped="tapOrder1_Tapped"/>
+                                </StackLayout.GestureRecognizers>
 
-                            <Label Text="&#xe1a1;"
+                                <Label Text="&#xe1a1;"
                                    FontSize="40"
                                    Margin="0"
                                    Padding="0" 
                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"
                                    HorizontalOptions="Center"
                                    FontFamily="RM"/>
-                            <Frame 
+                                <Frame 
                                 Padding="0" 
                                 Margin="0"
                                 HasShadow="True" 
@@ -167,41 +170,41 @@
                                 BackgroundColor="{StaticResource ColorMain4}"
                                 IsClippedToBounds="True">
 
-                                <Label x:Name="lblAmount2" 
+                                    <Label x:Name="lblAmount2" 
                                        Text="0" 
                                        FontSize="Caption"
                                        VerticalOptions="Center"
                                        HorizontalOptions="Center" 
                                        TextColor="{StaticResource ColorMain2}"/>
-                            </Frame>
-                            <Label x:Name="lblGoods"
+                                </Frame>
+                                <Label x:Name="lblGoods"
                                    Text="{DynamicResource lblGoods}" 
                                    HorizontalTextAlignment="Center"
                                    FontSize="11"
                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                        </StackLayout>
+                            </StackLayout>
 
-                        <StackLayout Orientation="Vertical" 
+                            <StackLayout Orientation="Vertical" 
                                      Grid.Row="0"
                                      Grid.Column="2"
                                      Margin="0"
                                      Padding="0" 
                                      VerticalOptions="Center" 
                                      HorizontalOptions="Center">
-                            <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer 
-                                    x:Name="tap3"
-                                    NumberOfTapsRequired="1"/>
-                            </StackLayout.GestureRecognizers>
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="tapOrder2"
+                                                          NumberOfTapsRequired="1"
+                                                          Tapped="tapOrder2_Tapped"/>
+                                </StackLayout.GestureRecognizers>
 
-                            <Label Text="&#xe558;"
+                                <Label Text="&#xe558;"
                                    FontSize="40"
                                    Margin="0"
                                    Padding="0" 
                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"
                                    HorizontalOptions="Center"
                                    FontFamily="RM"/>
-                            <Frame 
+                                <Frame 
                                 Padding="0" 
                                 Margin="0"
                                 HasShadow="True" 
@@ -212,72 +215,72 @@
                                 BackgroundColor="{StaticResource ColorMain4}"
                                 IsClippedToBounds="True">
 
-                                <Label x:Name="lblAmount3" 
+                                    <Label x:Name="lblAmount3" 
                                        Text="0"
                                        FontSize="Caption"
                                        VerticalOptions="Center"
                                        HorizontalOptions="Center" 
                                        TextColor="{StaticResource ColorMain2}"/>
-                            </Frame>
-                            <Label x:Name="lblDelivering"
+                                </Frame>
+                                <Label x:Name="lblDelivering"
                                    Text="{DynamicResource lblDelivering}"
                                    HorizontalTextAlignment="Center"
                                    FontSize="11"
                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                        </StackLayout>
+                            </StackLayout>
 
-                        <StackLayout Orientation="Vertical" 
+                            <StackLayout Orientation="Vertical" 
                                      Grid.Row="0"
                                      Grid.Column="3"
                                      Margin="0"
                                      Padding="0" 
                                      VerticalOptions="Center" 
                                      HorizontalOptions="Center">
-                            <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer 
-                                    x:Name="tap4"
-                                    NumberOfTapsRequired="1"/>
-                            </StackLayout.GestureRecognizers>
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="tapOrder3"
+                                                          NumberOfTapsRequired="1"
+                                                          Tapped="tapOrder3_Tapped"/>
+                                </StackLayout.GestureRecognizers>
 
-                            <Label Text="&#xe86c;"
-                                   FontSize="40"
-                                   Margin="0"
-                                   Padding="0" 
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"
-                                   HorizontalOptions="Center"
-                                   FontFamily="RM"/>
-                            <Frame 
-                                Padding="0" 
-                                Margin="0"
-                                HasShadow="True" 
-                                CornerRadius="50" 
-                                HeightRequest="20"
-                                WidthRequest="20"
-                                HorizontalOptions="Center"
-                                BackgroundColor="{StaticResource ColorMain4}"
-                                IsClippedToBounds="True">
+                                <Label Text="&#xe86c;"
+                                       FontSize="40"
+                                       Margin="0"
+                                       Padding="0" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"
+                                       HorizontalOptions="Center"
+                                       FontFamily="RM"/>
+                                <Frame 
+                                    Padding="0" 
+                                    Margin="0"
+                                    HasShadow="True" 
+                                    CornerRadius="50" 
+                                    HeightRequest="20"
+                                    WidthRequest="20"
+                                    HorizontalOptions="Center"
+                                    BackgroundColor="{StaticResource ColorMain4}"
+                                    IsClippedToBounds="True">
 
-                                <Label x:Name="lblAmount4" 
-                                       Text="0"
-                                       FontSize="Caption"
-                                       VerticalOptions="Center"
-                                       HorizontalOptions="Center" 
-                                       TextColor="{StaticResource ColorMain2}"/>
-                            </Frame>
-                            <Label x:Name="lblSuccess"
+                                    <Label x:Name="lblAmount4" 
+                                           Text="0"
+                                           FontSize="Caption"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="Center" 
+                                           TextColor="{StaticResource ColorMain2}"/>
+                                </Frame>
+                                <Label x:Name="lblSuccess"
                                    Text="{DynamicResource lblSuccess}"
                                    HorizontalTextAlignment="Center"
                                    FontSize="11"
                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                        </StackLayout>
+                            </StackLayout>
 
-                    </Grid>
-                </StackLayout>
+                        </Grid>
+                    </StackLayout>
 
-                <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+                    <BoxView BackgroundColor="DarkGray" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
 
-                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="0, 10, 0, 0">
-                    <Frame x:Name="frWishList"
+                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="0, 10, 0, 0">
+                        <Frame x:Name="frWishList"
                            HasShadow="True" 
                            VerticalOptions="Center"
                            Padding="10"
@@ -285,143 +288,213 @@
                            CornerRadius="5"
                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="tapWishList"
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapWishList"
                                                   NumberOfTapsRequired="1"
                                                   Tapped="tapWishList_Tapped"/>
-                        </Frame.GestureRecognizers>
-                        
-                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-                            <Image Source="ic_heartfull.png" 
+                            </Frame.GestureRecognizers>
+
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                <Image Source="ic_heartfull.png" 
                                    Aspect="AspectFill"/>
-                            
-                            <Label x:Name="lblWishList"
+
+                                <Label x:Name="lblWishList"
                                    Text="{DynamicResource lblTitle5}" 
                                    FontSize="Medium"
                                    TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                        </StackLayout>
-                    </Frame>
-                    
-                    <Frame x:Name="frUserInformation"
-                           HasShadow="True" 
-                           Padding="10"
-                           Margin="5, 5, 5, 0"
-                           CornerRadius="5"
-                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
-                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-                            <Label Text="&#xe853;"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                                   FontSize="24"
-                                   VerticalOptions="Center"
-                                   FontFamily="RM"/>
-                            
-                            <Label x:Name="lblUserInformation"
-                                   Text="{DynamicResource lblUserInformation}" 
-                                   FontSize="Medium"
-                                   VerticalOptions="Center"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                        </StackLayout>
-                        
-                    </Frame>
+                            </StackLayout>
+                        </Frame>
 
-                    <Frame x:Name="frOrderCanceled"
-                           HasShadow="True" 
-                           Padding="10"
-                           Margin="5, 5, 5, 0"
-                           CornerRadius="5"
-                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
-                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-                            <Label Text="&#xe5c9;"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                                   FontSize="24"
-                                   VerticalOptions="Center"
-                                   FontFamily="RM"/>
-                            
-                            <Label x:Name="lblOrderCanceled"
-                                   Text="{DynamicResource lblOrderCanceled}" 
-                                   FontSize="Medium"
-                                   VerticalOptions="Center"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                        </StackLayout>
-
-                    </Frame>
-
-                    <Frame x:Name="frChangePassword"
+                        <Frame x:Name="frUserInformation"
                            HasShadow="True" 
                            Padding="10"
                            Margin="5, 5, 5, 0"
                            CornerRadius="5"
                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
-                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-                            <Label Text="&#xe897;" 
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                                   FontSize="24"
-                                   VerticalOptions="Center"
-                                   FontFamily="RM"/>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapUserInfo"
+                                                  NumberOfTapsRequired="1"
+                                                  Tapped="tapUserInfo_Tapped"/>
+                            </Frame.GestureRecognizers>
 
-                            <Label x:Name="lblChangePassword"
-                                   Text="{DynamicResource lblChangePassword}" 
-                                   FontSize="Medium"
-                                   VerticalOptions="Center"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                        </StackLayout>
-                    </Frame>
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                <Label Text="&#xe853;"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                       FontSize="24"
+                                       VerticalOptions="Center"
+                                       FontFamily="RM"/>
 
-                    <Frame x:Name="frTheme"
+                                <Label x:Name="lblUserInformation"
+                                       Text="{DynamicResource lblUserInformation}" 
+                                       FontSize="Medium"
+                                       VerticalOptions="Center"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame x:Name="frOrderCanceled"
+                               HasShadow="True" 
+                               Padding="10"
+                               Margin="5, 5, 5, 0"
+                               CornerRadius="5"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapOrderCanceled"
+                                                      NumberOfTapsRequired="1"
+                                                      Tapped="tapOrderCanceled_Tapped"/>
+                            </Frame.GestureRecognizers>
+                            
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                <Label Text="&#xe5c9;"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                       FontSize="24"
+                                       VerticalOptions="Center"
+                                       FontFamily="RM"/>
+
+                                <Label x:Name="lblOrderCanceled"
+                                       Text="{DynamicResource lblOrderCanceled}" 
+                                       FontSize="Medium"
+                                       VerticalOptions="Center"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+
+                                <StackLayout HorizontalOptions="CenterAndExpand"/>
+
+                                <Frame 
+                                    Padding="0" 
+                                    Margin="0"
+                                    HasShadow="True" 
+                                    CornerRadius="50" 
+                                    HeightRequest="20"
+                                    WidthRequest="20"
+                                    HorizontalOptions="Center"
+                                    BackgroundColor="{StaticResource ColorMain4}"
+                                    IsClippedToBounds="True">
+
+                                    <Label x:Name="lblAmount5" 
+                                           Text="0"
+                                           FontSize="Caption"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="Center" 
+                                           TextColor="{StaticResource ColorMain2}"/>
+                                </Frame>
+                            </StackLayout>
+
+                        </Frame>
+
+                        <Frame x:Name="frChangePassword"
+                               HasShadow="True" 
+                               Padding="10"
+                               Margin="5, 5, 5, 0"
+                               CornerRadius="5"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapChangePassword"
+                                                      NumberOfTapsRequired="1"
+                                                      Tapped="tapChangePassword_Tapped"/>
+                            </Frame.GestureRecognizers>
+                            
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                <Label Text="&#xe897;" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                       FontSize="24"
+                                       VerticalOptions="Center"
+                                       FontFamily="RM"/>
+
+                                <Label x:Name="lblChangePassword"
+                                       Text="{DynamicResource lblChangePassword}" 
+                                       FontSize="Medium"
+                                       VerticalOptions="Center"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame x:Name="frTheme"
+                               HasShadow="True" 
+                               Padding="10"
+                               Margin="5, 5, 5, 0"
+                               CornerRadius="5"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                <Label Text="&#xe51c;" 
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                       FontSize="24"
+                                       VerticalOptions="Center"
+                                       FontFamily="RM"/>
+
+                                <Label x:Name="lblTheme"
+                                       Text="{DynamicResource lblTheme}" 
+                                       FontSize="Medium"
+                                       VerticalOptions="Center"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+
+                                <StackLayout HorizontalOptions="CenterAndExpand"/>
+
+                                <Switch x:Name="swtTheme" HorizontalOptions="End" IsToggled="False" ThumbColor="{StaticResource ColorMain1}" OnColor="{StaticResource ColorMain1}" />
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame x:Name="frRating"
+                               HasShadow="True" 
+                               Padding="10"
+                               Margin="5, 5, 5, 0"
+                               CornerRadius="5"
+                               BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapRating"
+                                                      NumberOfTapsRequired="1"
+                                                      Tapped="tapRating_Tapped"/>
+                            </Frame.GestureRecognizers>
+                            
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                <Label Text="&#xe838;"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                       FontSize="24"
+                                       VerticalOptions="Center"
+                                       FontFamily="RM"/>
+
+                                <Label x:Name="lblRating"
+                                       Text="{DynamicResource lblRating}" 
+                                       FontSize="Medium"
+                                       VerticalOptions="Center"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame x:Name="frLogout"
                            HasShadow="True" 
                            Padding="10"
                            Margin="5, 5, 5, 0"
                            CornerRadius="5"
-                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                           BackgroundColor="{StaticResource ColorMain4}">
 
-                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-                            <Label Text="&#xe51c;" 
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                                   FontSize="24"
-                                   VerticalOptions="Center"
-                                   FontFamily="RM"/>
-                            
-                            <Label x:Name="lblTheme"
-                               Text="{DynamicResource lblTheme}" 
-                               FontSize="Medium"
-                               VerticalOptions="Center"
-                               HorizontalOptions="Start"
-                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                            
-                            <StackLayout HorizontalOptions="CenterAndExpand"/>
-                            
-                            <Switch x:Name="swtTheme" HorizontalOptions="End" IsToggled="False" ThumbColor="{StaticResource ColorMain1}" OnColor="{StaticResource ColorMain1}" />
-                        </StackLayout>
-                    </Frame>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapLogout"
+                                                  NumberOfTapsRequired="1"
+                                                  Tapped="tapLogout_Tapped"/>
+                            </Frame.GestureRecognizers>
 
-                    <Frame x:Name="frRating"
-                           HasShadow="True" 
-                           Padding="10"
-                           Margin="5, 5, 5, 0"
-                           CornerRadius="5"
-                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                <Label Text="&#xe9ba;"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                       FontSize="24"
+                                       VerticalOptions="Center"
+                                       FontFamily="RM"/>
 
-                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-                            <Label Text="&#xe838;"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                                   FontSize="24"
-                                   VerticalOptions="Center"
-                                   FontFamily="RM"/>
-
-                            <Label x:Name="lblRating"
-                                   Text="{DynamicResource lblRating}" 
-                                   FontSize="Medium"
-                                   VerticalOptions="Center"
-                                   HorizontalOptions="Start"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                        </StackLayout>
-                    </Frame>
-
+                                <Label x:Name="lblLogout"
+                                       Text="{DynamicResource lblLogout}" 
+                                       FontSize="Medium"
+                                       VerticalOptions="Center"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
                 </StackLayout>
-            </StackLayout>
 
-        </ScrollView>
+            </ScrollView>
+        </RefreshView>
 
     </ContentPage.Content>
 </ContentPage>

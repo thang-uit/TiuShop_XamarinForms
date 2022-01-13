@@ -28,6 +28,11 @@ namespace TiuShop.View
             {
                 this.lblNotice.Text = App.Current.Resources["lblAlertContent11"].ToString();
                 this.btnSuccess.Text = App.Current.Resources["btnSuccess1"].ToString(); ;
+            } 
+            else if(layout.Equals(Common.LAYOUT_ORDER))
+            {
+                this.lblNotice.Text = App.Current.Resources["lblAlertContent24"].ToString();
+                this.btnSuccess.Text = App.Current.Resources["btnSuccess2"].ToString(); ;
             }
         }
 
@@ -36,6 +41,10 @@ namespace TiuShop.View
             if (myLayout.Equals(Common.LAYOUT_REGISTER))
             {
                 Application.Current.MainPage = new NavigationPage(new LoginPage());
+            } 
+            else if (myLayout.Equals(Common.LAYOUT_ORDER))
+            {
+                Application.Current.MainPage = new NavigationPage(new MainPage());
             }
         }
     }

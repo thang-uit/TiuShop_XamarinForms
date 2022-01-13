@@ -47,7 +47,7 @@
                             MaxLength="100"
                             Margin="0, 0, 10, 0"
                             VerticalOptions="Center"
-                               Text="{Binding Username, Mode=TwoWay}"
+                            Text="{Binding Username, Mode=TwoWay}"
                             HorizontalOptions="FillAndExpand"
                             PlaceholderColor="Gray"
                             TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
@@ -94,7 +94,7 @@
                         TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
                         BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
 
-                <Label HorizontalOptions="Center">
+                <Label HorizontalOptions="Center" VerticalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
                             <Span Text="{DynamicResource lblRegister1}" 
