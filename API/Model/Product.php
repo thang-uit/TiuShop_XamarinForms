@@ -18,6 +18,7 @@ class Product
     public $collectionID = "collectionID";
     public $stock = "stock";
     public $isWishList = "isWishList";
+    public $isBought = "isBought";
 
     public function __construct($database)
     {
@@ -217,6 +218,18 @@ class Product
             } else {
                 $arrayProduct[$this->isWishList] = false;
             }
+
+            $query2 = "SELECT * FROM `orders`, `orderdetails` WHERE `orders`.`Ord_ID` = `orderdetails`.`Ord_ID` AND `orders`.`Use_ID` = '$userID' AND `orders`.`Ord_Status` = 3 AND `orderdetails`.`Pro_ID` = '$productID';";
+            $stmt2 = $this->conn->prepare($query2);
+            $stmt2->execute();
+
+            if ($stmt2->rowCount() > 0) {
+                $arrayProduct[$this->isBought] = true;
+            } else {
+                $arrayProduct[$this->isBought] = false;
+            }
+
+
 
             array_push($arrayImg, $row["Pim_Img"]);
 
