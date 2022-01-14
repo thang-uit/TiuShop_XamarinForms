@@ -7,6 +7,12 @@ namespace TiuShop.DTO
 {
     public class OrderRequest
     {
+        [JsonProperty("orderID")]
+        public string OrderID { get; set; }
+
+        [JsonProperty("status")]
+        public int Status { get; set; }
+
         [JsonProperty("userID")]
         public string UserID { get; set; }
 

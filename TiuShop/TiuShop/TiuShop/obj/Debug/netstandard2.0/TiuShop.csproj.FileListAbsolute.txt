@@ -34,3 +34,4 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstan
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\UserInfomationPage.xaml.g.cs
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\ChangePasswordPage.xaml.g.cs
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\ViewOrderPage.xaml.g.cs
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop\obj\Debug\netstandard2.0\View\ViewOrderDetailPage.xaml.g.cs

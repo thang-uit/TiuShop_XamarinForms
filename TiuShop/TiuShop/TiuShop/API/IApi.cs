@@ -78,5 +78,11 @@ namespace TiuShop.API
 
         [Post("/Order/GetOrderInfo.php")]
         Task<CustomApiResponse<List<Order>>> GetOrderInfo([Body] UserRequest user);
+
+        [Post("/Order/UpdateOrderStatus.php")]
+        Task<CustomApiResponse<Order>> UpdateOrderStatus([Body] OrderRequest order);
+
+        [Get("/Comment/GetComment.php?productID={productID}")]
+        Task<CustomApiResponse<List<Comment>>> GetComment([AliasAs("productID")] string productID);
     }
 }

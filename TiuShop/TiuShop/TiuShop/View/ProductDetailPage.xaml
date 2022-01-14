@@ -157,39 +157,150 @@
                            Text="{DynamicResource lblDescription}"/>
 
                         <Label x:Name="lblProductDescription"
-                           Margin="5, 0, 5, 0"
-                           FontSize="Body"
-                           TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                           Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."/>
+                               Margin="5, 0, 5, 0"
+                               FontSize="Body"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
 
                         <BoxView BackgroundColor="DarkGray" HeightRequest="1" Margin="0, 5, 0, 0" HorizontalOptions="FillAndExpand"/>
 
                         <StackLayout Orientation="Horizontal"
-                                 Margin="5, 5, 5, 0">
+                                        Margin="5, 5, 5, 0">
                             <Label x:Name="lblComment"
-                               FontSize="Medium"
-                               VerticalOptions="Center"
-                               FontAttributes="Bold"
-                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                               Text="{DynamicResource lblComment}"/>
+                                   FontSize="Medium"
+                                   VerticalOptions="Center"
+                                   FontAttributes="Bold"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   Text="{DynamicResource lblComment}"/>
 
                             <StackLayout HorizontalOptions="CenterAndExpand"/>
 
                             <Button x:Name="btnWriteComment" 
-                                VerticalOptions="Center"
-                                HorizontalOptions="Center"
-                                CornerRadius="5"
-                                TextTransform="None"
-                                Clicked="btnWriteComment_Clicked"
-                                Text="{DynamicResource lblComment}" 
-                                TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
-                                BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center"
+                                    CornerRadius="5"
+                                    TextTransform="None"
+                                    Clicked="btnWriteComment_Clicked"
+                                    Text="{DynamicResource lblComment}" 
+                                    TextColor="{AppThemeBinding Light={StaticResource ColorMain3}, Dark={StaticResource ColorMain3}}"
+                                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorMain1}, Dark={StaticResource ColorMain1}}"/>
                         </StackLayout>
+
+                        
 
                         <StackLayout Orientation="Vertical"
-                             Margin="5, 5, 5, 0">
+                                     Margin="5, 5, 5, 0">
+                            <Frame BackgroundColor="{StaticResource ColorLight2}"
+                                   CornerRadius="50" 
+                                   WidthRequest="100"
+                                   HeightRequest="40"
+                                   Margin="0" 
+                                   Padding="0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"
+                                   HasShadow="False" 
+                                   BorderColor="DarkGray"
+                                   AbsoluteLayout.LayoutBounds="0, 0.5, 45, 45" AbsoluteLayout.LayoutFlags="YProportional, XProportional">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="tapViewComment"
+                                                          Tapped="tapViewComment_Tapped"
+                                                          NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
 
+                                <Image Source="ic_review.png" 
+                                       Aspect="AspectFill" VerticalOptions="Center" 
+                                       HorizontalOptions="Center"/>
+                            </Frame>
+
+                            <Label x:Name="lblNoComment"
+                                   FontSize="Small"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"
+                                   IsVisible="False"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                   Text="{DynamicResource lblNoComment}"/>
+
+                            <ListView x:Name="lvComment"
+                                      IsVisible="False"
+                                      BackgroundColor="Transparent"
+                                      HasUnevenRows="True"
+                                      ItemTapped="lvComment_ItemTapped"
+                                      SeparatorVisibility="None">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <StackLayout Orientation="Horizontal">
+                                                <!--<Frame 
+                                                        Padding="0" 
+                                                        Margin="0"
+                                                        HasShadow="True" 
+                                                        HorizontalOptions="Start"
+                                                        CornerRadius="50" 
+                                                        HeightRequest="35"
+                                                        IsClippedToBounds="True">
+
+                                                        <Image Source="logo500_500.png" Aspect="AspectFill" Margin="0"/>
+                                                    </Frame>-->
+
+                                                <Frame Padding="8" 
+                                                       Margin="5, 10, 5, 0"
+                                                       HasShadow="True" 
+                                                       BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}"
+                                                       CornerRadius="10" 
+                                                       IsClippedToBounds="True">
+
+                                                    <StackLayout Orientation="Vertical">
+                                                        <Label>
+                                                            <Label.FormattedText>
+                                                                <FormattedString>
+                                                                    <Span Text="{Binding Name}"
+                                                                          FontSize="Medium"
+                                                                          FontAttributes="Bold"
+                                                                          TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                                                    <Span Text="("
+                                                                          FontSize="Medium"
+                                                                          FontAttributes="Bold"
+                                                                          TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                                                    <Span x:Name="lblTime"
+                                                                          Text="{Binding Rating}"
+                                                                          FontSize="Medium"
+                                                                          TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                                                    <Span Text="&#xe838;"
+                                                                          FontSize="Medium"
+                                                                          FontFamily="RM"
+                                                                          TextColor="{StaticResource ColorMain1}"/>
+
+                                                                    <Span Text=")"
+                                                                          FontSize="Medium"
+                                                                          FontAttributes="Bold"
+                                                                          TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
+
+                                                                </FormattedString>
+                                                            </Label.FormattedText>
+                                                        </Label>
+
+                                                        <Label FontSize="Small"
+                                                               VerticalOptions="Center"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"
+                                                               Text="{Binding Date}"/>
+
+                                                        <Label FontSize="Small"
+                                                               VerticalOptions="Center"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                                               Text="{Binding Content}"/>
+                                                    </StackLayout>
+
+                                                </Frame>
+                                            </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
                         </StackLayout>
+
+                        <BoxView BackgroundColor="DarkGray" HeightRequest="1" Margin="0, 5, 0, 0" HorizontalOptions="FillAndExpand"/>
                     </StackLayout>
                 </ScrollView>
             </RefreshView>

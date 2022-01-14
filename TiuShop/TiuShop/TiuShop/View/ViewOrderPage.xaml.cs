@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TiuShop.API;
 using TiuShop.DTO;
+using TiuShop.Model;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -44,6 +45,10 @@ namespace TiuShop.View
             {
                 this.Title = App.Current.Resources["lblSuccess"].ToString();
             }
+            else if (orderStatus == Common.ORDER_CANCEL)
+            {
+                this.Title = App.Current.Resources["lblOrderCanceled"].ToString();
+            }
         }
 
         private async void InitOrderStatus(int orderStatus)
@@ -69,7 +74,12 @@ namespace TiuShop.View
 
         private void clvOrder_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            var order = e.CurrentSelection.FirstOrDefault() as Order;
+            if (order == null)
+            {
+                return;
+            }
+            Navigation.PushAsync(new ViewOrderDetailPage(order));
         }
     }
 }

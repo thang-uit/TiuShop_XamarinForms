@@ -61,14 +61,8 @@ namespace TiuShop.View
                     }
                     this.slider.ItemsSource = response.Data.Image;
 
-                    if(response.Data.IsWishList)
-                    {
-                        this.imgWishList.Source = "ic_heartfull.png";
-                    }
-                    else
-                    {
-                        this.imgWishList.Source = "ic_heart.png";
-                    }
+                    this.imgWishList.Source = response.Data.IsWishList ? "ic_heartfull.png" : "ic_heart.png";
+     
 
                     var sale = !response.Data.Sale.Equals("0%") ? " (" + response.Data.Sale + ")" : "";
 
@@ -85,6 +79,8 @@ namespace TiuShop.View
                     
                     this.lblProductFinalPrice.Text = response.Data.FinalPrice;
                     this.lblProductDescription.Text = response.Data.Description;
+
+                    this.btnWriteComment.IsVisible = response.Data.IsBought;
 
                     await Navigation.PopPopupAsync();
                 }
@@ -191,6 +187,50 @@ namespace TiuShop.View
         {
             InnitProductDetail(ID);
             this.rfvRefresh.IsRefreshing = false;
+        }
+
+        private async void tapViewComment_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushPopupAsync(new MyLoading());
+
+            var apiResponse = RestService.For<IApi>(Common.url);
+            var response = await apiResponse.GetComment(ID);
+
+            if (response != null)
+            {
+                if (response.Status.Equals(Common.STATUS_SUCCESS))
+                {
+                    if(response.Data != null)
+                    {
+                        this.lvComment.ItemsSource = response.Data;
+                        this.lblNoComment.IsVisible = false;
+                        this.lvComment.IsVisible = true;
+
+                        await Navigation.PopPopupAsync();
+                    }
+                    else
+                    {
+                        this.lblNoComment.IsVisible = true;
+                        this.lvComment.IsVisible = false;
+
+                        await Navigation.PopPopupAsync();
+                    }
+                    
+                }
+                else
+                {
+                    await Navigation.PopPopupAsync();
+                }
+            }
+            else
+            {
+                await Navigation.PopPopupAsync();
+            }
+        }
+
+        private void lvComment_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            ((ListView)sender).SelectedItem = null;
         }
     }
 }

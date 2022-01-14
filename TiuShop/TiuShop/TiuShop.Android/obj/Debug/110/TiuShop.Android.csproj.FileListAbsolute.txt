@@ -662,3 +662,4 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\mw.jpg
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\ic_heart.png
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\ic_heartfull.png
+D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\ic_review.png

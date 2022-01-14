@@ -217,7 +217,9 @@
                 </StackLayout>
             </ScrollView>
 
-            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+            <StackLayout Orientation="Horizontal" 
+                         VerticalOptions="EndAndExpand" 
+                         BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
                 <StackLayout Orientation="Vertical" 
                              VerticalOptions="Center"
                              HorizontalOptions="FillAndExpand">

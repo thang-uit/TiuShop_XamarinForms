@@ -108,6 +108,7 @@
             <x:String x:Key="lblTitle7">Order</x:String>
             <x:String x:Key="lblTitle8">User Information</x:String>
             <x:String x:Key="lblTitle9">Change Password</x:String>
+            <x:String x:Key="lblTitle10">Order Information</x:String>
 
             <x:String x:Key="btnAddToCart">Add to cart</x:String>
             <x:String x:Key="picSize">Size</x:String>
@@ -122,6 +123,7 @@
             <x:String x:Key="edtPhoneNumber">Phone Number</x:String>
             <x:String x:Key="edtComment">Enter your comment</x:String>
             <x:String x:Key="btnComment">Post</x:String>
+            <x:String x:Key="lblNoComment">No comments yet</x:String>
 
             <x:String x:Key="lblAlert">Notice</x:String>
 
@@ -150,11 +152,13 @@
             <x:String x:Key="lblAlertContent19">Please enter address</x:String>
 
             <x:String x:Key="lblAlertContent20">Do you want to logout?</x:String>
-            
+
             <x:String x:Key="lblAlertContent21">Update information successfully!</x:String>
             <x:String x:Key="lblAlertContent22">Update failed!</x:String>
             <x:String x:Key="lblAlertContent23">Update password successfully!</x:String>
             <x:String x:Key="lblAlertContent24">Order successfully!</x:String>
+
+            <x:String x:Key="lblAlertContent25">Are you sure you want to cancel this order?</x:String>
 
             <x:String x:Key="lblAlertOK">OK</x:String>
             <x:String x:Key="lblAlertCancel">Cancel</x:String>
@@ -178,9 +182,11 @@
             <x:String x:Key="lblNote1">Note: </x:String>
             <x:String x:Key="lblItem">Items</x:String>
             
-            <x:String x:Key="lblItem1">Items: </x:String>
             <x:String x:Key="lblDate">Date: </x:String>
+            <x:String x:Key="lblDateSuccess">Date receipt: </x:String>
 
+            <x:String x:Key="lblItem1">Items:</x:String>
+            <x:String x:Key="lblStatus">Status: </x:String>
 
             <x:String x:Key="btnSave">Save</x:String>
             <x:String x:Key="picGender">Gender</x:String>
@@ -189,8 +195,13 @@
             <x:String x:Key="lblFeMale">Female</x:String>
 
             <x:String x:Key="btnConfirm">Confirm</x:String>
-            
-            
+
+
+            <x:String x:Key="lblPayment1">Payment on receipt of goods</x:String>
+            <x:String x:Key="lblPayment">Payment: </x:String>
+            <x:String x:Key="lblPayment2">Zalo</x:String>
+
+            <x:String x:Key="btnCancelOrder">Cancel Order</x:String>
             
         </ResourceDictionary>
     </Application.Resources>

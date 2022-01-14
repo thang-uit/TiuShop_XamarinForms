@@ -107,7 +107,7 @@ namespace TiuShop.View
 
         private void tapOrderCanceled_Tapped(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new ViewOrderPage(Common.ORDER_CANCEL));
         }
 
         private void tapChangePassword_Tapped(object sender, EventArgs e)
