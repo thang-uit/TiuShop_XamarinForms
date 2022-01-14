@@ -6,3 +6,12 @@ $FAIL = "Fail";
 $WISHLIST = 0;
 $CART = 1;
 
+$MALE = 0;
+$FEMALE = 1;
+
+$WAITING_CONFIRM = 0;
+$WAITING_GOOD = 1;
+$DELIVERING = 2;  
+$ORDER_SUCCESS = 3;  
+$ORDER_CANCEL = 4;
+
