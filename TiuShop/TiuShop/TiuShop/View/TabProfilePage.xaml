@@ -305,34 +305,6 @@
                             </StackLayout>
                         </Frame>
 
-                        <Frame x:Name="frUserInformation"
-                           HasShadow="True" 
-                           Padding="10"
-                           Margin="5, 5, 5, 0"
-                           CornerRadius="5"
-                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
-
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer x:Name="tapUserInfo"
-                                                  NumberOfTapsRequired="1"
-                                                  Tapped="tapUserInfo_Tapped"/>
-                            </Frame.GestureRecognizers>
-
-                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-                                <Label Text="&#xe853;"
-                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
-                                       FontSize="24"
-                                       VerticalOptions="Center"
-                                       FontFamily="RM"/>
-
-                                <Label x:Name="lblUserInformation"
-                                       Text="{DynamicResource lblUserInformation}" 
-                                       FontSize="Medium"
-                                       VerticalOptions="Center"
-                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
-                            </StackLayout>
-                        </Frame>
-
                         <Frame x:Name="frOrderCanceled"
                                HasShadow="True" 
                                Padding="10"
@@ -344,7 +316,7 @@
                                                       NumberOfTapsRequired="1"
                                                       Tapped="tapOrderCanceled_Tapped"/>
                             </Frame.GestureRecognizers>
-                            
+
                             <StackLayout Orientation="Horizontal" VerticalOptions="Center">
                                 <Label Text="&#xe5c9;"
                                        TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
@@ -379,7 +351,34 @@
                                            TextColor="{StaticResource ColorMain2}"/>
                                 </Frame>
                             </StackLayout>
+                        </Frame>
+                        
+                        <Frame x:Name="frUserInformation"
+                           HasShadow="True" 
+                           Padding="10"
+                           Margin="5, 5, 5, 0"
+                           CornerRadius="5"
+                           BackgroundColor="{AppThemeBinding Light={StaticResource ColorLight2}, Dark={StaticResource ColorDark2}}">
 
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="tapUserInfo"
+                                                  NumberOfTapsRequired="1"
+                                                  Tapped="tapUserInfo_Tapped"/>
+                            </Frame.GestureRecognizers>
+
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                <Label Text="&#xe853;"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"
+                                       FontSize="24"
+                                       VerticalOptions="Center"
+                                       FontFamily="RM"/>
+
+                                <Label x:Name="lblUserInformation"
+                                       Text="{DynamicResource lblUserInformation}" 
+                                       FontSize="Medium"
+                                       VerticalOptions="Center"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
+                            </StackLayout>
                         </Frame>
 
                         <Frame x:Name="frChangePassword"
