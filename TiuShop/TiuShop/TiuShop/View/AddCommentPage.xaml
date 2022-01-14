@@ -34,6 +34,9 @@
                            PlaceholderColor="Gray"
                            TextColor="{AppThemeBinding Light={StaticResource ColorLight3}, Dark={StaticResource ColorDark3}}"/>
 
+                    <Label x:Name="lblMessage" TextColor="{StaticResource ColorMain4}" FontSize="Caption"/>
+
+
                     <Button x:Name="btnComment" 
                             VerticalOptions="Center"
                             HorizontalOptions="FillAndExpand"

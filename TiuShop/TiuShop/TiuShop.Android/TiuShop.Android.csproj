@@ -178,12 +178,6 @@
     <AndroidResource Include="Resources\drawable\logoT500_500.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logo_facebook.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logo_google.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\bgregister.jpg" />
   </ItemGroup>
   <ItemGroup>

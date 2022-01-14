@@ -159,6 +159,9 @@
             <x:String x:Key="lblAlertContent24">Order successfully!</x:String>
 
             <x:String x:Key="lblAlertContent25">Are you sure you want to cancel this order?</x:String>
+            <x:String x:Key="lblAlertContent26">Please enter content</x:String>
+            <x:String x:Key="lblAlertContent27">Successfully!</x:String>
+            
 
             <x:String x:Key="lblAlertOK">OK</x:String>
             <x:String x:Key="lblAlertCancel">Cancel</x:String>

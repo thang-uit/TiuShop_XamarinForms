@@ -132,7 +132,7 @@ namespace TiuShop.View
 
         private void btnWriteComment_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AddCommentPage());
+            Navigation.PushAsync(new AddCommentPage(ID));
         }
 
         private async void tapWishList_Tapped(object sender, EventArgs e)
@@ -186,13 +186,17 @@ namespace TiuShop.View
         private void rfvRefresh_Refreshing(object sender, EventArgs e)
         {
             InnitProductDetail(ID);
+            InnitComment();
             this.rfvRefresh.IsRefreshing = false;
         }
 
-        private async void tapViewComment_Tapped(object sender, EventArgs e)
+        private void tapViewComment_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushPopupAsync(new MyLoading());
+            InnitComment();
+        }
 
+        private async void InnitComment()
+        {
             var apiResponse = RestService.For<IApi>(Common.url);
             var response = await apiResponse.GetComment(ID);
 
@@ -200,31 +204,18 @@ namespace TiuShop.View
             {
                 if (response.Status.Equals(Common.STATUS_SUCCESS))
                 {
-                    if(response.Data != null)
+                    if (response.Data != null)
                     {
                         this.lvComment.ItemsSource = response.Data;
                         this.lblNoComment.IsVisible = false;
                         this.lvComment.IsVisible = true;
-
-                        await Navigation.PopPopupAsync();
                     }
                     else
                     {
                         this.lblNoComment.IsVisible = true;
                         this.lvComment.IsVisible = false;
-
-                        await Navigation.PopPopupAsync();
                     }
-                    
                 }
-                else
-                {
-                    await Navigation.PopPopupAsync();
-                }
-            }
-            else
-            {
-                await Navigation.PopPopupAsync();
             }
         }
 

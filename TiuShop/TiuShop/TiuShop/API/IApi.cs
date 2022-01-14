@@ -84,5 +84,8 @@ namespace TiuShop.API
 
         [Get("/Comment/GetComment.php?productID={productID}")]
         Task<CustomApiResponse<List<Comment>>> GetComment([AliasAs("productID")] string productID);
+
+        [Post("/Comment/AddComment.php")]
+        Task<CustomApiResponse<Comment>> AddComment([Body] CommentRequest comment);
     }
 }
