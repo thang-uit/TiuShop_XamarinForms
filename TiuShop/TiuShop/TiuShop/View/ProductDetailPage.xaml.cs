@@ -204,7 +204,7 @@ namespace TiuShop.View
             {
                 if (response.Status.Equals(Common.STATUS_SUCCESS))
                 {
-                    if (response.Data != null)
+                    if (response.Data.Count > 0)
                     {
                         this.lvComment.ItemsSource = response.Data;
                         this.lblNoComment.IsVisible = false;

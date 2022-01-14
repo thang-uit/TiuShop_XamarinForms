@@ -609,8 +609,6 @@ D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\src\mono\com\airbnb\lottie\LottieOnCompositionLoadedListenerImplementor.java
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\src\mono\com\airbnb\lottie\OnCompositionLoadedListenerImplementor.java
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\src\mono\com\airbnb\lottie\PerformanceTracker_FrameListenerImplementor.java
-D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\logo_facebook.png
-D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\logo_google.png
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\android\assets\Newtonsoft.Json.dll
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\bgregister.jpg
 D:\mobile\Xamarin\TiuShop_XamarinForms\TiuShop\TiuShop\TiuShop.Android\obj\Debug\110\res\drawable\ic_shop.png
