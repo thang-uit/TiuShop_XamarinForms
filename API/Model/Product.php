@@ -229,8 +229,6 @@ class Product
                 $arrayProduct[$this->isBought] = false;
             }
 
-
-
             array_push($arrayImg, $row["Pim_Img"]);
 
             while ($row1 = $stmt->fetch(PDO::FETCH_ASSOC)) {
