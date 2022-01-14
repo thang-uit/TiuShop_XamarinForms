@@ -168,7 +168,7 @@
                                 </Label.FormattedText>
                             </Label>
 
-                            <Label VerticalOptions="Center">
+                            <!--<Label VerticalOptions="Center">
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span Text="{DynamicResource lblStatus}"
@@ -180,7 +180,7 @@
                                               TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
                                     </FormattedString>
                                 </Label.FormattedText>
-                            </Label>
+                            </Label>-->
                         </StackLayout>
                     </Frame>
 

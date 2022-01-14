@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using TiuShop.API;
 using TiuShop.DTO;
 using TiuShop.Model;
+using TiuShop.Util;
 using TiuShop.View.Popup;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -21,6 +22,8 @@ namespace TiuShop.View
         public TabProfilePage()
         {
             InitializeComponent();
+
+            this.swtTheme.IsToggled = Setting.Theme;
 
             InitUserInfo();
             InitOrderCount();
@@ -138,6 +141,12 @@ namespace TiuShop.View
         private void tapOrder3_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ViewOrderPage(Common.ORDER_SUCCESS));
+        }
+
+        private void swtTheme_Toggled(object sender, ToggledEventArgs e)
+        {
+            Setting.Theme = this.swtTheme.IsToggled;
+            TheTheme.SetTheme();
         }
     }
 }

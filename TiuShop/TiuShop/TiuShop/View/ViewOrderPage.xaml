@@ -77,7 +77,7 @@
                                     </Label.FormattedText>
                                 </Label>
 
-                                <Label>
+                                <!--<Label>
                                     <Label.FormattedText>
                                         <FormattedString>
                                             <Span Text="{DynamicResource lblItem1}"
@@ -91,7 +91,7 @@
 
                                         </FormattedString>
                                     </Label.FormattedText>
-                                </Label>
+                                </Label>-->
 
                                 <Label>
                                     <Label.FormattedText>

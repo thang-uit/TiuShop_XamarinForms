@@ -431,11 +431,11 @@
 
                                 <StackLayout HorizontalOptions="CenterAndExpand"/>
 
-                                <Switch x:Name="swtTheme" HorizontalOptions="End" IsToggled="False" ThumbColor="{StaticResource ColorMain1}" OnColor="{StaticResource ColorMain1}" />
+                                <Switch x:Name="swtTheme" HorizontalOptions="End" IsToggled="False" ThumbColor="{StaticResource ColorMain1}" OnColor="{StaticResource ColorMain1}" Toggled="swtTheme_Toggled"/>
                             </StackLayout>
                         </Frame>
 
-                        <Frame x:Name="frRating"
+                        <!--<Frame x:Name="frRating"
                                HasShadow="True" 
                                Padding="10"
                                Margin="5, 5, 5, 0"
@@ -461,7 +461,7 @@
                                        VerticalOptions="Center"
                                        TextColor="{AppThemeBinding Light={StaticResource ColorLight4}, Dark={StaticResource ColorDark4}}"/>
                             </StackLayout>
-                        </Frame>
+                        </Frame>-->
 
                         <Frame x:Name="frLogout"
                            HasShadow="True" 
