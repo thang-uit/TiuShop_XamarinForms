@@ -34,4 +34,5 @@ if ($status == 1) {
         "message" => ""
     );
 }
+
 echo json_encode($array);
