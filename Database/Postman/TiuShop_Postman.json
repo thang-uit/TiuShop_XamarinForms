@@ -1,0 +1,871 @@
+{
+	"info": {
+		"_postman_id": "c6d9cd30-6218-4ffa-91a1-628797f40ccc",
+		"name": "TiuShop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"thangbeo\",\r\n    \"password\": \"thangbeo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/User/Login.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"User",
+								"Login.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register Account",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"\",\r\n    \"password\": \"\",\r\n    \"name\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/User/Register.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"User",
+								"Register.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change Password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\": \"15\",\r\n    \"password\": \"test123\",\r\n    \"newPassword\": \"test123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/User/ChangePassword.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"User",
+								"ChangePassword.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User Info",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\": \"9\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/User/GetUserInfo.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"User",
+								"GetUserInfo.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User Info",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\": \"9\",\r\n    \"name\": \"Chu Nam Thắng\",\r\n    \"email\": \"\",\r\n    \"gender\": 0,\r\n    \"phone\": \"\",\r\n    \"address\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/User/UpdateUserInfo.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"User",
+								"UpdateUserInfo.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Get Slider",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Product/GetSlider.php?amount=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Product",
+								"GetSlider.php"
+							],
+							"query": [
+								{
+									"key": "amount",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Group Product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Product/GetGroupProduct.php?amount=5&option=all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Product",
+								"GetGroupProduct.php"
+							],
+							"query": [
+								{
+									"key": "amount",
+									"value": "5"
+								},
+								{
+									"key": "option",
+									"value": "new",
+									"disabled": true
+								},
+								{
+									"key": "option",
+									"value": "discount",
+									"disabled": true
+								},
+								{
+									"key": "option",
+									"value": "man",
+									"description": "0",
+									"disabled": true
+								},
+								{
+									"key": "option",
+									"value": "woman",
+									"description": "1",
+									"disabled": true
+								},
+								{
+									"key": "option",
+									"value": "both",
+									"description": "2",
+									"disabled": true
+								},
+								{
+									"key": "option",
+									"value": "all"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Product Detail",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\" : 9,\r\n    \"productID\" : 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Product/GetProductDetail.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Product",
+								"GetProductDetail.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search Product",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "keyword",
+									"value": "bộ",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Product/SearchProduct.php?keyword=bo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Product",
+								"SearchProduct.php"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "bo"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Category Product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Product/GetCategoryProduct.php?categoryID=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Product",
+								"GetCategoryProduct.php"
+							],
+							"query": [
+								{
+									"key": "categoryID",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Collections Product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Product/GetCollectionsProduct.php?collectionsID=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Product",
+								"GetCollectionsProduct.php"
+							],
+							"query": [
+								{
+									"key": "collectionsID",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Category/GetCategory.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Category",
+								"GetCategory.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cart",
+			"item": [
+				{
+					"name": "Get Cart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\" : \"9\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Cart/GetCart.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Cart",
+								"GetCart.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get WishList",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\" : \"9\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Cart/GetWishList.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Cart",
+								"GetWishList.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HandleWishList",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\" : \"9\",\r\n    \"productID\": \"5\",\r\n    \"size\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Cart/HandleWishList.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Cart",
+								"HandleWishList.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add to Cart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\" : \"9\",\r\n    \"productID\": \"1\",\r\n    \"size\": \"L\",\r\n    \"quantity\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Cart/AddToCart.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Cart",
+								"AddToCart.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Cart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cartID\": 49\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Cart/DeleteCart.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Cart",
+								"DeleteCart.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Move To Cart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cartID\": 52,\r\n    \"userID\": 9,\r\n    \"productID\": 1,\r\n    \"size\": \"XL\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Cart/MoveToCart.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Cart",
+								"MoveToCart.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Cart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cartID\": 76,\r\n    \"quantity\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Cart/UpdateCart.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Cart",
+								"UpdateCart.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Order",
+			"item": [
+				{
+					"name": "Add New Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\": \"9\",\r\n    \"name\": \"Chu Nam Thắng 2\",\r\n    \"email\": \"namthangmu123@gmail.com 2\",\r\n    \"phone\": \"0961600587 2\",\r\n    \"address\": \"Long Thanh, Dong Nai 2\",\r\n    \"note\": \"Bruh 2\",\r\n    \"totalPrice\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Order/AddNewOrder.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Order",
+								"AddNewOrder.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Order Information",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\": \"9\",\r\n    \"status\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Order/GetOrderInfo.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Order",
+								"GetOrderInfo.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Amount Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userID\": \"9\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Order/GetAmountOrder.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Order",
+								"GetAmountOrder.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Order Status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderID\": \"6\",\r\n    \"status\": \"4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Order/UpdateOrderStatus.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Order",
+								"UpdateOrderStatus.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "Get Comment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Comment/GetComment.php?productID=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Comment",
+								"GetComment.php"
+							],
+							"query": [
+								{
+									"key": "productID",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add comment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productID\": 3,\r\n    \"userID\": 9,\r\n    \"rating\": 5,\r\n    \"content\": \"bruh\"  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/Code/TiuShop/API/Controller/Comment/AddComment.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"Code",
+								"TiuShop",
+								"API",
+								"Controller",
+								"Comment",
+								"AddComment.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
